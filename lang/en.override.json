@@ -1,0 +1,28 @@
+{
+  "_note": "These keys help when the system looks up English-only keys or assumes 'en' text.",
+  "CONTROLS": {
+    "CommonEdit": "Edit",
+    "CommonDelete": "Delete"
+  },
+  "DAGGERHEART": {
+    "APPLICATIONS": {
+      "RerollDialog": {
+        "damageTitle": "Reroll Damage"
+      }
+    },
+    "GENERAL": {
+      "name": "Name",
+      "target": "Target",
+      "fear": "Fear"
+    },
+    "UI": {
+      "CompendiumBrowser": {
+        "title": "Compendium Browser",
+        "emptyPrompt": "Select a Folder in sidebar to start browsing through the compendium"
+      },
+      "Chat": {
+        "reactionAllTargets": "Reaction Roll All Targets"
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "translation-spanish-daggerheart",
+  "title": "Translation Spanish Daggerheart",
+  "description": "Traducción al español para el sistema Daggerheart (módulo externo).",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.347"
+  },
+  "authors": [
+    {
+      "name": "Manu Romera de Rune & Bones (con ayuda de ChatGPT)",
+	  "URL" : "https://runeandbones.com/"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "daggerheart",
+        "type": "system",
+        "compatibility": {
+          "minimum": "1.0.0"
+        }
+      }
+    ]
+  },
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    }
+  ],
+  "esmodules": [
+    "scripts/patches.js",
+    "scripts/additions.js"
+  ],
+  "packs": [],
+  "manifestPlusVersion": "1.2.0"
+}
