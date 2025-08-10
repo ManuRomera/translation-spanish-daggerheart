@@ -10,7 +10,7 @@
   "authors": [
     {
       "name": "Manu Romera de Rune & Bones (con ayuda de ChatGPT)",
-	  "URL" : "https://runeandbones.com/"
+      "URL": "https://runeandbones.com/"
     }
   ],
   "relationships": {
@@ -36,5 +36,10 @@
     "scripts/additions.js"
   ],
   "packs": [],
-  "manifestPlusVersion": "1.2.0"
+  "manifestPlusVersion": "1.2.0",
+  "url": "https://github.com/ManuRomera/translation-spanish-daggerheart",
+  "manifest": "https://raw.githubusercontent.com/ManuRomera/translation-spanish-daggerheart/main/module.json",
+  "download": "https://github.com/ManuRomera/translation-spanish-daggerheart/releases/download/v0.1.0/translation-spanish-daggerheart-v0.1.0.zip",
+  "bugs": "https://github.com/ManuRomera/translation-spanish-daggerheart/issues",
+  "changelog": "https://github.com/ManuRomera/translation-spanish-daggerheart/releases"
 }
