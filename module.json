@@ -2,7 +2,7 @@
   "id": "translation-spanish-daggerheart",
   "title": "Translation Spanish Daggerheart",
   "description": "Traducción al español para el sistema Daggerheart (módulo externo).",
-  "version": "0.1.0",
+  "version": "0.1.0+journalfix1",
   "compatibility": {
     "minimum": "13",
     "verified": "13.347"

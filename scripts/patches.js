@@ -1,6 +1,24 @@
 /**
  * Translation Spanish Daggerheart – patches.js (clean rebuild)
  */
+// Journal/editor safety: do not process DOM inside rich-text editors to avoid hangs when editing Journals.
+const ES_SKIP_SELECTOR = [
+  "input","textarea","select","script","style","code","pre",
+  "[contenteditable='true']", "[contenteditable='']", "[contenteditable]",
+  ".tox",".tox-edit-area",".mce-content-body",".ProseMirror",".pm-editor",
+  ".editor",".editor-content",".journal-sheet",".journal-entry-page",".journal-page-content",
+  ".cm-editor",".monaco-editor"
+].join(",");
+
+function esShouldSkip(root){
+  try {
+    if (!root) return true;
+    const el = root instanceof Element ? root : (root?.ownerDocument ? root.ownerDocument.body : null);
+    if (!el) return false;
+    return (root instanceof Element ? root : el).closest?.(ES_SKIP_SELECTOR) ? true : false;
+  } catch(e){ return false; }
+}
+
 Hooks.once("ready", async () => {
   try {
     if (game.system?.id !== "daggerheart") return;
@@ -80,6 +98,8 @@ Hooks.once("ready", async () => {
   ]);
 
   function translatePlaceholders(root=document) {
+  try { if (esShouldSkip(root)) return; } catch(e) {}
+
     try {
       const nodes = root.querySelectorAll("[placeholder]");
       nodes.forEach(el => {
@@ -92,6 +112,8 @@ Hooks.once("ready", async () => {
 
   // Fix mixed language "With Esperanza/Miedo" in chat
   function fixWithHopeFear(root) {
+  try { if (esShouldSkip(root)) return; } catch(e) {}
+
     const walker = document.createTreeWalker(root || document.body, NodeFilter.SHOW_TEXT, null, false);
     const nodes = [];
     while (walker.nextNode()) nodes.push(walker.currentNode);
@@ -107,6 +129,8 @@ Hooks.once("ready", async () => {
   
   // Replace ability abbreviations inside Actor Sheets (matches inside tokens like "AGIO" or "AGI○")
   function replaceAbilityAbbr(root) {
+  try { if (esShouldSkip(root)) return; } catch(e) {}
+
     if (!root) return;
     const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null, false);
     const nodes = [];
@@ -135,6 +159,8 @@ Hooks.once("ready", async () => {
   
   // Reorder "<Atributo> Prueba" -> "Prueba de <Atributo>" in Spanish chat cards
   function reorderStatTestLabels(root) {
+  try { if (esShouldSkip(root)) return; } catch(e) {}
+
     if (!root) return;
     const abilities = ["Agilidad","Sutileza","Instinto","Presencia","Conocimiento","Fuerza"];
     const re = new RegExp(`\\b(${abilities.join("|")})\\s+Prueba\\b`, "g");
@@ -150,6 +176,8 @@ Hooks.once("ready", async () => {
   }
 
   function replaceTextNodes(root) {
+  try { if (esShouldSkip(root)) return; } catch(e) {}
+
     if (!root) return;
     const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null, false);
     const pending = [];
@@ -174,14 +202,19 @@ Hooks.once("ready", async () => {
   Hooks.on("renderItemSheet", (_app, html) => { replaceTextNodes(html[0]); translatePlaceholders(html[0]); fixWithHopeFear(html[0]); reorderStatTestLabels(html[0]); });
 
   const observer = new MutationObserver((mutations) => {
+    // Skip changes happening inside editor/journal areas
+    const shouldIgnore = (n) => {
+      try { return n.closest?.(ES_SKIP_SELECTOR); } catch(e){ return false; }
+    };
+
     for (const m of mutations) {
       for (const n of m.addedNodes) {
-        if (n.nodeType === Node.ELEMENT_NODE) { replaceTextNodes(n); translatePlaceholders(n); fixWithHopeFear(n); replaceAbilityAbbr(n); reorderStatTestLabels(n); }
-        else if (n.nodeType === Node.TEXT_NODE) replaceTextNodes(n.parentElement);
+        if (n.nodeType === Node.ELEMENT_NODE) { if (shouldIgnore(n)) continue;  replaceTextNodes(n); translatePlaceholders(n); fixWithHopeFear(n); replaceAbilityAbbr(n); reorderStatTestLabels(n); }
+        else if (n.nodeType === Node.TEXT_NODE) { if (!shouldIgnore(n.parentElement)) replaceTextNodes(n.parentElement); }
       }
     }
   });
-  observer.observe(document.body, { childList: true, subtree: true, characterData: true });
+  observer.observe(document.body, { childList: true, subtree: true, characterData: false });
 
-  console.log("%cTranslation Spanish Daggerheart%c activo — idioma:", "color:#6cf", "", game.i18n.lang);
+  console.log("%cTranslation Spanish Daggerheart%c patches.js journal-safe — idioma:", "color:#6cf", "", game.i18n.lang);
 });
