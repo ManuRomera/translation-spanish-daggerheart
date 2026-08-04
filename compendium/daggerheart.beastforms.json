@@ -1,0 +1,1552 @@
+{
+  "label": "Formas bestiales",
+  "folders": {
+    "Beastform Features": "Rasgos de forma bestial",
+    "Tier 1": "Rango 1",
+    "Tier 2": "Rango 2",
+    "Tier 3": "Rango 3",
+    "Tier 4": "Rango 4"
+  },
+  "mapping": {
+    "systemPatch": {
+      "path": "system",
+      "converter": "daggerheartOverlay"
+    },
+    "prototypeTokenPatch": {
+      "path": "prototypeToken",
+      "converter": "daggerheartOverlay"
+    },
+    "flagsPatch": {
+      "path": "flags",
+      "converter": "daggerheartOverlay"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "daggerheartEmbedded"
+    },
+    "items": {
+      "path": "items",
+      "converter": "daggerheartEmbedded"
+    },
+    "pages": {
+      "path": "pages",
+      "converter": "daggerheartEmbedded"
+    },
+    "results": {
+      "path": "results",
+      "converter": "daggerheartEmbedded"
+    }
+  },
+  "entries": {
+    "xLS5YT1B6yeCiNTg": {
+      "_id": "xLS5YT1B6yeCiNTg",
+      "name": "Ágil",
+      "systemPatch": {
+        "description": "<p>Tu movimiento es silencioso y puedes <strong>gastar una Esperanza</strong> para moverte hasta el rango Lejano sin hacer una tirada de dados.</p>",
+        "actions": {
+          "4yQ56hSL5LBkzrV6": {
+            "description": "<p><strong>Gasta una Esperanza</strong> para moverte al rango Lejano sin tirar dados.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      }
+    },
+    "a9UoCwtrbgKk02mK": {
+      "_id": "a9UoCwtrbgKk02mK",
+      "name": "Explorador ágil",
+      "systemPatch": {
+        "examples": "Zorro, Ratón, Comadreja, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "ehfx2SUKMiM6f5Pd"
+        }
+      ]
+    },
+    "kQWWx9P3fCyGSVOI": {
+      "_id": "kQWWx9P3fCyGSVOI",
+      "name": "Acuático",
+      "systemPatch": {
+        "description": "<p>Puedes respirar y moverte naturalmente bajo el agua.</p>"
+      }
+    },
+    "ItBVeCl2u5uetgy7": {
+      "_id": "ItBVeCl2u5uetgy7",
+      "name": "Depredador acuático",
+      "systemPatch": {
+        "examples": "Delfín, Orca, Tiburón, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "7OTbmhQNtKhRAl59"
+        }
+      ]
+    },
+    "qqzdFCxyYupWZK23": {
+      "_id": "qqzdFCxyYupWZK23",
+      "name": "Explorador acuático",
+      "systemPatch": {
+        "examples": "Anguila, pescado, pulpo, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "TsXyfEOCk0ma5tp9"
+        }
+      ]
+    },
+    "8pUHJv3BYdjA4Qdf": {
+      "_id": "8pUHJv3BYdjA4Qdf",
+      "name": "Centinela acorazado",
+      "systemPatch": {
+        "examples": "Armadillo, Pangolin, Tortuga, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "hd0uVl6ZZeyPJn9O"
+        }
+      ]
+    },
+    "nDQZdIF2epKlhauX": {
+      "_id": "nDQZdIF2epKlhauX",
+      "name": "Caparazón blindado",
+      "systemPatch": {
+        "description": "<p>Tu exterior endurecido te otorga resistencia al daño físico. Además, <strong>marca una ranura de armadura</strong> para retraerte en tu caparazón. Mientras estés en tu caparazón, el daño físico se reduce en un número igual a tu puntuación de armadura (después de aplicar resistencia), pero no puedes realizar otras acciones sin abandonar esta forma.</p>",
+        "actions": {
+          "15XSCpCAZ2JLspmN": {
+            "description": "<p><strong>Marcar una Ranura de Armadura</strong> para retraerte en tu caparazón. Mientras que en su caparazón, el daño físico se reduce en un número igual a su puntuación de armadura (después de aplicar resistencia), pero no puede realizar otras acciones sin salir de este formulario.</p>",
+            "name": "Retractar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Caparazón blindado",
+          "description": "<p>Su exterior endurecido le da resistencia al daño físico.</p>",
+          "_id": "XFmEC0kDQJNrGbtr"
+        },
+        {
+          "name": "Retráctiles",
+          "description": "<p>Mientras que en su caparazón, el daño físico se reduce en un número igual a su puntuación de armadura (después de aplicar resistencia), pero no puede realizar otras acciones sin salir de este formulario.</p>",
+          "_id": "OY3lEB3vuDKNLzxv"
+        }
+      ]
+    },
+    "FNKQlWQcArSorMPK": {
+      "_id": "FNKQlWQcArSorMPK",
+      "name": "Vista de ojo de pájaro",
+      "systemPatch": {
+        "description": "<p>Puedes volar a voluntad. Una vez por descanso mientras usted está en el aire, usted puede hacer al DJ una pregunta sobre la escena debajo de usted sin necesidad de tirar. La primera vez que un personaje hace una tirada para actuar sobre esta información, ganan ventaja en el tirada.</p>",
+        "actions": {
+          "JRCE5826Yhh09aaI": {
+            "description": "<p>Una vez por descanso mientras usted está en el aire, usted puede hacer al DJ una pregunta sobre la escena debajo de usted sin necesidad de tirar. La primera vez que un personaje hace una tirada para actuar sobre esta información, ganan ventaja en el tirada.</p>",
+            "name": "Hacer una pregunta"
+          }
+        }
+      }
+    },
+    "jp5KpPRBFBOIs46Q": {
+      "_id": "jp5KpPRBFBOIs46Q",
+      "name": "Bala de cañón",
+      "systemPatch": {
+        "description": "<p><strong>Marca un Estrés</strong> para permitir que un aliado te lance contra un adversario. Para ello, el aliado realiza una tirada de ataque usando Agilidad o Fuerza (a su elección) contra un objetivo a Corta distancia. Si tiene éxito, el adversario recibe <strong>d12+2</strong> de daño físico usando la Competencia del lanzador. Puedes <strong>gastar una Esperanza</strong> para seleccionar a un adversario adicional a Muy Corta distancia del primero. El segundo objetivo recibe la mitad del daño infligido al primero.</p>",
+        "actions": {
+          "5Vxm8LyBHE1GYbsv": {
+            "description": "<p><strong>Marcar un estrés</strong> para permitir que un aliado te lance o te lance a un adversario. Para hacerlo, el aliado hace una tirada de ataque usando Agilidad o Fuerza (su elección) contra un objetivo dentro de un alcance Cerca. En un éxito, el adversario toma <strong>d12+2</strong> daño físico utilizando la competencia del lanzador.</p>",
+            "name": "Bala de cañón"
+          },
+          "QCQzArBrajYi2D2I": {
+            "description": "<p>Puedes <strong>pasar una esperanza</strong> para atacar a un adversario adicional dentro del alcance Muy Cerca del primero. El segundo objetivo recibe la mitad de los daños causados al primer objetivo.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      }
+    },
+    "EVOJTskJYf4rpuga": {
+      "_id": "EVOJTskJYf4rpuga",
+      "name": "Transportador",
+      "systemPatch": {
+        "description": "<p>Puedes llevar hasta dos aliados voluntarios contigo cuando te mueves.</p>"
+      }
+    },
+    "jhWSC5bNZyYUAA5Q": {
+      "_id": "jhWSC5bNZyYUAA5Q",
+      "name": "Acompañante",
+      "systemPatch": {
+        "description": "<p>Cuando ayudas a un aliado, puedes tirar un <strong>d8</strong> como dado de ventaja.</p>"
+      }
+    },
+    "QQtQ77tos8ijTHag": {
+      "_id": "QQtQ77tos8ijTHag",
+      "name": "Rapaz mortal",
+      "systemPatch": {
+        "description": "Puedes volar a voluntad y moverte a distancia lejana como parte de tu acción. Cuando te mueves en línea recta al alcance cuerpo a cuerpo de un objetivo desde al menos distancia corta y realizas un ataque contra ese objetivo en la misma acción, puedes volver a tirar todos los dados de daño que obtuvieron un resultado inferior a tu Competencia."
+      }
+    },
+    "DfBXO8jTchwFG8dZ": {
+      "_id": "DfBXO8jTchwFG8dZ",
+      "name": "Demoler",
+      "systemPatch": {
+        "description": "<p><strong>Gasta una esperanza</strong> para subir a un alcance Lejos en línea recta y hacer un ataque contra todos los objetivos dentro del alcance Cuerpo a cuerpo de la línea. Los objetivos que tienen éxito contra tomar <strong>d8+10</strong> daño físico utilizando su competencia y son temporalmente <em>Vulnerable</em>.</p><p>@Template[type:ray|range:f]</p>",
+        "actions": {
+          "5SXMT39vrZoK7GBM": {
+            "description": "<p>Gasta una esperanza para subir a un alcance Lejos en línea recta y hacer un ataque contra todos los objetivos dentro del alcance Cuerpo a cuerpo de la línea. Los objetivos que tiene éxito contra tomar d8+10 daño físico utilizando su capacidad y son temporalmente vulnerables.</p>",
+            "name": "Ataque"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Demolido",
+          "_id": "FXdFgEgqVl5gIWJS"
+        }
+      ]
+    },
+    "HJbQcKWcFZ9NoFxs": {
+      "_id": "HJbQcKWcFZ9NoFxs",
+      "name": "Golpes devastadores",
+      "systemPatch": {
+        "description": "<p>Cuando infliges daño severo a un objetivo dentro del alcance cuerpo a cuerpo, puedes <strong>marcar un Estrés</strong> para obligarlo a marcar un Punto de Golpe adicional.</p>",
+        "actions": {
+          "Il2C9zALU6a1gGrg": {
+            "description": "<p>Cuando infliges daño severo a un objetivo dentro del alcance cuerpo a cuerpo, puedes <strong>marcar un Estrés</strong> para obligarlo a marcar un Punto de Golpe adicional.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "a7Qvmm14nx9BCysA": {
+      "_id": "a7Qvmm14nx9BCysA",
+      "name": "Presa elusiva",
+      "systemPatch": {
+        "description": "<p>Cuando una tirada de ataque contra ti vaya a tener éxito, puedes <strong>marcar un Estrés</strong> y tirar un <strong>d4</strong>. Suma el resultado a tu Evasión contra este ataque.</p>",
+        "actions": {
+          "9lvrqQKTEB3NRwvM": {
+            "description": "<p>Cuando una tirada de ataque contra ti vaya a tener éxito, puedes <strong>marcar un Estrés</strong> y tirar un <strong>d4</strong>. Suma el resultado a tu Evasión contra este ataque.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "wT4xbF99I55yjKZV": {
+      "_id": "wT4xbF99I55yjKZV",
+      "name": "Bestia acuática épica",
+      "systemPatch": {
+        "examples": "Calamar gigante, ballena, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "zYUexUr2e3k4kzhw"
+        }
+      ]
+    },
+    "GhHsSHOa509cwCvr": {
+      "_id": "GhHsSHOa509cwCvr",
+      "name": "Rápido",
+      "systemPatch": {
+        "description": "<p><strong>Gasta una Esperanza</strong> para moverte al rango Lejano sin tirar dados.</p>",
+        "actions": {
+          "pn5p2ocVvVPzDyAX": {
+            "description": "<p><strong>Gasta una Esperanza</strong> para moverte al rango Lejano sin tirar dados.</p>",
+            "name": "Mover"
+          }
+        }
+      }
+    },
+    "QFg1hNCEoKVDd9Zo": {
+      "_id": "QFg1hNCEoKVDd9Zo",
+      "name": "Frágil",
+      "systemPatch": {
+        "description": "<p>Cuando recibes daño mayor o más, sales de la forma bestial.</p>"
+      }
+    },
+    "afbMt4Ld6nY3mw0N": {
+      "_id": "afbMt4Ld6nY3mw0N",
+      "name": "Gran depredador",
+      "systemPatch": {
+        "examples": "Serpiente marina, Velociraptor, Tigre dientes de sable, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "TFzvHClwIAQUFxyP"
+        }
+      ]
+    },
+    "b4BMnTbJ3iPPidSb": {
+      "_id": "b4BMnTbJ3iPPidSb",
+      "name": "Gran bestia alada",
+      "systemPatch": {
+        "examples": "Águila gigante, Halcón, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "qGSm1QpICpxRZxLn"
+        }
+      ]
+    },
+    "8u0HkK3WgtU9lWYs": {
+      "_id": "8u0HkK3WgtU9lWYs",
+      "name": "Golpe vulnerable",
+      "systemPatch": {
+        "description": "<p>Cuando tienes éxito en un ataque contra un objetivo dentro del alcance cuerpo a cuerpo, puedes <strong>marcar un Estrés</strong> para hacer que el objetivo sea temporalmente <em>Vulnerable</em>.</p>",
+        "actions": {
+          "p8DESOMGA6dLwEMz": {
+            "description": "<p>Cuando tienes éxito en un ataque contra un objetivo dentro del alcance cuerpo a cuerpo, puedes <strong>marcar un Estrés</strong> para hacer que el objetivo sea temporalmente <em>Vulnerable</em>.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Golpe vulnerable",
+          "_id": "2kKkV9zhfvqA2vlt"
+        }
+      ]
+    },
+    "xVgmXhj2YgeqS1KK": {
+      "_id": "xVgmXhj2YgeqS1KK",
+      "name": "Huesos huecos",
+      "systemPatch": {
+        "description": "<p>Usted gana una penalización de −2 a sus umbrales de daño.</p>"
+      },
+      "effects": [
+        {
+          "name": "Huesos huecos",
+          "description": "<p>Usted gana una penalización de −2 a sus umbrales de daño.</p>",
+          "_id": "RM8wHu5GIF6zfF7V"
+        }
+      ]
+    },
+    "iDmOtiHJJ80AIAVT": {
+      "_id": "iDmOtiHJJ80AIAVT",
+      "name": "Mascota doméstica",
+      "systemPatch": {
+        "examples": "Gato, perro, conejo, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "CzMAMg2q5gL15JrZ"
+        }
+      ]
+    },
+    "mqP6z4Wg4K3oDAom": {
+      "_id": "mqP6z4Wg4K3oDAom",
+      "name": "Bestia legendaria",
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "description": "<p>Elige una opción de Beastform de Nivel 1 y conviértete en una versión más grande y poderosa de esa criatura. Mientras que usted está en esta forma, usted retiene todos los rasgos y características de la forma original y ganar los siguientes bonos:</p><ul><li>Un bono +6 para los tiradas de daño</li><li>Un bono +1 al rasgo utilizado por este formulario</li><li>Un bono +2 a la evasión</li></ul>",
+          "_id": "cL4kH57pf2nGIxaK"
+        }
+      ]
+    },
+    "rRUtgcUjimlpPhnn": {
+      "_id": "rRUtgcUjimlpPhnn",
+      "name": "Híbrido legendario",
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "description": "<p>Para transformarse en esta criatura, <strong>marca un estrés adicional</strong>. Elija las dos opciones de Beastform de los Niveles 1–2. Elija un total de cuatro ventajas y dos características de esas opciones.</p>",
+          "_id": "RbZKFWATkfLZm67j"
+        }
+      ]
+    },
+    "qjwMzPn33aKZACkv": {
+      "_id": "qjwMzPn33aKZACkv",
+      "name": "Behemot enorme",
+      "systemPatch": {
+        "examples": "Elefante, Mamut, Rhinoceros, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "RR6ySJU5zaC7ws6A"
+        }
+      ]
+    },
+    "9QkZSeuEKgXtlpHc": {
+      "_id": "9QkZSeuEKgXtlpHc",
+      "name": "Paso masivo",
+      "systemPatch": {
+        "description": "<p>Puedes moverte a distancia lejana sin una tirada de dados. Ignoras el terreno dificíl (a discreción del DJ) debido a tu tamaño.</p>"
+      }
+    },
+    "94tvcC3D5Kp4lzuN": {
+      "_id": "94tvcC3D5Kp4lzuN",
+      "name": "Reptil poderoso",
+      "systemPatch": {
+        "examples": "Cocodrilo, Cocodrilo, Gila Monster, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "d13EzuP8Co04Jk8K"
+        }
+      ]
+    },
+    "zRLjqKx4Rn2TjivL": {
+      "_id": "zRLjqKx4Rn2TjivL",
+      "name": "Poderoso trotador",
+      "systemPatch": {
+        "examples": "Camello, Caballo, Zebra, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "IWg2cWUdvucUOLAL"
+        }
+      ]
+    },
+    "jV6EuEacyQlHW4SN": {
+      "_id": "jV6EuEacyQlHW4SN",
+      "name": "Cazador aéreo mítico",
+      "systemPatch": {
+        "examples": "Dragón, Pterodactilo, Roc, Wyvern, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "hnKnaOaswWJdaYmf"
+        }
+      ]
+    },
+    "kObobka52JdpWBSu": {
+      "_id": "kObobka52JdpWBSu",
+      "name": "Bestia mítica",
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "description": "<p>Escoge una opción Beastform de Nivel 1 o Nivel 2 y conviértete en una versión más grande y potente de esa criatura. Mientras que usted está en esta forma, usted retiene todos los rasgos y características de la forma original y ganar los siguientes bonos:</p><ul><li>Un bono +9 para los tiradas de daño</li><li>Un bono +2 al rasgo utilizado por este formulario</li><li>Un bono +3 a Evasión</li><li>Su muerte de daño aumenta en un tamaño (d6 se convierte en d8, d8 se convierte en d10 etc.)</li></ul>",
+          "_id": "vhwbPQ2YT64qD1t1"
+        }
+      ]
+    },
+    "WAbxCf2An8qmxyJ1": {
+      "_id": "WAbxCf2An8qmxyJ1",
+      "name": "Híbrido mítico",
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "description": "<p>Para transformarse en esta criatura, <strong>Marca 2 Estrés adicional</strong>. Elija las tres opciones de Beastform de los Niveles 1-3. Elija un total de cinco ventajas y tres características de esas opciones.</p>",
+          "_id": "HutJQ9HGtr1Eoibp"
+        }
+      ]
+    },
+    "CItO8yX6amQaqyk7": {
+      "_id": "CItO8yX6amQaqyk7",
+      "name": "Hervíboro veloz",
+      "systemPatch": {
+        "examples": "Ciervo, Gazelle, Cabra, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "lIbJFb5XQ98Eaauu"
+        }
+      ]
+    },
+    "tGDdEH40wyOCsFmH": {
+      "_id": "tGDdEH40wyOCsFmH",
+      "name": "Maestro del oceano",
+      "systemPatch": {
+        "description": "<p>Puedes respirar y moverte con naturalidad bajo el agua. Al atacar con éxito a un objetivo dentro del alcance cuerpo a cuerpo, puedes <em>atraparlo</em> temporalmente.</p>",
+        "actions": {
+          "ge2koBRj4snhIzDA": {
+            "description": "<p>Cuando tienes éxito en un ataque contra un objetivo dentro del alcance Cuerpo a cuerpo, puedes temporalmente <em>Restricción</em> Ellos.</p>",
+            "name": "Restricción"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Maestro del oceano",
+          "_id": "6GBczj8REkDmgX2Q"
+        }
+      ]
+    },
+    "d3q8lfeiEMyTjusT": {
+      "_id": "d3q8lfeiEMyTjusT",
+      "name": "Cazaror de manada",
+      "systemPatch": {
+        "description": "<p>Cuando tengas éxito en un ataque contra el mismo objetivo que un aliado que actúa inmediatamente antes que tú, añade un <strong>d8</strong> a tu tirada de daño.</p>"
+      }
+    },
+    "YLisKYYhAGca50WM": {
+      "_id": "YLisKYYhAGca50WM",
+      "name": "Depredador de manada",
+      "systemPatch": {
+        "examples": "Coyote, hiena, lobo, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "amuFS9LlEnzZnaIN"
+        }
+      ]
+    },
+    "StabkQ3BzWRZa8Tz": {
+      "_id": "StabkQ3BzWRZa8Tz",
+      "name": "Defensa Física",
+      "systemPatch": {
+        "description": "<p>Obtienes una bonificación de +3 a tus umbrales de daño.</p>"
+      },
+      "effects": [
+        {
+          "name": "Defensa Física",
+          "description": "<p>Obtienes una bonificación de +3 a tus umbrales de daño.</p>",
+          "_id": "hs9vWE92QQQx15ET"
+        }
+      ]
+    },
+    "33oFSZ1PwFqInHPe": {
+      "_id": "33oFSZ1PwFqInHPe",
+      "name": "Depredador brincador",
+      "systemPatch": {
+        "examples": "Cheetah, León, Pantera, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "GSmW6nJ3kyIoEK2H"
+        }
+      ]
+    },
+    "m8BVTuJI1wCvzTcf": {
+      "_id": "m8BVTuJI1wCvzTcf",
+      "name": "Bestia poderosa",
+      "systemPatch": {
+        "examples": "Oso, Toro, Alce, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "AZGTvqzFVHa4wS1a"
+        }
+      ]
+    },
+    "8upqfcZvi7b5hRLE": {
+      "_id": "8upqfcZvi7b5hRLE",
+      "name": "Arrasar",
+      "systemPatch": {
+        "description": "<p>Cuando sacas un 1 en un dado de daño, puedes tirar un d10 y sumar el resultado a la tirada de daño. Además, antes de realizar una tirada de ataque, puedes <strong>marcar un Estrés</strong> para obtener una bonificación de +1 a tu Competencia para ese ataque.</p>",
+        "actions": {
+          "N7IoOHpqcvcJNsJQ": {
+            "description": "<p>Antes de hacer una tirada de ataque, usted puede marcar un estrés para ganar un bono +1 a su capacidad para ese ataque.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Arrasar",
+          "description": "<p>Antes de hacer una tirada de ataque, usted puede marcar un estrés para ganar un bono +1 a su capacidad para ese ataque.</p>",
+          "_id": "A7l4JEBC1FFQajsN"
+        }
+      ]
+    },
+    "Ky3rZD3sJMXYZOBC": {
+      "_id": "Ky3rZD3sJMXYZOBC",
+      "name": "Golpe mordedor",
+      "systemPatch": {
+        "description": "<p>Cuando tienes éxito en un ataque contra un objetivo dentro del alcance cuerpo a cuerpo, puedes <strong>gastar una Esperanza</strong> para sujetar a ese oponente en tus mandíbulas, dejándolo temporalmente <em>Restringido</em> y <em>Vulnerable</em>.</p>",
+        "actions": {
+          "ib94yYJ1HA0dm0VC": {
+            "description": "<p>Cuando tienes éxito en un ataque contra un objetivo dentro del alcance cuerpo a cuerpo, puedes <strong>gastar una Esperanza</strong> para sujetar a ese oponente en tus mandíbulas, dejándolo temporalmente <em>Restringido</em> y <em>Vulnerable</em>.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Golpe mordedor",
+          "_id": "y3EsJuInxE7juNXT"
+        }
+      ]
+    },
+    "A4TVRY0D5r9EiVwA": {
+      "_id": "A4TVRY0D5r9EiVwA",
+      "name": "Arácnido acechador",
+      "systemPatch": {
+        "examples": "Tarántula, Araña Lobo, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "YkZX2yc2X0QDFPBG"
+        }
+      ]
+    },
+    "1XrZWGDttBAAUxR1": {
+      "_id": "1XrZWGDttBAAUxR1",
+      "name": "Sierpe imponente",
+      "systemPatch": {
+        "examples": "Cobra, víbora de cascabel, viper, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "qGhLojWa5430zRd1"
+        }
+      ]
+    },
+    "0ey4kM9ssj2otHvb": {
+      "_id": "0ey4kM9ssj2otHvb",
+      "name": "Derribar",
+      "systemPatch": {
+        "description": "<p><strong>Marca una Estrés</strong> para entrar en el alcance cuerpo a cuerpo de un objetivo y realizar una tirada de ataque contra él. Si tienes éxito, obtienes un bonificador de +2 a tu Competencia para este ataque y el objetivo debe marcar una Estrés.</p>",
+        "actions": {
+          "DKorr1QzvtBz7d9y": {
+            "description": "<p><strong>Marca una Estrés</strong> para entrar en el alcance cuerpo a cuerpo de un objetivo y realizar una tirada de ataque contra él. Si tienes éxito, obtienes un bonificador de +2 a tu Competencia para este ataque y el objetivo debe marcar una Estrés.</p>",
+            "name": "Ataque"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Derribar",
+          "description": "<p>Usted gana un bono de +2 a su capacidad para este ataque y el objetivo debe marcar un estrés.</p>",
+          "_id": "hE6ciIusvKEtUQ8U"
+        }
+      ]
+    },
+    "5BABxRe2XVrYTj8N": {
+      "_id": "5BABxRe2XVrYTj8N",
+      "name": "Reptil terrible",
+      "systemPatch": {
+        "examples": "Braquiosaurio, tiranosaurio, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "qPtjZIkRVm68TGHN"
+        }
+      ]
+    },
+    "ZYbdXaWVj2zdcmaK": {
+      "_id": "ZYbdXaWVj2zdcmaK",
+      "name": "Piel Gruesa",
+      "systemPatch": {
+        "description": "<p>Obtienes una bonificación de +2 a tus umbrales de daño.</p>"
+      },
+      "effects": [
+        {
+          "name": "Piel Gruesa",
+          "description": "<p>Obtienes una bonificación de +2 a tus umbrales de daño.</p>",
+          "_id": "ZoUJy8EOm9mVXuAw"
+        }
+      ]
+    },
+    "A0lgd6eVEfX6oqSB": {
+      "_id": "A0lgd6eVEfX6oqSB",
+      "name": "Pisoteo",
+      "systemPatch": {
+        "description": "<p><strong>Marcar un estrés</strong> para subir a alcance Cerca en línea recta y hacer un ataque contra todos los objetivos dentro de alcance Cuerpo a cuerpo de la línea. Los objetivos que tienen éxito contra tomar <strong>d8+1</strong> daño físico utilizando su competencia y son temporalmente <em>Vulnerable</em>.</p><p>@Template[type:ray|range:close]</p>",
+        "actions": {
+          "YCOTIv9IVEKpumbJ": {
+            "description": "<p><strong>Marcar un estrés</strong> para subir a alcance Cerca en línea recta y hacer un ataque contra todos los objetivos dentro de alcance Cuerpo a cuerpo de la línea. Los objetivos que tiene éxito contra tomar d8+1 daño físico utilizando su capacidad y son temporalmente <em>Vulnerable</em>.</p>",
+            "name": "Ataque"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Pisoteado",
+          "_id": "LkekG4IngVW9rFjI"
+        }
+      ]
+    },
+    "ODudjX88Te4vDP57": {
+      "_id": "ODudjX88Te4vDP57",
+      "name": "Impávido",
+      "systemPatch": {
+        "description": "<p>Obtienes una bonificación de +2 a todos tus umbrales de daño.</p>"
+      },
+      "effects": [
+        {
+          "name": "Impávido",
+          "description": "<p>Obtienes una bonificación de +2 a todos tus umbrales de daño.</p>",
+          "_id": "wVoUVQJ2Ik7CiUuV"
+        }
+      ]
+    },
+    "vEAQ4cfsoPmOv2Gg": {
+      "_id": "vEAQ4cfsoPmOv2Gg",
+      "name": "Inflexible",
+      "systemPatch": {
+        "description": "<p>Cuando usted marcaría una Ranura de Armadura, tirar un <strong>d6</strong>. En un resultado de 5 o más, reducir la severidad por un umbral sin marcar una Ranura de Armadura.</p>",
+        "actions": {
+          "hiGZCQpdTVqE5W4B": {
+            "description": "<p>Cuando usted marcaría una Ranura de Armadura, tirar un <strong>d6</strong>. En un resultado de 5 o más, reducir la severidad por un umbral sin marcar una Ranura de Armadura.</p>",
+            "name": "Tirada d6"
+          }
+        }
+      }
+    },
+    "2KlTnfzO03vneVS8": {
+      "_id": "2KlTnfzO03vneVS8",
+      "name": "Mordisco venenoso",
+      "systemPatch": {
+        "description": "<p>Cuando un ataque contra un objetivo dentro del alcance de combate cuerpo a cuerpo tiene éxito, este queda envenenado temporalmente. Una criatura envenenada recibe <strong>1d10</strong> de daño físico directo cada vez que actúa.</p>",
+        "actions": {
+          "eow90DYK6cUWOk7g": {
+            "description": "<p>Cuando un ataque contra un objetivo dentro del alcance de combate cuerpo a cuerpo tiene éxito, este queda envenenado temporalmente. Una criatura envenenada recibe <strong>1d10</strong> de daño físico directo cada vez que actúa.</p>",
+            "name": "Veneno"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Envenenado",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Una criatura envenenada toma </span><span style=\"box-sizing:border-box;scrollbar-width:thin;scrollbar-color:rgb(93, 20, 43) rgba(0, 0, 0, 0);color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\"><strong>1d10</strong></span><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\"> daño físico directo cada vez que actúan.</span></p>",
+          "_id": "TTyAKKoUCoYXSMs4"
+        }
+      ]
+    },
+    "uW3853pViM9VAfHb": {
+      "_id": "uW3853pViM9VAfHb",
+      "name": "Golpe venenoso",
+      "systemPatch": {
+        "description": "<p>Realiza un ataque contra cualquier número de objetivos dentro de un rango muy cercano. Si tiene éxito, el objetivo queda envenenado temporalmente. Una criatura envenenada recibe <strong>1d10</strong> de daño físico directo cada vez que actúa.</p>",
+        "actions": {
+          "igRoXxgaTT9tBQS7": {
+            "description": "<p>Realiza un ataque contra cualquier número de objetivos dentro de un rango muy cercano. Si tiene éxito, el objetivo queda envenenado temporalmente. Una criatura envenenada recibe <strong>1d10</strong> de daño físico directo cada vez que actúa.</p>",
+            "name": "Ataque"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Envenenado",
+          "description": "<p>Una criatura envenenada toma <strong>1d10</strong> daños físicos directos cada vez que actúan.</p>",
+          "_id": "1iQPj96LqUNkRaxE"
+        }
+      ]
+    },
+    "jYUBi7yLHap5ljpa": {
+      "_id": "jYUBi7yLHap5ljpa",
+      "name": "Golpe violento",
+      "systemPatch": {
+        "description": "<p>Cuando tienes éxito en un ataque contra un objetivo, puedes <strong>gastar una Esperanza</strong> para hacerlo vulnerable temporalmente y obtener una bonificación de +1 a tu Competencia para este ataque.</p>",
+        "actions": {
+          "Cc53vyYz5ggKdIbx": {
+            "description": "<p>Cuando usted tiene éxito en un ataque contra un objetivo dentro del alcance Cuerpo a cuerpo, usted puede <strong>pasar una esperanza</strong> para sujetar a ese oponente en tus mandíbulas, haciéndolos temporalmente Restringidos y Vulnerables.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Desgarrado",
+          "_id": "MIAh9XNwDXGDktCm"
+        }
+      ]
+    },
+    "cTlqpQZPy5TvdDAT": {
+      "_id": "cTlqpQZPy5TvdDAT",
+      "name": "Siseo de advertencia",
+      "systemPatch": {
+        "description": "<p><strong>Marca un Estrés</strong> para forzar a cualquier número de objetivos dentro del alcance cuerpo a cuerpo a retroceder al alcance Muy Cercano.</p>",
+        "actions": {
+          "D9YmUP1aeiCzNxcC": {
+            "description": "<p><strong>Marca un Estrés</strong> para forzar a cualquier número de objetivos dentro del alcance cuerpo a cuerpo a retroceder al alcance Muy Cercano.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "D73fS1iM4SZPFimu": {
+      "_id": "D73fS1iM4SZPFimu",
+      "name": "Lanza telarañas",
+      "systemPatch": {
+        "description": "<p>Puedes crear una telaraña resistente, útil tanto para aventuras como para batallas. La telaraña es lo suficientemente resistente como para soportar a una criatura. Puedes <em>apresar</em> temporalmente a un objetivo a corta distancia si superas una tirada de sutileza contra él.</p>",
+        "actions": {
+          "vRU6xutkp3VYxZ0i": {
+            "description": "<p>Usted puede temporalmente <em>Restricción</em> un objetivo dentro de un estrecho alcance por tener éxito en una tirada de Sutileza contra ellos.</p>",
+            "name": "Restricción"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Lanza telarañas",
+          "_id": "cBJueH89gNvvDKfQ"
+        }
+      ]
+    },
+    "mZ4Wlqtss2FlNNvL": {
+      "_id": "mZ4Wlqtss2FlNNvL",
+      "name": "Bestia alada",
+      "systemPatch": {
+        "examples": "Hawk, Búho, Raven, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "Ln3atrxiqtPA0Wi6"
+        }
+      ]
+    },
+    "Agile": {
+      "_id": "xLS5YT1B6yeCiNTg",
+      "name": "Ágil",
+      "systemPatch": {
+        "description": "<p>Tu movimiento es silencioso y puedes <strong>gastar una Esperanza</strong> para moverte hasta el rango Lejano sin hacer una tirada de dados.</p>",
+        "actions": {
+          "4yQ56hSL5LBkzrV6": {
+            "description": "<p><strong>Gasta una Esperanza</strong> para moverte al rango Lejano sin tirar dados.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      }
+    },
+    "Agile Scout": {
+      "_id": "a9UoCwtrbgKk02mK",
+      "name": "Explorador ágil",
+      "systemPatch": {
+        "examples": "Zorro, Ratón, Comadreja, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "ehfx2SUKMiM6f5Pd"
+        }
+      ]
+    },
+    "Aquatic": {
+      "_id": "kQWWx9P3fCyGSVOI",
+      "name": "Acuático",
+      "systemPatch": {
+        "description": "<p>Puedes respirar y moverte naturalmente bajo el agua.</p>"
+      }
+    },
+    "Aquatic Predator": {
+      "_id": "ItBVeCl2u5uetgy7",
+      "name": "Depredador acuático",
+      "systemPatch": {
+        "examples": "Delfín, Orca, Tiburón, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "7OTbmhQNtKhRAl59"
+        }
+      ]
+    },
+    "Aquatic Scout": {
+      "_id": "qqzdFCxyYupWZK23",
+      "name": "Explorador acuático",
+      "systemPatch": {
+        "examples": "Anguila, pescado, pulpo, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "TsXyfEOCk0ma5tp9"
+        }
+      ]
+    },
+    "Armored Sentry": {
+      "_id": "8pUHJv3BYdjA4Qdf",
+      "name": "Centinela acorazado",
+      "systemPatch": {
+        "examples": "Armadillo, Pangolin, Tortuga, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "hd0uVl6ZZeyPJn9O"
+        }
+      ]
+    },
+    "Armored Shell": {
+      "_id": "nDQZdIF2epKlhauX",
+      "name": "Caparazón blindado",
+      "systemPatch": {
+        "description": "<p>Tu exterior endurecido te otorga resistencia al daño físico. Además, <strong>marca una ranura de armadura</strong> para retraerte en tu caparazón. Mientras estés en tu caparazón, el daño físico se reduce en un número igual a tu puntuación de armadura (después de aplicar resistencia), pero no puedes realizar otras acciones sin abandonar esta forma.</p>",
+        "actions": {
+          "15XSCpCAZ2JLspmN": {
+            "description": "<p><strong>Marcar una Ranura de Armadura</strong> para retraerte en tu caparazón. Mientras que en su caparazón, el daño físico se reduce en un número igual a su puntuación de armadura (después de aplicar resistencia), pero no puede realizar otras acciones sin salir de este formulario.</p>",
+            "name": "Retractar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Caparazón blindado",
+          "description": "<p>Su exterior endurecido le da resistencia al daño físico.</p>",
+          "_id": "XFmEC0kDQJNrGbtr"
+        },
+        {
+          "name": "Retráctiles",
+          "description": "<p>Mientras que en su caparazón, el daño físico se reduce en un número igual a su puntuación de armadura (después de aplicar resistencia), pero no puede realizar otras acciones sin salir de este formulario.</p>",
+          "_id": "OY3lEB3vuDKNLzxv"
+        }
+      ]
+    },
+    "Bird's-Eye View": {
+      "_id": "FNKQlWQcArSorMPK",
+      "name": "Vista de ojo de pájaro",
+      "systemPatch": {
+        "description": "<p>Puedes volar a voluntad. Una vez por descanso mientras usted está en el aire, usted puede hacer al DJ una pregunta sobre la escena debajo de usted sin necesidad de tirar. La primera vez que un personaje hace una tirada para actuar sobre esta información, ganan ventaja en el tirada.</p>",
+        "actions": {
+          "JRCE5826Yhh09aaI": {
+            "description": "<p>Una vez por descanso mientras usted está en el aire, usted puede hacer al DJ una pregunta sobre la escena debajo de usted sin necesidad de tirar. La primera vez que un personaje hace una tirada para actuar sobre esta información, ganan ventaja en el tirada.</p>",
+            "name": "Hacer una pregunta"
+          }
+        }
+      }
+    },
+    "Cannonball": {
+      "_id": "jp5KpPRBFBOIs46Q",
+      "name": "Bala de cañón",
+      "systemPatch": {
+        "description": "<p><strong>Marca un Estrés</strong> para permitir que un aliado te lance contra un adversario. Para ello, el aliado realiza una tirada de ataque usando Agilidad o Fuerza (a su elección) contra un objetivo a Corta distancia. Si tiene éxito, el adversario recibe <strong>d12+2</strong> de daño físico usando la Competencia del lanzador. Puedes <strong>gastar una Esperanza</strong> para seleccionar a un adversario adicional a Muy Corta distancia del primero. El segundo objetivo recibe la mitad del daño infligido al primero.</p>",
+        "actions": {
+          "5Vxm8LyBHE1GYbsv": {
+            "description": "<p><strong>Marcar un estrés</strong> para permitir que un aliado te lance o te lance a un adversario. Para hacerlo, el aliado hace una tirada de ataque usando Agilidad o Fuerza (su elección) contra un objetivo dentro de un alcance Cerca. En un éxito, el adversario toma <strong>d12+2</strong> daño físico utilizando la competencia del lanzador.</p>",
+            "name": "Bala de cañón"
+          },
+          "QCQzArBrajYi2D2I": {
+            "description": "<p>Puedes <strong>pasar una esperanza</strong> para atacar a un adversario adicional dentro del alcance Muy Cerca del primero. El segundo objetivo recibe la mitad de los daños causados al primer objetivo.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      }
+    },
+    "Carrier": {
+      "_id": "EVOJTskJYf4rpuga",
+      "name": "Transportador",
+      "systemPatch": {
+        "description": "<p>Puedes llevar hasta dos aliados voluntarios contigo cuando te mueves.</p>"
+      }
+    },
+    "Companion": {
+      "_id": "jhWSC5bNZyYUAA5Q",
+      "name": "Acompañante",
+      "systemPatch": {
+        "description": "<p>Cuando ayudas a un aliado, puedes tirar un <strong>d8</strong> como dado de ventaja.</p>"
+      }
+    },
+    "Deadly Raptor": {
+      "_id": "QQtQ77tos8ijTHag",
+      "name": "Rapaz mortal",
+      "systemPatch": {
+        "description": "Puedes volar a voluntad y moverte a distancia lejana como parte de tu acción. Cuando te mueves en línea recta al alcance cuerpo a cuerpo de un objetivo desde al menos distancia corta y realizas un ataque contra ese objetivo en la misma acción, puedes volver a tirar todos los dados de daño que obtuvieron un resultado inferior a tu Competencia."
+      }
+    },
+    "Demolish": {
+      "_id": "DfBXO8jTchwFG8dZ",
+      "name": "Demoler",
+      "systemPatch": {
+        "description": "<p><strong>Gasta una esperanza</strong> para subir a un alcance Lejos en línea recta y hacer un ataque contra todos los objetivos dentro del alcance Cuerpo a cuerpo de la línea. Los objetivos que tienen éxito contra tomar <strong>d8+10</strong> daño físico utilizando su competencia y son temporalmente <em>Vulnerable</em>.</p><p>@Template[type:ray|range:f]</p>",
+        "actions": {
+          "5SXMT39vrZoK7GBM": {
+            "description": "<p>Gasta una esperanza para subir a un alcance Lejos en línea recta y hacer un ataque contra todos los objetivos dentro del alcance Cuerpo a cuerpo de la línea. Los objetivos que tiene éxito contra tomar d8+10 daño físico utilizando su capacidad y son temporalmente vulnerables.</p>",
+            "name": "Ataque"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Demolido",
+          "_id": "FXdFgEgqVl5gIWJS"
+        }
+      ]
+    },
+    "Devastating Strikes": {
+      "_id": "HJbQcKWcFZ9NoFxs",
+      "name": "Golpes devastadores",
+      "systemPatch": {
+        "description": "<p>Cuando infliges daño severo a un objetivo dentro del alcance cuerpo a cuerpo, puedes <strong>marcar un Estrés</strong> para obligarlo a marcar un Punto de Golpe adicional.</p>",
+        "actions": {
+          "Il2C9zALU6a1gGrg": {
+            "description": "<p>Cuando infliges daño severo a un objetivo dentro del alcance cuerpo a cuerpo, puedes <strong>marcar un Estrés</strong> para obligarlo a marcar un Punto de Golpe adicional.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "Elusive Prey": {
+      "_id": "a7Qvmm14nx9BCysA",
+      "name": "Presa elusiva",
+      "systemPatch": {
+        "description": "<p>Cuando una tirada de ataque contra ti vaya a tener éxito, puedes <strong>marcar un Estrés</strong> y tirar un <strong>d4</strong>. Suma el resultado a tu Evasión contra este ataque.</p>",
+        "actions": {
+          "9lvrqQKTEB3NRwvM": {
+            "description": "<p>Cuando una tirada de ataque contra ti vaya a tener éxito, puedes <strong>marcar un Estrés</strong> y tirar un <strong>d4</strong>. Suma el resultado a tu Evasión contra este ataque.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "Epic Aquatic Beast": {
+      "_id": "wT4xbF99I55yjKZV",
+      "name": "Bestia acuática épica",
+      "systemPatch": {
+        "examples": "Calamar gigante, ballena, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "zYUexUr2e3k4kzhw"
+        }
+      ]
+    },
+    "Fleet": {
+      "_id": "GhHsSHOa509cwCvr",
+      "name": "Rápido",
+      "systemPatch": {
+        "description": "<p><strong>Gasta una Esperanza</strong> para moverte al rango Lejano sin tirar dados.</p>",
+        "actions": {
+          "pn5p2ocVvVPzDyAX": {
+            "description": "<p><strong>Gasta una Esperanza</strong> para moverte al rango Lejano sin tirar dados.</p>",
+            "name": "Mover"
+          }
+        }
+      }
+    },
+    "Fragile": {
+      "_id": "QFg1hNCEoKVDd9Zo",
+      "name": "Frágil",
+      "systemPatch": {
+        "description": "<p>Cuando recibes daño mayor o más, sales de la forma bestial.</p>"
+      }
+    },
+    "Great Predator": {
+      "_id": "afbMt4Ld6nY3mw0N",
+      "name": "Gran depredador",
+      "systemPatch": {
+        "examples": "Serpiente marina, Velociraptor, Tigre dientes de sable, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "TFzvHClwIAQUFxyP"
+        }
+      ]
+    },
+    "Great Winged Beast": {
+      "_id": "b4BMnTbJ3iPPidSb",
+      "name": "Gran bestia alada",
+      "systemPatch": {
+        "examples": "Águila gigante, Halcón, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "qGSm1QpICpxRZxLn"
+        }
+      ]
+    },
+    "Hobbling Strike": {
+      "_id": "8u0HkK3WgtU9lWYs",
+      "name": "Golpe vulnerable",
+      "systemPatch": {
+        "description": "<p>Cuando tienes éxito en un ataque contra un objetivo dentro del alcance cuerpo a cuerpo, puedes <strong>marcar un Estrés</strong> para hacer que el objetivo sea temporalmente <em>Vulnerable</em>.</p>",
+        "actions": {
+          "p8DESOMGA6dLwEMz": {
+            "description": "<p>Cuando tienes éxito en un ataque contra un objetivo dentro del alcance cuerpo a cuerpo, puedes <strong>marcar un Estrés</strong> para hacer que el objetivo sea temporalmente <em>Vulnerable</em>.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Golpe vulnerable",
+          "_id": "2kKkV9zhfvqA2vlt"
+        }
+      ]
+    },
+    "Hollow Bones": {
+      "_id": "xVgmXhj2YgeqS1KK",
+      "name": "Huesos huecos",
+      "systemPatch": {
+        "description": "<p>Usted gana una penalización de −2 a sus umbrales de daño.</p>"
+      },
+      "effects": [
+        {
+          "name": "Huesos huecos",
+          "description": "<p>Usted gana una penalización de −2 a sus umbrales de daño.</p>",
+          "_id": "RM8wHu5GIF6zfF7V"
+        }
+      ]
+    },
+    "Household Friend": {
+      "_id": "iDmOtiHJJ80AIAVT",
+      "name": "Mascota doméstica",
+      "systemPatch": {
+        "examples": "Gato, perro, conejo, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "CzMAMg2q5gL15JrZ"
+        }
+      ]
+    },
+    "Legendary Beast": {
+      "_id": "mqP6z4Wg4K3oDAom",
+      "name": "Bestia legendaria",
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "description": "<p>Elige una opción de Beastform de Nivel 1 y conviértete en una versión más grande y poderosa de esa criatura. Mientras que usted está en esta forma, usted retiene todos los rasgos y características de la forma original y ganar los siguientes bonos:</p><ul><li>Un bono +6 para los tiradas de daño</li><li>Un bono +1 al rasgo utilizado por este formulario</li><li>Un bono +2 a la evasión</li></ul>",
+          "_id": "cL4kH57pf2nGIxaK"
+        }
+      ]
+    },
+    "Legendary Hybrid": {
+      "_id": "rRUtgcUjimlpPhnn",
+      "name": "Híbrido legendario",
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "description": "<p>Para transformarse en esta criatura, <strong>marca un estrés adicional</strong>. Elija las dos opciones de Beastform de los Niveles 1–2. Elija un total de cuatro ventajas y dos características de esas opciones.</p>",
+          "_id": "RbZKFWATkfLZm67j"
+        }
+      ]
+    },
+    "Massive Behemoth": {
+      "_id": "qjwMzPn33aKZACkv",
+      "name": "Behemot enorme",
+      "systemPatch": {
+        "examples": "Elefante, Mamut, Rhinoceros, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "RR6ySJU5zaC7ws6A"
+        }
+      ]
+    },
+    "Massive Stride": {
+      "_id": "9QkZSeuEKgXtlpHc",
+      "name": "Paso masivo",
+      "systemPatch": {
+        "description": "<p>Puedes moverte a distancia lejana sin una tirada de dados. Ignoras el terreno dificíl (a discreción del DJ) debido a tu tamaño.</p>"
+      }
+    },
+    "Mighty Lizard": {
+      "_id": "94tvcC3D5Kp4lzuN",
+      "name": "Reptil poderoso",
+      "systemPatch": {
+        "examples": "Cocodrilo, Cocodrilo, Gila Monster, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "d13EzuP8Co04Jk8K"
+        }
+      ]
+    },
+    "Mighty Strider": {
+      "_id": "zRLjqKx4Rn2TjivL",
+      "name": "Poderoso trotador",
+      "systemPatch": {
+        "examples": "Camello, Caballo, Zebra, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "IWg2cWUdvucUOLAL"
+        }
+      ]
+    },
+    "Mythic Aerial Hunter": {
+      "_id": "jV6EuEacyQlHW4SN",
+      "name": "Cazador aéreo mítico",
+      "systemPatch": {
+        "examples": "Dragón, Pterodactilo, Roc, Wyvern, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "hnKnaOaswWJdaYmf"
+        }
+      ]
+    },
+    "Mythic Beast": {
+      "_id": "kObobka52JdpWBSu",
+      "name": "Bestia mítica",
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "description": "<p>Escoge una opción Beastform de Nivel 1 o Nivel 2 y conviértete en una versión más grande y potente de esa criatura. Mientras que usted está en esta forma, usted retiene todos los rasgos y características de la forma original y ganar los siguientes bonos:</p><ul><li>Un bono +9 para los tiradas de daño</li><li>Un bono +2 al rasgo utilizado por este formulario</li><li>Un bono +3 a Evasión</li><li>Su muerte de daño aumenta en un tamaño (d6 se convierte en d8, d8 se convierte en d10 etc.)</li></ul>",
+          "_id": "vhwbPQ2YT64qD1t1"
+        }
+      ]
+    },
+    "Mythic Hybrid": {
+      "_id": "WAbxCf2An8qmxyJ1",
+      "name": "Híbrido mítico",
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "description": "<p>Para transformarse en esta criatura, <strong>Marca 2 Estrés adicional</strong>. Elija las tres opciones de Beastform de los Niveles 1-3. Elija un total de cinco ventajas y tres características de esas opciones.</p>",
+          "_id": "HutJQ9HGtr1Eoibp"
+        }
+      ]
+    },
+    "Nimble Grazer": {
+      "_id": "CItO8yX6amQaqyk7",
+      "name": "Hervíboro veloz",
+      "systemPatch": {
+        "examples": "Ciervo, Gazelle, Cabra, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "lIbJFb5XQ98Eaauu"
+        }
+      ]
+    },
+    "Ocean Master": {
+      "_id": "tGDdEH40wyOCsFmH",
+      "name": "Maestro del oceano",
+      "systemPatch": {
+        "description": "<p>Puedes respirar y moverte con naturalidad bajo el agua. Al atacar con éxito a un objetivo dentro del alcance cuerpo a cuerpo, puedes <em>atraparlo</em> temporalmente.</p>",
+        "actions": {
+          "ge2koBRj4snhIzDA": {
+            "description": "<p>Cuando tienes éxito en un ataque contra un objetivo dentro del alcance Cuerpo a cuerpo, puedes temporalmente <em>Restricción</em> Ellos.</p>",
+            "name": "Restricción"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Maestro del oceano",
+          "_id": "6GBczj8REkDmgX2Q"
+        }
+      ]
+    },
+    "Pack Hunting": {
+      "_id": "d3q8lfeiEMyTjusT",
+      "name": "Cazaror de manada",
+      "systemPatch": {
+        "description": "<p>Cuando tengas éxito en un ataque contra el mismo objetivo que un aliado que actúa inmediatamente antes que tú, añade un <strong>d8</strong> a tu tirada de daño.</p>"
+      }
+    },
+    "Pack Predator": {
+      "_id": "YLisKYYhAGca50WM",
+      "name": "Depredador de manada",
+      "systemPatch": {
+        "examples": "Coyote, hiena, lobo, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "amuFS9LlEnzZnaIN"
+        }
+      ]
+    },
+    "Physical Defense": {
+      "_id": "StabkQ3BzWRZa8Tz",
+      "name": "Defensa Física",
+      "systemPatch": {
+        "description": "<p>Obtienes una bonificación de +3 a tus umbrales de daño.</p>"
+      },
+      "effects": [
+        {
+          "name": "Defensa Física",
+          "description": "<p>Obtienes una bonificación de +3 a tus umbrales de daño.</p>",
+          "_id": "hs9vWE92QQQx15ET"
+        }
+      ]
+    },
+    "Pouncing Predator": {
+      "_id": "33oFSZ1PwFqInHPe",
+      "name": "Depredador brincador",
+      "systemPatch": {
+        "examples": "Cheetah, León, Pantera, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "GSmW6nJ3kyIoEK2H"
+        }
+      ]
+    },
+    "Powerful Beast": {
+      "_id": "m8BVTuJI1wCvzTcf",
+      "name": "Bestia poderosa",
+      "systemPatch": {
+        "examples": "Oso, Toro, Alce, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "AZGTvqzFVHa4wS1a"
+        }
+      ]
+    },
+    "Rampage": {
+      "_id": "8upqfcZvi7b5hRLE",
+      "name": "Arrasar",
+      "systemPatch": {
+        "description": "<p>Cuando sacas un 1 en un dado de daño, puedes tirar un d10 y sumar el resultado a la tirada de daño. Además, antes de realizar una tirada de ataque, puedes <strong>marcar un Estrés</strong> para obtener una bonificación de +1 a tu Competencia para ese ataque.</p>",
+        "actions": {
+          "N7IoOHpqcvcJNsJQ": {
+            "description": "<p>Antes de hacer una tirada de ataque, usted puede marcar un estrés para ganar un bono +1 a su capacidad para ese ataque.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Arrasar",
+          "description": "<p>Antes de hacer una tirada de ataque, usted puede marcar un estrés para ganar un bono +1 a su capacidad para ese ataque.</p>",
+          "_id": "A7l4JEBC1FFQajsN"
+        }
+      ]
+    },
+    "Snapping Strike": {
+      "_id": "Ky3rZD3sJMXYZOBC",
+      "name": "Golpe mordedor",
+      "systemPatch": {
+        "description": "<p>Cuando tienes éxito en un ataque contra un objetivo dentro del alcance cuerpo a cuerpo, puedes <strong>gastar una Esperanza</strong> para sujetar a ese oponente en tus mandíbulas, dejándolo temporalmente <em>Restringido</em> y <em>Vulnerable</em>.</p>",
+        "actions": {
+          "ib94yYJ1HA0dm0VC": {
+            "description": "<p>Cuando tienes éxito en un ataque contra un objetivo dentro del alcance cuerpo a cuerpo, puedes <strong>gastar una Esperanza</strong> para sujetar a ese oponente en tus mandíbulas, dejándolo temporalmente <em>Restringido</em> y <em>Vulnerable</em>.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Golpe mordedor",
+          "_id": "y3EsJuInxE7juNXT"
+        }
+      ]
+    },
+    "Stalking Arachnid": {
+      "_id": "A4TVRY0D5r9EiVwA",
+      "name": "Arácnido acechador",
+      "systemPatch": {
+        "examples": "Tarántula, Araña Lobo, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "YkZX2yc2X0QDFPBG"
+        }
+      ]
+    },
+    "Striking Serpent": {
+      "_id": "1XrZWGDttBAAUxR1",
+      "name": "Sierpe imponente",
+      "systemPatch": {
+        "examples": "Cobra, víbora de cascabel, viper, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "qGhLojWa5430zRd1"
+        }
+      ]
+    },
+    "Takedown": {
+      "_id": "0ey4kM9ssj2otHvb",
+      "name": "Derribar",
+      "systemPatch": {
+        "description": "<p><strong>Marca una Estrés</strong> para entrar en el alcance cuerpo a cuerpo de un objetivo y realizar una tirada de ataque contra él. Si tienes éxito, obtienes un bonificador de +2 a tu Competencia para este ataque y el objetivo debe marcar una Estrés.</p>",
+        "actions": {
+          "DKorr1QzvtBz7d9y": {
+            "description": "<p><strong>Marca una Estrés</strong> para entrar en el alcance cuerpo a cuerpo de un objetivo y realizar una tirada de ataque contra él. Si tienes éxito, obtienes un bonificador de +2 a tu Competencia para este ataque y el objetivo debe marcar una Estrés.</p>",
+            "name": "Ataque"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Derribar",
+          "description": "<p>Usted gana un bono de +2 a su capacidad para este ataque y el objetivo debe marcar un estrés.</p>",
+          "_id": "hE6ciIusvKEtUQ8U"
+        }
+      ]
+    },
+    "Terrible Lizard": {
+      "_id": "5BABxRe2XVrYTj8N",
+      "name": "Reptil terrible",
+      "systemPatch": {
+        "examples": "Braquiosaurio, tiranosaurio, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "qPtjZIkRVm68TGHN"
+        }
+      ]
+    },
+    "Thick Hide": {
+      "_id": "ZYbdXaWVj2zdcmaK",
+      "name": "Piel Gruesa",
+      "systemPatch": {
+        "description": "<p>Obtienes una bonificación de +2 a tus umbrales de daño.</p>"
+      },
+      "effects": [
+        {
+          "name": "Piel Gruesa",
+          "description": "<p>Obtienes una bonificación de +2 a tus umbrales de daño.</p>",
+          "_id": "ZoUJy8EOm9mVXuAw"
+        }
+      ]
+    },
+    "Trample": {
+      "_id": "A0lgd6eVEfX6oqSB",
+      "name": "Pisoteo",
+      "systemPatch": {
+        "description": "<p><strong>Marcar un estrés</strong> para subir a alcance Cerca en línea recta y hacer un ataque contra todos los objetivos dentro de alcance Cuerpo a cuerpo de la línea. Los objetivos que tienen éxito contra tomar <strong>d8+1</strong> daño físico utilizando su competencia y son temporalmente <em>Vulnerable</em>.</p><p>@Template[type:ray|range:close]</p>",
+        "actions": {
+          "YCOTIv9IVEKpumbJ": {
+            "description": "<p><strong>Marcar un estrés</strong> para subir a alcance Cerca en línea recta y hacer un ataque contra todos los objetivos dentro de alcance Cuerpo a cuerpo de la línea. Los objetivos que tiene éxito contra tomar d8+1 daño físico utilizando su capacidad y son temporalmente <em>Vulnerable</em>.</p>",
+            "name": "Ataque"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Pisoteado",
+          "_id": "LkekG4IngVW9rFjI"
+        }
+      ]
+    },
+    "Undaunted": {
+      "_id": "ODudjX88Te4vDP57",
+      "name": "Impávido",
+      "systemPatch": {
+        "description": "<p>Obtienes una bonificación de +2 a todos tus umbrales de daño.</p>"
+      },
+      "effects": [
+        {
+          "name": "Impávido",
+          "description": "<p>Obtienes una bonificación de +2 a todos tus umbrales de daño.</p>",
+          "_id": "wVoUVQJ2Ik7CiUuV"
+        }
+      ]
+    },
+    "Unyielding": {
+      "_id": "vEAQ4cfsoPmOv2Gg",
+      "name": "Inflexible",
+      "systemPatch": {
+        "description": "<p>Cuando usted marcaría una Ranura de Armadura, tirar un <strong>d6</strong>. En un resultado de 5 o más, reducir la severidad por un umbral sin marcar una Ranura de Armadura.</p>",
+        "actions": {
+          "hiGZCQpdTVqE5W4B": {
+            "description": "<p>Cuando usted marcaría una Ranura de Armadura, tirar un <strong>d6</strong>. En un resultado de 5 o más, reducir la severidad por un umbral sin marcar una Ranura de Armadura.</p>",
+            "name": "Tirada d6"
+          }
+        }
+      }
+    },
+    "Venomous Bite": {
+      "_id": "2KlTnfzO03vneVS8",
+      "name": "Mordisco venenoso",
+      "systemPatch": {
+        "description": "<p>Cuando un ataque contra un objetivo dentro del alcance de combate cuerpo a cuerpo tiene éxito, este queda envenenado temporalmente. Una criatura envenenada recibe <strong>1d10</strong> de daño físico directo cada vez que actúa.</p>",
+        "actions": {
+          "eow90DYK6cUWOk7g": {
+            "description": "<p>Cuando un ataque contra un objetivo dentro del alcance de combate cuerpo a cuerpo tiene éxito, este queda envenenado temporalmente. Una criatura envenenada recibe <strong>1d10</strong> de daño físico directo cada vez que actúa.</p>",
+            "name": "Veneno"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Envenenado",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Una criatura envenenada toma </span><span style=\"box-sizing:border-box;scrollbar-width:thin;scrollbar-color:rgb(93, 20, 43) rgba(0, 0, 0, 0);color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\"><strong>1d10</strong></span><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\"> daño físico directo cada vez que actúan.</span></p>",
+          "_id": "TTyAKKoUCoYXSMs4"
+        }
+      ]
+    },
+    "Venomous Strike": {
+      "_id": "uW3853pViM9VAfHb",
+      "name": "Golpe venenoso",
+      "systemPatch": {
+        "description": "<p>Realiza un ataque contra cualquier número de objetivos dentro de un rango muy cercano. Si tiene éxito, el objetivo queda envenenado temporalmente. Una criatura envenenada recibe <strong>1d10</strong> de daño físico directo cada vez que actúa.</p>",
+        "actions": {
+          "igRoXxgaTT9tBQS7": {
+            "description": "<p>Realiza un ataque contra cualquier número de objetivos dentro de un rango muy cercano. Si tiene éxito, el objetivo queda envenenado temporalmente. Una criatura envenenada recibe <strong>1d10</strong> de daño físico directo cada vez que actúa.</p>",
+            "name": "Ataque"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Envenenado",
+          "description": "<p>Una criatura envenenada toma <strong>1d10</strong> daños físicos directos cada vez que actúan.</p>",
+          "_id": "1iQPj96LqUNkRaxE"
+        }
+      ]
+    },
+    "Vicious Maul": {
+      "_id": "jYUBi7yLHap5ljpa",
+      "name": "Golpe violento",
+      "systemPatch": {
+        "description": "<p>Cuando tienes éxito en un ataque contra un objetivo, puedes <strong>gastar una Esperanza</strong> para hacerlo vulnerable temporalmente y obtener una bonificación de +1 a tu Competencia para este ataque.</p>",
+        "actions": {
+          "Cc53vyYz5ggKdIbx": {
+            "description": "<p>Cuando usted tiene éxito en un ataque contra un objetivo dentro del alcance Cuerpo a cuerpo, usted puede <strong>pasar una esperanza</strong> para sujetar a ese oponente en tus mandíbulas, haciéndolos temporalmente Restringidos y Vulnerables.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Desgarrado",
+          "_id": "MIAh9XNwDXGDktCm"
+        }
+      ]
+    },
+    "Warning Hiss": {
+      "_id": "cTlqpQZPy5TvdDAT",
+      "name": "Siseo de advertencia",
+      "systemPatch": {
+        "description": "<p><strong>Marca un Estrés</strong> para forzar a cualquier número de objetivos dentro del alcance cuerpo a cuerpo a retroceder al alcance Muy Cercano.</p>",
+        "actions": {
+          "D9YmUP1aeiCzNxcC": {
+            "description": "<p><strong>Marca un Estrés</strong> para forzar a cualquier número de objetivos dentro del alcance cuerpo a cuerpo a retroceder al alcance Muy Cercano.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "Webslinger": {
+      "_id": "D73fS1iM4SZPFimu",
+      "name": "Lanza telarañas",
+      "systemPatch": {
+        "description": "<p>Puedes crear una telaraña resistente, útil tanto para aventuras como para batallas. La telaraña es lo suficientemente resistente como para soportar a una criatura. Puedes <em>apresar</em> temporalmente a un objetivo a corta distancia si superas una tirada de sutileza contra él.</p>",
+        "actions": {
+          "vRU6xutkp3VYxZ0i": {
+            "description": "<p>Usted puede temporalmente <em>Restricción</em> un objetivo dentro de un estrecho alcance por tener éxito en una tirada de Sutileza contra ellos.</p>",
+            "name": "Restricción"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Lanza telarañas",
+          "_id": "cBJueH89gNvvDKfQ"
+        }
+      ]
+    },
+    "Winged Beast": {
+      "_id": "mZ4Wlqtss2FlNNvL",
+      "name": "Bestia alada",
+      "systemPatch": {
+        "examples": "Hawk, Búho, Raven, etc."
+      },
+      "effects": [
+        {
+          "name": "Transformación de la forma de la bestia",
+          "_id": "Ln3atrxiqtPA0Wi6"
+        }
+      ]
+    }
+  }
+}

@@ -1,2 +1,5 @@
 tools/.translation-cache*.json
+tools/.source-compendiums/
+tools/.compendium-translation-cache*.json
+tools/.compendium-translation-queue.json
 .DS_Store

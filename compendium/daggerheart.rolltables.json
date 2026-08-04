@@ -1,0 +1,1188 @@
+{
+  "label": "Tablas aleatorias",
+  "folders": {},
+  "mapping": {
+    "systemPatch": {
+      "path": "system",
+      "converter": "daggerheartOverlay"
+    },
+    "prototypeTokenPatch": {
+      "path": "prototypeToken",
+      "converter": "daggerheartOverlay"
+    },
+    "flagsPatch": {
+      "path": "flags",
+      "converter": "daggerheartOverlay"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "daggerheartEmbedded"
+    },
+    "items": {
+      "path": "items",
+      "converter": "daggerheartEmbedded"
+    },
+    "pages": {
+      "path": "pages",
+      "converter": "daggerheartEmbedded"
+    },
+    "results": {
+      "path": "results",
+      "converter": "daggerheartEmbedded"
+    }
+  },
+  "entries": {
+    "tF04P02yVN1YDVel": {
+      "_id": "tF04P02yVN1YDVel",
+      "name": "Consumibles",
+      "flagsPatch": {
+        "daggerheart": {
+          "altFormula": {
+            "uoUn5fRTUkyg6U2G": {
+              "name": "Poco común"
+            },
+            "FGxM2yoxUUUd9Eov": {
+              "name": "Raro"
+            },
+            "HZ2hRBxu0k8IW0jC": {
+              "name": "Legendario"
+            }
+          }
+        }
+      },
+      "results": [
+        {
+          "name": "Poción de estrido",
+          "_id": "HitkUdk2TJyIifWX"
+        },
+        {
+          "name": "Poción de bolster",
+          "_id": "nXdPwzbs1TlhuAPG"
+        },
+        {
+          "name": "Poción de control",
+          "_id": "3vNNo1oURhYA3ku3"
+        },
+        {
+          "name": "Afinar la poción",
+          "_id": "eIfprIpZdRJCoBQ7"
+        },
+        {
+          "name": "Poción de encanto",
+          "_id": "LFWeiTR9rC34Tg03"
+        },
+        {
+          "name": "Iluminar la poción",
+          "_id": "9wcVzrpjZHL87dGg"
+        },
+        {
+          "name": "Poción menor de salud",
+          "_id": "1IBI7K2c7tyhq9nK"
+        },
+        {
+          "name": "Poción de estamina menor",
+          "_id": "1D9VOgGRjhy6eWqA"
+        },
+        {
+          "name": "Veneno del diente de arena",
+          "_id": "Nqj2K2UDP27sAkUK"
+        },
+        {
+          "name": "Hojas varik",
+          "_id": "6ynsrta3MiinHg38"
+        },
+        {
+          "name": "Vial de Moondrip",
+          "_id": "UDPco0e4rvz8Ch8X"
+        },
+        {
+          "name": "Frasco arcano inestable",
+          "_id": "xQV1Uvhy1TqjEpH1"
+        },
+        {
+          "name": "Poción de estabilidad",
+          "_id": "pz4dXNbMYuSbFdzN"
+        },
+        {
+          "name": "Veneno Grindletooth mejorado",
+          "_id": "sqdq6x4SEqLdHDPM"
+        },
+        {
+          "name": "Arcilla Morfológica",
+          "_id": "tceGvaaN4diOnr6V"
+        },
+        {
+          "name": "Vial de humo oscuro",
+          "_id": "QtGq1JKzwBzWX6Sd"
+        },
+        {
+          "name": "Salto de raíz",
+          "_id": "lidCdzbTqahcajZb"
+        },
+        {
+          "name": "Ajustar el polvo",
+          "_id": "m37ithF7wXFYrv6H"
+        },
+        {
+          "name": "Poción de salud",
+          "_id": "RFrvEnE7WyDw2YWK"
+        },
+        {
+          "name": "Poción de estamina",
+          "_id": "Lgs8ccMBUaq0XCHs"
+        },
+        {
+          "name": "Cosidera de Armadura",
+          "_id": "S2nsHwVRSFMbVlKh"
+        },
+        {
+          "name": "Ungüento de Branquia",
+          "_id": "B3cL4jMj0eaW8utR"
+        },
+        {
+          "name": "Parchment de replicación",
+          "_id": "sgkt4zYiFSQMOmvo"
+        },
+        {
+          "name": "Frasco Arcano mejorado",
+          "_id": "CCuzy7Y3KasoCouV"
+        },
+        {
+          "name": "Poción mayor del estrido",
+          "_id": "TtXvBYeeMqQ4gDhO"
+        },
+        {
+          "name": "Poción mayor de bolster",
+          "_id": "cRwTxLNJXMVKFW75"
+        },
+        {
+          "name": "Poción principal de control",
+          "_id": "q15EknW1P2cw4oyb"
+        },
+        {
+          "name": "Poción de Afinación Mayor",
+          "_id": "tkj1X675uJMTkMTR"
+        },
+        {
+          "name": "Poción de encanto mayor",
+          "_id": "N6ImVJLHEOXxFSAE"
+        },
+        {
+          "name": "Poción mayor ilustrativa",
+          "_id": "NuHqSzBX7daJRor8"
+        },
+        {
+          "name": "Sangre del Yorgi",
+          "_id": "jpOQNSqbtl0ry3UU"
+        },
+        {
+          "name": "La poción secreta de Homet",
+          "_id": "QQsRU8GRbQeFU3KP"
+        },
+        {
+          "name": "Saliva de espino rojo",
+          "_id": "UJfqKp0GtIrUEPyb"
+        },
+        {
+          "name": "Piedra Canalizadora",
+          "_id": "VHCnZip35MMw57CG"
+        },
+        {
+          "name": "Polvo mítico",
+          "_id": "zphlOIuZBXFZcEVa"
+        },
+        {
+          "name": "Pasta ácida",
+          "_id": "bVFt8cYycBuUItfq"
+        },
+        {
+          "name": "Bengala de Esperanza",
+          "_id": "atidisB2nCu9CF3b"
+        },
+        {
+          "name": "Mayor Arcane Shard",
+          "_id": "VQ75yVBccK73Gif3"
+        },
+        {
+          "name": "Hueso de Pluma",
+          "_id": "hPKdeNWzJqCuFfjX"
+        },
+        {
+          "name": "Círculo del Vacío",
+          "_id": "sh98CSXJL593xj0h"
+        },
+        {
+          "name": "Savia del árbol del sol",
+          "_id": "lL2638NxooIcWgfL"
+        },
+        {
+          "name": "Dripfang Veneno",
+          "_id": "xXPyThPKW3noUC1t"
+        },
+        {
+          "name": "Poción de salud importante",
+          "_id": "x2EnrXxULti4Chpb"
+        },
+        {
+          "name": "Poción principal de estamina",
+          "_id": "2WsA7zyGFJROyf8n"
+        },
+        {
+          "name": "Almizcle de ogro",
+          "_id": "vNlix6NqUSWwq2MU"
+        },
+        {
+          "name": "Brote Alado",
+          "_id": "iCj1YAinJxuGT2EN"
+        },
+        {
+          "name": "Jarrón de Voces Perdidas",
+          "_id": "mTq9bibanrSynx3t"
+        },
+        {
+          "name": "Té de globo de dragón",
+          "_id": "oEKTJg1p52E1NVqm"
+        },
+        {
+          "name": "Semilla de puente",
+          "_id": "viK90OvIqxwj8kcD"
+        },
+        {
+          "name": "Savia durmiente",
+          "_id": "7bOHwnq9xyBXT0Or"
+        },
+        {
+          "name": "Fiesta de Xuria",
+          "_id": "aF8qVVOuVHUCyDon"
+        },
+        {
+          "name": "Miel de unión",
+          "_id": "dXbNSYrZs1LpnX2D"
+        },
+        {
+          "name": "Poción encoger",
+          "_id": "YpBzj89kfEpjmhO7"
+        },
+        {
+          "name": "Poción en crecimiento",
+          "_id": "3QHLVvfKx73UTKmm"
+        },
+        {
+          "name": "Piedra del conocimiento",
+          "_id": "C4MpR7mBHjIiPRzo"
+        },
+        {
+          "name": "Moss dulce",
+          "_id": "Z5UPngFMi7TSojoM"
+        },
+        {
+          "name": "Orbe cegador",
+          "_id": "bMCETSm5oYxdpRyu"
+        },
+        {
+          "name": "Té de la muerte",
+          "_id": "wkAnGk1yLHE6bzfr"
+        },
+        {
+          "name": "Espejo de Marigold",
+          "_id": "XKAAfJUyqwRSRgh1"
+        },
+        {
+          "name": "Gota Estelar",
+          "_id": "91ALaXvFQDOq5h2A"
+        }
+      ]
+    },
+    "S61Shlt2I5CbLRjz": {
+      "_id": "S61Shlt2I5CbLRjz",
+      "name": "Saqueo",
+      "flagsPatch": {
+        "daggerheart": {
+          "altFormula": {
+            "hJJtajaMk14bYM4X": {
+              "name": "Poco común"
+            },
+            "yDVeXdKpG7LzjHWa": {
+              "name": "Raro"
+            },
+            "qPHNIuUgWAHauI6V": {
+              "name": "Legendario"
+            }
+          }
+        }
+      },
+      "results": [
+        {
+          "name": "Colchoneta Premium",
+          "_id": "U0jqWUc9SVQTwZOt"
+        },
+        {
+          "name": "Piper Silbato",
+          "_id": "jsje2l4MxyDSeiQ5"
+        },
+        {
+          "name": "Quiver de carga",
+          "_id": "OUEywrTcAKy9jOf2"
+        },
+        {
+          "name": "Antorcha de Alistair",
+          "_id": "jYHROKTetnH9U1NF"
+        },
+        {
+          "name": "Orbs que hablan",
+          "_id": "1skyTdrVs2cPMbYd"
+        },
+        {
+          "name": "Manáculos",
+          "_id": "ew7VM7lktgEHUVNh"
+        },
+        {
+          "name": "Capa arcana",
+          "_id": "ghM44MABWLVc0594"
+        },
+        {
+          "name": "Cifras netas tejidas",
+          "_id": "NWltT1Sifub9cFxR"
+        },
+        {
+          "name": "Jarra de fuego",
+          "_id": "2NbLnKKXmmx5m1Di"
+        },
+        {
+          "name": "Vara suspendida",
+          "_id": "COpKr1HYsR8Jkwyn"
+        },
+        {
+          "name": "Piedra Glamour",
+          "_id": "e1vjhShtDZSnVUNu"
+        },
+        {
+          "name": "Cofre vacío",
+          "_id": "HIvObcLTrncfN7Qx"
+        },
+        {
+          "name": "Caso Compañero",
+          "_id": "fCgRZndg111RI8MC"
+        },
+        {
+          "name": "Flechas de perforación",
+          "_id": "97oyM8w0xZjeQkeM"
+        },
+        {
+          "name": "Piedra de Valor",
+          "_id": "EY4Rtt8KDpjhTxCH"
+        },
+        {
+          "name": "Tecla esquelética",
+          "_id": "XYORiEz8M7K3BNWM"
+        },
+        {
+          "name": "Prisma arcano",
+          "_id": "Yc3x5ifOASG15MrD"
+        },
+        {
+          "name": "Receta de poción de estamina menor",
+          "_id": "akIE4Bu9zq6N4N0d"
+        },
+        {
+          "name": "Receta de poción de salud menor",
+          "_id": "GVUbOeXrT0TLPlW9"
+        },
+        {
+          "name": "Brújulas Rastreadoras",
+          "_id": "0FaxK5udut2y79B7"
+        },
+        {
+          "name": "Espectro Corrector",
+          "_id": "R1iPLFiRgHFhm5x2"
+        },
+        {
+          "name": "Guantes de geco",
+          "_id": "MUWHmP6Bx55SSOpQ"
+        },
+        {
+          "name": "Guardián del Saber",
+          "_id": "X2vU11ltW4aMbPcc"
+        },
+        {
+          "name": "Vial de la receta de humo oscuro",
+          "_id": "SJmfB1HDxXJB6xyS"
+        },
+        {
+          "name": "Piedra de sangre",
+          "_id": "dEyzIWTTbSk8LaoN"
+        },
+        {
+          "name": "Gran Piedra",
+          "_id": "sSwx1g6eqgLqPgBu"
+        },
+        {
+          "name": "Planeador",
+          "_id": "DSPDKm53Mu6PeaK1"
+        },
+        {
+          "name": "Anillo de Silencio",
+          "_id": "SSuVJ6WbSdfpMxTx"
+        },
+        {
+          "name": "Colgante calmante",
+          "_id": "Fwq1wJzAGdO2rUWo"
+        },
+        {
+          "name": "Frasco Dual",
+          "_id": "elle12djjCs3D6Vr"
+        },
+        {
+          "name": "Bolsa de Vículas y Arenas",
+          "_id": "yXyVHCrQEamt9DSt"
+        },
+        {
+          "name": "Anillo de Resistencia",
+          "_id": "mHlhtw9BRyMeeGvz"
+        },
+        {
+          "name": "Pluma Fénix",
+          "_id": "5R86TY964aeYZxLa"
+        },
+        {
+          "name": "Caja de muchos bienes",
+          "_id": "6ZhCovGbkTxRJFFx"
+        },
+        {
+          "name": "Encanto Airblade",
+          "_id": "UYHcpVuL9P26VPBM"
+        },
+        {
+          "name": "Semilla de portal",
+          "_id": "yOchOTcWwUwug2st"
+        },
+        {
+          "name": "Cadena de Paragón",
+          "_id": "TFgxOPNDbLYDzxrl"
+        },
+        {
+          "name": "Amuleto elusivo",
+          "_id": "GcJEXPoMDxxWNYno"
+        },
+        {
+          "name": "Locket del Hopekeeper",
+          "_id": "iyiOPysR6uQE7QXR"
+        },
+        {
+          "name": "Bolsa infinita",
+          "_id": "nsg8GxSABbvsZo5v"
+        },
+        {
+          "name": "Reliquia del estrido",
+          "_id": "DFEA1djJSnstOXym"
+        },
+        {
+          "name": "Reliquia bolster",
+          "_id": "xa075fPgUGCVVGiy"
+        },
+        {
+          "name": "Reliquia de control",
+          "_id": "zNS3a6JZLlLgXxXI"
+        },
+        {
+          "name": "Afinar la reliquia",
+          "_id": "pf1zrtyDamclUpb5"
+        },
+        {
+          "name": "Reliquia de encanto",
+          "_id": "JNsJQefAYXARnzcB"
+        },
+        {
+          "name": "Iluminar la reliquia",
+          "_id": "Bk2zTfHlpNg4f4AB"
+        },
+        {
+          "name": "Reliquia honrosa",
+          "_id": "BxB4fAXy57tWHc98"
+        },
+        {
+          "name": "Colgante Flickerfly",
+          "_id": "b7JDKti5fXipswXs"
+        },
+        {
+          "name": "Botas Lakestrider",
+          "_id": "ngpVKb5GIJySdf2Y"
+        },
+        {
+          "name": "Compañero de Arcilla",
+          "_id": "IrKbVyqUcSruPPfZ"
+        },
+        {
+          "name": "Receta de polvo mítica",
+          "_id": "V1R3wUj4l7lnbph1"
+        },
+        {
+          "name": "Frasco de memoria",
+          "_id": "0dFhkeOokjbwptHh"
+        },
+        {
+          "name": "Gema de la Alacridad",
+          "_id": "CLObmHdtId5fEs4n"
+        },
+        {
+          "name": "Gema del poder",
+          "_id": "17Zw4Tl1s1h5cFZK"
+        },
+        {
+          "name": "Gema de precisión",
+          "_id": "6zmLU8WdmEWbIHBL"
+        },
+        {
+          "name": "Gema de la perspicacia",
+          "_id": "AEeWEQnJwq51mBnM"
+        },
+        {
+          "name": "Gema de la audacia",
+          "_id": "SuymUKc0CeisDgm2"
+        },
+        {
+          "name": "Gema de Sagacity",
+          "_id": "27LKVRatgX1asMpR"
+        },
+        {
+          "name": "Anillo de resolución irrompible",
+          "_id": "3A76l2jxYMqVfcQY"
+        },
+        {
+          "name": "Cinturón de unidad",
+          "_id": "dkLn9gwnlaD4kbZ2"
+        }
+      ]
+    },
+    "I5L1dlgxXTNrCCkL": {
+      "_id": "I5L1dlgxXTNrCCkL",
+      "name": "Objetivos aleatorios",
+      "results": [
+        {
+          "description": "<p>Adquirir (obtener o robar) un artículo o artículos importantes.</p>",
+          "_id": "LDuVbmdvhJiEOe7U"
+        },
+        {
+          "description": "<p>Capturar a uno o más de los oponentes.</p>",
+          "_id": "FxYpST4nQUTBp1mN"
+        },
+        {
+          "description": "<p>Activa un dispositivo mágico.</p>",
+          "_id": "bTkZgxqEr4lNxzeK"
+        },
+        {
+          "description": "<p>Enmarcar a un personaje o empañar su reputación.</p>",
+          "_id": "T39LgOL1cw5AIY59"
+        },
+        {
+          "description": "<p>Conducir al oponente en una esquina o punto de emboscada.</p>",
+          "_id": "MHgv8dlrwA3ZmBKq"
+        },
+        {
+          "description": "<p>Detener un ritual mágico, ceremonia legal, o hechizo sensible al tiempo.</p>",
+          "_id": "4USCNNavzVvBqldn"
+        },
+        {
+          "description": "<p>Mantenga la línea: evite que el enemigo llegue a un área o grupo específico.</p>",
+          "_id": "gwZnWTauHsbb6rsr"
+        },
+        {
+          "description": "<p>Evidencia de planta o un dispositivo de rastreo en un objetivo.</p>",
+          "_id": "beDIxxPyCCVa8nlE"
+        },
+        {
+          "description": "<p>Asegure un lugar específico antes de la llegada de otro grupo.</p>",
+          "_id": "C70V6prVmZd5VRV8"
+        },
+        {
+          "description": "<p>Acosar al oponente para agotar sus recursos o mantenerlos ocupados.</p>",
+          "_id": "i02rh05CvhHlKJCN"
+        },
+        {
+          "description": "<p>Destruye una pieza de arquitectura, una estatua, un santuario o un arma.</p>",
+          "_id": "AbNgD5GCbWuui9oP"
+        },
+        {
+          "description": "<p>Investigar una situación para confirmar o negar la información existente.</p>",
+          "_id": "TCrdyh3qhl2vtQxO"
+        }
+      ]
+    },
+    "Consumables": {
+      "_id": "tF04P02yVN1YDVel",
+      "name": "Consumibles",
+      "flagsPatch": {
+        "daggerheart": {
+          "altFormula": {
+            "uoUn5fRTUkyg6U2G": {
+              "name": "Poco común"
+            },
+            "FGxM2yoxUUUd9Eov": {
+              "name": "Raro"
+            },
+            "HZ2hRBxu0k8IW0jC": {
+              "name": "Legendario"
+            }
+          }
+        }
+      },
+      "results": [
+        {
+          "name": "Poción de estrido",
+          "_id": "HitkUdk2TJyIifWX"
+        },
+        {
+          "name": "Poción de bolster",
+          "_id": "nXdPwzbs1TlhuAPG"
+        },
+        {
+          "name": "Poción de control",
+          "_id": "3vNNo1oURhYA3ku3"
+        },
+        {
+          "name": "Afinar la poción",
+          "_id": "eIfprIpZdRJCoBQ7"
+        },
+        {
+          "name": "Poción de encanto",
+          "_id": "LFWeiTR9rC34Tg03"
+        },
+        {
+          "name": "Iluminar la poción",
+          "_id": "9wcVzrpjZHL87dGg"
+        },
+        {
+          "name": "Poción menor de salud",
+          "_id": "1IBI7K2c7tyhq9nK"
+        },
+        {
+          "name": "Poción de estamina menor",
+          "_id": "1D9VOgGRjhy6eWqA"
+        },
+        {
+          "name": "Veneno del diente de arena",
+          "_id": "Nqj2K2UDP27sAkUK"
+        },
+        {
+          "name": "Hojas varik",
+          "_id": "6ynsrta3MiinHg38"
+        },
+        {
+          "name": "Vial de Moondrip",
+          "_id": "UDPco0e4rvz8Ch8X"
+        },
+        {
+          "name": "Frasco arcano inestable",
+          "_id": "xQV1Uvhy1TqjEpH1"
+        },
+        {
+          "name": "Poción de estabilidad",
+          "_id": "pz4dXNbMYuSbFdzN"
+        },
+        {
+          "name": "Veneno Grindletooth mejorado",
+          "_id": "sqdq6x4SEqLdHDPM"
+        },
+        {
+          "name": "Arcilla Morfológica",
+          "_id": "tceGvaaN4diOnr6V"
+        },
+        {
+          "name": "Vial de humo oscuro",
+          "_id": "QtGq1JKzwBzWX6Sd"
+        },
+        {
+          "name": "Salto de raíz",
+          "_id": "lidCdzbTqahcajZb"
+        },
+        {
+          "name": "Ajustar el polvo",
+          "_id": "m37ithF7wXFYrv6H"
+        },
+        {
+          "name": "Poción de salud",
+          "_id": "RFrvEnE7WyDw2YWK"
+        },
+        {
+          "name": "Poción de estamina",
+          "_id": "Lgs8ccMBUaq0XCHs"
+        },
+        {
+          "name": "Cosidera de Armadura",
+          "_id": "S2nsHwVRSFMbVlKh"
+        },
+        {
+          "name": "Ungüento de Branquia",
+          "_id": "B3cL4jMj0eaW8utR"
+        },
+        {
+          "name": "Parchment de replicación",
+          "_id": "sgkt4zYiFSQMOmvo"
+        },
+        {
+          "name": "Frasco Arcano mejorado",
+          "_id": "CCuzy7Y3KasoCouV"
+        },
+        {
+          "name": "Poción mayor del estrido",
+          "_id": "TtXvBYeeMqQ4gDhO"
+        },
+        {
+          "name": "Poción mayor de bolster",
+          "_id": "cRwTxLNJXMVKFW75"
+        },
+        {
+          "name": "Poción principal de control",
+          "_id": "q15EknW1P2cw4oyb"
+        },
+        {
+          "name": "Poción de Afinación Mayor",
+          "_id": "tkj1X675uJMTkMTR"
+        },
+        {
+          "name": "Poción de encanto mayor",
+          "_id": "N6ImVJLHEOXxFSAE"
+        },
+        {
+          "name": "Poción mayor ilustrativa",
+          "_id": "NuHqSzBX7daJRor8"
+        },
+        {
+          "name": "Sangre del Yorgi",
+          "_id": "jpOQNSqbtl0ry3UU"
+        },
+        {
+          "name": "La poción secreta de Homet",
+          "_id": "QQsRU8GRbQeFU3KP"
+        },
+        {
+          "name": "Saliva de espino rojo",
+          "_id": "UJfqKp0GtIrUEPyb"
+        },
+        {
+          "name": "Piedra Canalizadora",
+          "_id": "VHCnZip35MMw57CG"
+        },
+        {
+          "name": "Polvo mítico",
+          "_id": "zphlOIuZBXFZcEVa"
+        },
+        {
+          "name": "Pasta ácida",
+          "_id": "bVFt8cYycBuUItfq"
+        },
+        {
+          "name": "Bengala de Esperanza",
+          "_id": "atidisB2nCu9CF3b"
+        },
+        {
+          "name": "Mayor Arcane Shard",
+          "_id": "VQ75yVBccK73Gif3"
+        },
+        {
+          "name": "Hueso de Pluma",
+          "_id": "hPKdeNWzJqCuFfjX"
+        },
+        {
+          "name": "Círculo del Vacío",
+          "_id": "sh98CSXJL593xj0h"
+        },
+        {
+          "name": "Savia del árbol del sol",
+          "_id": "lL2638NxooIcWgfL"
+        },
+        {
+          "name": "Dripfang Veneno",
+          "_id": "xXPyThPKW3noUC1t"
+        },
+        {
+          "name": "Poción de salud importante",
+          "_id": "x2EnrXxULti4Chpb"
+        },
+        {
+          "name": "Poción principal de estamina",
+          "_id": "2WsA7zyGFJROyf8n"
+        },
+        {
+          "name": "Almizcle de ogro",
+          "_id": "vNlix6NqUSWwq2MU"
+        },
+        {
+          "name": "Brote Alado",
+          "_id": "iCj1YAinJxuGT2EN"
+        },
+        {
+          "name": "Jarrón de Voces Perdidas",
+          "_id": "mTq9bibanrSynx3t"
+        },
+        {
+          "name": "Té de globo de dragón",
+          "_id": "oEKTJg1p52E1NVqm"
+        },
+        {
+          "name": "Semilla de puente",
+          "_id": "viK90OvIqxwj8kcD"
+        },
+        {
+          "name": "Savia durmiente",
+          "_id": "7bOHwnq9xyBXT0Or"
+        },
+        {
+          "name": "Fiesta de Xuria",
+          "_id": "aF8qVVOuVHUCyDon"
+        },
+        {
+          "name": "Miel de unión",
+          "_id": "dXbNSYrZs1LpnX2D"
+        },
+        {
+          "name": "Poción encoger",
+          "_id": "YpBzj89kfEpjmhO7"
+        },
+        {
+          "name": "Poción en crecimiento",
+          "_id": "3QHLVvfKx73UTKmm"
+        },
+        {
+          "name": "Piedra del conocimiento",
+          "_id": "C4MpR7mBHjIiPRzo"
+        },
+        {
+          "name": "Moss dulce",
+          "_id": "Z5UPngFMi7TSojoM"
+        },
+        {
+          "name": "Orbe cegador",
+          "_id": "bMCETSm5oYxdpRyu"
+        },
+        {
+          "name": "Té de la muerte",
+          "_id": "wkAnGk1yLHE6bzfr"
+        },
+        {
+          "name": "Espejo de Marigold",
+          "_id": "XKAAfJUyqwRSRgh1"
+        },
+        {
+          "name": "Gota Estelar",
+          "_id": "91ALaXvFQDOq5h2A"
+        }
+      ]
+    },
+    "Loot": {
+      "_id": "S61Shlt2I5CbLRjz",
+      "name": "Saqueo",
+      "flagsPatch": {
+        "daggerheart": {
+          "altFormula": {
+            "hJJtajaMk14bYM4X": {
+              "name": "Poco común"
+            },
+            "yDVeXdKpG7LzjHWa": {
+              "name": "Raro"
+            },
+            "qPHNIuUgWAHauI6V": {
+              "name": "Legendario"
+            }
+          }
+        }
+      },
+      "results": [
+        {
+          "name": "Colchoneta Premium",
+          "_id": "U0jqWUc9SVQTwZOt"
+        },
+        {
+          "name": "Piper Silbato",
+          "_id": "jsje2l4MxyDSeiQ5"
+        },
+        {
+          "name": "Quiver de carga",
+          "_id": "OUEywrTcAKy9jOf2"
+        },
+        {
+          "name": "Antorcha de Alistair",
+          "_id": "jYHROKTetnH9U1NF"
+        },
+        {
+          "name": "Orbs que hablan",
+          "_id": "1skyTdrVs2cPMbYd"
+        },
+        {
+          "name": "Manáculos",
+          "_id": "ew7VM7lktgEHUVNh"
+        },
+        {
+          "name": "Capa arcana",
+          "_id": "ghM44MABWLVc0594"
+        },
+        {
+          "name": "Cifras netas tejidas",
+          "_id": "NWltT1Sifub9cFxR"
+        },
+        {
+          "name": "Jarra de fuego",
+          "_id": "2NbLnKKXmmx5m1Di"
+        },
+        {
+          "name": "Vara suspendida",
+          "_id": "COpKr1HYsR8Jkwyn"
+        },
+        {
+          "name": "Piedra Glamour",
+          "_id": "e1vjhShtDZSnVUNu"
+        },
+        {
+          "name": "Cofre vacío",
+          "_id": "HIvObcLTrncfN7Qx"
+        },
+        {
+          "name": "Caso Compañero",
+          "_id": "fCgRZndg111RI8MC"
+        },
+        {
+          "name": "Flechas de perforación",
+          "_id": "97oyM8w0xZjeQkeM"
+        },
+        {
+          "name": "Piedra de Valor",
+          "_id": "EY4Rtt8KDpjhTxCH"
+        },
+        {
+          "name": "Tecla esquelética",
+          "_id": "XYORiEz8M7K3BNWM"
+        },
+        {
+          "name": "Prisma arcano",
+          "_id": "Yc3x5ifOASG15MrD"
+        },
+        {
+          "name": "Receta de poción de estamina menor",
+          "_id": "akIE4Bu9zq6N4N0d"
+        },
+        {
+          "name": "Receta de poción de salud menor",
+          "_id": "GVUbOeXrT0TLPlW9"
+        },
+        {
+          "name": "Brújulas Rastreadoras",
+          "_id": "0FaxK5udut2y79B7"
+        },
+        {
+          "name": "Espectro Corrector",
+          "_id": "R1iPLFiRgHFhm5x2"
+        },
+        {
+          "name": "Guantes de geco",
+          "_id": "MUWHmP6Bx55SSOpQ"
+        },
+        {
+          "name": "Guardián del Saber",
+          "_id": "X2vU11ltW4aMbPcc"
+        },
+        {
+          "name": "Vial de la receta de humo oscuro",
+          "_id": "SJmfB1HDxXJB6xyS"
+        },
+        {
+          "name": "Piedra de sangre",
+          "_id": "dEyzIWTTbSk8LaoN"
+        },
+        {
+          "name": "Gran Piedra",
+          "_id": "sSwx1g6eqgLqPgBu"
+        },
+        {
+          "name": "Planeador",
+          "_id": "DSPDKm53Mu6PeaK1"
+        },
+        {
+          "name": "Anillo de Silencio",
+          "_id": "SSuVJ6WbSdfpMxTx"
+        },
+        {
+          "name": "Colgante calmante",
+          "_id": "Fwq1wJzAGdO2rUWo"
+        },
+        {
+          "name": "Frasco Dual",
+          "_id": "elle12djjCs3D6Vr"
+        },
+        {
+          "name": "Bolsa de Vículas y Arenas",
+          "_id": "yXyVHCrQEamt9DSt"
+        },
+        {
+          "name": "Anillo de Resistencia",
+          "_id": "mHlhtw9BRyMeeGvz"
+        },
+        {
+          "name": "Pluma Fénix",
+          "_id": "5R86TY964aeYZxLa"
+        },
+        {
+          "name": "Caja de muchos bienes",
+          "_id": "6ZhCovGbkTxRJFFx"
+        },
+        {
+          "name": "Encanto Airblade",
+          "_id": "UYHcpVuL9P26VPBM"
+        },
+        {
+          "name": "Semilla de portal",
+          "_id": "yOchOTcWwUwug2st"
+        },
+        {
+          "name": "Cadena de Paragón",
+          "_id": "TFgxOPNDbLYDzxrl"
+        },
+        {
+          "name": "Amuleto elusivo",
+          "_id": "GcJEXPoMDxxWNYno"
+        },
+        {
+          "name": "Locket del Hopekeeper",
+          "_id": "iyiOPysR6uQE7QXR"
+        },
+        {
+          "name": "Bolsa infinita",
+          "_id": "nsg8GxSABbvsZo5v"
+        },
+        {
+          "name": "Reliquia del estrido",
+          "_id": "DFEA1djJSnstOXym"
+        },
+        {
+          "name": "Reliquia bolster",
+          "_id": "xa075fPgUGCVVGiy"
+        },
+        {
+          "name": "Reliquia de control",
+          "_id": "zNS3a6JZLlLgXxXI"
+        },
+        {
+          "name": "Afinar la reliquia",
+          "_id": "pf1zrtyDamclUpb5"
+        },
+        {
+          "name": "Reliquia de encanto",
+          "_id": "JNsJQefAYXARnzcB"
+        },
+        {
+          "name": "Iluminar la reliquia",
+          "_id": "Bk2zTfHlpNg4f4AB"
+        },
+        {
+          "name": "Reliquia honrosa",
+          "_id": "BxB4fAXy57tWHc98"
+        },
+        {
+          "name": "Colgante Flickerfly",
+          "_id": "b7JDKti5fXipswXs"
+        },
+        {
+          "name": "Botas Lakestrider",
+          "_id": "ngpVKb5GIJySdf2Y"
+        },
+        {
+          "name": "Compañero de Arcilla",
+          "_id": "IrKbVyqUcSruPPfZ"
+        },
+        {
+          "name": "Receta de polvo mítica",
+          "_id": "V1R3wUj4l7lnbph1"
+        },
+        {
+          "name": "Frasco de memoria",
+          "_id": "0dFhkeOokjbwptHh"
+        },
+        {
+          "name": "Gema de la Alacridad",
+          "_id": "CLObmHdtId5fEs4n"
+        },
+        {
+          "name": "Gema del poder",
+          "_id": "17Zw4Tl1s1h5cFZK"
+        },
+        {
+          "name": "Gema de precisión",
+          "_id": "6zmLU8WdmEWbIHBL"
+        },
+        {
+          "name": "Gema de la perspicacia",
+          "_id": "AEeWEQnJwq51mBnM"
+        },
+        {
+          "name": "Gema de la audacia",
+          "_id": "SuymUKc0CeisDgm2"
+        },
+        {
+          "name": "Gema de Sagacity",
+          "_id": "27LKVRatgX1asMpR"
+        },
+        {
+          "name": "Anillo de resolución irrompible",
+          "_id": "3A76l2jxYMqVfcQY"
+        },
+        {
+          "name": "Cinturón de unidad",
+          "_id": "dkLn9gwnlaD4kbZ2"
+        }
+      ]
+    },
+    "Random Objectives": {
+      "_id": "I5L1dlgxXTNrCCkL",
+      "name": "Objetivos aleatorios",
+      "results": [
+        {
+          "description": "<p>Adquirir (obtener o robar) un artículo o artículos importantes.</p>",
+          "_id": "LDuVbmdvhJiEOe7U"
+        },
+        {
+          "description": "<p>Capturar a uno o más de los oponentes.</p>",
+          "_id": "FxYpST4nQUTBp1mN"
+        },
+        {
+          "description": "<p>Activa un dispositivo mágico.</p>",
+          "_id": "bTkZgxqEr4lNxzeK"
+        },
+        {
+          "description": "<p>Enmarcar a un personaje o empañar su reputación.</p>",
+          "_id": "T39LgOL1cw5AIY59"
+        },
+        {
+          "description": "<p>Conducir al oponente en una esquina o punto de emboscada.</p>",
+          "_id": "MHgv8dlrwA3ZmBKq"
+        },
+        {
+          "description": "<p>Detener un ritual mágico, ceremonia legal, o hechizo sensible al tiempo.</p>",
+          "_id": "4USCNNavzVvBqldn"
+        },
+        {
+          "description": "<p>Mantenga la línea: evite que el enemigo llegue a un área o grupo específico.</p>",
+          "_id": "gwZnWTauHsbb6rsr"
+        },
+        {
+          "description": "<p>Evidencia de planta o un dispositivo de rastreo en un objetivo.</p>",
+          "_id": "beDIxxPyCCVa8nlE"
+        },
+        {
+          "description": "<p>Asegure un lugar específico antes de la llegada de otro grupo.</p>",
+          "_id": "C70V6prVmZd5VRV8"
+        },
+        {
+          "description": "<p>Acosar al oponente para agotar sus recursos o mantenerlos ocupados.</p>",
+          "_id": "i02rh05CvhHlKJCN"
+        },
+        {
+          "description": "<p>Destruye una pieza de arquitectura, una estatua, un santuario o un arma.</p>",
+          "_id": "AbNgD5GCbWuui9oP"
+        },
+        {
+          "description": "<p>Investigar una situación para confirmar o negar la información existente.</p>",
+          "_id": "TCrdyh3qhl2vtQxO"
+        }
+      ]
+    }
+  }
+}

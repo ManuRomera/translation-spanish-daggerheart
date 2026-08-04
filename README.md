@@ -1,115 +1,103 @@
 <div align="center">
 
-# Daggerheart en Español para Foundry VTT
+# Manu Romera — Traducción ES
 
-**Disfruta de toda la interfaz de Daggerheart 1.9.14 en español desde Foundry VTT 13.**
+### Compatible con Daggerheart™ 1.9.14 en Foundry VTT 13
+
+**Interfaz, compendios y contenido de las fichas completamente en español.**
 
 [![Foundry VTT 13](https://img.shields.io/badge/Foundry_VTT-13.351-7a4b3a?style=for-the-badge)](https://foundryvtt.com/)
-[![Daggerheart 1.9.14](https://img.shields.io/badge/Daggerheart-1.9.14-6f3f78?style=for-the-badge)](https://github.com/Foundryborne/daggerheart/releases/tag/1.9.14)
-[![Versión 0.2.0](https://img.shields.io/github/v/release/ManuRomera/translation-spanish-daggerheart?style=for-the-badge&label=versi%C3%B3n)](https://github.com/ManuRomera/translation-spanish-daggerheart/releases/latest)
+[![Sistema 1.9.14](https://img.shields.io/badge/Compatible_con_Daggerheart%E2%84%A2-1.9.14-6f3f78?style=for-the-badge)](https://github.com/Foundryborne/daggerheart/releases/tag/1.9.14)
+[![Versión](https://img.shields.io/github/v/release/ManuRomera/translation-spanish-daggerheart?style=for-the-badge&label=versi%C3%B3n)](https://github.com/ManuRomera/translation-spanish-daggerheart/releases/latest)
 
-[Instalar](#instalación) · [Compatibilidad](#compatibilidad) · [Cómo se usa](#cómo-se-usa) · [Problemas](#solución-de-problemas) · [Colaborar](#colaborar)
+[Instalar](#instalación) · [Contenido](#qué-incluye) · [Uso](#cómo-se-usa) · [Ayuda](#solución-de-problemas)
 
 </div>
 
 ---
 
-Este módulo comunitario añade la localización española a la implementación de Daggerheart creada por [Foundryborne](https://github.com/Foundryborne/daggerheart). Traduce las hojas, diálogos, ajustes, tiradas, mensajes del chat y herramientas del DJ sin modificar los datos de tus mundos.
+Una localización comunitaria pensada para jugar sin saltos constantes al inglés. Traduce tanto la interfaz del sistema como el contenido que aparece dentro de personajes, adversarios, cartas, objetos y diarios.
 
 ## Qué incluye
 
-- Las **1.779 cadenas** de la interfaz de Daggerheart 1.9.14.
-- Terminología coherente para Esperanza, Miedo, Estrés, Puntos de golpe, Dados de dualidad y Cartas de dominio.
-- Hojas de personaje, compañero, adversario, entorno y grupo.
-- Creación y subida de nivel de personajes.
-- Tiradas de acción, reacción y equipo, daño, descanso y movimientos de muerte.
-- Navegador de compendios, cuentas atrás, automatizaciones y reglas opcionales.
-- Abreviaturas españolas: `PG`, `FUE`, `SUT`, `CON`, etc.
-- Dos ajustes mínimos para textos que Daggerheart 1.9.14 todavía tiene incrustados en sus plantillas.
+- **1.779 textos de interfaz**: hojas, diálogos, tiradas, chat, creación y subida de nivel.
+- **14 compendios completos**, con **976 documentos** y **201 carpetas** traducidos.
+- Clases, subclases, dominios, linajes, comunidades, armas, armaduras, consumibles y botín.
+- Adversarios, entornos, formas bestiales, tablas aleatorias y diarios del SRD.
+- Nombres, descripciones, acciones, efectos y elementos incrustados de las fichas.
+- Actualización automática del contenido que ya se había importado a un mundo.
 
-El módulo **no sobrescribe documentos ni compendios**, por lo que puede activarse o desactivarse sin alterar personajes, escenas o mundos.
+La traducción se aplica como una capa segura: conserva identificadores, UUID, fórmulas de dados, rangos mecánicos y automatizaciones del sistema.
 
 ## Compatibilidad
 
-| Componente | Versión compatible |
+| Componente | Versión |
 |---|---:|
 | Foundry Virtual Tabletop | 13.346–13.351 |
-| Daggerheart | 1.9.14 |
-| Módulo español | 0.2.0 |
+| Sistema compatible con Daggerheart™ | 1.9.14 |
+| Babele | 2.7.5 o posterior |
+| Manu Romera — Traducción ES | 0.3.0 |
 
 > [!IMPORTANT]
-> Esta edición está mantenida específicamente para **Foundry VTT 13 y Daggerheart 1.9.14**. Daggerheart 2.x requiere Foundry VTT 14 y no es compatible con esta publicación.
+> Esta edición se mantiene específicamente para **Foundry VTT 13 y la versión 1.9.14 del sistema**. Las versiones 2.x del sistema requieren Foundry VTT 14 y no son compatibles con esta publicación.
 
 ## Instalación
 
-### Desde Foundry VTT
-
-1. Abre Foundry VTT y entra en **Add-on Modules**.
-2. Pulsa **Install Module**.
-3. Pega esta dirección en **Manifest URL**:
+1. En Foundry, abre **Add-on Modules** y pulsa **Install Module**.
+2. Pega esta dirección en **Manifest URL**:
 
 ```text
 https://raw.githubusercontent.com/ManuRomera/translation-spanish-daggerheart/main/module.json
 ```
 
-4. Pulsa **Install** y espera a que finalice la descarga.
+3. Pulsa **Install**. Foundry instalará también la dependencia Babele si todavía no la tienes.
 
-### Instalación manual
-
-1. Descarga el archivo ZIP de la [última versión](https://github.com/ManuRomera/translation-spanish-daggerheart/releases/latest).
-2. Descomprímelo en `Data/modules/translation-spanish-daggerheart` dentro de tus datos de Foundry.
-3. Reinicia Foundry VTT si estaba abierto.
-
-La carpeta debe contener directamente `module.json`, `lang/` y `scripts/`; evita crear una carpeta duplicada dentro de otra.
+También puedes descargar el ZIP de la [última versión](https://github.com/ManuRomera/translation-spanish-daggerheart/releases/latest) y descomprimirlo en `Data/modules/translation-spanish-daggerheart`.
 
 ## Cómo se usa
 
-1. Abre tu mundo de Daggerheart.
-2. Ve a **Manage Modules** y activa **Daggerheart en Español**.
-3. Abre la configuración de tu usuario y selecciona **Español** como idioma.
-4. Recarga la página cuando Foundry lo solicite.
+1. Abre tu mundo y entra en **Manage Modules**.
+2. Activa **Manu Romera — Traducción ES** y **Babele**.
+3. Selecciona **Español** como idioma de tu usuario y recarga la página.
 
-El idioma se selecciona por usuario: cada participante puede utilizar español o inglés dentro del mismo mundo.
+Al entrar como DJ, el módulo revisa una sola vez los actores existentes y traduce sus clases, linajes, comunidades, rasgos, cartas, acciones y efectos. Los objetos que importes después se traducen automáticamente. No es necesario crear un mundo nuevo.
 
-## Traducción de compendios
+Cada usuario puede elegir su idioma de interfaz. La migración del contenido importado se ejecuta cuando el mundo está en español y hay un DJ conectado.
 
-Esta versión traduce la **interfaz del sistema**. Los nombres y descripciones de clases, cartas, armas, adversarios y demás contenido de los compendios pertenecen a los paquetes de datos de Daggerheart y no se modifican desde este módulo.
+## Una actualización segura
 
-Esta separación evita alterar el contenido original y hace que las actualizaciones sean seguras. La traducción de compendios puede abordarse más adelante como un paquete independiente y compatible con Babele.
+- No modifica los compendios originales del sistema.
+- No cambia claves, identificadores ni fórmulas.
+- No incluye ilustraciones, logotipos ni otros recursos gráficos oficiales.
+- Respeta nombres personalizados de adversarios y PNJ durante la migración.
+- Puede desactivarse sin impedir que el sistema siga funcionando.
 
 ## Solución de problemas
 
-### Foundry indica que el módulo es incompatible
+### La interfaz sigue en inglés
 
-Comprueba que utilizas Foundry VTT 13.346–13.351 y Daggerheart 1.9.14. Esta publicación no está diseñada para Foundry 14 o Daggerheart 2.x.
+Comprueba que el módulo y Babele estén activos, selecciona Español en la configuración de tu usuario y recarga Foundry.
 
-### La interfaz continúa en inglés
+### Una ficha importada conserva textos en inglés
 
-- Confirma que el módulo está activo en el mundo.
-- Selecciona Español en la configuración de tu usuario, no solo en la pantalla de administración.
-- Recarga Foundry con `Ctrl+F5` en Windows/Linux o `Cmd+Shift+R` en macOS.
+Entra una vez como DJ con el idioma Español. La versión 0.3.0 ejecutará automáticamente la migración segura de los actores del mundo.
 
-### Solo los compendios aparecen en inglés
+### Foundry indica incompatibilidad
 
-Es el comportamiento esperado: esta publicación traduce la interfaz, no el contenido de los compendios.
+Verifica que utilizas Foundry VTT 13 y la versión 1.9.14 del sistema. Esta publicación no debe activarse con Foundry 14 o con versiones 2.x del sistema.
 
-### He encontrado una cadena incorrecta
+### He encontrado una traducción mejorable
 
-Abre una [incidencia](https://github.com/ManuRomera/translation-spanish-daggerheart/issues) e incluye una captura, el texto esperado y la pantalla donde aparece.
+Abre una [incidencia](https://github.com/ManuRomera/translation-spanish-daggerheart/issues) con una captura, el texto esperado y la pantalla donde aparece.
 
-## Colaborar
+## Créditos
 
-Las correcciones y sugerencias son bienvenidas. Antes de enviar un cambio:
+Proyecto mantenido por **Manu Romera**, de [Rune & Bones](https://runeandbones.com/).
 
-1. Comprueba que la clave existe en `lang/en.json` de Daggerheart 1.9.14.
-2. Conserva exactamente variables como `{actor}`, `{value}` o `{roll}`.
-3. Evita traducir identificadores técnicos, UUID y fórmulas de dados.
-4. Valida el JSON y describe dónde aparece el texto.
+Parte de la memoria terminológica procede del proyecto MIT [fvtt-daggerheart-es](https://github.com/erizocosmico/fvtt-daggerheart-es), creado por **Miguel Molina**. Solo se reutilizaron traducciones compatibles con el texto de la versión objetivo; el resto se volvió a traducir y validar. Consulta [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
-Consulta [CONTRIBUTING.md](CONTRIBUTING.md) para conocer el flujo completo.
+## Aviso legal
 
-## Créditos y aviso
+Este producto incluye materiales del *Daggerheart System Reference Document 1.0*, © Critical Role, LLC, bajo los términos de la [Darrington Press Community Gaming License (DPCGL)](https://darringtonpress.com/license/). Más información en [daggerheart.com](https://www.daggerheart.com/). El material se ha traducido y adaptado al español; existen modificaciones previas de Miguel Molina en las partes acreditadas.
 
-Traducción mantenida por **Manu Romera**, de [Rune & Bones](https://runeandbones.com/), con asistencia de herramientas de traducción y revisión.
-
-Daggerheart pertenece a sus respectivos titulares. Este proyecto es una traducción comunitaria no oficial, no está asociado con Darrington Press, Critical Role ni el equipo Foundryborne y no incluye el contenido de los compendios del juego.
+Proyecto comunitario no oficial, sin afiliación, patrocinio ni aprobación de Darrington Press, Critical Role o Foundryborne. Daggerheart™ es una marca de Critical Role, LLC. Distribución no comercial para Foundry VTT, plataforma incluida en la lista autorizada por la DPCGL.

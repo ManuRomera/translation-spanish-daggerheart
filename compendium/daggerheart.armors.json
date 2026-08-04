@@ -1,0 +1,1164 @@
+{
+  "label": "Armaduras",
+  "folders": {
+    "Special": "Especial",
+    "Tier 1": "Rango 1",
+    "Tier 2": "Rango 2",
+    "Tier 3": "Rango 3",
+    "Tier 4": "Rango 4"
+  },
+  "mapping": {
+    "systemPatch": {
+      "path": "system",
+      "converter": "daggerheartOverlay"
+    },
+    "prototypeTokenPatch": {
+      "path": "prototypeToken",
+      "converter": "daggerheartOverlay"
+    },
+    "flagsPatch": {
+      "path": "flags",
+      "converter": "daggerheartOverlay"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "daggerheartEmbedded"
+    },
+    "items": {
+      "path": "items",
+      "converter": "daggerheartEmbedded"
+    },
+    "pages": {
+      "path": "pages",
+      "converter": "daggerheartEmbedded"
+    },
+    "results": {
+      "path": "results",
+      "converter": "daggerheartEmbedded"
+    }
+  },
+  "entries": {
+    "LzLOJ9EVaHWAjoq9": {
+      "_id": "LzLOJ9EVaHWAjoq9",
+      "name": "Cota de malla avanzada",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "pesado"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "qlzHOAnpBYzosQxK"
+        }
+      ]
+    },
+    "crIbCb9NZ4K0VpoU": {
+      "_id": "crIbCb9NZ4K0VpoU",
+      "name": "Armadura de placas avanzada",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "Muy pesado"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Muy pesado",
+          "description": "-2 a Evasión; -1 a Agilidad",
+          "_id": "awdHgEaM54G3emOU"
+        }
+      ]
+    },
+    "epkAmlZVk7HOfUUT": {
+      "_id": "epkAmlZVk7HOfUUT",
+      "name": "Gambesón Avanzado",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "flexible"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Flexible",
+          "description": "+1 a Evasión",
+          "_id": "Fq9Q93IHCchhfSss"
+        }
+      ]
+    },
+    "itSOp2GCyem0f7oM": {
+      "_id": "itSOp2GCyem0f7oM",
+      "name": "Armadura de cuero avanzada"
+    },
+    "ITAjcigTcUw5pMCN": {
+      "_id": "ITAjcigTcUw5pMCN",
+      "name": "Sin armadura",
+      "systemPatch": {
+        "description": "<p></p><p class=\"Body-Foundation\">Cuando usted elige no equipar armadura, usted tiene una base de puntuación de armadura de 3 + su fuerza y utilizar lo siguiente como sus umbrales de daño de base:</p><ul><li class=\"vertical-card-list-found\"><em><strong>Nivel 1:</strong></em> 9/19</li><li class=\"vertical-card-list-found\"><em><strong>Nivel 2:</strong></em> 11/24</li><li class=\"vertical-card-list-found\"><em><strong>Nivel 3:</strong></em> 13/31</li><li class=\"vertical-card-list-found\"><em><strong>Nivel 4:</strong></em> 15/38</li></ul>"
+      },
+      "effects": [
+        {
+          "name": "Sin Armadura",
+          "description": "<p></p><p class=\"Body-Foundation\">Cuando usted elige no equipar armadura, usted tiene una base de puntuación de armadura de 3 + su fuerza y utilizar lo siguiente como sus umbrales de daño de base:</p><ul><li class=\"vertical-card-list-found\"><em><strong>Nivel 1:</strong></em> 9/19</li><li class=\"vertical-card-list-found\"><em><strong>Nivel 2:</strong></em> 11/24</li><li class=\"vertical-card-list-found\"><em><strong>Nivel 3:</strong></em> 13/31</li><li class=\"vertical-card-list-found\"><em><strong>Nivel 4:</strong></em> 15/38</li></ul>",
+          "_id": "8ze88zUwdkQSKKJq"
+        }
+      ]
+    },
+    "WuoVwZA53XRAIt6d": {
+      "_id": "WuoVwZA53XRAIt6d",
+      "name": "Armadura fina de Bellamoi",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "dorados"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Dorado",
+          "description": "+1 a Presencia",
+          "_id": "Hy0sNtFS1JAXxgwC"
+        }
+      ]
+    },
+    "mNN6pvcsS10ChrWF": {
+      "_id": "mNN6pvcsS10ChrWF",
+      "name": "Armadura de Bladefare",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "física"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Física",
+          "description": "Usted no puede marcar una Ranura de Armadura para reducir el daño mágico.",
+          "_id": "s8KtTIngTjnOlaTP"
+        }
+      ]
+    },
+    "haULhuEg37zUUvhb": {
+      "_id": "haULhuEg37zUUvhb",
+      "name": "Cota de malla",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "pesado"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "ZfO5NjpqEIzZVlPq"
+        }
+      ]
+    },
+    "vMJxEWz1srfwMsoj": {
+      "_id": "vMJxEWz1srfwMsoj",
+      "name": "Armadura canalizadora",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "canalización"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Canalización",
+          "description": "+1 a tiradas de Lanzamiento de conjuros",
+          "_id": "8bwf1Ri3jYkjphEv"
+        }
+      ]
+    },
+    "mdQ69eFHyAQUDmE7": {
+      "_id": "mdQ69eFHyAQUDmE7",
+      "name": "Armadura de escamas de dragón",
+      "systemPatch": {
+        "actions": {
+          "J1MCpcfXByKaSSgx": {
+            "name": "Inexpugnable",
+            "description": "Una vez por descanso corto, cuando marcarías tu último Punto de Golpe, puedes marcar un Estrés."
+          }
+        },
+        "armorFeatures": [
+          {
+            "value": "inexpugnable"
+          }
+        ]
+      }
+    },
+    "hAY6UgdGT7dj22Pr": {
+      "_id": "hAY6UgdGT7dj22Pr",
+      "name": "Cota de seda de dunamis",
+      "systemPatch": {
+        "actions": {
+          "8PD5JQuS05IA6HJT": {
+            "name": "Tiempo lento",
+            "description": "Marcar una Ranura de Armadura para tirar un d4 y añadir su resultado como un bono a su Evasión contra un ataque entrante."
+          }
+        },
+        "armorFeatures": [
+          {
+            "value": "ralentizando el tiempo"
+          }
+        ]
+      }
+    },
+    "Q6LxmtFetDDkoZVZ": {
+      "_id": "Q6LxmtFetDDkoZVZ",
+      "name": "Cota de malla Elundriana",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "tutelados"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Salados",
+          "description": "Usted reduce el daño mágico entrante por su puntuación de armadura antes de aplicarlo a sus umbrales de daño.",
+          "_id": "xGxqTCO8MjNq5Cw6"
+        }
+      ]
+    },
+    "bcQUh4QG3qFX0Vx6": {
+      "_id": "bcQUh4QG3qFX0Vx6",
+      "name": "Armadura ascuatejida",
+      "systemPatch": {
+        "actions": {
+          "L8mHf4A8SylyxsMH": {
+            "name": "Quemar",
+            "description": "Cuando un adversario te ataca dentro del alcance Cuerpo a cuerpo, marcan un Estrés."
+          }
+        },
+        "armorFeatures": [
+          {
+            "value": "quema"
+          }
+        ]
+      }
+    },
+    "7emTSt6nhZuTlvt5": {
+      "_id": "7emTSt6nhZuTlvt5",
+      "name": "Armadura completa fortificada",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "fortificado"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Fortificado",
+          "description": "Cuando usted marca una Ranura de Armadura, usted reduce la severidad de un ataque por dos umbrales en lugar de uno.",
+          "_id": "QIefVb73cm9gYju8"
+        }
+      ]
+    },
+    "UdUJNa31WxFW2noa": {
+      "_id": "UdUJNa31WxFW2noa",
+      "name": "Armadura de placas",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "Muy pesado"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Muy pesado",
+          "description": "-2 a Evasión; -1 a Agilidad",
+          "_id": "mfKMW9SX3Mnos1nY"
+        }
+      ]
+    },
+    "yJFp1bfpecDcStVK": {
+      "_id": "yJFp1bfpecDcStVK",
+      "name": "Gambesón",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "flexible"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Flexible",
+          "description": "+1 a Evasión",
+          "_id": "v1FNEsypRF5W6vVc"
+        }
+      ]
+    },
+    "dvyQeUVRLc9y6rnt": {
+      "_id": "dvyQeUVRLc9y6rnt",
+      "name": "Armadura de hueso labrado",
+      "systemPatch": {
+        "actions": {
+          "IzM88FIxQ35P5VB2": {
+            "name": "Resiliente",
+            "description": "Antes de marcar su última Ranura de Armadura, tirar un d6. En un resultado de 6, reducir la severidad por un umbral sin marcar una Ranura de Armadura."
+          }
+        },
+        "armorFeatures": [
+          {
+            "value": "resiliente"
+          }
+        ]
+      }
+    },
+    "K5WkjS0NGqHYmhU3": {
+      "_id": "K5WkjS0NGqHYmhU3",
+      "name": "Cota de malla mejorada",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "pesado"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "JHupzYULxdQzFzuj"
+        }
+      ]
+    },
+    "9f7RozpPTqrzJS1m": {
+      "_id": "9f7RozpPTqrzJS1m",
+      "name": "Armadura de placas mejorada",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "Muy pesado"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Muy pesado",
+          "description": "-2 a Evasión; -1 a Agilidad",
+          "_id": "wstJ1aKKtmXgCwxB"
+        }
+      ]
+    },
+    "jphnMZjnS2FkOH3s": {
+      "_id": "jphnMZjnS2FkOH3s",
+      "name": "Gambesón mejorado",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "flexible"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Flexible",
+          "description": "+1 a Evasión",
+          "_id": "BFwU3ErPaajUSMUz"
+        }
+      ]
+    },
+    "t91M61pSCMKStTNt": {
+      "_id": "t91M61pSCMKStTNt",
+      "name": "Armadura de cuero mejorada"
+    },
+    "tzZntboNtHL5C6VM": {
+      "_id": "tzZntboNtHL5C6VM",
+      "name": "Coraza de Arbolférreo",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "reforzados"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Reforzado",
+          "description": "<p>Cuando marque su última Ranura de Armadura, aumente sus umbrales de daño por +2 hasta que limpie por lo menos 1 Ranura de Armadura.</p>",
+          "_id": "P3aCN8PQgPXP4C9M"
+        }
+      ]
+    },
+    "nibfdNtp2PtxvbVz": {
+      "_id": "nibfdNtp2PtxvbVz",
+      "name": "Armadura de cuero"
+    },
+    "EsIN5OLKe9ZYFNXZ": {
+      "_id": "EsIN5OLKe9ZYFNXZ",
+      "name": "Cota de malla legendaria",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "pesado"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "8Oa6Y375X8UpcPph"
+        }
+      ]
+    },
+    "SXWjUR2aUR6bYvdl": {
+      "_id": "SXWjUR2aUR6bYvdl",
+      "name": "Armadura de placas legendaria",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "Muy pesado"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Muy pesado",
+          "description": "-2 a Evasión; -1 a Agilidad",
+          "_id": "zvzkRX2Uevemmbz4"
+        }
+      ]
+    },
+    "c6tMXz4rPf9ioQrf": {
+      "_id": "c6tMXz4rPf9ioQrf",
+      "name": "Gambesón legendario",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "flexible"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Flexible",
+          "description": "+1 a Evasión",
+          "_id": "3AUNxBoj7mp1ziJQ"
+        }
+      ]
+    },
+    "Tptgl5WOj76TyFn7": {
+      "_id": "Tptgl5WOj76TyFn7",
+      "name": "Armadura de cuero legendaria"
+    },
+    "AQzU2RsqS5V5bd1v": {
+      "_id": "AQzU2RsqS5V5bd1v",
+      "name": "Capa de Monett",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "mágico"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Mágico",
+          "description": "Usted no puede marcar una Ranura de Armadura para reducir el daño físico.",
+          "_id": "3n4O7PyAWMEFdr5p"
+        }
+      ]
+    },
+    "tN8kAeBvNKM3EBFo": {
+      "_id": "tN8kAeBvNKM3EBFo",
+      "name": "Armadura Rosasalvaje",
+      "systemPatch": {
+        "actions": {
+          "QRTnCYxJfuJHdnyV": {
+            "name": "Esperanza",
+            "description": "Cuando usted gastaría una Esperanza, usted puede marcar una Ranura de Armadura en su lugar."
+          }
+        },
+        "armorFeatures": [
+          {
+            "value": "esperanzador"
+          }
+        ]
+      }
+    },
+    "P4qAEDJUoNLgVRsA": {
+      "_id": "P4qAEDJUoNLgVRsA",
+      "name": "Runas de fortificación",
+      "systemPatch": {
+        "actions": {
+          "37KLF2bim9nRdPTU": {
+            "name": "Dolor",
+            "description": "Cada vez que usted marca una Ranura de Armadura, usted debe marcar un Estrés."
+          }
+        },
+        "armorFeatures": [
+          {
+            "value": "dolor"
+          }
+        ]
+      }
+    },
+    "tHlBUDQC24YMZqd6": {
+      "_id": "tHlBUDQC24YMZqd6",
+      "name": "Armadura flotante de Runetan",
+      "systemPatch": {
+        "actions": {
+          "Nn33zCIcWe6LQMDH": {
+            "name": "Mayús",
+            "description": "Cuando usted es el objetivo de un ataque, usted puede marcar una Ranura de Armadura para dar el tirada de ataque contra usted desventaja."
+          }
+        },
+        "armorFeatures": [
+          {
+            "value": "desplazamiento"
+          }
+        ]
+      }
+    },
+    "8X16lJQ3xltTwynm": {
+      "_id": "8X16lJQ3xltTwynm",
+      "name": "Cota de malla salvadora",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "difícil"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Difícil",
+          "description": "-1 a todos los rasgos de carácter y Evasión",
+          "_id": "rkrqlwqtR9REgRx7"
+        }
+      ]
+    },
+    "QjwsIhXKqnlvRBMv": {
+      "_id": "QjwsIhXKqnlvRBMv",
+      "name": "Armadura de placas tachonada",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "brusco"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Afilado",
+          "description": "En un ataque exitoso contra un objetivo dentro del alcance Cuerpo a cuerpo, agregue un d4 al tirada de daño.",
+          "_id": "V8CcTcVAIxHq8KNd"
+        }
+      ]
+    },
+    "PSW3BxCGmtLeWOxM": {
+      "_id": "PSW3BxCGmtLeWOxM",
+      "name": "Armadura suave de Tyris",
+      "systemPatch": {
+        "actions": {
+          "Ch6IhuPewBeseGez": {
+            "name": "Silencio.",
+            "description": "Ganas un bono de +2 para los tiradas que haces para moverte silenciosamente."
+          }
+        },
+        "armorFeatures": [
+          {
+            "value": "silencio"
+          }
+        ]
+      }
+    },
+    "OvzgUTYy2RCN85vV": {
+      "_id": "OvzgUTYy2RCN85vV",
+      "name": "Armadura de Ópalo Veritas",
+      "systemPatch": {
+        "actions": {
+          "sY3W5JYspN5Du5ag": {
+            "name": "Búsqueda de la verdad",
+            "description": "Esta armadura resplandece cuando otra criatura a alcance Cerca dice una mentira."
+          }
+        },
+        "armorFeatures": [
+          {
+            "value": "búsqueda de la verdad"
+          }
+        ]
+      }
+    },
+    "Advanced Chainmail Armor": {
+      "_id": "LzLOJ9EVaHWAjoq9",
+      "name": "Cota de malla avanzada",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "pesado"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "qlzHOAnpBYzosQxK"
+        }
+      ]
+    },
+    "Advanced Full Plate Armor": {
+      "_id": "crIbCb9NZ4K0VpoU",
+      "name": "Armadura de placas avanzada",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "Muy pesado"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Muy pesado",
+          "description": "-2 a Evasión; -1 a Agilidad",
+          "_id": "awdHgEaM54G3emOU"
+        }
+      ]
+    },
+    "Advanced Gambeson Armor": {
+      "_id": "epkAmlZVk7HOfUUT",
+      "name": "Gambesón Avanzado",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "flexible"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Flexible",
+          "description": "+1 a Evasión",
+          "_id": "Fq9Q93IHCchhfSss"
+        }
+      ]
+    },
+    "Advanced Leather Armor": {
+      "_id": "itSOp2GCyem0f7oM",
+      "name": "Armadura de cuero avanzada"
+    },
+    "Bare Bones": {
+      "_id": "ITAjcigTcUw5pMCN",
+      "name": "Sin armadura",
+      "systemPatch": {
+        "description": "<p></p><p class=\"Body-Foundation\">Cuando usted elige no equipar armadura, usted tiene una base de puntuación de armadura de 3 + su fuerza y utilizar lo siguiente como sus umbrales de daño de base:</p><ul><li class=\"vertical-card-list-found\"><em><strong>Nivel 1:</strong></em> 9/19</li><li class=\"vertical-card-list-found\"><em><strong>Nivel 2:</strong></em> 11/24</li><li class=\"vertical-card-list-found\"><em><strong>Nivel 3:</strong></em> 13/31</li><li class=\"vertical-card-list-found\"><em><strong>Nivel 4:</strong></em> 15/38</li></ul>"
+      },
+      "effects": [
+        {
+          "name": "Sin Armadura",
+          "description": "<p></p><p class=\"Body-Foundation\">Cuando usted elige no equipar armadura, usted tiene una base de puntuación de armadura de 3 + su fuerza y utilizar lo siguiente como sus umbrales de daño de base:</p><ul><li class=\"vertical-card-list-found\"><em><strong>Nivel 1:</strong></em> 9/19</li><li class=\"vertical-card-list-found\"><em><strong>Nivel 2:</strong></em> 11/24</li><li class=\"vertical-card-list-found\"><em><strong>Nivel 3:</strong></em> 13/31</li><li class=\"vertical-card-list-found\"><em><strong>Nivel 4:</strong></em> 15/38</li></ul>",
+          "_id": "8ze88zUwdkQSKKJq"
+        }
+      ]
+    },
+    "Bellamoi Fine Armor": {
+      "_id": "WuoVwZA53XRAIt6d",
+      "name": "Armadura fina de Bellamoi",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "dorados"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Dorado",
+          "description": "+1 a Presencia",
+          "_id": "Hy0sNtFS1JAXxgwC"
+        }
+      ]
+    },
+    "Bladefare Armor": {
+      "_id": "mNN6pvcsS10ChrWF",
+      "name": "Armadura de Bladefare",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "física"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Física",
+          "description": "Usted no puede marcar una Ranura de Armadura para reducir el daño mágico.",
+          "_id": "s8KtTIngTjnOlaTP"
+        }
+      ]
+    },
+    "Chainmail Armor": {
+      "_id": "haULhuEg37zUUvhb",
+      "name": "Cota de malla",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "pesado"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "ZfO5NjpqEIzZVlPq"
+        }
+      ]
+    },
+    "Channeling Armor": {
+      "_id": "vMJxEWz1srfwMsoj",
+      "name": "Armadura canalizadora",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "canalización"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Canalización",
+          "description": "+1 a tiradas de Lanzamiento de conjuros",
+          "_id": "8bwf1Ri3jYkjphEv"
+        }
+      ]
+    },
+    "Dragonscale Armor": {
+      "_id": "mdQ69eFHyAQUDmE7",
+      "name": "Armadura de escamas de dragón",
+      "systemPatch": {
+        "actions": {
+          "J1MCpcfXByKaSSgx": {
+            "name": "Inexpugnable",
+            "description": "Una vez por descanso corto, cuando marcarías tu último Punto de Golpe, puedes marcar un Estrés."
+          }
+        },
+        "armorFeatures": [
+          {
+            "value": "inexpugnable"
+          }
+        ]
+      }
+    },
+    "Dunamis Silkchain": {
+      "_id": "hAY6UgdGT7dj22Pr",
+      "name": "Cota de seda de dunamis",
+      "systemPatch": {
+        "actions": {
+          "8PD5JQuS05IA6HJT": {
+            "name": "Tiempo lento",
+            "description": "Marcar una Ranura de Armadura para tirar un d4 y añadir su resultado como un bono a su Evasión contra un ataque entrante."
+          }
+        },
+        "armorFeatures": [
+          {
+            "value": "ralentizando el tiempo"
+          }
+        ]
+      }
+    },
+    "Elundrian Chain Armor": {
+      "_id": "Q6LxmtFetDDkoZVZ",
+      "name": "Cota de malla Elundriana",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "tutelados"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Salados",
+          "description": "Usted reduce el daño mágico entrante por su puntuación de armadura antes de aplicarlo a sus umbrales de daño.",
+          "_id": "xGxqTCO8MjNq5Cw6"
+        }
+      ]
+    },
+    "Emberwoven Armor": {
+      "_id": "bcQUh4QG3qFX0Vx6",
+      "name": "Armadura ascuatejida",
+      "systemPatch": {
+        "actions": {
+          "L8mHf4A8SylyxsMH": {
+            "name": "Quemar",
+            "description": "Cuando un adversario te ataca dentro del alcance Cuerpo a cuerpo, marcan un Estrés."
+          }
+        },
+        "armorFeatures": [
+          {
+            "value": "quema"
+          }
+        ]
+      }
+    },
+    "Full Fortified Armor": {
+      "_id": "7emTSt6nhZuTlvt5",
+      "name": "Armadura completa fortificada",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "fortificado"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Fortificado",
+          "description": "Cuando usted marca una Ranura de Armadura, usted reduce la severidad de un ataque por dos umbrales en lugar de uno.",
+          "_id": "QIefVb73cm9gYju8"
+        }
+      ]
+    },
+    "Full Plate Armor": {
+      "_id": "UdUJNa31WxFW2noa",
+      "name": "Armadura de placas",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "Muy pesado"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Muy pesado",
+          "description": "-2 a Evasión; -1 a Agilidad",
+          "_id": "mfKMW9SX3Mnos1nY"
+        }
+      ]
+    },
+    "Gambeson Armor": {
+      "_id": "yJFp1bfpecDcStVK",
+      "name": "Gambesón",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "flexible"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Flexible",
+          "description": "+1 a Evasión",
+          "_id": "v1FNEsypRF5W6vVc"
+        }
+      ]
+    },
+    "Harrowbone Armor": {
+      "_id": "dvyQeUVRLc9y6rnt",
+      "name": "Armadura de hueso labrado",
+      "systemPatch": {
+        "actions": {
+          "IzM88FIxQ35P5VB2": {
+            "name": "Resiliente",
+            "description": "Antes de marcar su última Ranura de Armadura, tirar un d6. En un resultado de 6, reducir la severidad por un umbral sin marcar una Ranura de Armadura."
+          }
+        },
+        "armorFeatures": [
+          {
+            "value": "resiliente"
+          }
+        ]
+      }
+    },
+    "Improved Chainmail Armor": {
+      "_id": "K5WkjS0NGqHYmhU3",
+      "name": "Cota de malla mejorada",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "pesado"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "JHupzYULxdQzFzuj"
+        }
+      ]
+    },
+    "Improved Full Plate Armor": {
+      "_id": "9f7RozpPTqrzJS1m",
+      "name": "Armadura de placas mejorada",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "Muy pesado"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Muy pesado",
+          "description": "-2 a Evasión; -1 a Agilidad",
+          "_id": "wstJ1aKKtmXgCwxB"
+        }
+      ]
+    },
+    "Improved Gambeson Armor": {
+      "_id": "jphnMZjnS2FkOH3s",
+      "name": "Gambesón mejorado",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "flexible"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Flexible",
+          "description": "+1 a Evasión",
+          "_id": "BFwU3ErPaajUSMUz"
+        }
+      ]
+    },
+    "Improved Leather Armor": {
+      "_id": "t91M61pSCMKStTNt",
+      "name": "Armadura de cuero mejorada"
+    },
+    "Irontree Breastplate Armor": {
+      "_id": "tzZntboNtHL5C6VM",
+      "name": "Coraza de Arbolférreo",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "reforzados"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Reforzado",
+          "description": "<p>Cuando marque su última Ranura de Armadura, aumente sus umbrales de daño por +2 hasta que limpie por lo menos 1 Ranura de Armadura.</p>",
+          "_id": "P3aCN8PQgPXP4C9M"
+        }
+      ]
+    },
+    "Leather Armor": {
+      "_id": "nibfdNtp2PtxvbVz",
+      "name": "Armadura de cuero"
+    },
+    "Legendary Chainmail Armor": {
+      "_id": "EsIN5OLKe9ZYFNXZ",
+      "name": "Cota de malla legendaria",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "pesado"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "8Oa6Y375X8UpcPph"
+        }
+      ]
+    },
+    "Legendary Full Plate Armor": {
+      "_id": "SXWjUR2aUR6bYvdl",
+      "name": "Armadura de placas legendaria",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "Muy pesado"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Muy pesado",
+          "description": "-2 a Evasión; -1 a Agilidad",
+          "_id": "zvzkRX2Uevemmbz4"
+        }
+      ]
+    },
+    "Legendary Gambeson Armor": {
+      "_id": "c6tMXz4rPf9ioQrf",
+      "name": "Gambesón legendario",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "flexible"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Flexible",
+          "description": "+1 a Evasión",
+          "_id": "3AUNxBoj7mp1ziJQ"
+        }
+      ]
+    },
+    "Legendary Leather Armor": {
+      "_id": "Tptgl5WOj76TyFn7",
+      "name": "Armadura de cuero legendaria"
+    },
+    "Monett's Cloak": {
+      "_id": "AQzU2RsqS5V5bd1v",
+      "name": "Capa de Monett",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "mágico"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Mágico",
+          "description": "Usted no puede marcar una Ranura de Armadura para reducir el daño físico.",
+          "_id": "3n4O7PyAWMEFdr5p"
+        }
+      ]
+    },
+    "Rosewild Armor": {
+      "_id": "tN8kAeBvNKM3EBFo",
+      "name": "Armadura Rosasalvaje",
+      "systemPatch": {
+        "actions": {
+          "QRTnCYxJfuJHdnyV": {
+            "name": "Esperanza",
+            "description": "Cuando usted gastaría una Esperanza, usted puede marcar una Ranura de Armadura en su lugar."
+          }
+        },
+        "armorFeatures": [
+          {
+            "value": "esperanzador"
+          }
+        ]
+      }
+    },
+    "Runes of Fortification": {
+      "_id": "P4qAEDJUoNLgVRsA",
+      "name": "Runas de fortificación",
+      "systemPatch": {
+        "actions": {
+          "37KLF2bim9nRdPTU": {
+            "name": "Dolor",
+            "description": "Cada vez que usted marca una Ranura de Armadura, usted debe marcar un Estrés."
+          }
+        },
+        "armorFeatures": [
+          {
+            "value": "dolor"
+          }
+        ]
+      }
+    },
+    "Runetan Floating Armor": {
+      "_id": "tHlBUDQC24YMZqd6",
+      "name": "Armadura flotante de Runetan",
+      "systemPatch": {
+        "actions": {
+          "Nn33zCIcWe6LQMDH": {
+            "name": "Mayús",
+            "description": "Cuando usted es el objetivo de un ataque, usted puede marcar una Ranura de Armadura para dar el tirada de ataque contra usted desventaja."
+          }
+        },
+        "armorFeatures": [
+          {
+            "value": "desplazamiento"
+          }
+        ]
+      }
+    },
+    "Savior Chainmail": {
+      "_id": "8X16lJQ3xltTwynm",
+      "name": "Cota de malla salvadora",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "difícil"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Difícil",
+          "description": "-1 a todos los rasgos de carácter y Evasión",
+          "_id": "rkrqlwqtR9REgRx7"
+        }
+      ]
+    },
+    "Spiked Plate Armor": {
+      "_id": "QjwsIhXKqnlvRBMv",
+      "name": "Armadura de placas tachonada",
+      "systemPatch": {
+        "armorFeatures": [
+          {
+            "value": "brusco"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "name": "Afilado",
+          "description": "En un ataque exitoso contra un objetivo dentro del alcance Cuerpo a cuerpo, agregue un d4 al tirada de daño.",
+          "_id": "V8CcTcVAIxHq8KNd"
+        }
+      ]
+    },
+    "Tyris Soft Armor": {
+      "_id": "PSW3BxCGmtLeWOxM",
+      "name": "Armadura suave de Tyris",
+      "systemPatch": {
+        "actions": {
+          "Ch6IhuPewBeseGez": {
+            "name": "Silencio.",
+            "description": "Ganas un bono de +2 para los tiradas que haces para moverte silenciosamente."
+          }
+        },
+        "armorFeatures": [
+          {
+            "value": "silencio"
+          }
+        ]
+      }
+    },
+    "Veritas Opal Armor": {
+      "_id": "OvzgUTYy2RCN85vV",
+      "name": "Armadura de Ópalo Veritas",
+      "systemPatch": {
+        "actions": {
+          "sY3W5JYspN5Du5ag": {
+            "name": "Búsqueda de la verdad",
+            "description": "Esta armadura resplandece cuando otra criatura a alcance Cerca dice una mentira."
+          }
+        },
+        "armorFeatures": [
+          {
+            "value": "búsqueda de la verdad"
+          }
+        ]
+      }
+    }
+  }
+}

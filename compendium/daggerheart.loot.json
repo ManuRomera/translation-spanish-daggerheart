@@ -1,0 +1,1310 @@
+{
+  "label": "Botín",
+  "folders": {},
+  "mapping": {
+    "systemPatch": {
+      "path": "system",
+      "converter": "daggerheartOverlay"
+    },
+    "prototypeTokenPatch": {
+      "path": "prototypeToken",
+      "converter": "daggerheartOverlay"
+    },
+    "flagsPatch": {
+      "path": "flags",
+      "converter": "daggerheartOverlay"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "daggerheartEmbedded"
+    },
+    "items": {
+      "path": "items",
+      "converter": "daggerheartEmbedded"
+    },
+    "pages": {
+      "path": "pages",
+      "converter": "daggerheartEmbedded"
+    },
+    "results": {
+      "path": "results",
+      "converter": "daggerheartEmbedded"
+    }
+  },
+  "entries": {
+    "cTYvyaSKBxosM9Y9": {
+      "_id": "cTYvyaSKBxosM9Y9",
+      "name": "Encanto Airblade",
+      "systemPatch": {
+        "description": "<p>Puedes unir este encanto a un arma con una gama Cuerpo a cuerpo. Tres veces por descanso, se puede activar el encanto y atacar a un objetivo dentro de alcance Cerca.</p>",
+        "actions": {
+          "nlAfmdgfHTmsOdPb": {
+            "name": "Activar"
+          }
+        }
+      }
+    },
+    "MeEg57T6MKpw3sme": {
+      "_id": "MeEg57T6MKpw3sme",
+      "name": "Antorcha de Alistair",
+      "systemPatch": {
+        "description": "<p>Puedes encender esta antorcha mágica a voluntad. La luz de la llama llena un espacio mucho más grande de lo que debería, suficiente para iluminar una cueva brillante como el día.</p>"
+      }
+    },
+    "4STt98biZwjFoKOe": {
+      "_id": "4STt98biZwjFoKOe",
+      "name": "Capa arcana",
+      "systemPatch": {
+        "description": "<p>Una criatura con un rasgo Lanzamiento de conjuros que lleva esta capa puede ajustar su color, textura y tamaño a voluntad.</p>"
+      }
+    },
+    "Mn1eo2Mdtu1kzyxB": {
+      "_id": "Mn1eo2Mdtu1kzyxB",
+      "name": "Prisma arcano",
+      "systemPatch": {
+        "description": "<p>Coloque este prisma en un lugar de su elección y activarlo. Todos los aliados dentro de su rango de Cerca ganan un bono +1 a sus Lanzamiento de conjuros Tiradas. Mientras se activa, el prisma no se puede mover. Una vez que el prisma se desactiva, no se puede activar de nuevo hasta su próximo descanso prolongado.</p>",
+        "actions": {
+          "QgBDJh0laEvOB94w": {
+            "name": "Activar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Prisma arcano",
+          "_id": "Ee3Z0PnyERiNFgjU"
+        }
+      ]
+    },
+    "vK6bKyQTT3m8WvMh": {
+      "_id": "vK6bKyQTT3m8WvMh",
+      "name": "Afinar la reliquia",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su instinto. Sólo puedes llevar una reliquia.</p>"
+      },
+      "effects": [
+        {
+          "name": "Afinar la reliquia",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Usted gana un bono +1 a su instinto.</p>",
+          "_id": "KmoJVnCQJUGyrZIk"
+        }
+      ]
+    },
+    "v758j4FwNVAurhYK": {
+      "_id": "v758j4FwNVAurhYK",
+      "name": "Bolsa de Vículas y Arenas",
+      "systemPatch": {
+        "description": "<p>Usted puede convencer a esta pequeña bolsa de arena para ser mucho más pesado o más ligero con un éxito <code>[[/dr trait=\"presence\" difficulty=\"10\"]]</code>. Además, en un éxito <code>[[/dr trait=\"finesse\" difficulty=\"10\"]]</code>, se puede soplar un poco de arena en la cara de un objetivo para hacerlos temporalmente vulnerables.</p>",
+        "actions": {
+          "vPXp3uifPTpZxcvt": {
+            "name": "Soplar arena"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Bolsa de Vículas y Arenas",
+          "_id": "Ouq3xWzj5rf6olVs"
+        }
+      ]
+    },
+    "gFzkUGCjkRJtyoe9": {
+      "_id": "gFzkUGCjkRJtyoe9",
+      "name": "Cinturón de unidad",
+      "systemPatch": {
+        "description": "<p>Una vez por sesión, puedes pasar 5 Esperanza para liderar un Tag Team Tirada con tres PJ en lugar de dos.</p>",
+        "actions": {
+          "SuaYNEUO9U9TIZWb": {
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "oMd78vhL2x2NO8Mg": {
+      "_id": "oMd78vhL2x2NO8Mg",
+      "name": "Piedra de sangre",
+      "systemPatch": {
+        "description": "<p>Usted puede fijar esta piedra a un arma que no tiene ya una característica. El arma gana la siguiente característica.</p><p><strong>Brutal</strong>: Al tirar el valor máximo en una matriz de daño, tirar una matriz de daño adicional.</p>"
+      }
+    },
+    "m3EpxlDgxn2tCDDR": {
+      "_id": "m3EpxlDgxn2tCDDR",
+      "name": "Reliquia bolster",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su Fuerza. Sólo puedes llevar una reliquia.</p>"
+      },
+      "effects": [
+        {
+          "name": "Reliquia bolster",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Usted gana un bono +1 a su Fuerza.</p>",
+          "_id": "ByYXvJNr5YbXqn8I"
+        }
+      ]
+    },
+    "bZyT7Qw7iafswlTY": {
+      "_id": "bZyT7Qw7iafswlTY",
+      "name": "Caja de muchos bienes",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, puede abrir esta pequeña caja y tirar un [[/r d12]]. A consecuencia de 1-6, está vacío. En un resultado de 7-10, contiene un consumible al azar común. En un resultado de 11-12, contiene dos consumibles comunes aleatorios.</p>",
+        "actions": {
+          "lt1iEma1OVUNZ77o": {
+            "name": "Abrir"
+          }
+        }
+      }
+    },
+    "tgFFMxpuRSiRrrEB": {
+      "_id": "tgFFMxpuRSiRrrEB",
+      "name": "Colgante calmante",
+      "systemPatch": {
+        "description": "<p>Cuando marques tu último estrés, lanza un [[/r d6]]. En un resultado de 5 o más, no lo marque.</p>",
+        "actions": {
+          "wIlkGuUddWSUp4nN": {
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "gsUDP90d4SRtLEUn": {
+      "_id": "gsUDP90d4SRtLEUn",
+      "name": "Quiver de carga",
+      "systemPatch": {
+        "description": "<p>Cuando usted tiene éxito en un ataque con una flecha almacenada en este temblor, ganar un bono al tirada de daño igual a su nivel actual.</p>"
+      },
+      "effects": [
+        {
+          "name": "Quiver de carga",
+          "_id": "0zebbOsyjkm9IqE6"
+        }
+      ]
+    },
+    "9P9jqGSlxVCbTdLe": {
+      "_id": "9P9jqGSlxVCbTdLe",
+      "name": "Reliquia de encanto",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su Presencia. Sólo puedes llevar una reliquia.</p>"
+      },
+      "effects": [
+        {
+          "name": "Reliquia de encanto",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Usted gana un bono +1 a su Presencia.</p>",
+          "_id": "2yr8Ps6wvaG3b1qy"
+        }
+      ]
+    },
+    "lGIk9vBNz0jvskXD": {
+      "_id": "lGIk9vBNz0jvskXD",
+      "name": "Compañero de Arcilla",
+      "systemPatch": {
+        "description": "<p>Cuando esculpimos esta bola de arcilla en un animal de barro compañero, se comporta como ese animal. Por ejemplo, una araña de arcilla puede hacer girar telas de arcilla, mientras que un pájaro de arcilla puede volar. El compañero de arcilla conserva la memoria y la identidad a través de diferentes formas, pero pueden adoptar nuevos manierismos con cada forma.</p>"
+      }
+    },
+    "V25uXkAQvK3hUta4": {
+      "_id": "V25uXkAQvK3hUta4",
+      "name": "Caso Compañero",
+      "systemPatch": {
+        "description": "<p>Este caso puede caber a un pequeño animal compañero. Mientras que el compañero está dentro, el animal y el caso son inmunes a todos los daños y efectos nocivos.</p>"
+      }
+    },
+    "QPGBDItjrRhXU6iJ": {
+      "_id": "QPGBDItjrRhXU6iJ",
+      "name": "Reliquia de control",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su Sutileza. Sólo puedes llevar una reliquia.</p>"
+      },
+      "effects": [
+        {
+          "name": "Reliquia de control",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Usted gana un bono +1 a su Sutileza.</p>",
+          "_id": "OwjK2TqOizTiRGxD"
+        }
+      ]
+    },
+    "G0RktbmtnuAlKCRH": {
+      "_id": "G0RktbmtnuAlKCRH",
+      "name": "Espectro Corrector",
+      "systemPatch": {
+        "description": "<p>Este pequeño sprite se sienta en la curva de su canal auditivo y susurra consejos útiles durante el combate. Una vez por descanso corto, usted puede ganar ventaja en una tirada de ataque.</p>",
+        "actions": {
+          "saCkJzt1fb9GnEre": {
+            "name": "Escucha."
+          }
+        }
+      }
+    },
+    "HCvcAu3sdHCspGMP": {
+      "_id": "HCvcAu3sdHCspGMP",
+      "name": "Frasco Dual",
+      "systemPatch": {
+        "description": "<p>Este frasco puede contener dos líquidos diferentes. Se puede intercambiar entre ellos poniendo un pequeño interruptor en el lado del frasco.</p>"
+      }
+    },
+    "PkmTZXRMZL022O75": {
+      "_id": "PkmTZXRMZL022O75",
+      "name": "Amuleto elusivo",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, puedes activar este amuleto para que se vuelva Oculto hasta que te muevas. Mientras que Ocultos de esta manera, permaneces invisible incluso si un adversario se mueve a donde normalmente te ven.</p>",
+        "actions": {
+          "vitnEzfU3gCzsRem": {
+            "name": "Activar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Amuleto elusivo",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Estás Oculta hasta que te mueves. Mientras que Ocultos de esta manera, permaneces invisible incluso si un adversario se mueve a donde normalmente te ven.</p>",
+          "_id": "YBkYjxU0Vn5JEsMK"
+        }
+      ]
+    },
+    "p2yy61uKsyIsl8cU": {
+      "_id": "p2yy61uKsyIsl8cU",
+      "name": "Cofre vacío",
+      "systemPatch": {
+        "description": "<p>Este pecho mágico parece vacío. Cuando usted habla una palabra o acción de activación específica y abre el pecho, usted puede ver los elementos almacenados dentro de ella.</p>"
+      }
+    },
+    "vSGx1f9SYUiA29L3": {
+      "_id": "vSGx1f9SYUiA29L3",
+      "name": "Iluminar la reliquia",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su Conocimiento. Sólo puedes llevar una reliquia.</p>"
+      },
+      "effects": [
+        {
+          "name": "Iluminar la reliquia",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Usted gana un bono +1 a su Conocimiento.</p>",
+          "_id": "aWOGlmqC9l86GlFV"
+        }
+      ]
+    },
+    "X6RMkIt89wf7qX2E": {
+      "_id": "X6RMkIt89wf7qX2E",
+      "name": "Jarra de fuego",
+      "systemPatch": {
+        "description": "<p>Usted puede verter el extraño contenido líquido de este frasco para producir instantáneamente fuego. El contenido se regenera cuando descansas mucho.</p>",
+        "actions": {
+          "nzXMuxD8DpT1dMXF": {
+            "name": "Verter"
+          }
+        }
+      }
+    },
+    "9VKYSBQxN9XFWlAm": {
+      "_id": "9VKYSBQxN9XFWlAm",
+      "name": "Colgante Flickerfly",
+      "systemPatch": {
+        "description": "<p>Mientras que usted lleva este colgante, sus armas con un alcance Cuerpo a cuerpo que se ocupan de daños físicos tienen un brillo gossamer y pueden atacar objetivos dentro de muy estrecho alcance.</p>"
+      }
+    },
+    "CGzjBpHJRG8KSt5Y": {
+      "_id": "CGzjBpHJRG8KSt5Y",
+      "name": "Guantes de geco",
+      "systemPatch": {
+        "description": "<p>Puede subir superficies verticales y cruzar techos.</p>"
+      }
+    },
+    "zecFwBUSWtB3HW8X": {
+      "_id": "zecFwBUSWtB3HW8X",
+      "name": "Gema de la Alacridad",
+      "systemPatch": {
+        "description": "<p>Puedes unir esta gema a un arma, permitiéndote usar tu Agilidad al hacer un ataque con esa arma.</p>"
+      }
+    },
+    "hMu9It3ThCLCXuCA": {
+      "_id": "hMu9It3ThCLCXuCA",
+      "name": "Gema de la audacia",
+      "systemPatch": {
+        "description": "<p>Puedes unir esta gema a un arma, permitiéndote usar tu Presencia al hacer un ataque con esa arma.</p>"
+      }
+    },
+    "TbgeT9ZxKHqFqJSN": {
+      "_id": "TbgeT9ZxKHqFqJSN",
+      "name": "Gema de la perspicacia",
+      "systemPatch": {
+        "description": "<p>Puedes unir esta gema a un arma, permitiéndote usar tu instinto al hacer un ataque con esa arma.</p>"
+      }
+    },
+    "rtSInNPc4B3ChBUZ": {
+      "_id": "rtSInNPc4B3ChBUZ",
+      "name": "Gema del poder",
+      "systemPatch": {
+        "description": "<p>Puedes unir esta gema a un arma, permitiéndote usar tu Fuerza al hacer un ataque con esa arma.</p>"
+      }
+    },
+    "CrvJ7vb4s40YgEcy": {
+      "_id": "CrvJ7vb4s40YgEcy",
+      "name": "Gema de precisión",
+      "systemPatch": {
+        "description": "<p>Puedes unir esta gema a un arma, permitiéndote usar tu Sutileza cuando hagas un ataque con esa arma.</p>"
+      }
+    },
+    "ua351S7CsH22X1x2": {
+      "_id": "ua351S7CsH22X1x2",
+      "name": "Gema de Sagacity",
+      "systemPatch": {
+        "description": "<p>Puedes conectar esta joya a un arma, permitiéndote usar tu Conocimiento al hacer un ataque con esa arma.</p>"
+      }
+    },
+    "Pj17cvdJ1XG1jv6I": {
+      "_id": "Pj17cvdJ1XG1jv6I",
+      "name": "Piedra Glamour",
+      "systemPatch": {
+        "description": "<p>Active esta piedra del tamaño de un guijarro para memorizar la apariencia de alguien que pueda ver. Gasta una esperanza para recrear mágicamente este disfraz en ti mismo como una ilusión.</p>",
+        "actions": {
+          "ATQgH12mufTOQLKs": {
+            "description": "<p>Active esta piedra del tamaño de un guijarro para memorizar la apariencia de alguien que pueda ver. Gasta una esperanza para recrear mágicamente este disfraz en ti mismo como una ilusión.</p>",
+            "name": "Crear ilusión"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Piedra Glamour",
+          "description": "<p>Active esta piedra del tamaño de un guijarro para memorizar la apariencia de alguien que pueda ver. Gasta una esperanza para recrear mágicamente este disfraz en ti mismo como una ilusión.</p>",
+          "_id": "K5SB6tfuDkdVaQYe"
+        }
+      ]
+    },
+    "CiXwelozmBDcPY48": {
+      "_id": "CiXwelozmBDcPY48",
+      "name": "Planeador",
+      "systemPatch": {
+        "description": "<p>Mientras caes, puedes <strong>marca un estrés</strong> para desplegar este pequeño paracaídas y deslizarse con seguridad al suelo.</p>",
+        "actions": {
+          "Adz50oihGEMJxbyA": {
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "y7zABzR0Q2fRskTw": {
+      "_id": "y7zABzR0Q2fRskTw",
+      "name": "Gran Piedra",
+      "systemPatch": {
+        "description": "<p>Usted puede fijar esta piedra a un arma que no tiene ya una característica. El arma gana la siguiente característica.</p><p><strong>Poderoso</strong>: En un ataque exitoso, tirar un daño adicional muere y desechar el resultado más bajo.</p>"
+      }
+    },
+    "yrAGYlDyoe4OYl7d": {
+      "_id": "yrAGYlDyoe4OYl7d",
+      "name": "Brújulas Rastreadoras",
+      "systemPatch": {
+        "description": "<p>Estas dos brújulas apuntan una hacia la otra sin importar lo lejos que estén.</p>"
+      }
+    },
+    "SAAnEAeXDnhBbLjB": {
+      "_id": "SAAnEAeXDnhBbLjB",
+      "name": "Reliquia honrosa",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a una experiencia de su elección. Sólo puedes llevar una reliquia.</p>"
+      }
+    },
+    "9DcFR75tsnBYIp6Z": {
+      "_id": "9DcFR75tsnBYIp6Z",
+      "name": "Locket del Hopekeeper",
+      "systemPatch": {
+        "description": "<p>Durante un descanso prolongado, si tienes 6 Esperanza, puedes gastar una Esperanza para impregnar este medallón con tu abundante determinación.</p><p>Cuando tienes 0 Esperanza, puedes usar el medallón para obtener inmediatamente una Esperanza. El medallón debe ser reimbulado antes de que pueda ser usado de esta manera de nuevo.</p>",
+        "actions": {
+          "iwDm6P1ABr7vojGr": {
+            "name": "Imbuir"
+          },
+          "xof31iSNIfxhbZH9": {
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "Iedjw1LVWEozVh0J": {
+      "_id": "Iedjw1LVWEozVh0J",
+      "name": "Bolsa infinita",
+      "systemPatch": {
+        "description": "<p>Cuando usted almacena artículos en esta bolsa, se mantienen en una dimensión de bolsillo que nunca se queda sin espacio. Puede recuperar un artículo en cualquier momento.</p>"
+      }
+    },
+    "NgvmrJYKpA2PrRSo": {
+      "_id": "NgvmrJYKpA2PrRSo",
+      "name": "Botas Lakestrider",
+      "systemPatch": {
+        "description": "<p>Se puede caminar sobre la superficie del agua como si fuera suelo blando.</p>"
+      }
+    },
+    "JsPYzrqpITqGj23I": {
+      "_id": "JsPYzrqpITqGj23I",
+      "name": "Guardián del Saber",
+      "systemPatch": {
+        "description": "<p>Puede almacenar el nombre y los detalles de hasta tres criaturas hostiles dentro de este libro. Usted gana un bono +1 a los tiradas de acción contra esas criaturas.</p>"
+      }
+    },
+    "GkmATIuemyFtQX1D": {
+      "_id": "GkmATIuemyFtQX1D",
+      "name": "Manáculos",
+      "systemPatch": {
+        "description": "<p>Este par de puños de bloqueo viene con una llave.</p>"
+      }
+    },
+    "PQxvxAVBbkt0TleC": {
+      "_id": "PQxvxAVBbkt0TleC",
+      "name": "Receta de poción de salud menor",
+      "systemPatch": {
+        "description": "<p>Como movimiento del tiempo de inactividad, usted puede utilizar un vial de sangre para crear una Poción Menor de Salud.</p>"
+      }
+    },
+    "1TLpFsp3PLDsqoTw": {
+      "_id": "1TLpFsp3PLDsqoTw",
+      "name": "Receta de poción de estamina menor",
+      "systemPatch": {
+        "description": "<p>Como un movimiento de descanso, se puede utilizar el hueso de una criatura para crear una poción de estamina menor.</p>"
+      }
+    },
+    "5YZls8XH3MB7twNa": {
+      "_id": "5YZls8XH3MB7twNa",
+      "name": "Receta de polvo mítica",
+      "systemPatch": {
+        "description": "<p>Como un movimiento de descanso, usted puede utilizar un puñado de polvo de oro fino para crear polvo mítico.</p>"
+      }
+    },
+    "F4hoRfvVdZq5bhhI": {
+      "_id": "F4hoRfvVdZq5bhhI",
+      "name": "Cadena de Paragón",
+      "systemPatch": {
+        "description": "<p>Como un movimiento de descanso, usted puede meditar en un ideal o principio que usted tiene querido y enfocar su voluntad en esta cadena.</p><p>Una vez por descanso prolongado, usted puede gastar una esperanza para tirar un d20 como su Dado de Esperanza para tiradas que se alinean directamente con ese principio.</p>",
+        "actions": {
+          "esnUuqMcvyOvI6PV": {
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "QNtzJSVENww63THa": {
+      "_id": "QNtzJSVENww63THa",
+      "name": "Pluma Fénix",
+      "systemPatch": {
+        "description": "<p>Si tienes al menos una Pluma Fénix sobre ti cuando caes inconsciente, obtienes un bono +1 al tirada que haces para determinar si obtienes una cicatriz.</p>"
+      }
+    },
+    "I63LTFD6GXHgyGpR": {
+      "_id": "I63LTFD6GXHgyGpR",
+      "name": "Flechas de perforación",
+      "systemPatch": {
+        "description": "<p>Tres veces por descanso cuando tienes éxito en un ataque con una de estas flechas, puedes añadir tu competencia al tirada de daño.</p>",
+        "actions": {
+          "DW5AqEM0F8XaUqpn": {
+            "description": "<p>Tres veces por descanso cuando tienes éxito en un ataque con una de estas flechas, puedes añadir tu competencia al tirada de daño.</p>",
+            "name": "Uso"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Flechas de perforación",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Añada su competencia al tirada de daños de este ataque.</p>",
+          "_id": "lRfqfbwlfxzPbE6U"
+        }
+      ]
+    },
+    "v4PIoCCEjeE3acys": {
+      "_id": "v4PIoCCEjeE3acys",
+      "name": "Piper Silbato",
+      "systemPatch": {
+        "description": "<p>Este silbato artesanal tiene un sonido distintivo. Cuando soplas este silbato, su tono penetrante se puede escuchar en un radio de 1 milla.</p>"
+      }
+    },
+    "eRd5Gk7J7hPCqp11": {
+      "_id": "eRd5Gk7J7hPCqp11",
+      "name": "Semilla de portal",
+      "systemPatch": {
+        "description": "<p>Puedes plantar esta semilla en el suelo para cultivar un portal en ese lugar. El portal está listo para ser utilizado en 24 horas. Puede utilizar este portal para viajar a cualquier otra ubicación donde haya plantado una semilla de portal. Un portal puede ser destruido traficando cualquier cantidad de daño mágico a él.</p>"
+      }
+    },
+    "QGYPNBIufpBguwjC": {
+      "_id": "QGYPNBIufpBguwjC",
+      "name": "Colchoneta Premium",
+      "systemPatch": {
+        "description": "<p>Durante el tiempo de inactividad, se elimina automáticamente un estrés.</p>",
+        "actions": {
+          "Xe0zhVbSzZLgX1nC": {
+            "name": "Toma una siesta."
+          }
+        }
+      }
+    },
+    "aUqRifqR5JXXa1dN": {
+      "_id": "aUqRifqR5JXXa1dN",
+      "name": "Anillo de Resistencia",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, puede activar este anillo después de un ataque exitoso contra usted para reducir a la mitad el daño.</p>",
+        "actions": {
+          "4swwe8SZeh2KyPtl": {
+            "description": "<p>Una vez por descanso prolongado, puede activar este anillo después de un ataque exitoso contra usted para reducir a la mitad el daño.</p>",
+            "name": "Activar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Anillo de Resistencia",
+          "description": "<p>Una vez por descanso prolongado, puede activar este anillo después de un ataque exitoso contra usted para reducir a la mitad el daño.</p>",
+          "_id": "Sj7uGf560T7u4rlX"
+        }
+      ]
+    },
+    "K1ysGnTpNyxPu5Au": {
+      "_id": "K1ysGnTpNyxPu5Au",
+      "name": "Anillo de Silencio",
+      "systemPatch": {
+        "description": "<p>Gasta una esperanza para activar este anillo. Tus pasos son silenciosos hasta tu próximo descanso.</p>",
+        "actions": {
+          "Y4mvuJ4tncrKhyjY": {
+            "description": "<p><strong>Gasta una esperanza</strong> para activar este anillo. Tus pasos son silenciosos hasta tu próximo descanso.</p>",
+            "name": "Activar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Anillo de Silencio",
+          "description": "<p>Tus pasos son silenciosos hasta tu próximo descanso.</p>",
+          "_id": "9JSLRu7amQ4iuIO7"
+        }
+      ]
+    },
+    "kn71qCQY0DnjmQBJ": {
+      "_id": "kn71qCQY0DnjmQBJ",
+      "name": "Anillo de resolución irrompible",
+      "systemPatch": {
+        "description": "<p>Una vez por sesión, cuando el DJ pasa un Miedo, puedes gastar 4 Esperanza para cancelar los efectos de ese Miedo gastado.</p>",
+        "actions": {
+          "R92d0DSVEwmqNJhM": {
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "2ULPgNyqCrxea0v0": {
+      "_id": "2ULPgNyqCrxea0v0",
+      "name": "Frasco de memoria",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, usted puede <strong>Gastar 2 Esperanza</strong> para recordar una tarjeta de dominio de su bóveda en lugar de pagar su costo de devolución.</p>",
+        "actions": {
+          "YNRybKQC51muVHYH": {
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "edkNgwy4xghZreBa": {
+      "_id": "edkNgwy4xghZreBa",
+      "name": "Tecla esquelética",
+      "systemPatch": {
+        "description": "<p>Cuando utilizas esta llave para abrir una puerta cerrada, obtienes ventaja en el tirada de Sutileza.</p>",
+        "actions": {
+          "lV6W9M1CX6N8jSpt": {
+            "name": "Usar clave"
+          }
+        }
+      }
+    },
+    "LZrG6CFiSjpLA2F1": {
+      "_id": "LZrG6CFiSjpLA2F1",
+      "name": "Orbs que hablan",
+      "systemPatch": {
+        "description": "<p>Este par de orbes permite a cualquier criatura que los sostenga comunicarse entre sí a través de cualquier distancia.</p>"
+      }
+    },
+    "FfJISMzYATaPQPLc": {
+      "_id": "FfJISMzYATaPQPLc",
+      "name": "Reliquia del estrido",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su Agilidad. Sólo puedes llevar una reliquia.</p>"
+      },
+      "effects": [
+        {
+          "name": "Reliquia del estrido",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Usted gana un bono +1 a su Agilidad.</p>",
+          "_id": "7lHIbMyCDonSxSZf"
+        }
+      ]
+    },
+    "nnj12RiFanq7s5zv": {
+      "_id": "nnj12RiFanq7s5zv",
+      "name": "Vara suspendida",
+      "systemPatch": {
+        "description": "<p>Esta varilla plana está inscrita con runas. Cuando se activa la varilla, se suspende inmediatamente en su lugar. Hasta que la vara no se desactive, no puede moverse, no cumple con las reglas de la gravedad, y permanece en su lugar.</p>"
+      }
+    },
+    "7yywua9TmQ4WP5WH": {
+      "_id": "7yywua9TmQ4WP5WH",
+      "name": "Piedra de Valor",
+      "systemPatch": {
+        "description": "<p>Usted puede fijar esta piedra a la armadura que no tiene ya una característica. La armadura gana la siguiente característica.</p><p><strong>Resiliente</strong>: Antes de marcar su última Ranura de Armadura, tirar un d6. En un resultado de 6, reducir la severidad por un umbral sin marcar una Ranura de Armadura.</p>"
+      }
+    },
+    "MhCo8i0cRXzdnXbA": {
+      "_id": "MhCo8i0cRXzdnXbA",
+      "name": "Vial de la receta de humo oscuro",
+      "systemPatch": {
+        "description": "<p>Como un movimiento de descanso, puedes marcar un Estrés para crear un Vial de humo oscuro.</p>"
+      }
+    },
+    "ARuv48PWUGJGBC4n": {
+      "_id": "ARuv48PWUGJGBC4n",
+      "name": "Cifras netas tejidas",
+      "systemPatch": {
+        "description": "<p>Puedes hacer una tirada de Sutileza usando esta red para atrapar a una pequeña criatura. Un objetivo atrapado puede liberarse con una tirada de ataque exitoso (16).</p>",
+        "actions": {
+          "yv0l43uUDB2gWFd1": {
+            "name": "Lanzar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Cifras netas tejidas",
+          "_id": "KjAianGutrQuJNs3"
+        },
+        {
+          "name": "Cifras netas tejidas",
+          "_id": "nY2UFMPZdoSUr6Ps"
+        }
+      ]
+    },
+    "Airblade Charm": {
+      "_id": "cTYvyaSKBxosM9Y9",
+      "name": "Encanto Airblade",
+      "systemPatch": {
+        "description": "<p>Puedes unir este encanto a un arma con una gama Cuerpo a cuerpo. Tres veces por descanso, se puede activar el encanto y atacar a un objetivo dentro de alcance Cerca.</p>",
+        "actions": {
+          "nlAfmdgfHTmsOdPb": {
+            "name": "Activar"
+          }
+        }
+      }
+    },
+    "Alistair’s Torch": {
+      "_id": "MeEg57T6MKpw3sme",
+      "name": "Antorcha de Alistair",
+      "systemPatch": {
+        "description": "<p>Puedes encender esta antorcha mágica a voluntad. La luz de la llama llena un espacio mucho más grande de lo que debería, suficiente para iluminar una cueva brillante como el día.</p>"
+      }
+    },
+    "Arcane Cloak": {
+      "_id": "4STt98biZwjFoKOe",
+      "name": "Capa arcana",
+      "systemPatch": {
+        "description": "<p>Una criatura con un rasgo Lanzamiento de conjuros que lleva esta capa puede ajustar su color, textura y tamaño a voluntad.</p>"
+      }
+    },
+    "Arcane Prism": {
+      "_id": "Mn1eo2Mdtu1kzyxB",
+      "name": "Prisma arcano",
+      "systemPatch": {
+        "description": "<p>Coloque este prisma en un lugar de su elección y activarlo. Todos los aliados dentro de su rango de Cerca ganan un bono +1 a sus Lanzamiento de conjuros Tiradas. Mientras se activa, el prisma no se puede mover. Una vez que el prisma se desactiva, no se puede activar de nuevo hasta su próximo descanso prolongado.</p>",
+        "actions": {
+          "QgBDJh0laEvOB94w": {
+            "name": "Activar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Prisma arcano",
+          "_id": "Ee3Z0PnyERiNFgjU"
+        }
+      ]
+    },
+    "Attune Relic": {
+      "_id": "vK6bKyQTT3m8WvMh",
+      "name": "Afinar la reliquia",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su instinto. Sólo puedes llevar una reliquia.</p>"
+      },
+      "effects": [
+        {
+          "name": "Afinar la reliquia",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Usted gana un bono +1 a su instinto.</p>",
+          "_id": "KmoJVnCQJUGyrZIk"
+        }
+      ]
+    },
+    "Bag of Ficklesand": {
+      "_id": "v758j4FwNVAurhYK",
+      "name": "Bolsa de Vículas y Arenas",
+      "systemPatch": {
+        "description": "<p>Usted puede convencer a esta pequeña bolsa de arena para ser mucho más pesado o más ligero con un éxito <code>[[/dr trait=\"presence\" difficulty=\"10\"]]</code>. Además, en un éxito <code>[[/dr trait=\"finesse\" difficulty=\"10\"]]</code>, se puede soplar un poco de arena en la cara de un objetivo para hacerlos temporalmente vulnerables.</p>",
+        "actions": {
+          "vPXp3uifPTpZxcvt": {
+            "name": "Soplar arena"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Bolsa de Vículas y Arenas",
+          "_id": "Ouq3xWzj5rf6olVs"
+        }
+      ]
+    },
+    "Belt of Unity": {
+      "_id": "gFzkUGCjkRJtyoe9",
+      "name": "Cinturón de unidad",
+      "systemPatch": {
+        "description": "<p>Una vez por sesión, puedes pasar 5 Esperanza para liderar un Tag Team Tirada con tres PJ en lugar de dos.</p>",
+        "actions": {
+          "SuaYNEUO9U9TIZWb": {
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "Bloodstone": {
+      "_id": "oMd78vhL2x2NO8Mg",
+      "name": "Piedra de sangre",
+      "systemPatch": {
+        "description": "<p>Usted puede fijar esta piedra a un arma que no tiene ya una característica. El arma gana la siguiente característica.</p><p><strong>Brutal</strong>: Al tirar el valor máximo en una matriz de daño, tirar una matriz de daño adicional.</p>"
+      }
+    },
+    "Bolster Relic": {
+      "_id": "m3EpxlDgxn2tCDDR",
+      "name": "Reliquia bolster",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su Fuerza. Sólo puedes llevar una reliquia.</p>"
+      },
+      "effects": [
+        {
+          "name": "Reliquia bolster",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Usted gana un bono +1 a su Fuerza.</p>",
+          "_id": "ByYXvJNr5YbXqn8I"
+        }
+      ]
+    },
+    "Box of Many Goods": {
+      "_id": "bZyT7Qw7iafswlTY",
+      "name": "Caja de muchos bienes",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, puede abrir esta pequeña caja y tirar un [[/r d12]]. A consecuencia de 1-6, está vacío. En un resultado de 7-10, contiene un consumible al azar común. En un resultado de 11-12, contiene dos consumibles comunes aleatorios.</p>",
+        "actions": {
+          "lt1iEma1OVUNZ77o": {
+            "name": "Abrir"
+          }
+        }
+      }
+    },
+    "Calming Pendant": {
+      "_id": "tgFFMxpuRSiRrrEB",
+      "name": "Colgante calmante",
+      "systemPatch": {
+        "description": "<p>Cuando marques tu último estrés, lanza un [[/r d6]]. En un resultado de 5 o más, no lo marque.</p>",
+        "actions": {
+          "wIlkGuUddWSUp4nN": {
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "Charging Quiver": {
+      "_id": "gsUDP90d4SRtLEUn",
+      "name": "Quiver de carga",
+      "systemPatch": {
+        "description": "<p>Cuando usted tiene éxito en un ataque con una flecha almacenada en este temblor, ganar un bono al tirada de daño igual a su nivel actual.</p>"
+      },
+      "effects": [
+        {
+          "name": "Quiver de carga",
+          "_id": "0zebbOsyjkm9IqE6"
+        }
+      ]
+    },
+    "Charm Relic": {
+      "_id": "9P9jqGSlxVCbTdLe",
+      "name": "Reliquia de encanto",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su Presencia. Sólo puedes llevar una reliquia.</p>"
+      },
+      "effects": [
+        {
+          "name": "Reliquia de encanto",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Usted gana un bono +1 a su Presencia.</p>",
+          "_id": "2yr8Ps6wvaG3b1qy"
+        }
+      ]
+    },
+    "Clay Companion": {
+      "_id": "lGIk9vBNz0jvskXD",
+      "name": "Compañero de Arcilla",
+      "systemPatch": {
+        "description": "<p>Cuando esculpimos esta bola de arcilla en un animal de barro compañero, se comporta como ese animal. Por ejemplo, una araña de arcilla puede hacer girar telas de arcilla, mientras que un pájaro de arcilla puede volar. El compañero de arcilla conserva la memoria y la identidad a través de diferentes formas, pero pueden adoptar nuevos manierismos con cada forma.</p>"
+      }
+    },
+    "Companion Case": {
+      "_id": "V25uXkAQvK3hUta4",
+      "name": "Caso Compañero",
+      "systemPatch": {
+        "description": "<p>Este caso puede caber a un pequeño animal compañero. Mientras que el compañero está dentro, el animal y el caso son inmunes a todos los daños y efectos nocivos.</p>"
+      }
+    },
+    "Control Relic": {
+      "_id": "QPGBDItjrRhXU6iJ",
+      "name": "Reliquia de control",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su Sutileza. Sólo puedes llevar una reliquia.</p>"
+      },
+      "effects": [
+        {
+          "name": "Reliquia de control",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Usted gana un bono +1 a su Sutileza.</p>",
+          "_id": "OwjK2TqOizTiRGxD"
+        }
+      ]
+    },
+    "Corrector Sprite": {
+      "_id": "G0RktbmtnuAlKCRH",
+      "name": "Espectro Corrector",
+      "systemPatch": {
+        "description": "<p>Este pequeño sprite se sienta en la curva de su canal auditivo y susurra consejos útiles durante el combate. Una vez por descanso corto, usted puede ganar ventaja en una tirada de ataque.</p>",
+        "actions": {
+          "saCkJzt1fb9GnEre": {
+            "name": "Escucha."
+          }
+        }
+      }
+    },
+    "Dual Flask": {
+      "_id": "HCvcAu3sdHCspGMP",
+      "name": "Frasco Dual",
+      "systemPatch": {
+        "description": "<p>Este frasco puede contener dos líquidos diferentes. Se puede intercambiar entre ellos poniendo un pequeño interruptor en el lado del frasco.</p>"
+      }
+    },
+    "Elusive Amulet": {
+      "_id": "PkmTZXRMZL022O75",
+      "name": "Amuleto elusivo",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, puedes activar este amuleto para que se vuelva Oculto hasta que te muevas. Mientras que Ocultos de esta manera, permaneces invisible incluso si un adversario se mueve a donde normalmente te ven.</p>",
+        "actions": {
+          "vitnEzfU3gCzsRem": {
+            "name": "Activar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Amuleto elusivo",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Estás Oculta hasta que te mueves. Mientras que Ocultos de esta manera, permaneces invisible incluso si un adversario se mueve a donde normalmente te ven.</p>",
+          "_id": "YBkYjxU0Vn5JEsMK"
+        }
+      ]
+    },
+    "Empty Chest": {
+      "_id": "p2yy61uKsyIsl8cU",
+      "name": "Cofre vacío",
+      "systemPatch": {
+        "description": "<p>Este pecho mágico parece vacío. Cuando usted habla una palabra o acción de activación específica y abre el pecho, usted puede ver los elementos almacenados dentro de ella.</p>"
+      }
+    },
+    "Enlighten Relic": {
+      "_id": "vSGx1f9SYUiA29L3",
+      "name": "Iluminar la reliquia",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su Conocimiento. Sólo puedes llevar una reliquia.</p>"
+      },
+      "effects": [
+        {
+          "name": "Iluminar la reliquia",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Usted gana un bono +1 a su Conocimiento.</p>",
+          "_id": "aWOGlmqC9l86GlFV"
+        }
+      ]
+    },
+    "Fire Jar": {
+      "_id": "X6RMkIt89wf7qX2E",
+      "name": "Jarra de fuego",
+      "systemPatch": {
+        "description": "<p>Usted puede verter el extraño contenido líquido de este frasco para producir instantáneamente fuego. El contenido se regenera cuando descansas mucho.</p>",
+        "actions": {
+          "nzXMuxD8DpT1dMXF": {
+            "name": "Verter"
+          }
+        }
+      }
+    },
+    "Flickerfly Pendant": {
+      "_id": "9VKYSBQxN9XFWlAm",
+      "name": "Colgante Flickerfly",
+      "systemPatch": {
+        "description": "<p>Mientras que usted lleva este colgante, sus armas con un alcance Cuerpo a cuerpo que se ocupan de daños físicos tienen un brillo gossamer y pueden atacar objetivos dentro de muy estrecho alcance.</p>"
+      }
+    },
+    "Gecko Gloves": {
+      "_id": "CGzjBpHJRG8KSt5Y",
+      "name": "Guantes de geco",
+      "systemPatch": {
+        "description": "<p>Puede subir superficies verticales y cruzar techos.</p>"
+      }
+    },
+    "Gem of Alacrity": {
+      "_id": "zecFwBUSWtB3HW8X",
+      "name": "Gema de la Alacridad",
+      "systemPatch": {
+        "description": "<p>Puedes unir esta gema a un arma, permitiéndote usar tu Agilidad al hacer un ataque con esa arma.</p>"
+      }
+    },
+    "Gem of Audacity": {
+      "_id": "hMu9It3ThCLCXuCA",
+      "name": "Gema de la audacia",
+      "systemPatch": {
+        "description": "<p>Puedes unir esta gema a un arma, permitiéndote usar tu Presencia al hacer un ataque con esa arma.</p>"
+      }
+    },
+    "Gem of Insight": {
+      "_id": "TbgeT9ZxKHqFqJSN",
+      "name": "Gema de la perspicacia",
+      "systemPatch": {
+        "description": "<p>Puedes unir esta gema a un arma, permitiéndote usar tu instinto al hacer un ataque con esa arma.</p>"
+      }
+    },
+    "Gem of Might": {
+      "_id": "rtSInNPc4B3ChBUZ",
+      "name": "Gema del poder",
+      "systemPatch": {
+        "description": "<p>Puedes unir esta gema a un arma, permitiéndote usar tu Fuerza al hacer un ataque con esa arma.</p>"
+      }
+    },
+    "Gem of Precision": {
+      "_id": "CrvJ7vb4s40YgEcy",
+      "name": "Gema de precisión",
+      "systemPatch": {
+        "description": "<p>Puedes unir esta gema a un arma, permitiéndote usar tu Sutileza cuando hagas un ataque con esa arma.</p>"
+      }
+    },
+    "Gem of Sagacity": {
+      "_id": "ua351S7CsH22X1x2",
+      "name": "Gema de Sagacity",
+      "systemPatch": {
+        "description": "<p>Puedes conectar esta joya a un arma, permitiéndote usar tu Conocimiento al hacer un ataque con esa arma.</p>"
+      }
+    },
+    "Glamour Stone": {
+      "_id": "Pj17cvdJ1XG1jv6I",
+      "name": "Piedra Glamour",
+      "systemPatch": {
+        "description": "<p>Active esta piedra del tamaño de un guijarro para memorizar la apariencia de alguien que pueda ver. Gasta una esperanza para recrear mágicamente este disfraz en ti mismo como una ilusión.</p>",
+        "actions": {
+          "ATQgH12mufTOQLKs": {
+            "description": "<p>Active esta piedra del tamaño de un guijarro para memorizar la apariencia de alguien que pueda ver. Gasta una esperanza para recrear mágicamente este disfraz en ti mismo como una ilusión.</p>",
+            "name": "Crear ilusión"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Piedra Glamour",
+          "description": "<p>Active esta piedra del tamaño de un guijarro para memorizar la apariencia de alguien que pueda ver. Gasta una esperanza para recrear mágicamente este disfraz en ti mismo como una ilusión.</p>",
+          "_id": "K5SB6tfuDkdVaQYe"
+        }
+      ]
+    },
+    "Glider": {
+      "_id": "CiXwelozmBDcPY48",
+      "name": "Planeador",
+      "systemPatch": {
+        "description": "<p>Mientras caes, puedes <strong>marca un estrés</strong> para desplegar este pequeño paracaídas y deslizarse con seguridad al suelo.</p>",
+        "actions": {
+          "Adz50oihGEMJxbyA": {
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "Greatstone": {
+      "_id": "y7zABzR0Q2fRskTw",
+      "name": "Gran Piedra",
+      "systemPatch": {
+        "description": "<p>Usted puede fijar esta piedra a un arma que no tiene ya una característica. El arma gana la siguiente característica.</p><p><strong>Poderoso</strong>: En un ataque exitoso, tirar un daño adicional muere y desechar el resultado más bajo.</p>"
+      }
+    },
+    "Homing Compasses": {
+      "_id": "yrAGYlDyoe4OYl7d",
+      "name": "Brújulas Rastreadoras",
+      "systemPatch": {
+        "description": "<p>Estas dos brújulas apuntan una hacia la otra sin importar lo lejos que estén.</p>"
+      }
+    },
+    "Honing Relic": {
+      "_id": "SAAnEAeXDnhBbLjB",
+      "name": "Reliquia honrosa",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a una experiencia de su elección. Sólo puedes llevar una reliquia.</p>"
+      }
+    },
+    "Hopekeeper Locket": {
+      "_id": "9DcFR75tsnBYIp6Z",
+      "name": "Locket del Hopekeeper",
+      "systemPatch": {
+        "description": "<p>Durante un descanso prolongado, si tienes 6 Esperanza, puedes gastar una Esperanza para impregnar este medallón con tu abundante determinación.</p><p>Cuando tienes 0 Esperanza, puedes usar el medallón para obtener inmediatamente una Esperanza. El medallón debe ser reimbulado antes de que pueda ser usado de esta manera de nuevo.</p>",
+        "actions": {
+          "iwDm6P1ABr7vojGr": {
+            "name": "Imbuir"
+          },
+          "xof31iSNIfxhbZH9": {
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "Infinite Bag": {
+      "_id": "Iedjw1LVWEozVh0J",
+      "name": "Bolsa infinita",
+      "systemPatch": {
+        "description": "<p>Cuando usted almacena artículos en esta bolsa, se mantienen en una dimensión de bolsillo que nunca se queda sin espacio. Puede recuperar un artículo en cualquier momento.</p>"
+      }
+    },
+    "Lakestrider Boots": {
+      "_id": "NgvmrJYKpA2PrRSo",
+      "name": "Botas Lakestrider",
+      "systemPatch": {
+        "description": "<p>Se puede caminar sobre la superficie del agua como si fuera suelo blando.</p>"
+      }
+    },
+    "Lorekeeper": {
+      "_id": "JsPYzrqpITqGj23I",
+      "name": "Guardián del Saber",
+      "systemPatch": {
+        "description": "<p>Puede almacenar el nombre y los detalles de hasta tres criaturas hostiles dentro de este libro. Usted gana un bono +1 a los tiradas de acción contra esas criaturas.</p>"
+      }
+    },
+    "Manacles": {
+      "_id": "GkmATIuemyFtQX1D",
+      "name": "Manáculos",
+      "systemPatch": {
+        "description": "<p>Este par de puños de bloqueo viene con una llave.</p>"
+      }
+    },
+    "Minor Health Potion Recipe": {
+      "_id": "PQxvxAVBbkt0TleC",
+      "name": "Receta de poción de salud menor",
+      "systemPatch": {
+        "description": "<p>Como movimiento del tiempo de inactividad, usted puede utilizar un vial de sangre para crear una Poción Menor de Salud.</p>"
+      }
+    },
+    "Minor Stamina Potion Recipe": {
+      "_id": "1TLpFsp3PLDsqoTw",
+      "name": "Receta de poción de estamina menor",
+      "systemPatch": {
+        "description": "<p>Como un movimiento de descanso, se puede utilizar el hueso de una criatura para crear una poción de estamina menor.</p>"
+      }
+    },
+    "Mythic Dust Recipe": {
+      "_id": "5YZls8XH3MB7twNa",
+      "name": "Receta de polvo mítica",
+      "systemPatch": {
+        "description": "<p>Como un movimiento de descanso, usted puede utilizar un puñado de polvo de oro fino para crear polvo mítico.</p>"
+      }
+    },
+    "Paragon’s Chain": {
+      "_id": "F4hoRfvVdZq5bhhI",
+      "name": "Cadena de Paragón",
+      "systemPatch": {
+        "description": "<p>Como un movimiento de descanso, usted puede meditar en un ideal o principio que usted tiene querido y enfocar su voluntad en esta cadena.</p><p>Una vez por descanso prolongado, usted puede gastar una esperanza para tirar un d20 como su Dado de Esperanza para tiradas que se alinean directamente con ese principio.</p>",
+        "actions": {
+          "esnUuqMcvyOvI6PV": {
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "Phoenix Feather": {
+      "_id": "QNtzJSVENww63THa",
+      "name": "Pluma Fénix",
+      "systemPatch": {
+        "description": "<p>Si tienes al menos una Pluma Fénix sobre ti cuando caes inconsciente, obtienes un bono +1 al tirada que haces para determinar si obtienes una cicatriz.</p>"
+      }
+    },
+    "Piercing Arrows": {
+      "_id": "I63LTFD6GXHgyGpR",
+      "name": "Flechas de perforación",
+      "systemPatch": {
+        "description": "<p>Tres veces por descanso cuando tienes éxito en un ataque con una de estas flechas, puedes añadir tu competencia al tirada de daño.</p>",
+        "actions": {
+          "DW5AqEM0F8XaUqpn": {
+            "description": "<p>Tres veces por descanso cuando tienes éxito en un ataque con una de estas flechas, puedes añadir tu competencia al tirada de daño.</p>",
+            "name": "Uso"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Flechas de perforación",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Añada su competencia al tirada de daños de este ataque.</p>",
+          "_id": "lRfqfbwlfxzPbE6U"
+        }
+      ]
+    },
+    "Piper Whistle": {
+      "_id": "v4PIoCCEjeE3acys",
+      "name": "Piper Silbato",
+      "systemPatch": {
+        "description": "<p>Este silbato artesanal tiene un sonido distintivo. Cuando soplas este silbato, su tono penetrante se puede escuchar en un radio de 1 milla.</p>"
+      }
+    },
+    "Portal Seed": {
+      "_id": "eRd5Gk7J7hPCqp11",
+      "name": "Semilla de portal",
+      "systemPatch": {
+        "description": "<p>Puedes plantar esta semilla en el suelo para cultivar un portal en ese lugar. El portal está listo para ser utilizado en 24 horas. Puede utilizar este portal para viajar a cualquier otra ubicación donde haya plantado una semilla de portal. Un portal puede ser destruido traficando cualquier cantidad de daño mágico a él.</p>"
+      }
+    },
+    "Premium Bedroll": {
+      "_id": "QGYPNBIufpBguwjC",
+      "name": "Colchoneta Premium",
+      "systemPatch": {
+        "description": "<p>Durante el tiempo de inactividad, se elimina automáticamente un estrés.</p>",
+        "actions": {
+          "Xe0zhVbSzZLgX1nC": {
+            "name": "Toma una siesta."
+          }
+        }
+      }
+    },
+    "Ring of Resistance": {
+      "_id": "aUqRifqR5JXXa1dN",
+      "name": "Anillo de Resistencia",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, puede activar este anillo después de un ataque exitoso contra usted para reducir a la mitad el daño.</p>",
+        "actions": {
+          "4swwe8SZeh2KyPtl": {
+            "description": "<p>Una vez por descanso prolongado, puede activar este anillo después de un ataque exitoso contra usted para reducir a la mitad el daño.</p>",
+            "name": "Activar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Anillo de Resistencia",
+          "description": "<p>Una vez por descanso prolongado, puede activar este anillo después de un ataque exitoso contra usted para reducir a la mitad el daño.</p>",
+          "_id": "Sj7uGf560T7u4rlX"
+        }
+      ]
+    },
+    "Ring of Silence": {
+      "_id": "K1ysGnTpNyxPu5Au",
+      "name": "Anillo de Silencio",
+      "systemPatch": {
+        "description": "<p>Gasta una esperanza para activar este anillo. Tus pasos son silenciosos hasta tu próximo descanso.</p>",
+        "actions": {
+          "Y4mvuJ4tncrKhyjY": {
+            "description": "<p><strong>Gasta una esperanza</strong> para activar este anillo. Tus pasos son silenciosos hasta tu próximo descanso.</p>",
+            "name": "Activar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Anillo de Silencio",
+          "description": "<p>Tus pasos son silenciosos hasta tu próximo descanso.</p>",
+          "_id": "9JSLRu7amQ4iuIO7"
+        }
+      ]
+    },
+    "Ring of Unbreakable Resolve": {
+      "_id": "kn71qCQY0DnjmQBJ",
+      "name": "Anillo de resolución irrompible",
+      "systemPatch": {
+        "description": "<p>Una vez por sesión, cuando el DJ pasa un Miedo, puedes gastar 4 Esperanza para cancelar los efectos de ese Miedo gastado.</p>",
+        "actions": {
+          "R92d0DSVEwmqNJhM": {
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "Shard of Memory": {
+      "_id": "2ULPgNyqCrxea0v0",
+      "name": "Frasco de memoria",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, usted puede <strong>Gastar 2 Esperanza</strong> para recordar una tarjeta de dominio de su bóveda en lugar de pagar su costo de devolución.</p>",
+        "actions": {
+          "YNRybKQC51muVHYH": {
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "Skeleton Key": {
+      "_id": "edkNgwy4xghZreBa",
+      "name": "Tecla esquelética",
+      "systemPatch": {
+        "description": "<p>Cuando utilizas esta llave para abrir una puerta cerrada, obtienes ventaja en el tirada de Sutileza.</p>",
+        "actions": {
+          "lV6W9M1CX6N8jSpt": {
+            "name": "Usar clave"
+          }
+        }
+      }
+    },
+    "Speaking Orbs": {
+      "_id": "LZrG6CFiSjpLA2F1",
+      "name": "Orbs que hablan",
+      "systemPatch": {
+        "description": "<p>Este par de orbes permite a cualquier criatura que los sostenga comunicarse entre sí a través de cualquier distancia.</p>"
+      }
+    },
+    "Stride Relic": {
+      "_id": "FfJISMzYATaPQPLc",
+      "name": "Reliquia del estrido",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su Agilidad. Sólo puedes llevar una reliquia.</p>"
+      },
+      "effects": [
+        {
+          "name": "Reliquia del estrido",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Usted gana un bono +1 a su Agilidad.</p>",
+          "_id": "7lHIbMyCDonSxSZf"
+        }
+      ]
+    },
+    "Suspended Rod": {
+      "_id": "nnj12RiFanq7s5zv",
+      "name": "Vara suspendida",
+      "systemPatch": {
+        "description": "<p>Esta varilla plana está inscrita con runas. Cuando se activa la varilla, se suspende inmediatamente en su lugar. Hasta que la vara no se desactive, no puede moverse, no cumple con las reglas de la gravedad, y permanece en su lugar.</p>"
+      }
+    },
+    "Valorstone": {
+      "_id": "7yywua9TmQ4WP5WH",
+      "name": "Piedra de Valor",
+      "systemPatch": {
+        "description": "<p>Usted puede fijar esta piedra a la armadura que no tiene ya una característica. La armadura gana la siguiente característica.</p><p><strong>Resiliente</strong>: Antes de marcar su última Ranura de Armadura, tirar un d6. En un resultado de 6, reducir la severidad por un umbral sin marcar una Ranura de Armadura.</p>"
+      }
+    },
+    "Vial of Darksmoke Recipe": {
+      "_id": "MhCo8i0cRXzdnXbA",
+      "name": "Vial de la receta de humo oscuro",
+      "systemPatch": {
+        "description": "<p>Como un movimiento de descanso, puedes marcar un Estrés para crear un Vial de humo oscuro.</p>"
+      }
+    },
+    "Woven Net": {
+      "_id": "ARuv48PWUGJGBC4n",
+      "name": "Cifras netas tejidas",
+      "systemPatch": {
+        "description": "<p>Puedes hacer una tirada de Sutileza usando esta red para atrapar a una pequeña criatura. Un objetivo atrapado puede liberarse con una tirada de ataque exitoso (16).</p>",
+        "actions": {
+          "yv0l43uUDB2gWFd1": {
+            "name": "Lanzar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Cifras netas tejidas",
+          "_id": "KjAianGutrQuJNs3"
+        },
+        {
+          "name": "Cifras netas tejidas",
+          "_id": "nY2UFMPZdoSUr6Ps"
+        }
+      ]
+    }
+  }
+}

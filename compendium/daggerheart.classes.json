@@ -1,0 +1,1045 @@
+{
+  "label": "Clases",
+  "folders": {
+    "Bard": "Bardo",
+    "Class Features": "Rasgos de clase",
+    "Class Items": "Objetos de clase",
+    "Druid": "Druida",
+    "Guardian": "Guardián",
+    "Ranger": "Explorador",
+    "Rogue": "Pícaro",
+    "Seraph": "Serafín",
+    "Sorcerer": "Hechicero",
+    "Standard Take": "Equipo Estándar",
+    "Warrior": "Guerrero",
+    "Wizard": "Mago"
+  },
+  "mapping": {
+    "systemPatch": {
+      "path": "system",
+      "converter": "daggerheartOverlay"
+    },
+    "prototypeTokenPatch": {
+      "path": "prototypeToken",
+      "converter": "daggerheartOverlay"
+    },
+    "flagsPatch": {
+      "path": "flags",
+      "converter": "daggerheartOverlay"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "daggerheartEmbedded"
+    },
+    "items": {
+      "path": "items",
+      "converter": "daggerheartEmbedded"
+    },
+    "pages": {
+      "path": "pages",
+      "converter": "daggerheartEmbedded"
+    },
+    "results": {
+      "path": "results",
+      "converter": "daggerheartEmbedded"
+    }
+  },
+  "entries": {
+    "hMST9iizQP1yz0MG": {
+      "_id": "hMST9iizQP1yz0MG",
+      "name": "15 metros de Cuerda"
+    },
+    "Bvr6wjf44EvCdidC": {
+      "_id": "Bvr6wjf44EvCdidC",
+      "name": "Una Novela Romántica"
+    },
+    "LoQH7wpfyKsuMJ5l": {
+      "_id": "LoQH7wpfyKsuMJ5l",
+      "name": "Una Piedra de Afilar"
+    },
+    "CHK32dfCTTyuxV1A": {
+      "_id": "CHK32dfCTTyuxV1A",
+      "name": "Sentido Arcano",
+      "systemPatch": {
+        "description": "<p>Puedes sentir la presencia de magia dentro del alcance Cerca.</p>"
+      }
+    },
+    "3hNVqD1c0VIw2Nj5": {
+      "_id": "3hNVqD1c0VIw2Nj5",
+      "name": "Ataque de Oportunidad",
+      "systemPatch": {
+        "description": "<p>Si un adversario dentro del alcance Cuerpo a cuerpo intenta salir de ese rango, haga una tirada de reacción usando un rasgo de su elección contra su Dificultad. Elija un efecto en un éxito, o dos si tiene éxito crítico:</p><ul><li><p>No pueden moverse de donde están.</p></li><li><p>Usted les hace daño igual al daño de su arma primaria.</p></li><li><p>Te mueves con ellos.</p></li></ul>"
+      }
+    },
+    "vegl3bFOq3pcFTWT": {
+      "_id": "vegl3bFOq3pcFTWT",
+      "name": "Bardo",
+      "systemPatch": {
+        "description": "<p><strong>Nota: En el nivel 5 utilice Rally (Nivel 5) en lugar de Rally bajo la función de clase. (La automatización se implementará en una versión posterior)</strong></p><p><br />Los bardos son las personas más carismáticas de todos los reinos. Los miembros de esta clase son maestros de la cautivación y se especializan en una variedad de tipos de interpretación, incluyendo cantar, tocar instrumentos musicales, tejer cuentos o contar chistes. Ya sea actuando para un público o hablando con un individuo, los bardos prosperan en situaciones sociales. Los miembros de esta profesión se unen y entrenan en escuelas o gremios, pero una corriente de egoísmo corre a través de los de la persuasión bárdica. Aunque pueden ser la clase más probable para unir a la gente, un bardo de mal genio puede fácilmente hacer pedazos una fiesta.</p>"
+      }
+    },
+    "uoG5iq09mxJPXfmk": {
+      "_id": "uoG5iq09mxJPXfmk",
+      "name": "Suministros Básicos"
+    },
+    "P1K0jcnH2RiS6TLd": {
+      "_id": "P1K0jcnH2RiS6TLd",
+      "name": "Forma Bestial",
+      "systemPatch": {
+        "description": "<p><strong>Marca un Estrés</strong> para transformarte mágicamente en una criatura de tu rango o inferior de la lista de Formas Bestiales. Puedes salir de esta forma en cualquier momento. Mientras estés transformado, no puedes usar armas ni lanzar conjuros de cartas de dominio, pero aún puedes usar otros rasgos o habilidades a los que tengas acceso. Los conjuros que lances antes de transformarte permanecen activos y duran su duración normal, y puedes hablar y comunicarte normalmente. Además, obtienes los rasgos de la Forma Bestial, añades su bonificador de Evasión a tu Evasión y usas el atributo especificado en sus estadísticas para tu ataque. Mientras estés en una Forma Bestial, tu armadura se convierte en parte de tu cuerpo y marcas Espacios de Armadura como de costumbre; cuando salgas de una Forma Bestial, esos Espacios de Armadura marcados permanecen marcados. Si marcas tu último Punto de Golpe, automáticamente sales de esta forma.</p>",
+        "actions": {
+          "MN2U7f7ypnQeg1PY": {
+            "name": "Forma Bestial"
+          }
+        }
+      }
+    },
+    "8k76EgktQXFWHf8r": {
+      "_id": "8k76EgktQXFWHf8r",
+      "name": "Brújula Rota"
+    },
+    "aLvek22hb5kNg9MF": {
+      "_id": "aLvek22hb5kNg9MF",
+      "name": "Paquete de Ofrendas"
+    },
+    "P02cbN50LIoD662z": {
+      "_id": "P02cbN50LIoD662z",
+      "name": "Canalizar Poder Puro",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, puede colocar una tarjeta de dominio de su carga en su bóveda y elegir cualquiera de los siguientes:</p><ul><li><p>Ganar Esperanza igual al nivel de la tarjeta.</p></li><li><p>Mejora un hechizo que hace daño, ganando un bono a su tirada de daño igual al doble del nivel de la tarjeta.</p></li></ul>",
+        "actions": {
+          "YFmqnbMx540su2Ni": {
+            "description": "<p>Una vez por descanso prolongado, puede colocar una tarjeta de dominio de su carga en su bóveda y elegir cualquiera de los siguientes:</p><ul><li><p>Ganar Esperanza igual al nivel de la tarjeta.</p></li><li><p>Mejora un hechizo que hace daño, ganando un bono a su tirada de daño igual al doble del nivel de la tarjeta.</p></li></ul>",
+            "name": "Canal"
+          }
+        }
+      }
+    },
+    "5IT8wYa0m1EFw8Zp": {
+      "_id": "5IT8wYa0m1EFw8Zp",
+      "name": "Encapuchado",
+      "systemPatch": {
+        "description": "<p>Cada vez que estarías Oculto, en su lugar estás Encapuchado. Además de los beneficios de la condición Oculto, mientras estés Encapuchado permaneces invisible si estás inmóvil cuando un adversario se mueve a donde normalmente te vería. Después de hacer un ataque o terminar un movimiento dentro de la línea de visión de un adversario, ya no estás Encapuchado.</p>"
+      }
+    },
+    "eoSmuAJmgHUyULtp": {
+      "_id": "eoSmuAJmgHUyULtp",
+      "name": "Entrenamiento de Combate",
+      "systemPatch": {
+        "description": "<p>Cuando hagas una tirada con Agilidad o Fuerza puedes gastar un punto de Esperanza para rehacer la tirada. Debes quedarte con el nuevo resultado.</p>"
+      },
+      "effects": [
+        {
+          "name": "Entrenamiento de Combate",
+          "description": "<p>Cuando hagas una tirada con Agilidad o Fuerza puedes gastar un punto de Esperanza para rehacer la tirada. Debes quedarte con el nuevo resultado.</p>",
+          "_id": "Y7sTM0tw0VpgU6pC"
+        }
+      ]
+    },
+    "KuPuEAbUK4VKpS2O": {
+      "_id": "KuPuEAbUK4VKpS2O",
+      "name": "Dibujo de un Amante"
+    },
+    "ZNwUTCyGCEcidZFv": {
+      "_id": "ZNwUTCyGCEcidZFv",
+      "name": "Druida",
+      "systemPatch": {
+        "description": "<p>Convertirse en druida es más que una ocupación; es un llamado para aquellos que desean aprender y proteger la magia del desierto. Mientras uno puede subestimar a un druida gentil que practica el trabajo a menudo silencioso de cultivar flora, los druidas que canalizan las fuerzas indómitas de la naturaleza son aterradores de contemplar. Los druidas cultivan sus habilidades en grupos pequeños, a menudo conectados por un ethos específico o locale, pero algunos optan por trabajar solos. A través de años de estudio y dedicación, los druidas pueden aprender a transformarse en bestias y dar forma a la naturaleza misma.</p>"
+      }
+    },
+    "6rlxhrRwFaVgq9fe": {
+      "_id": "6rlxhrRwFaVgq9fe",
+      "name": "Evolución",
+      "systemPatch": {
+        "description": "<p><strong>Gasta 3 Esperanza</strong> transformarse en una forma Bestia sin marcar un Estrés. Cuando lo hagas, elige un rasgo para subir por +1 hasta que abandones esa Beastform.<br /><br /><strong>Nota: Conmutar uno de los Rasgos de Evolución en la pestaña de efectos para aumentar un rasgo por 1, por ejemplo. Evolución: Agilidad</strong></p>",
+        "actions": {
+          "bj4m9E8ObFT0xDQ4": {
+            "description": "<p>Gasta 3 Esperanza para transformarte en una forma Bestia sin marcar un Estrés. Cuando lo hagas, elige un rasgo para subir por +1 hasta que abandones esa Beastform. </p>",
+            "name": "Forma Bestial"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Evolución: Agilidad",
+          "description": "<p>Conmutar esto para +1 a Agilidad cuando se utiliza Evolution. Apágalo cuando salgas de Beastform.</p>",
+          "_id": "vQOqLZAxOltAzsVv"
+        },
+        {
+          "name": "Evolución: Dosis",
+          "description": "<p>Conmutar esto para +1 a Fuerza cuando se utiliza Evolution. Apágalo cuando salgas de Beastform.</p>",
+          "_id": "cwEsO1NZpkQHuoTT"
+        },
+        {
+          "name": "Evolución: Sutileza",
+          "description": "<p>Conmutar esto para +1 a Sutileza cuando se utiliza Evolution. Apágalo cuando salgas de Beastform.</p>",
+          "_id": "8P0nwRHNsVnHVPjq"
+        },
+        {
+          "name": "Evolución: Instinto",
+          "description": "<p>Conmutar esto para +1 a Instinto cuando se utiliza Evolution. Apágalo cuando salgas de Beastform.</p>",
+          "_id": "i2GhNGo5TnGtLuA0"
+        },
+        {
+          "name": "Evolución: Presencia",
+          "description": "<p>Conmutar esto para +1 a Presencia cuando se utiliza Evolución. Apágalo cuando salgas de Beastform.</p>",
+          "_id": "APQF1in1LXjBZh9n"
+        },
+        {
+          "name": "Evolución: Conocimiento",
+          "description": "<p>Conmutar esto para +1 al Conocimiento cuando se utiliza Evolution. Apágalo cuando salgas de Beastform.</p>",
+          "_id": "WwOvGJYJb4d37cOy"
+        }
+      ]
+    },
+    "Yum0uBtnEtTBcpax": {
+      "_id": "Yum0uBtnEtTBcpax",
+      "name": "Reliquia Familiar"
+    },
+    "YS1g7YdWwOaS629x": {
+      "_id": "YS1g7YdWwOaS629x",
+      "name": "Tanque de Primera Línea",
+      "systemPatch": {
+        "description": "<p><strong>Gasta 3 de Esperanza</strong> para eliminar 2 Espacios de Armadura.</p>",
+        "actions": {
+          "pRMSzC9XDSKmmLqT": {
+            "description": "<p><strong>Gasta 3 de Esperanza</strong> para eliminar 2 Espacios de Armadura.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      }
+    },
+    "J1c708r5L9TYckER": {
+      "_id": "J1c708r5L9TYckER",
+      "name": "Gancho de Agarre"
+    },
+    "nRAyoC0fOzXPDa4z": {
+      "_id": "nRAyoC0fOzXPDa4z",
+      "name": "Guardián",
+      "systemPatch": {
+        "description": "<p>El título de tutor representa una serie de profesiones marciales, hablando más a su brújula moral y fortaleza inquebrantable que los medios por los que luchan. Aunque muchos guardianes se unen a grupos de militantes por un país o por una causa, es más probable que sigan a aquellos pocos que realmente les importan, la mayoría sea condenada. Los guardianes son conocidos por luchar con extraordinaria ferocidad incluso contra las probabilidades abrumadoras, defendiendo a su cohorte sobre todo lo demás. ¡Ay de los que hieren al aliado de un guardián, como el guardián responderá a este daño en especie.</p>"
+      }
+    },
+    "2Cyb9ZeuAesf5Sb3": {
+      "_id": "2Cyb9ZeuAesf5Sb3",
+      "name": "Contenerlos",
+      "systemPatch": {
+        "description": "<p><strong>Gasta 3 de Esperanza</strong> cuando tengas éxito en un ataque con un arma para usar esa misma tirada contra dos adversarios adicionales dentro del alcance del ataque.</p>",
+        "actions": {
+          "yhVUna5biFAN0o2Y": {
+            "description": "<p><strong>Gasta 3 de Esperanza</strong> cuando tengas éxito en un ataque con un arma para usar esa misma tirada contra dos adversarios adicionales dentro del alcance del ataque.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      }
+    },
+    "XGWVVkHlVrF5fGm6": {
+      "_id": "XGWVVkHlVrF5fGm6",
+      "name": "Carta (Sin abrir)"
+    },
+    "lSlvSUHbOoX36q2j": {
+      "_id": "lSlvSUHbOoX36q2j",
+      "name": "Soporte Vital",
+      "systemPatch": {
+        "description": "<p><strong>Gasta 3 Esperanza</strong> para limpiar un Punto de Golpe en un aliado dentro de un estrecho rango.</p>",
+        "actions": {
+          "7xzDLC2PrlK1E2XO": {
+            "description": "<p><strong>Gasta 3 Esperanza</strong> para limpiar un Punto de Golpe en un aliado dentro de un estrecho rango.</p>",
+            "name": "Curación"
+          }
+        }
+      }
+    },
+    "N9E5skDDK2VgvohR": {
+      "_id": "N9E5skDDK2VgvohR",
+      "name": "Montar una Escena",
+      "systemPatch": {
+        "description": "<p><strong>Gasta 3 de Esperanza</strong> para Distraer temporalmente a un objetivo dentro del alcance Cerca, dándole una penalización de -2 a su Dificultad.</p>",
+        "actions": {
+          "T6sfMJ9DRvF0IQZ4": {
+            "name": "Gasta esperanza"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Montar una Escena",
+          "_id": "8G9zDv1gac6dEHmS"
+        }
+      ]
+    },
+    "cshTYdtz9yoXYYB3": {
+      "_id": "cshTYdtz9yoXYYB3",
+      "name": "Ilusión Menor",
+      "systemPatch": {
+        "description": "<p>Hacer un <strong>Tirada de hechizos (10)</strong>. En un éxito, usted crea una ilusión visual menor no más grande que usted dentro de un alcance Cerca. Esta ilusión es convincente para cualquier persona a alcance Cerca o más lejos.</p>",
+        "actions": {
+          "gLjqQ6KgxVeJljRt": {
+            "name": "Reparto"
+          }
+        }
+      }
+    },
+    "njj2C3tMDeCHHOoh": {
+      "_id": "njj2C3tMDeCHHOoh",
+      "name": "Sin Piedad",
+      "systemPatch": {
+        "description": "<p><strong>Gasta 3 Esperanza</strong> para ganar un bono +1 a sus tiradas de ataque hasta su próximo descanso.</p>",
+        "actions": {
+          "Kwav1cV1xvVO13sR": {
+            "description": "<p><strong>Gasta 3 Esperanza</strong> para ganar un bono +1 a sus tiradas de ataque hasta su próximo descanso.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Sin Piedad",
+          "description": "<p><strong>G</strong>es un bono +1 a sus tiradas de ataque hasta su próximo descanso.</p>",
+          "_id": "XK4cCcz9sRGDJr0q"
+        }
+      ]
+    },
+    "h3VE0jhcM5xHKBs4": {
+      "_id": "h3VE0jhcM5xHKBs4",
+      "name": "Esta Vez No",
+      "systemPatch": {
+        "description": "<p><strong>Gasta 3 Esperanza</strong> para forzar a un adversario dentro de un alcance Lejos a volver a lanzar un ataque o una tirada de daños.</p>",
+        "actions": {
+          "lX5FtnuXaKOdRlLF": {
+            "description": "<p><strong>Gasta 3 Esperanza</strong> para forzar a un adversario dentro de un alcance Lejos a volver a lanzar un ataque o una tirada de daños.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      }
+    },
+    "Xd7RYhfTxIj9aWI2": {
+      "_id": "Xd7RYhfTxIj9aWI2",
+      "name": "Dados de Oración",
+      "systemPatch": {
+        "description": "<p>Al principio de cada sesión, haga tirar un número de d4s igual al rasgo Lanzamiento de conjuros de su subclase y colóquelo en su hoja de caracteres en el espacio proporcionado. Estos son tus dados de oración. Usted puede gastar cualquier número de dados de oración para ayudarse a sí mismo o a un aliado dentro de un alcance Lejos. Usted puede utilizar el valor de un dado gastado para reducir el daño entrante, añadir al resultado de una tirada después de que se hace el tirada, o ganar Esperanza igual al resultado. Al final de cada sesión, limpie todos los dados de oración no utilizados.</p>"
+      }
+    },
+    "SG2uw8h5YuwDviCn": {
+      "_id": "SG2uw8h5YuwDviCn",
+      "name": "Prestidigitación",
+      "systemPatch": {
+        "description": "<p>Puedes realizar efectos sutiles y menores a voluntad, como invocar una llama de vela, producir un olor extraño o limpiar un objeto pequeño.</p>"
+      }
+    },
+    "PydiMnNCKpd44SGS": {
+      "_id": "PydiMnNCKpd44SGS",
+      "name": "Inspirar",
+      "systemPatch": {
+        "description": "<p>Una vez por sesión, describe cómo inspiras al grupo y date a ti mismo y a cada uno de tus aliados un Dado de Inspiración. En nivel 1, tu Dado de Inspiración es un d6. Un PJ puede gastar su Dado de Inspiración para tirarlo, añadiendo el resultado a su tirada de acción, tirada de reacción, tirada de daño o para eliminar un número de Estrés igual al resultado. Al final de cada sesión, elimina todos los Dados de Inspiración no gastados. En nivel 5, tu Dado de Inspiración aumenta a un d8.</p>",
+        "actions": {
+          "vI4Fph3y9ygsya9e": {
+            "name": "¡Reúnanse con sus aliados!"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Inspirar",
+          "_id": "FrSJH9vzDHkFGYQL"
+        }
+      ]
+    },
+    "BTyfve69LKqoOi9S": {
+      "_id": "BTyfve69LKqoOi9S",
+      "name": "Explorador",
+      "systemPatch": {
+        "description": "<p>Los Rangers son cazadores altamente calificados que, a pesar de sus habilidades marciales, rara vez prestan sus habilidades a un ejército. A través del dominio del cuerpo y una profunda comprensión del desierto, los guardabosques se convierten en astutos tácticos, persiguiendo su cantera con astucia y paciencia. Muchos guardabosques siguen y luchan junto a un compañero animal con el que han forjado un poderoso vínculo espiritual. Al perfeccionar sus habilidades en la naturaleza, los guardabosques se convierten en rastreadores expertos, tan propensos a atrapar a sus enemigos en una trampa como a asaltarlos de frente.</p>"
+      }
+    },
+    "ncLx2P8BOUtrAD38": {
+      "_id": "ncLx2P8BOUtrAD38",
+      "name": "Concentración del Explorador",
+      "systemPatch": {
+        "description": "<p>Gastar una esperanza y hacer un ataque contra un objetivo. En un éxito, lidiar con el daño normal de su ataque y temporalmente hacer que el objetivo del ataque su Focus. Hasta que esta característica termine o hagas de una criatura diferente tu Focus, obtienes los siguientes beneficios contra tu Focus: </p><ul><li><p>Sabes exactamente en qué dirección están. </p></li><li><p>Cuando les haces daño, deben marcar un Estrés. </p></li><li><p>Cuando fallas en un ataque contra ellos, puedes terminar la función de enfoque de tu Ranger para volver a tirar tus dados de dualidad.</p></li></ul>",
+        "actions": {
+          "dTkLqUxZpW4xOEKW": {
+            "description": "<p>Gastar una esperanza y hacer un ataque contra un objetivo. En un éxito, lidiar con el daño normal de su ataque y temporalmente hacer que el objetivo del ataque su Focus. Hasta que esta característica termine o hagas de una criatura diferente tu Focus, obtienes los siguientes beneficios contra tu Focus:</p><ul><li><p>Sabes exactamente en qué dirección están.</p></li><li><p>Cuando les haces daño, deben marcar un Estrés.</p></li><li><p>Cuando fallas en un ataque contra ellos, puedes terminar la función de enfoque de tu Ranger para volver a tirar tus dados de dualidad.</p></li></ul>",
+            "name": "Gasta esperanza"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Concentración del Explorador",
+          "description": "<p>Hasta que esta característica termine o el guardabosques haga de una criatura diferente su Focus, obtienen los siguientes beneficios contra este adversario:</p><ul><li><p>Saben exactamente en qué dirección están.</p></li><li><p>Cuando les causan daño, la adverasry debe marcar un estrés.</p></li><li><p>Cuando fallan en un ataque contra ellos, pueden terminar su función Ranger’s Focus para volver a tirar sus dados de dualidad.</p></li></ul>",
+          "_id": "SXi2dQWqpwY9fap4"
+        }
+      ]
+    },
+    "CvHlkHZfpMiCz5uT": {
+      "_id": "CvHlkHZfpMiCz5uT",
+      "name": "Pícaro",
+      "systemPatch": {
+        "description": "<p>Las rogues son sinvergüenzas, a menudo en actitud y práctica. Conocidos ampliamente como mentirosos y ladrones, los mejores de esta clase se mueven anónimamente por el mundo. Utilizando su ingenio agudo y sus espadas, los pícaros engañan a sus enemigos a través de la manipulación social tan fácilmente como romper cerraduras, trepar a través de las ventanas o tratar con golpes sucios. Estos maestros de la artesanía mágica manipulan la sombra y el movimiento, añadiendo una variedad de herramientas útiles y mortales a su repertorio. Con frecuencia Rogues establece gremios para conocer futuros cómplices, contratar trabajos y perfeccionar habilidades secretas, demostrando que hay honor entre los ladrones para aquellos que saben dónde buscar.</p>"
+      }
+    },
+    "hVaaPIjxoextIgSL": {
+      "_id": "hVaaPIjxoextIgSL",
+      "name": "Esquiva del Pícaro",
+      "systemPatch": {
+        "description": "<p><strong>Gasta 3 de Esperanza</strong> para ganar un bonificador de +2 a tu Evasión hasta la próxima vez que un ataque tenga éxito contra ti. De lo contrario, este bonificador dura hasta tu próximo descanso.</p>",
+        "actions": {
+          "GbQca7YphTh7skHG": {
+            "description": "<p><strong>Gasta 3 de Esperanza</strong> para ganar un bonificador de +2 a tu Evasión hasta la próxima vez que un ataque tenga éxito contra ti. De lo contrario, este bonificador dura hasta tu próximo descanso.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Esquiva del Pícaro",
+          "description": "<p><strong>Gasta 3 de Esperanza</strong> para ganar un bonificador de +2 a tu Evasión hasta la próxima vez que un ataque tenga éxito contra ti. De lo contrario, este bonificador dura hasta tu próximo descanso.</p>",
+          "_id": "hhVjBro2osGDTT5g"
+        }
+      ]
+    },
+    "VVvIPx1cduyAb8jr": {
+      "_id": "VVvIPx1cduyAb8jr",
+      "name": "Llave Secreta"
+    },
+    "5ZnlJ5bEoyOTkUJv": {
+      "_id": "5ZnlJ5bEoyOTkUJv",
+      "name": "Serafín",
+      "systemPatch": {
+        "description": "<p>Los serafines son luchadores divinos y sanadores imbuidos de propósito sagrado. Una amplia gama de deidades existen dentro de los reinos, y por lo tanto numerosos tipos de serafines son nombrados por estos dioses. Su ethos tradicionalmente se alinea con el dominio o metas de su dios, tales como la defensa de los débiles, la venganza exigente, la protección de una tierra o artefacto, o la defensa de una fe en particular. Algunos serafines se alian con un ejército o local, para satisfacción de sus gobernantes, pero otros cruzados luchan en oposición a las locuras del Reino Mortal. Es mejor ser aliado de un serafín que su enemigo, ya que son enemigos aterradores para aquellos que desafían su propósito.</p>"
+      }
+    },
+    "yqoO5aqDd4aD13pc": {
+      "_id": "yqoO5aqDd4aD13pc",
+      "name": "Juego de Herramientas de Falsificación"
+    },
+    "o3G6szWvPoz7fo6T": {
+      "_id": "o3G6szWvPoz7fo6T",
+      "name": "Símbolo de tu Dios"
+    },
+    "todlyATSZzLPTqnU": {
+      "_id": "todlyATSZzLPTqnU",
+      "name": "Pequeña Bolsa (Piedras y Huesos)"
+    },
+    "5QqpEwmwkPfZHpMW": {
+      "_id": "5QqpEwmwkPfZHpMW",
+      "name": "Ataque Furtivo",
+      "systemPatch": {
+        "description": "<p>Cuando tenga éxito en un ataque mientras se oculta o mientras un aliado está dentro del alcance Cuerpo a cuerpo de su objetivo, agregue un número de d6s igual a su nivel a su tirada de daños. </p><ul><li><p>Nivel 1 -&gt; Nivel 1</p></li><li><p>Niveles 2–4 -&gt; Nivel 2 </p></li><li><p>Niveles 5-7 -&gt; Nivel 3 </p></li><li><p>Niveles 8-10 -&gt; Nivel 4</p></li></ul>"
+      },
+      "effects": [
+        {
+          "name": "Ataque Furtivo",
+          "description": "<p>Cuando tenga éxito en un ataque mientras se oculta o mientras un aliado está dentro del alcance Cuerpo a cuerpo de su objetivo, agregue un número de d6s igual a su nivel a su tirada de daños.</p><ul><li><p>Nivel 1 -&gt; Nivel 1</p></li><li><p>Niveles 2–4 -&gt; Nivel 2</p></li><li><p>Niveles 5-7 -&gt; Nivel 3</p></li><li><p>Niveles 8-10 -&gt; Nivel 4</p></li></ul>",
+          "_id": "380jFzw756qSy5ae"
+        }
+      ]
+    },
+    "DchOzHcWIJE9FKcR": {
+      "_id": "DchOzHcWIJE9FKcR",
+      "name": "Hechicero",
+      "systemPatch": {
+        "description": "<p>No todos los usuarios de magia innatas eligen perfeccionar su arte, pero aquellos que lo hacen pueden convertirse en poderosos hechiceros. Los dones de estos empuñadores se transmiten a través de las familias, incluso si la familia no es consciente de ellos o se resiste a practicarlos. Las habilidades de un hechicero pueden ir desde lo elemental a lo ilusorio y más allá, y muchos practicantes se unen en colectivos basados en sus talentos. El acto de convertirse en un brujo formidable no es la práctica de adquirir poder, sino aprender a cultivar y controlar el poder que uno ya posee. La magia de un hechicero equivocado o indisciplinado es una fuerza peligrosa.</p>"
+      }
+    },
+    "LriTeh9hkwzEaCr1": {
+      "_id": "LriTeh9hkwzEaCr1",
+      "name": "Colgante Extraño y Sucio"
+    },
+    "6YsfFjmCGuFYVhT4": {
+      "_id": "6YsfFjmCGuFYVhT4",
+      "name": "Patrones Extraños",
+      "systemPatch": {
+        "description": "<p>Elija un número entre 1 y 12. Cuando usted hace tirar ese número en un Muere de Dualidad, gane una Esperanza o limpie un Estrés.</p><p></p><p>Usted puede cambiar este número cuando usted toma un descanso prolongado.</p>",
+        "actions": {
+          "RkqPzF1bdWzPPMml": {
+            "description": "<p>Elija un número entre 1 y 12. Cuando usted hace tirar ese número en un Muere de Dualidad, gane una Esperanza o limpie un Estrés.</p><p></p><p>Usted puede cambiar este número cuando usted toma un descanso prolongado.</p>",
+            "name": "Estrés claro"
+          }
+        }
+      }
+    },
+    "UUp0YGFj7E4x7Z6Z": {
+      "_id": "UUp0YGFj7E4x7Z6Z",
+      "name": "Pequeña Mascota Elemental",
+      "systemPatch": {
+        "description": "<p>Una pequeña mascota elemental</p>"
+      }
+    },
+    "zqeXrJTd1geX73Pw": {
+      "_id": "zqeXrJTd1geX73Pw",
+      "name": "Antorcha"
+    },
+    "d3VdAtW65oO8j14Y": {
+      "_id": "d3VdAtW65oO8j14Y",
+      "name": "Tótem del Mentor"
+    },
+    "eslejbiZRH6ODh9U": {
+      "_id": "eslejbiZRH6ODh9U",
+      "name": "Trofeo de tu Primera Presa"
+    },
+    "PnD2UCgzIlwX6cY3": {
+      "_id": "PnD2UCgzIlwX6cY3",
+      "name": "Imparable",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, puedes volverte imparable. Ganas una muerte imparable. En el nivel 1, su Muere imparable es un d4. Colóquelo en su hoja de caracteres en el espacio proporcionado, comenzando con el valor 1 hacia arriba. Después de hacer una tirada de daño que distribuye 1 o más Puntos de Golpe a un objetivo, aumentar el valor de Muere imparable en uno. Cuando el valor del dado exceda su valor máximo o cuando la escena termine, retire el dado y salga de Unstoppable. En el nivel 5, su Muere imparable aumenta a un d6. Aunque imparable, usted obtiene los siguientes beneficios:</p><ul><li><p>Se reduce la gravedad del daño físico en un umbral (grave a mayor, mayor a menor, menor a ninguno).</p></li><li><p>Usted agrega el valor actual del Muere imparable a su tirada de daño.</p></li><li><p>Usted no puede ser restringido o vulnerable.</p></li></ul><blockquote><p>Consejo: Si su Muere imparable es un d4 y el 4 está actualmente mirando hacia arriba, se elimina el dado la próxima vez que lo aumentaría. Sin embargo, si su Muere imparable ha aumentado a un d6 y el 4 actualmente está mirando hacia arriba, lo convertirá a 5 la próxima vez que lo aumentaría. En este caso, usted quitará el dado después de que usted tendría que aumentarlo más alto que 6.</p></blockquote>",
+        "actions": {
+          "KZiZ8m8uqH5iG96d": {
+            "description": "<p>Una vez por descanso prolongado, puedes volverte imparable. Ganas una muerte imparable. En el nivel 1, su Muere imparable es un d4. Colóquelo en su hoja de caracteres en el espacio proporcionado, comenzando con el valor 1 hacia arriba. Después de hacer una tirada de daño que distribuye 1 o más Puntos de Golpe a un objetivo, aumentar el valor de Muere imparable en uno. Cuando el valor del dado exceda su valor máximo o cuando la escena termine, retire el dado y salga de Unstoppable. En el nivel 5, su Muere imparable aumenta a un d6. Aunque imparable, usted obtiene los siguientes beneficios:</p><ul><li><p>Se reduce la gravedad del daño físico en un umbral (grave a mayor, mayor a menor, menor a ninguno).</p></li><li><p>Usted agrega el valor actual del Muere imparable a su tirada de daño.</p></li><li><p>Usted no puede ser restringido o vulnerable.</p></li></ul><blockquote><p>Consejo: Si su Muere imparable es un d4 y el 4 está actualmente mirando hacia arriba, se elimina el dado la próxima vez que lo aumentaría. Sin embargo, si su Muere imparable ha aumentado a un d6 y el 4 actualmente está mirando hacia arriba, lo convertirá a 5 la próxima vez que lo aumentaría. En este caso, usted quitará el dado después de que usted tendría que aumentarlo más alto que 6.</p></blockquote>",
+            "name": "Convertirse en imparable"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Imparable",
+          "_id": "xzQtFSuDS48kUdAZ"
+        }
+      ]
+    },
+    "fhg3NK99tcgYQxdY": {
+      "_id": "fhg3NK99tcgYQxdY",
+      "name": "Libro sin Traducir",
+      "systemPatch": {
+        "description": "<p>Un libro que estás tratando de traducir.</p>"
+      }
+    },
+    "ieiQlD0joWSqt53D": {
+      "_id": "ieiQlD0joWSqt53D",
+      "name": "Magia Volátil",
+      "systemPatch": {
+        "description": "<p><strong>Gasta 3 Esperanza</strong> para volver a tirar cualquier número de sus dados de daño en un ataque que hace daño mágico.</p>",
+        "actions": {
+          "JQPMlMLYMs84rWIy": {
+            "description": "<p><strong>Gasta 3 Esperanza</strong> para volver a tirar cualquier número de sus dados de daño en un ataque que hace daño mágico.</p>",
+            "name": "Gasta 3 Esperanza"
+          }
+        }
+      }
+    },
+    "xCUWwJz4WSthvLfy": {
+      "_id": "xCUWwJz4WSthvLfy",
+      "name": "Guerrero",
+      "systemPatch": {
+        "description": "<p>Convertirse en un guerrero requiere años, a menudo toda una vida, de entrenamiento y dedicación al dominio de las armas y la violencia. Mientras que muchos que buscan luchar solo perfeccionan su fuerza, los guerreros entienden la importancia de un cuerpo y mente ágiles, haciéndolos algunos de los luchadores más buscados a través de los reinos. Con frecuencia, los guerreros encuentran empleo dentro de un ejército, una banda de mercenarios, o incluso una guardia real, pero su potencial se desperdicia en cualquier posición en la que no puedan seguir mejorando y ampliando sus habilidades. Se sabe que los guerreros tienen un arma favorita; interponerse entre ellos y su espada sería un grave error.</p>"
+      }
+    },
+    "9AM1YsPeuWSysdDo": {
+      "_id": "9AM1YsPeuWSysdDo",
+      "name": "Orbe Susurrante"
+    },
+    "fqSdfUYUK9QUcVE4": {
+      "_id": "fqSdfUYUK9QUcVE4",
+      "name": "Toque Salvaje",
+      "systemPatch": {
+        "description": "<p>Puedes realizar efectos inofensivos y sutiles que involucren la naturaleza—como hacer crecer rápidamente una flor, invocar una ligera ráfaga de viento o encender una fogata—a voluntad.</p>"
+      }
+    },
+    "5LwX4m8ziY3F1ZGC": {
+      "_id": "5LwX4m8ziY3F1ZGC",
+      "name": "Mago",
+      "systemPatch": {
+        "description": "<p>Ya sea a través de una institución o un estudio individual, los conocidos como magos adquieren y perfeccionan un inmenso poder mágico a través de años de aprendizaje utilizando una variedad de herramientas, incluyendo libros, piedras, pociones y hierbas. Algunos magos dedican sus vidas a dominar una escuela de magia en particular, mientras que otros aprenden de una amplia variedad de disciplinas. Muchos magos se convierten en figuras sabias y poderosas en sus comunidades, asesorando a los gobernantes, proporcionando medicinas y sanación, e incluso dirigiendo consejos de guerra. Mientras que todos estos magos trabajan hacia el objetivo común de reunir conocimiento mágico, los magos a menudo tienen más conflicto dentro de sus propias filas, ya que la adquisición, el mantenimiento y el intercambio de secretos poderosos es un tema de intenso debate que ha resultado en innumerables muertes.</p>"
+      }
+    },
+    "50ft of Rope": {
+      "_id": "hMST9iizQP1yz0MG",
+      "name": "15 metros de Cuerda"
+    },
+    "A Romance Novel": {
+      "_id": "Bvr6wjf44EvCdidC",
+      "name": "Una Novela Romántica"
+    },
+    "A Sharpening Stone": {
+      "_id": "LoQH7wpfyKsuMJ5l",
+      "name": "Una Piedra de Afilar"
+    },
+    "Arcane Sense": {
+      "_id": "CHK32dfCTTyuxV1A",
+      "name": "Sentido Arcano",
+      "systemPatch": {
+        "description": "<p>Puedes sentir la presencia de magia dentro del alcance Cerca.</p>"
+      }
+    },
+    "Attack Of Opportunity": {
+      "_id": "3hNVqD1c0VIw2Nj5",
+      "name": "Ataque de Oportunidad",
+      "systemPatch": {
+        "description": "<p>Si un adversario dentro del alcance Cuerpo a cuerpo intenta salir de ese rango, haga una tirada de reacción usando un rasgo de su elección contra su Dificultad. Elija un efecto en un éxito, o dos si tiene éxito crítico:</p><ul><li><p>No pueden moverse de donde están.</p></li><li><p>Usted les hace daño igual al daño de su arma primaria.</p></li><li><p>Te mueves con ellos.</p></li></ul>"
+      }
+    },
+    "Bard": {
+      "_id": "vegl3bFOq3pcFTWT",
+      "name": "Bardo",
+      "systemPatch": {
+        "description": "<p><strong>Nota: En el nivel 5 utilice Rally (Nivel 5) en lugar de Rally bajo la función de clase. (La automatización se implementará en una versión posterior)</strong></p><p><br />Los bardos son las personas más carismáticas de todos los reinos. Los miembros de esta clase son maestros de la cautivación y se especializan en una variedad de tipos de interpretación, incluyendo cantar, tocar instrumentos musicales, tejer cuentos o contar chistes. Ya sea actuando para un público o hablando con un individuo, los bardos prosperan en situaciones sociales. Los miembros de esta profesión se unen y entrenan en escuelas o gremios, pero una corriente de egoísmo corre a través de los de la persuasión bárdica. Aunque pueden ser la clase más probable para unir a la gente, un bardo de mal genio puede fácilmente hacer pedazos una fiesta.</p>"
+      }
+    },
+    "Basic Supplies": {
+      "_id": "uoG5iq09mxJPXfmk",
+      "name": "Suministros Básicos"
+    },
+    "Beastform": {
+      "_id": "P1K0jcnH2RiS6TLd",
+      "name": "Forma Bestial",
+      "systemPatch": {
+        "description": "<p><strong>Marca un Estrés</strong> para transformarte mágicamente en una criatura de tu rango o inferior de la lista de Formas Bestiales. Puedes salir de esta forma en cualquier momento. Mientras estés transformado, no puedes usar armas ni lanzar conjuros de cartas de dominio, pero aún puedes usar otros rasgos o habilidades a los que tengas acceso. Los conjuros que lances antes de transformarte permanecen activos y duran su duración normal, y puedes hablar y comunicarte normalmente. Además, obtienes los rasgos de la Forma Bestial, añades su bonificador de Evasión a tu Evasión y usas el atributo especificado en sus estadísticas para tu ataque. Mientras estés en una Forma Bestial, tu armadura se convierte en parte de tu cuerpo y marcas Espacios de Armadura como de costumbre; cuando salgas de una Forma Bestial, esos Espacios de Armadura marcados permanecen marcados. Si marcas tu último Punto de Golpe, automáticamente sales de esta forma.</p>",
+        "actions": {
+          "MN2U7f7ypnQeg1PY": {
+            "name": "Forma Bestial"
+          }
+        }
+      }
+    },
+    "Broken Compass": {
+      "_id": "8k76EgktQXFWHf8r",
+      "name": "Brújula Rota"
+    },
+    "Bundle of Offerings": {
+      "_id": "aLvek22hb5kNg9MF",
+      "name": "Paquete de Ofrendas"
+    },
+    "Channel Raw Power": {
+      "_id": "P02cbN50LIoD662z",
+      "name": "Canalizar Poder Puro",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, puede colocar una tarjeta de dominio de su carga en su bóveda y elegir cualquiera de los siguientes:</p><ul><li><p>Ganar Esperanza igual al nivel de la tarjeta.</p></li><li><p>Mejora un hechizo que hace daño, ganando un bono a su tirada de daño igual al doble del nivel de la tarjeta.</p></li></ul>",
+        "actions": {
+          "YFmqnbMx540su2Ni": {
+            "description": "<p>Una vez por descanso prolongado, puede colocar una tarjeta de dominio de su carga en su bóveda y elegir cualquiera de los siguientes:</p><ul><li><p>Ganar Esperanza igual al nivel de la tarjeta.</p></li><li><p>Mejora un hechizo que hace daño, ganando un bono a su tirada de daño igual al doble del nivel de la tarjeta.</p></li></ul>",
+            "name": "Canal"
+          }
+        }
+      }
+    },
+    "Cloaked": {
+      "_id": "5IT8wYa0m1EFw8Zp",
+      "name": "Encapuchado",
+      "systemPatch": {
+        "description": "<p>Cada vez que estarías Oculto, en su lugar estás Encapuchado. Además de los beneficios de la condición Oculto, mientras estés Encapuchado permaneces invisible si estás inmóvil cuando un adversario se mueve a donde normalmente te vería. Después de hacer un ataque o terminar un movimiento dentro de la línea de visión de un adversario, ya no estás Encapuchado.</p>"
+      }
+    },
+    "Combat Training": {
+      "_id": "eoSmuAJmgHUyULtp",
+      "name": "Entrenamiento de Combate",
+      "systemPatch": {
+        "description": "<p>Cuando hagas una tirada con Agilidad o Fuerza puedes gastar un punto de Esperanza para rehacer la tirada. Debes quedarte con el nuevo resultado.</p>"
+      },
+      "effects": [
+        {
+          "name": "Entrenamiento de Combate",
+          "description": "<p>Cuando hagas una tirada con Agilidad o Fuerza puedes gastar un punto de Esperanza para rehacer la tirada. Debes quedarte con el nuevo resultado.</p>",
+          "_id": "Y7sTM0tw0VpgU6pC"
+        }
+      ]
+    },
+    "Drawing Of A Lover": {
+      "_id": "KuPuEAbUK4VKpS2O",
+      "name": "Dibujo de un Amante"
+    },
+    "Druid": {
+      "_id": "ZNwUTCyGCEcidZFv",
+      "name": "Druida",
+      "systemPatch": {
+        "description": "<p>Convertirse en druida es más que una ocupación; es un llamado para aquellos que desean aprender y proteger la magia del desierto. Mientras uno puede subestimar a un druida gentil que practica el trabajo a menudo silencioso de cultivar flora, los druidas que canalizan las fuerzas indómitas de la naturaleza son aterradores de contemplar. Los druidas cultivan sus habilidades en grupos pequeños, a menudo conectados por un ethos específico o locale, pero algunos optan por trabajar solos. A través de años de estudio y dedicación, los druidas pueden aprender a transformarse en bestias y dar forma a la naturaleza misma.</p>"
+      }
+    },
+    "Evolution": {
+      "_id": "6rlxhrRwFaVgq9fe",
+      "name": "Evolución",
+      "systemPatch": {
+        "description": "<p><strong>Gasta 3 Esperanza</strong> transformarse en una forma Bestia sin marcar un Estrés. Cuando lo hagas, elige un rasgo para subir por +1 hasta que abandones esa Beastform.<br /><br /><strong>Nota: Conmutar uno de los Rasgos de Evolución en la pestaña de efectos para aumentar un rasgo por 1, por ejemplo. Evolución: Agilidad</strong></p>",
+        "actions": {
+          "bj4m9E8ObFT0xDQ4": {
+            "description": "<p>Gasta 3 Esperanza para transformarte en una forma Bestia sin marcar un Estrés. Cuando lo hagas, elige un rasgo para subir por +1 hasta que abandones esa Beastform. </p>",
+            "name": "Forma Bestial"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Evolución: Agilidad",
+          "description": "<p>Conmutar esto para +1 a Agilidad cuando se utiliza Evolution. Apágalo cuando salgas de Beastform.</p>",
+          "_id": "vQOqLZAxOltAzsVv"
+        },
+        {
+          "name": "Evolución: Dosis",
+          "description": "<p>Conmutar esto para +1 a Fuerza cuando se utiliza Evolution. Apágalo cuando salgas de Beastform.</p>",
+          "_id": "cwEsO1NZpkQHuoTT"
+        },
+        {
+          "name": "Evolución: Sutileza",
+          "description": "<p>Conmutar esto para +1 a Sutileza cuando se utiliza Evolution. Apágalo cuando salgas de Beastform.</p>",
+          "_id": "8P0nwRHNsVnHVPjq"
+        },
+        {
+          "name": "Evolución: Instinto",
+          "description": "<p>Conmutar esto para +1 a Instinto cuando se utiliza Evolution. Apágalo cuando salgas de Beastform.</p>",
+          "_id": "i2GhNGo5TnGtLuA0"
+        },
+        {
+          "name": "Evolución: Presencia",
+          "description": "<p>Conmutar esto para +1 a Presencia cuando se utiliza Evolución. Apágalo cuando salgas de Beastform.</p>",
+          "_id": "APQF1in1LXjBZh9n"
+        },
+        {
+          "name": "Evolución: Conocimiento",
+          "description": "<p>Conmutar esto para +1 al Conocimiento cuando se utiliza Evolution. Apágalo cuando salgas de Beastform.</p>",
+          "_id": "WwOvGJYJb4d37cOy"
+        }
+      ]
+    },
+    "Family Heirloom": {
+      "_id": "Yum0uBtnEtTBcpax",
+      "name": "Reliquia Familiar"
+    },
+    "Frontline Tank": {
+      "_id": "YS1g7YdWwOaS629x",
+      "name": "Tanque de Primera Línea",
+      "systemPatch": {
+        "description": "<p><strong>Gasta 3 de Esperanza</strong> para eliminar 2 Espacios de Armadura.</p>",
+        "actions": {
+          "pRMSzC9XDSKmmLqT": {
+            "description": "<p><strong>Gasta 3 de Esperanza</strong> para eliminar 2 Espacios de Armadura.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      }
+    },
+    "Grappling Hook": {
+      "_id": "J1c708r5L9TYckER",
+      "name": "Gancho de Agarre"
+    },
+    "Guardian": {
+      "_id": "nRAyoC0fOzXPDa4z",
+      "name": "Guardián",
+      "systemPatch": {
+        "description": "<p>El título de tutor representa una serie de profesiones marciales, hablando más a su brújula moral y fortaleza inquebrantable que los medios por los que luchan. Aunque muchos guardianes se unen a grupos de militantes por un país o por una causa, es más probable que sigan a aquellos pocos que realmente les importan, la mayoría sea condenada. Los guardianes son conocidos por luchar con extraordinaria ferocidad incluso contra las probabilidades abrumadoras, defendiendo a su cohorte sobre todo lo demás. ¡Ay de los que hieren al aliado de un guardián, como el guardián responderá a este daño en especie.</p>"
+      }
+    },
+    "Hold Them Off": {
+      "_id": "2Cyb9ZeuAesf5Sb3",
+      "name": "Contenerlos",
+      "systemPatch": {
+        "description": "<p><strong>Gasta 3 de Esperanza</strong> cuando tengas éxito en un ataque con un arma para usar esa misma tirada contra dos adversarios adicionales dentro del alcance del ataque.</p>",
+        "actions": {
+          "yhVUna5biFAN0o2Y": {
+            "description": "<p><strong>Gasta 3 de Esperanza</strong> cuando tengas éxito en un ataque con un arma para usar esa misma tirada contra dos adversarios adicionales dentro del alcance del ataque.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      }
+    },
+    "Letter(Never Opened)": {
+      "_id": "XGWVVkHlVrF5fGm6",
+      "name": "Carta (Sin abrir)"
+    },
+    "Life Support": {
+      "_id": "lSlvSUHbOoX36q2j",
+      "name": "Soporte Vital",
+      "systemPatch": {
+        "description": "<p><strong>Gasta 3 Esperanza</strong> para limpiar un Punto de Golpe en un aliado dentro de un estrecho rango.</p>",
+        "actions": {
+          "7xzDLC2PrlK1E2XO": {
+            "description": "<p><strong>Gasta 3 Esperanza</strong> para limpiar un Punto de Golpe en un aliado dentro de un estrecho rango.</p>",
+            "name": "Curación"
+          }
+        }
+      }
+    },
+    "Make a Scene": {
+      "_id": "N9E5skDDK2VgvohR",
+      "name": "Montar una Escena",
+      "systemPatch": {
+        "description": "<p><strong>Gasta 3 de Esperanza</strong> para Distraer temporalmente a un objetivo dentro del alcance Cerca, dándole una penalización de -2 a su Dificultad.</p>",
+        "actions": {
+          "T6sfMJ9DRvF0IQZ4": {
+            "name": "Gasta esperanza"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Montar una Escena",
+          "_id": "8G9zDv1gac6dEHmS"
+        }
+      ]
+    },
+    "Minor Illusion": {
+      "_id": "cshTYdtz9yoXYYB3",
+      "name": "Ilusión Menor",
+      "systemPatch": {
+        "description": "<p>Hacer un <strong>Tirada de hechizos (10)</strong>. En un éxito, usted crea una ilusión visual menor no más grande que usted dentro de un alcance Cerca. Esta ilusión es convincente para cualquier persona a alcance Cerca o más lejos.</p>",
+        "actions": {
+          "gLjqQ6KgxVeJljRt": {
+            "name": "Reparto"
+          }
+        }
+      }
+    },
+    "No Mercy": {
+      "_id": "njj2C3tMDeCHHOoh",
+      "name": "Sin Piedad",
+      "systemPatch": {
+        "description": "<p><strong>Gasta 3 Esperanza</strong> para ganar un bono +1 a sus tiradas de ataque hasta su próximo descanso.</p>",
+        "actions": {
+          "Kwav1cV1xvVO13sR": {
+            "description": "<p><strong>Gasta 3 Esperanza</strong> para ganar un bono +1 a sus tiradas de ataque hasta su próximo descanso.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Sin Piedad",
+          "description": "<p><strong>G</strong>es un bono +1 a sus tiradas de ataque hasta su próximo descanso.</p>",
+          "_id": "XK4cCcz9sRGDJr0q"
+        }
+      ]
+    },
+    "Not This Time": {
+      "_id": "h3VE0jhcM5xHKBs4",
+      "name": "Esta Vez No",
+      "systemPatch": {
+        "description": "<p><strong>Gasta 3 Esperanza</strong> para forzar a un adversario dentro de un alcance Lejos a volver a lanzar un ataque o una tirada de daños.</p>",
+        "actions": {
+          "lX5FtnuXaKOdRlLF": {
+            "description": "<p><strong>Gasta 3 Esperanza</strong> para forzar a un adversario dentro de un alcance Lejos a volver a lanzar un ataque o una tirada de daños.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      }
+    },
+    "Prayer Dice": {
+      "_id": "Xd7RYhfTxIj9aWI2",
+      "name": "Dados de Oración",
+      "systemPatch": {
+        "description": "<p>Al principio de cada sesión, haga tirar un número de d4s igual al rasgo Lanzamiento de conjuros de su subclase y colóquelo en su hoja de caracteres en el espacio proporcionado. Estos son tus dados de oración. Usted puede gastar cualquier número de dados de oración para ayudarse a sí mismo o a un aliado dentro de un alcance Lejos. Usted puede utilizar el valor de un dado gastado para reducir el daño entrante, añadir al resultado de una tirada después de que se hace el tirada, o ganar Esperanza igual al resultado. Al final de cada sesión, limpie todos los dados de oración no utilizados.</p>"
+      }
+    },
+    "Prestidigitation": {
+      "_id": "SG2uw8h5YuwDviCn",
+      "name": "Prestidigitación",
+      "systemPatch": {
+        "description": "<p>Puedes realizar efectos sutiles y menores a voluntad, como invocar una llama de vela, producir un olor extraño o limpiar un objeto pequeño.</p>"
+      }
+    },
+    "Rally": {
+      "_id": "PydiMnNCKpd44SGS",
+      "name": "Inspirar",
+      "systemPatch": {
+        "description": "<p>Una vez por sesión, describe cómo inspiras al grupo y date a ti mismo y a cada uno de tus aliados un Dado de Inspiración. En nivel 1, tu Dado de Inspiración es un d6. Un PJ puede gastar su Dado de Inspiración para tirarlo, añadiendo el resultado a su tirada de acción, tirada de reacción, tirada de daño o para eliminar un número de Estrés igual al resultado. Al final de cada sesión, elimina todos los Dados de Inspiración no gastados. En nivel 5, tu Dado de Inspiración aumenta a un d8.</p>",
+        "actions": {
+          "vI4Fph3y9ygsya9e": {
+            "name": "¡Reúnanse con sus aliados!"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Inspirar",
+          "_id": "FrSJH9vzDHkFGYQL"
+        }
+      ]
+    },
+    "Ranger": {
+      "_id": "BTyfve69LKqoOi9S",
+      "name": "Explorador",
+      "systemPatch": {
+        "description": "<p>Los Rangers son cazadores altamente calificados que, a pesar de sus habilidades marciales, rara vez prestan sus habilidades a un ejército. A través del dominio del cuerpo y una profunda comprensión del desierto, los guardabosques se convierten en astutos tácticos, persiguiendo su cantera con astucia y paciencia. Muchos guardabosques siguen y luchan junto a un compañero animal con el que han forjado un poderoso vínculo espiritual. Al perfeccionar sus habilidades en la naturaleza, los guardabosques se convierten en rastreadores expertos, tan propensos a atrapar a sus enemigos en una trampa como a asaltarlos de frente.</p>"
+      }
+    },
+    "Ranger's Focus": {
+      "_id": "ncLx2P8BOUtrAD38",
+      "name": "Concentración del Explorador",
+      "systemPatch": {
+        "description": "<p>Gastar una esperanza y hacer un ataque contra un objetivo. En un éxito, lidiar con el daño normal de su ataque y temporalmente hacer que el objetivo del ataque su Focus. Hasta que esta característica termine o hagas de una criatura diferente tu Focus, obtienes los siguientes beneficios contra tu Focus: </p><ul><li><p>Sabes exactamente en qué dirección están. </p></li><li><p>Cuando les haces daño, deben marcar un Estrés. </p></li><li><p>Cuando fallas en un ataque contra ellos, puedes terminar la función de enfoque de tu Ranger para volver a tirar tus dados de dualidad.</p></li></ul>",
+        "actions": {
+          "dTkLqUxZpW4xOEKW": {
+            "description": "<p>Gastar una esperanza y hacer un ataque contra un objetivo. En un éxito, lidiar con el daño normal de su ataque y temporalmente hacer que el objetivo del ataque su Focus. Hasta que esta característica termine o hagas de una criatura diferente tu Focus, obtienes los siguientes beneficios contra tu Focus:</p><ul><li><p>Sabes exactamente en qué dirección están.</p></li><li><p>Cuando les haces daño, deben marcar un Estrés.</p></li><li><p>Cuando fallas en un ataque contra ellos, puedes terminar la función de enfoque de tu Ranger para volver a tirar tus dados de dualidad.</p></li></ul>",
+            "name": "Gasta esperanza"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Concentración del Explorador",
+          "description": "<p>Hasta que esta característica termine o el guardabosques haga de una criatura diferente su Focus, obtienen los siguientes beneficios contra este adversario:</p><ul><li><p>Saben exactamente en qué dirección están.</p></li><li><p>Cuando les causan daño, la adverasry debe marcar un estrés.</p></li><li><p>Cuando fallan en un ataque contra ellos, pueden terminar su función Ranger’s Focus para volver a tirar sus dados de dualidad.</p></li></ul>",
+          "_id": "SXi2dQWqpwY9fap4"
+        }
+      ]
+    },
+    "Rogue": {
+      "_id": "CvHlkHZfpMiCz5uT",
+      "name": "Pícaro",
+      "systemPatch": {
+        "description": "<p>Las rogues son sinvergüenzas, a menudo en actitud y práctica. Conocidos ampliamente como mentirosos y ladrones, los mejores de esta clase se mueven anónimamente por el mundo. Utilizando su ingenio agudo y sus espadas, los pícaros engañan a sus enemigos a través de la manipulación social tan fácilmente como romper cerraduras, trepar a través de las ventanas o tratar con golpes sucios. Estos maestros de la artesanía mágica manipulan la sombra y el movimiento, añadiendo una variedad de herramientas útiles y mortales a su repertorio. Con frecuencia Rogues establece gremios para conocer futuros cómplices, contratar trabajos y perfeccionar habilidades secretas, demostrando que hay honor entre los ladrones para aquellos que saben dónde buscar.</p>"
+      }
+    },
+    "Rogue's Dodge": {
+      "_id": "hVaaPIjxoextIgSL",
+      "name": "Esquiva del Pícaro",
+      "systemPatch": {
+        "description": "<p><strong>Gasta 3 de Esperanza</strong> para ganar un bonificador de +2 a tu Evasión hasta la próxima vez que un ataque tenga éxito contra ti. De lo contrario, este bonificador dura hasta tu próximo descanso.</p>",
+        "actions": {
+          "GbQca7YphTh7skHG": {
+            "description": "<p><strong>Gasta 3 de Esperanza</strong> para ganar un bonificador de +2 a tu Evasión hasta la próxima vez que un ataque tenga éxito contra ti. De lo contrario, este bonificador dura hasta tu próximo descanso.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Esquiva del Pícaro",
+          "description": "<p><strong>Gasta 3 de Esperanza</strong> para ganar un bonificador de +2 a tu Evasión hasta la próxima vez que un ataque tenga éxito contra ti. De lo contrario, este bonificador dura hasta tu próximo descanso.</p>",
+          "_id": "hhVjBro2osGDTT5g"
+        }
+      ]
+    },
+    "Secret Key": {
+      "_id": "VVvIPx1cduyAb8jr",
+      "name": "Llave Secreta"
+    },
+    "Seraph": {
+      "_id": "5ZnlJ5bEoyOTkUJv",
+      "name": "Serafín",
+      "systemPatch": {
+        "description": "<p>Los serafines son luchadores divinos y sanadores imbuidos de propósito sagrado. Una amplia gama de deidades existen dentro de los reinos, y por lo tanto numerosos tipos de serafines son nombrados por estos dioses. Su ethos tradicionalmente se alinea con el dominio o metas de su dios, tales como la defensa de los débiles, la venganza exigente, la protección de una tierra o artefacto, o la defensa de una fe en particular. Algunos serafines se alian con un ejército o local, para satisfacción de sus gobernantes, pero otros cruzados luchan en oposición a las locuras del Reino Mortal. Es mejor ser aliado de un serafín que su enemigo, ya que son enemigos aterradores para aquellos que desafían su propósito.</p>"
+      }
+    },
+    "Set of Forgery Tools": {
+      "_id": "yqoO5aqDd4aD13pc",
+      "name": "Juego de Herramientas de Falsificación"
+    },
+    "Sigil of Your God": {
+      "_id": "o3G6szWvPoz7fo6T",
+      "name": "Símbolo de tu Dios"
+    },
+    "Small Bag (Rocks & Bones)": {
+      "_id": "todlyATSZzLPTqnU",
+      "name": "Pequeña Bolsa (Piedras y Huesos)"
+    },
+    "Sneak Attack": {
+      "_id": "5QqpEwmwkPfZHpMW",
+      "name": "Ataque Furtivo",
+      "systemPatch": {
+        "description": "<p>Cuando tenga éxito en un ataque mientras se oculta o mientras un aliado está dentro del alcance Cuerpo a cuerpo de su objetivo, agregue un número de d6s igual a su nivel a su tirada de daños. </p><ul><li><p>Nivel 1 -&gt; Nivel 1</p></li><li><p>Niveles 2–4 -&gt; Nivel 2 </p></li><li><p>Niveles 5-7 -&gt; Nivel 3 </p></li><li><p>Niveles 8-10 -&gt; Nivel 4</p></li></ul>"
+      },
+      "effects": [
+        {
+          "name": "Ataque Furtivo",
+          "description": "<p>Cuando tenga éxito en un ataque mientras se oculta o mientras un aliado está dentro del alcance Cuerpo a cuerpo de su objetivo, agregue un número de d6s igual a su nivel a su tirada de daños.</p><ul><li><p>Nivel 1 -&gt; Nivel 1</p></li><li><p>Niveles 2–4 -&gt; Nivel 2</p></li><li><p>Niveles 5-7 -&gt; Nivel 3</p></li><li><p>Niveles 8-10 -&gt; Nivel 4</p></li></ul>",
+          "_id": "380jFzw756qSy5ae"
+        }
+      ]
+    },
+    "Sorcerer": {
+      "_id": "DchOzHcWIJE9FKcR",
+      "name": "Hechicero",
+      "systemPatch": {
+        "description": "<p>No todos los usuarios de magia innatas eligen perfeccionar su arte, pero aquellos que lo hacen pueden convertirse en poderosos hechiceros. Los dones de estos empuñadores se transmiten a través de las familias, incluso si la familia no es consciente de ellos o se resiste a practicarlos. Las habilidades de un hechicero pueden ir desde lo elemental a lo ilusorio y más allá, y muchos practicantes se unen en colectivos basados en sus talentos. El acto de convertirse en un brujo formidable no es la práctica de adquirir poder, sino aprender a cultivar y controlar el poder que uno ya posee. La magia de un hechicero equivocado o indisciplinado es una fuerza peligrosa.</p>"
+      }
+    },
+    "Strange Dirty Pendant": {
+      "_id": "LriTeh9hkwzEaCr1",
+      "name": "Colgante Extraño y Sucio"
+    },
+    "Strange Patterns": {
+      "_id": "6YsfFjmCGuFYVhT4",
+      "name": "Patrones Extraños",
+      "systemPatch": {
+        "description": "<p>Elija un número entre 1 y 12. Cuando usted hace tirar ese número en un Muere de Dualidad, gane una Esperanza o limpie un Estrés.</p><p></p><p>Usted puede cambiar este número cuando usted toma un descanso prolongado.</p>",
+        "actions": {
+          "RkqPzF1bdWzPPMml": {
+            "description": "<p>Elija un número entre 1 y 12. Cuando usted hace tirar ese número en un Muere de Dualidad, gane una Esperanza o limpie un Estrés.</p><p></p><p>Usted puede cambiar este número cuando usted toma un descanso prolongado.</p>",
+            "name": "Estrés claro"
+          }
+        }
+      }
+    },
+    "Tiny Elemental Pet": {
+      "_id": "UUp0YGFj7E4x7Z6Z",
+      "name": "Pequeña Mascota Elemental",
+      "systemPatch": {
+        "description": "<p>Una pequeña mascota elemental</p>"
+      }
+    },
+    "Torch": {
+      "_id": "zqeXrJTd1geX73Pw",
+      "name": "Antorcha"
+    },
+    "Totem from Mentor": {
+      "_id": "d3VdAtW65oO8j14Y",
+      "name": "Tótem del Mentor"
+    },
+    "Trophy from your First Kill": {
+      "_id": "eslejbiZRH6ODh9U",
+      "name": "Trofeo de tu Primera Presa"
+    },
+    "Unstoppable": {
+      "_id": "PnD2UCgzIlwX6cY3",
+      "name": "Imparable",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, puedes volverte imparable. Ganas una muerte imparable. En el nivel 1, su Muere imparable es un d4. Colóquelo en su hoja de caracteres en el espacio proporcionado, comenzando con el valor 1 hacia arriba. Después de hacer una tirada de daño que distribuye 1 o más Puntos de Golpe a un objetivo, aumentar el valor de Muere imparable en uno. Cuando el valor del dado exceda su valor máximo o cuando la escena termine, retire el dado y salga de Unstoppable. En el nivel 5, su Muere imparable aumenta a un d6. Aunque imparable, usted obtiene los siguientes beneficios:</p><ul><li><p>Se reduce la gravedad del daño físico en un umbral (grave a mayor, mayor a menor, menor a ninguno).</p></li><li><p>Usted agrega el valor actual del Muere imparable a su tirada de daño.</p></li><li><p>Usted no puede ser restringido o vulnerable.</p></li></ul><blockquote><p>Consejo: Si su Muere imparable es un d4 y el 4 está actualmente mirando hacia arriba, se elimina el dado la próxima vez que lo aumentaría. Sin embargo, si su Muere imparable ha aumentado a un d6 y el 4 actualmente está mirando hacia arriba, lo convertirá a 5 la próxima vez que lo aumentaría. En este caso, usted quitará el dado después de que usted tendría que aumentarlo más alto que 6.</p></blockquote>",
+        "actions": {
+          "KZiZ8m8uqH5iG96d": {
+            "description": "<p>Una vez por descanso prolongado, puedes volverte imparable. Ganas una muerte imparable. En el nivel 1, su Muere imparable es un d4. Colóquelo en su hoja de caracteres en el espacio proporcionado, comenzando con el valor 1 hacia arriba. Después de hacer una tirada de daño que distribuye 1 o más Puntos de Golpe a un objetivo, aumentar el valor de Muere imparable en uno. Cuando el valor del dado exceda su valor máximo o cuando la escena termine, retire el dado y salga de Unstoppable. En el nivel 5, su Muere imparable aumenta a un d6. Aunque imparable, usted obtiene los siguientes beneficios:</p><ul><li><p>Se reduce la gravedad del daño físico en un umbral (grave a mayor, mayor a menor, menor a ninguno).</p></li><li><p>Usted agrega el valor actual del Muere imparable a su tirada de daño.</p></li><li><p>Usted no puede ser restringido o vulnerable.</p></li></ul><blockquote><p>Consejo: Si su Muere imparable es un d4 y el 4 está actualmente mirando hacia arriba, se elimina el dado la próxima vez que lo aumentaría. Sin embargo, si su Muere imparable ha aumentado a un d6 y el 4 actualmente está mirando hacia arriba, lo convertirá a 5 la próxima vez que lo aumentaría. En este caso, usted quitará el dado después de que usted tendría que aumentarlo más alto que 6.</p></blockquote>",
+            "name": "Convertirse en imparable"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Imparable",
+          "_id": "xzQtFSuDS48kUdAZ"
+        }
+      ]
+    },
+    "Untranslated Book": {
+      "_id": "fhg3NK99tcgYQxdY",
+      "name": "Libro sin Traducir",
+      "systemPatch": {
+        "description": "<p>Un libro que estás tratando de traducir.</p>"
+      }
+    },
+    "Volatile Magic": {
+      "_id": "ieiQlD0joWSqt53D",
+      "name": "Magia Volátil",
+      "systemPatch": {
+        "description": "<p><strong>Gasta 3 Esperanza</strong> para volver a tirar cualquier número de sus dados de daño en un ataque que hace daño mágico.</p>",
+        "actions": {
+          "JQPMlMLYMs84rWIy": {
+            "description": "<p><strong>Gasta 3 Esperanza</strong> para volver a tirar cualquier número de sus dados de daño en un ataque que hace daño mágico.</p>",
+            "name": "Gasta 3 Esperanza"
+          }
+        }
+      }
+    },
+    "Warrior": {
+      "_id": "xCUWwJz4WSthvLfy",
+      "name": "Guerrero",
+      "systemPatch": {
+        "description": "<p>Convertirse en un guerrero requiere años, a menudo toda una vida, de entrenamiento y dedicación al dominio de las armas y la violencia. Mientras que muchos que buscan luchar solo perfeccionan su fuerza, los guerreros entienden la importancia de un cuerpo y mente ágiles, haciéndolos algunos de los luchadores más buscados a través de los reinos. Con frecuencia, los guerreros encuentran empleo dentro de un ejército, una banda de mercenarios, o incluso una guardia real, pero su potencial se desperdicia en cualquier posición en la que no puedan seguir mejorando y ampliando sus habilidades. Se sabe que los guerreros tienen un arma favorita; interponerse entre ellos y su espada sería un grave error.</p>"
+      }
+    },
+    "Whispering Orb": {
+      "_id": "9AM1YsPeuWSysdDo",
+      "name": "Orbe Susurrante"
+    },
+    "Wildtouch": {
+      "_id": "fqSdfUYUK9QUcVE4",
+      "name": "Toque Salvaje",
+      "systemPatch": {
+        "description": "<p>Puedes realizar efectos inofensivos y sutiles que involucren la naturaleza—como hacer crecer rápidamente una flor, invocar una ligera ráfaga de viento o encender una fogata—a voluntad.</p>"
+      }
+    },
+    "Wizard": {
+      "_id": "5LwX4m8ziY3F1ZGC",
+      "name": "Mago",
+      "systemPatch": {
+        "description": "<p>Ya sea a través de una institución o un estudio individual, los conocidos como magos adquieren y perfeccionan un inmenso poder mágico a través de años de aprendizaje utilizando una variedad de herramientas, incluyendo libros, piedras, pociones y hierbas. Algunos magos dedican sus vidas a dominar una escuela de magia en particular, mientras que otros aprenden de una amplia variedad de disciplinas. Muchos magos se convierten en figuras sabias y poderosas en sus comunidades, asesorando a los gobernantes, proporcionando medicinas y sanación, e incluso dirigiendo consejos de guerra. Mientras que todos estos magos trabajan hacia el objetivo común de reunir conocimiento mágico, los magos a menudo tienen más conflicto dentro de sus propias filas, ya que la adquisición, el mantenimiento y el intercambio de secretos poderosos es un tema de intenso debate que ha resultado en innumerables muertes.</p>"
+      }
+    }
+  }
+}

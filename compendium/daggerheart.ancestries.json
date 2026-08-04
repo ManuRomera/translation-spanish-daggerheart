@@ -1,0 +1,1212 @@
+{
+  "label": "Linajes",
+  "folders": {
+    "Ancestry Features": "Rasgos de linaje"
+  },
+  "mapping": {
+    "systemPatch": {
+      "path": "system",
+      "converter": "daggerheartOverlay"
+    },
+    "prototypeTokenPatch": {
+      "path": "prototypeToken",
+      "converter": "daggerheartOverlay"
+    },
+    "flagsPatch": {
+      "path": "flags",
+      "converter": "daggerheartOverlay"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "daggerheartEmbedded"
+    },
+    "items": {
+      "path": "items",
+      "converter": "daggerheartEmbedded"
+    },
+    "pages": {
+      "path": "pages",
+      "converter": "daggerheartEmbedded"
+    },
+    "results": {
+      "path": "results",
+      "converter": "daggerheartEmbedded"
+    }
+  },
+  "entries": {
+    "BNofV1UC4ZbdFTkb": {
+      "_id": "BNofV1UC4ZbdFTkb",
+      "name": "Adaptabilidad",
+      "systemPatch": {
+        "description": "<p>Cuando fallas una tirada en la que usaste una de tus Experiencias, puedes <strong>marcar un Estrés</strong> para volver a tirar.</p>",
+        "actions": {
+          "D7EE2L2Y96nfrfTW": {
+            "name": "Marcar Estrés",
+            "description": "<p>Cuando fallas una tirada en la que usaste una de tus Experiencias, puedes <strong>marcar un Estrés</strong> para volver a tirar.</p>"
+          }
+        }
+      }
+    },
+    "GVhmLouGq9GWCsN8": {
+      "_id": "GVhmLouGq9GWCsN8",
+      "name": "Anfibio",
+      "systemPatch": {
+        "description": "<p>Puedes respirar y moverte de forma normal bajo el agua.</p>"
+      }
+    },
+    "nLL2zuDDDbbyxlrQ": {
+      "_id": "nLL2zuDDDbbyxlrQ",
+      "name": "Salto Caprino",
+      "systemPatch": {
+        "description": "<p>Puedes saltar a cualquier lugar dentro del alcance cercano como si estuvieras usando un movimiento normal, lo que te permite superar obstáculos, saltar a través de huecos o escalar barreras con facilidad.</p>"
+      }
+    },
+    "TfolXWFG2W2hx6sK": {
+      "_id": "TfolXWFG2W2hx6sK",
+      "name": "Trance Celestial",
+      "systemPatch": {
+        "description": "<p>Durante un descanso, puedes entrar en trance para elegir un movimiento adicional.</p>"
+      },
+      "effects": [
+        {
+          "name": "Trance Celestial",
+          "description": "<p>Durante un descanso, puedes entrar en trance para elegir un movimiento adicional.</p>",
+          "_id": "LqQvZJJLNMnFkt1D"
+        }
+      ]
+    },
+    "AA2CZlJSWW8GPhrR": {
+      "_id": "AA2CZlJSWW8GPhrR",
+      "name": "Carga",
+      "systemPatch": {
+        "description": "<p>Cuando tengas éxito en una tirada de Agilidad para moverte desde el alcance Lejos o Muy Lejano hacia el alcance Cuerpo a cuerpo con uno o más objetivos, puedes <strong>marca un estrés</strong> para negociar <strong>1d12</strong> daños físicos a todos los objetivos dentro del alcance Cuerpo a cuerpo.</p>",
+        "actions": {
+          "KLg0T6I1w24sfIbH": {
+            "description": "<p>Cuando tengas éxito en una tirada de Agilidad para moverte desde el alcance Lejos o Muy Lejano hacia el alcance Cuerpo a cuerpo con uno o más objetivos, puedes <strong>marca un estrés</strong> para negociar <strong>1d12</strong> daños físicos a todos los objetivos dentro del alcance Cuerpo a cuerpo.</p>",
+            "name": "Repartir daños"
+          }
+        }
+      }
+    },
+    "ed8BoLR4SHOpeV00": {
+      "_id": "ed8BoLR4SHOpeV00",
+      "name": "Clank",
+      "systemPatch": {
+        "description": "<p>Los clanes son seres mecánicos sensibles construidos a partir de una variedad de materiales, incluyendo metal, madera y piedra. Pueden parecerse a humanoides, animales o incluso a objetos inanimados. Al igual que los seres orgánicos, sus cuerpos vienen en una amplia gama de tamaños. Debido a su construcción a medida, muchos clanks tienen configuraciones físicas altamente especializadas. Ejemplos incluyen las manos con garras para agarrar, las ruedas para el movimiento, o el armamento incorporado.</p><p class=\"green Body-Styles_Body\">Muchos clanks aceptan modificaciones corporales tanto para el estilo como para la función, y los miembros de otros ancestros a menudo recurren a artesanos clank para construir ayudas de movilidad personalizadas y adornos físicos. Otros ancestros pueden crear clanes, incluso usando sus propias características físicas como inspiración, pero también es común que los clanes se construyan unos a otros. La vida útil de un clan se extiende mientras sean capaces de adquirir o crear nuevas partes, haciendo su forma física efectivamente inmortal. Dicho esto, sus mentes están sujetas a los efectos del tiempo, y se deterioran a medida que la magia que los impulsa pierde potencia.</p>"
+      }
+    },
+    "AXqcoxnRoWBbbKpK": {
+      "_id": "AXqcoxnRoWBbbKpK",
+      "name": "Sentido de peligro",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso, <strong>marca un estrés</strong> para obligar a un adversario a volver a lanzar un ataque contra usted o un aliado dentro de muy poco alcance.</p>",
+        "actions": {
+          "V2K3pMWOCVwBUnjq": {
+            "description": "<p>Una vez por descanso, <strong>marca un estrés</strong> para obligar a un adversario a volver a lanzar un ataque contra usted o un aliado dentro de muy poco alcance.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "WuwXH2r2uM9sDJtj": {
+      "_id": "WuwXH2r2uM9sDJtj",
+      "name": "Conexión de la muerte",
+      "systemPatch": {
+        "description": "<p>Mientras tocas un cadáver que murió recientemente, puedes <strong>marca un estrés</strong> para extraer un recuerdo del cadáver relacionado con una emoción o sensación específica de su elección.</p>",
+        "actions": {
+          "0RdKeWfbPRTHcAMf": {
+            "description": "<p>Mientras tocas un cadáver que murió recientemente, puedes <strong>marca un estrés</strong> para extraer un recuerdo del cadáver relacionado con una emoción o sensación específica de su elección.</p>",
+            "name": "Extracto"
+          }
+        }
+      }
+    },
+    "VLeOEqkLS0RbF0tB": {
+      "_id": "VLeOEqkLS0RbF0tB",
+      "name": "Drakona",
+      "systemPatch": {
+        "description": "<p>Drakona se asemeja a dragones sin alas en forma humanoides y posee un poderoso aliento elemental. Todos los drakona tienen escamas gruesas que proporcionan una excelente armadura natural contra ambos ataques y las fuerzas de la naturaleza. Son grandes en tamaño, que van de 5 pies a 7 pies en promedio, con dientes largos y afilados. Los dientes nuevos crecen a lo largo de la vida útil de aproximadamente 350 años de un Drakona, por lo que nunca están en peligro de perder un incisivo permanente. A diferencia de sus antepasados dragones, drakona no tiene alas y no puede volar sin ayuda mágica. Los miembros de esta ascendencia transmiten el elemento de su aliento a través de generaciones, aunque en raros casos, el poder elemental de un drakona difiere del resto de su familia.</p>"
+      }
+    },
+    "i92lYjDhVB0LyPid": {
+      "_id": "i92lYjDhVB0LyPid",
+      "name": "Visaje del Terror",
+      "systemPatch": {
+        "description": "<p>Tienes ventaja en los tiradas para intimidar a las criaturas hostiles.</p>"
+      },
+      "effects": [
+        {
+          "name": "Visaje del Terror",
+          "description": "<p>Tienes ventaja en tiradas para intimidar a criaturas hostiles</p>",
+          "_id": "2Gd6iHQX521aAZqC"
+        }
+      ]
+    },
+    "pDt6fI6otv2E2odf": {
+      "_id": "pDt6fI6otv2E2odf",
+      "name": "Enano",
+      "systemPatch": {
+        "description": "<p>Los enanos son más fácilmente reconocidos como humanoides cortos con marcos cuadrados, musculatura densa y pelo grueso. Su altura promedio oscila entre 4 y 5 1⁄2 pies, y a menudo son amplios en proporción a su estatura. Su piel y uñas contienen una gran cantidad de queratina, haciéndolos naturalmente resistentes. Esto permite a los enanos incrustar piedras preciosas en sus cuerpos y decorarse con tatuajes o piercings. Su cabello crece de forma espesa, generalmente en sus cabezas, pero algunos enanos también tienen pelo grueso en sus cuerpos. Los enanos de todos los géneros pueden crecer el vello facial, que a menudo usan en arreglos elaborados. Por lo general, los enanos viven hasta 250 años de edad, manteniendo su masa muscular bien en la vida posterior.</p>"
+      }
+    },
+    "2xlqKOkDxWHbuj4t": {
+      "_id": "2xlqKOkDxWHbuj4t",
+      "name": "Eficiente",
+      "systemPatch": {
+        "description": "<p>Cuando usted toma un descanso corto, usted puede elegir un movimiento de descanso prolongado en lugar de un movimiento de descanso corto.</p>"
+      },
+      "effects": [
+        {
+          "name": "Eficiente",
+          "description": "<p>Cuando usted toma un descanso corto, usted puede elegir un movimiento de descanso prolongado en lugar de un movimiento de descanso corto.</p>",
+          "_id": "EEryWN2nE33ppGHi"
+        }
+      ]
+    },
+    "sRaE3CgkgjBF1UpV": {
+      "_id": "sRaE3CgkgjBF1UpV",
+      "name": "Respiración elemental",
+      "systemPatch": {
+        "description": "<p>Elija un elemento para su respiración (como electricidad, fuego o hielo). Usted puede usar este aliento contra un objetivo o grupo de objetivos dentro de muy estrecho alcance, tratándolo como un arma de instinto que trata <strong>d8</strong> daño mágico usando su competencia.</p>",
+        "actions": {
+          "a6WROv0OKx0lbYVa": {
+            "description": "<p>Elija un elemento para su respiración (como electricidad, fuego o hielo). Usted puede usar este aliento contra un objetivo o grupo de objetivos dentro de muy estrecho alcance, tratándolo como un arma de instinto que trata <strong>d8</strong> daño mágico usando su competencia.</p>",
+            "name": "Ataque"
+          }
+        }
+      }
+    },
+    "q2l6g3Ssa04K84GO": {
+      "_id": "q2l6g3Ssa04K84GO",
+      "name": "Elfo",
+      "systemPatch": {
+        "description": "<p>Los elfos son típicamente humanoides altos con orejas puntiagudas y sentidos agudamente sintonizados. Sus orejas varían en tamaño y forma puntiaguda, y a medida que envejecen, las puntas comienzan a caer. Mientras que los elfos vienen en una amplia gama de tipos de cuerpo, todos son bastante altos, con alturas que van desde 6 a 6 1⁄2 pies. Todos los elfos tienen la capacidad de caer en un trance celestial, en lugar de dormir. Esto les permite descansar eficazmente en un corto periodo de tiempo.</p><p class=\"green Body-Styles_Body\">Algunos elfos poseen lo que se conoce como una “forma mística”, que ocurre cuando un elfo se ha dedicado al estudio o la protección del mundo natural tan profundamente que su forma física cambia. Estas características pueden incluir pecas celestes, la presencia de hojas, vides o flores en sus cabellos, ojos que parpadean como el fuego, y más. A veces estos rasgos son heredados de los padres, pero si un elfo cambia su entorno o enfoque mágico, su apariencia cambia con el tiempo. Debido a que los elfos viven durante unos 350 años, estos rasgos pueden cambiar más de una vez a lo largo de su vida útil.</p>"
+      }
+    },
+    "tXWEMdLXafUSZTbK": {
+      "_id": "tXWEMdLXafUSZTbK",
+      "name": "Resistencia",
+      "systemPatch": {
+        "description": "<p>Obtener una ranura adicional de punto de éxito en la creación de caracteres.</p>"
+      },
+      "effects": [
+        {
+          "name": "Resistencia",
+          "description": "<p>Obtener una ranura adicional de punto de éxito en la creación de caracteres.</p>",
+          "_id": "db8W2Q0Qty84XV0x"
+        }
+      ]
+    },
+    "XzJVbb5NT9k79ykR": {
+      "_id": "XzJVbb5NT9k79ykR",
+      "name": "Hada",
+      "systemPatch": {
+        "description": "<p>Las hadas son criaturas humanoides aladas con rasgos insectiles. Estas características cubren un amplio espectro de humanoides a insectos—algunos poseen brazos adicionales, ojos compuestos, órganos de linternas, exoesqueletos quitinosos o aguijones. Debido a sus estrechos vínculos con el mundo natural, también con frecuencia poseen atributos que les permiten mezclarse con varias plantas. La altura media de una hada oscila entre 2 pies y 5 pies, pero algunas hadas crecen hasta 7 pies de altura. Todas las hadas poseen alas membranosas y cada una pasa por un proceso de metamorfosis. El proceso y los cambios difieren de hadas a hadas, pero durante esta transformación cada individuo manifiesta la apariencia única que llevarán durante el resto de su vida útil de aproximadamente 50 años.</p>"
+      }
+    },
+    "HaYhe6WqoXW5EbRl": {
+      "_id": "HaYhe6WqoXW5EbRl",
+      "name": "Fauno",
+      "systemPatch": {
+        "description": "<p>Los faunes se asemejan a las cabras humanoides con cuernos curvos, pupilas cuadradas y pezuñas hendidas. Aunque sus apariencias pueden variar, la mayoría de los faunos tienen un torso humanoide y un cuerpo inferior parecido a una cabra cubierto de piel densa. Las caras faun pueden ser más caprinas o más humanas, y tienen una amplia variedad de formas de orejas y cuernos. Los cuernos Faun van desde cortos con curvatura mínima hasta mucho más grandes con un rizado distinto. El faun promedio oscila entre 4 pies y 6 1⁄2 pies de altura, pero su altura puede cambiar dramáticamente de un momento a otro en función de su postura. La mayoría de los faunos tienen extremidades proporcionalmente largas, sin importar su tamaño o forma, y son conocidos por su capacidad para dar golpes poderosos con sus pezuñas divididas. Los faunes viven aproximadamente 225 años, y a medida que envejecen, su apariencia puede volverse cada vez más parecida a cabras.</p>"
+      }
+    },
+    "IlWvn5kCqCBMuUJn": {
+      "_id": "IlWvn5kCqCBMuUJn",
+      "name": "Intrépido",
+      "systemPatch": {
+        "description": "<p>Cuando usted roda con el miedo, usted puede <strong>Marca 2 Estrés</strong> cambiarlo en una tirada con Esperanza en su lugar.</p>",
+        "actions": {
+          "G1H7k5RdvS1EJgFu": {
+            "description": "<p>Cuando usted roda con el miedo, usted puede <strong>Marca 2 Estrés</strong> cambiarlo en una tirada con Esperanza en su lugar.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "lNgbbYnCKgrdvA85": {
+      "_id": "lNgbbYnCKgrdvA85",
+      "name": "Instintos felinos",
+      "systemPatch": {
+        "description": "<p>Cuando haces una tirada de agilidad, puedes <strong>Gastar 2 Esperanza</strong> para volver a tirar tu Dado de Esperanza.</p>",
+        "actions": {
+          "ALsGHOy0q5THGxz5": {
+            "description": "<p>Cuando haces una tirada de agilidad, puedes <strong>Gastar 2 Esperanza</strong> para volver a tirar tu Dado de Esperanza.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      }
+    },
+    "hzKmydI8sR3uk4CO": {
+      "_id": "hzKmydI8sR3uk4CO",
+      "name": "Firbolg",
+      "systemPatch": {
+        "description": "<p>Los firbolgs son humanoides bovinos generalmente reconocidos por sus anchas narices y orejas largas y caídas. Algunos tienen caras que son una mezcla de humanoide y bisonte, buey, vaca, u otras criaturas bovinas. Otros, a menudo llamados minotauros, tienen cabezas que se asemejan totalmente al ganado. Son criaturas altas y musculosas, con alturas que van desde alrededor de 5 pies a 7 pies, y poseen una fuerza notable sin importar su edad. Algunos abetos son conocidos por usar esta fuerza para cargar a sus adversarios, una acción que es particularmente eficaz para aquellos que tienen una de las muchas variedades de estilos de cuernos que se encuentran comúnmente en esta ascendencia. Aunque sus características únicas pueden variar, todos los abetos están cubiertos de piel, que puede ser silenciada y de color de la tierra, o vienen en una variedad de pasteles, tales como rosas suaves y azules. En promedio, los abetos viven unos 150 años.</p>"
+      }
+    },
+    "J1hX7nBBc5jQiHli": {
+      "_id": "J1hX7nBBc5jQiHli",
+      "name": "Fungril",
+      "systemPatch": {
+        "description": "<p>Fungril se parece a los hongos humanoides. Pueden ser más humanoides o más fúngicos en apariencia, y vienen en una variedad de colores, desde tonos de tierra a rojos brillantes, amarillos, púrpuras y azules. Fungril muestra una increíble variedad de cuerpos, caras y extremidades, ya que no hay una sola forma común entre ellos. Incluso sus alturas van desde un pequeño metro y medio hasta un asombroso metro y medio de altura. Aunque la vida útil común de un hongo es de unos 300 años, se ha informado de que algunos viven mucho más tiempo. Pueden comunicarse no verbalmente, y muchos miembros de esta ascendencia utilizan una matriz micelial para intercambiar químicamente información con otros hongos a través de largas distancias.</p>"
+      }
+    },
+    "9tmeXm623hl4Qnws": {
+      "_id": "9tmeXm623hl4Qnws",
+      "name": "Red Fungril",
+      "systemPatch": {
+        "description": "<p>Hacer un <strong>Tirada instintivo (12)</strong> usar tu matriz micelial para hablar con otros de tu ascendencia. En un éxito, usted puede comunicarse a través de cualquier distancia.</p>",
+        "actions": {
+          "ZYfigAyUdDUteczO": {
+            "description": "<p>Hacer un <strong>Tirada instintivo (12)</strong> usar tu matriz micelial para hablar con otros de tu ascendencia. En un éxito, usted puede comunicarse a través de cualquier distancia.</p>",
+            "name": "Comunicar"
+          }
+        }
+      }
+    },
+    "eZNG5Iv0yfbHs5CO": {
+      "_id": "eZNG5Iv0yfbHs5CO",
+      "name": "Galapa",
+      "systemPatch": {
+        "description": "<p>Galapa se asemeja a tortugas antropomórficas con grandes conchas abovedadas en las que pueden retractarse. En promedio, varían de 4 pies a 6 pies de altura, y sus formas de cabeza y cuerpo pueden parecerse a cualquier tipo de tortuga. Galapa viene en una variedad de tonos de la tierra - la mayoría de las veces tonos de verde y marrón - y poseen patrones únicos en sus conchas. Los miembros de esta ascendencia pueden introducir la cabeza, los brazos y las piernas en su caparazón para protegerse y utilizarlo como escudo natural cuando se necesitan medidas defensivas. Algunos complementan la fuerza o la apariencia de su concha mediante la fijación de armadura o la talla de diseños únicos, pero el proceso es extremadamente doloroso. La mayoría de las galapas se mueven lentamente sin importar su edad, y pueden vivir aproximadamente 150 años.</p>"
+      }
+    },
+    "3U8CncG92a7ERIJ0": {
+      "_id": "3U8CncG92a7ERIJ0",
+      "name": "Gigante",
+      "systemPatch": {
+        "description": "<p>Los gigantes son humanoides imponentes con hombros anchos, brazos largos y de uno a tres ojos. Los gigantes adultos varían de 6 1⁄2 a 8 1⁄2 pies de altura y son naturalmente musculares, independientemente del tipo de cuerpo. Son fácilmente reconocidos por sus amplios marcos y brazos alargados y cuellos. Aunque pueden tener hasta tres ojos, todos los gigantes nacen sin ninguno y permanecen sin vista durante su primer año de vida. Hasta que un gigante alcance la edad de 10 años y sus rasgos se desarrollen plenamente, la formación de sus ojos puede fluctuar. Aquellos con un solo ojo son comúnmente conocidos como cíclopes. El promedio de vida de los gigantes es de unos 75 años.</p>"
+      }
+    },
+    "EKPEdIz9lA9grPqH": {
+      "_id": "EKPEdIz9lA9grPqH",
+      "name": "Goblin",
+      "systemPatch": {
+        "description": "<p>Los duendes son pequeños humanoides fácilmente reconocibles por sus grandes ojos y enormes orejas membranosas. Con un oído agudo y una visión aguda, perciben detalles a grandes distancias y en la oscuridad, lo que les permite moverse a través de entornos menos óptimos con facilidad. Sus colores de piel y ojos son increíblemente variados, sin un solo tono, ya sea vibrante o sosegado, más dominante que otro. Un duende típico se encuentra entre 3 pies y 4 pies de altura, y cada una de sus orejas es del tamaño de su cabeza. Se sabe que los duendes usan posiciones de oído para efectos muy específicos cuando se comunican no verbalmente. La vida útil de un duende es de aproximadamente 100 años, y muchos mantienen su agudo oído y vista bien en la edad avanzada.</p>"
+      }
+    },
+    "CtL2jDjvPOJxNJKm": {
+      "_id": "CtL2jDjvPOJxNJKm",
+      "name": "Mediano",
+      "systemPatch": {
+        "description": "<p>Los halflings son pequeños humanoides con grandes pies peludos y prominentes orejas redondeadas. En promedio, los halflings tienen de 3 a 4 pies de altura, y sus orejas, nariz y pies son más grandes en proporción al resto de su cuerpo. Los miembros de esta ascendencia viven alrededor de 150 años, y es probable que la apariencia de un mediocre siga siendo joven, incluso a medida que avanzan de la edad adulta a la vejez. Los halflings están naturalmente sintonizados con los campos magnéticos del Reino Mortal, otorgándoles una brújula interna fuerte. También poseen sentidos agudos del oído y el olfato, y a menudo pueden detectar a aquellos que les son familiares por el sonido de sus movimientos.</p>"
+      }
+    },
+    "HMXNJZ7ynzajR2KT": {
+      "_id": "HMXNJZ7ynzajR2KT",
+      "name": "Alta estamina",
+      "systemPatch": {
+        "description": "<p>Obtener una ranura de estrés adicional en la creación de caracteres.</p>"
+      },
+      "effects": [
+        {
+          "name": "Alta estamina",
+          "description": "<p>Obtener una ranura de estrés adicional en la creación de caracteres.</p>",
+          "_id": "Xl3TsKUJcl6vi1ly"
+        }
+      ]
+    },
+    "wtJ5V5qRppLQn61n": {
+      "_id": "wtJ5V5qRppLQn61n",
+      "name": "Humano",
+      "systemPatch": {
+        "description": "<p>Los seres humanos son más fácilmente reconocidos por sus manos hábiles, orejas redondeadas y cuerpos construidos para la resistencia. Su altura promedio oscila entre poco menos de 5 pies y aproximadamente 6 1⁄2 pies. Tienen una amplia variedad de construcciones, con algunos siendo bastante amplios, otros lithe, y muchos habitando el espectro en el medio. Los seres humanos son físicamente adaptables y se adaptan a climas duros con relativa facilidad. En general, los seres humanos viven hasta una edad de alrededor de 100 años, con sus cuerpos cambiando dramáticamente entre sus años más jóvenes y más viejos.</p>"
+      }
+    },
+    "0RN0baBxh95GT1cm": {
+      "_id": "0RN0baBxh95GT1cm",
+      "name": "Aumento de la fortaleza",
+      "systemPatch": {
+        "description": "<p><strong>Gasta 3 Esperanza</strong> reducir a la mitad los daños físicos que se produzcan.</p>",
+        "actions": {
+          "pFPbjyexOPx5gog6": {
+            "description": "<p><strong>Gasta 3 Esperanza</strong> reducir a la mitad los daños físicos que se produzcan.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      }
+    },
+    "hyxcuF2I0xcZSGkm": {
+      "_id": "hyxcuF2I0xcZSGkm",
+      "name": "Infernis",
+      "systemPatch": {
+        "description": "<p>Los infiernos son humanoides que poseen dientes caninos afilados, orejas puntiagudas y cuernos. Ellos son los descendientes de demonios de los Círculos Abajo. En promedio, los infernis varían en altura de 5 pies a 7 pies y se sabe que tienen dedos largos y uñas puntiagudas. Algunos tienen colas largas, delgadas y lisas que terminan en puntos, tenedores o puntas de flecha. Es común que los infernis tengan dos o cuatro cuernos, aunque algunos tienen coronas de muchos cuernos, o sólo uno. Estos cuernos también pueden crecer asimétricamente, formando formas únicas, a menudo curvadas, que los infernis realzan con la talla y la ornamentación. Su piel, cabello y cuernos vienen en una variedad de colores que pueden incluir pasteles suaves, tonos crudos, o tonos vibrantes, tales como escarlata rosada, púrpura profunda, y negro tono.</p><p class=\"green Body-Styles_Body\">Los infernis poseen un “terrible rostro” que se manifiesta involuntariamente, como cuando experimentan miedo u otras emociones fuertes, o a propósito, como cuando desean intimidar a un adversario. Este rostro puede modificar brevemente su apariencia de una variedad de maneras, incluyendo alargar sus dientes y uñas, cambiar los colores de sus ojos, torcer sus cuernos, o mejorar su altura. En promedio, los infernis viven hasta 350 años, y algunos atribuyen esta vida a su linaje demoníaco.</p>"
+      }
+    },
+    "e2Cu6exxtvfQzc1e": {
+      "_id": "e2Cu6exxtvfQzc1e",
+      "name": "Brújula interna",
+      "systemPatch": {
+        "description": "<p>Cuando usted lanza un 1 en su Dado de Esperanza, usted puede volver a tirar.</p>"
+      }
+    },
+    "yyW0UM8srD9WuwW7": {
+      "_id": "yyW0UM8srD9WuwW7",
+      "name": "Katari",
+      "systemPatch": {
+        "description": "<p>Katari son humanoides felinos con garras retráctiles, pupilas cortadas verticalmente y orejas altas triangulares. También pueden tener dientes caninos pequeños, puntiagudos, pieles blandas y bigotes largos que ayudan a su percepción y navegación. Sus oídos pueden girar casi 180 grados para detectar el sonido, añadiendo a sus sentidos aumentados. Katari puede parecer más o menos felino o humanoide, con atributos de gato en forma de cabello, bigotes y un hocico. Cerca de la mitad de la población katari tiene cola. Su piel y piel vienen en una amplia gama de tonos y patrones, incluyendo colores sólidos, tonos cálicos, rayas tabby, y una variedad de manchas, parches, jaspeado, o bandas. Su altura oscila entre 3 pies y 6 1⁄2 pies, y viven hasta alrededor de 150 años.</p>"
+      }
+    },
+    "gpW19TfJk0WWFh1S": {
+      "_id": "gpW19TfJk0WWFh1S",
+      "name": "Patada",
+      "systemPatch": {
+        "description": "<p>Cuando usted tiene éxito en un ataque contra un objetivo dentro del alcance Cuerpo a cuerpo, usted puede <strong>marca un estrés</strong> para echarte de ellos, traficando con un extra <strong>2d6</strong> daño y golpear hacia atrás ya sea usted mismo o el objetivo a muy estrecho alcance.</p>",
+        "actions": {
+          "bXbQ57CB1Hfj5XrS": {
+            "description": "<p>Cuando usted tiene éxito en un ataque contra un objetivo dentro del alcance Cuerpo a cuerpo, usted puede <strong>marca un estrés</strong> para echarte de ellos, traficando con un extra <strong>2d6</strong> daño y golpear hacia atrás ya sea usted mismo o el objetivo a muy estrecho alcance.</p>",
+            "name": "Repartir daños"
+          }
+        }
+      }
+    },
+    "oWbdlh51ajn1Q5kL": {
+      "_id": "oWbdlh51ajn1Q5kL",
+      "name": "Lengua larga",
+      "systemPatch": {
+        "description": "<p>Puedes usar tu lengua larga para agarrarte de las cosas a un alcance Cerca. <strong>Marcar un estrés</strong> usar la lengua como un arma de Sutileza Cerca que trata <strong>d12</strong> daño físico usando su competencia.</p>",
+        "actions": {
+          "MhAWv7tuvkfOf7wQ": {
+            "description": "<p>Puedes usar tu lengua larga para agarrarte de las cosas a un alcance Cerca. <strong>Marcar un estrés</strong> usar la lengua como un arma de Sutileza Cerca que trata <strong>d12</strong> daño físico usando su competencia.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "U6iFjZgLYawlOlQZ": {
+      "_id": "U6iFjZgLYawlOlQZ",
+      "name": "Doblador de Suerte",
+      "systemPatch": {
+        "description": "<p>Una vez por sesión, después de que usted o un aliado dispuesto dentro de alcance Cerca haga una tirada de acción, usted puede <strong>Gastar 3 Esperanza</strong> para volver a tirar los dados de la dualidad.</p>",
+        "actions": {
+          "l1wUmqMzG8YF9sqb": {
+            "description": "<p>Una vez por sesión, después de que usted o un aliado dispuesto dentro de alcance Cerca haga una tirada de acción, usted puede <strong>Gastar 3 Esperanza</strong> para volver a tirar los dados de la dualidad.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      }
+    },
+    "8O6SQQMxKWr430QA": {
+      "_id": "8O6SQQMxKWr430QA",
+      "name": "Atrayente de Suerte",
+      "systemPatch": {
+        "description": "<p>Al comienzo de cada sesión, todos en su partido ganan una Esperanza.</p>",
+        "actions": {
+          "8sK3t73bFkpb999C": {
+            "description": "<p>Al comienzo de cada sesión, todos en su partido ganan una Esperanza.</p>",
+            "name": "Ganar esperanza"
+          }
+        }
+      }
+    },
+    "soQvPL0MrTLLcc31": {
+      "_id": "soQvPL0MrTLLcc31",
+      "name": "Escalador natural",
+      "systemPatch": {
+        "description": "<p>Usted tiene ventaja en Agilidad Tiradas que implican el equilibrio y la escalada.</p>"
+      },
+      "effects": [
+        {
+          "name": "Escalador natural",
+          "description": "<p>Usted tiene ventaja en Agilidad Tiradas que implican el equilibrio y la escalada.</p>",
+          "_id": "HQeQH9gUfrjlWWcg"
+        }
+      ]
+    },
+    "3lNqft3LmOlEIEkw": {
+      "_id": "3lNqft3LmOlEIEkw",
+      "name": "Ágil",
+      "systemPatch": {
+        "description": "<p>Gana un bono +1 permanente para tu Evasión en la creación de personajes.</p>"
+      },
+      "effects": [
+        {
+          "name": "Ágil",
+          "description": "<p>Gana un bono +1 permanente para tu Evasión en la creación de personajes.</p>",
+          "_id": "zaxVYqKzUYDJ3SDq"
+        }
+      ]
+    },
+    "D1RbUsRV9HpTrPuF": {
+      "_id": "D1RbUsRV9HpTrPuF",
+      "name": "Orco",
+      "systemPatch": {
+        "description": "<p>Los orcos son los humanoides más fácilmente reconocidos por sus rasgos cuadrados y colmillos parecidos a los jabalíes que sobresalen de su mandíbula inferior. Los tusks vienen en varios tamaños, y aunque se extienden desde la boca, no se utilizan para consumir alimentos. En cambio, muchos orcos eligen decorar sus colmillos con una ornamentación significativa. Los orcos suelen vivir 125 años, y a menos que se alteren, sus colmillos siguen creciendo a lo largo de sus vidas. Sus orejas son puntiagudas, y su cabello y piel típicamente tienen tonos verdes, azules, rosados o grises. Los orcos tienden hacia una construcción muscular, y su altura promedio oscila entre 5 pies y 6 1⁄2 pies.</p>"
+      }
+    },
+    "g6I4tRUQNgL4vZ6H": {
+      "_id": "g6I4tRUQNgL4vZ6H",
+      "name": "Diseño con propósito",
+      "systemPatch": {
+        "description": "<p><strong>Nota: Automatización no implementada para bonificación permanente. Aumentar manualmente la experiencia en el campo de edición respectivo.</strong> </p><p><br />Decide quién te hizo y con qué propósito. En la creación de personajes, elige una de tus Experiencias que mejor se alinee con este propósito y obtén un bono permanente +1.</p>"
+      }
+    },
+    "0NSPSuB8KSEYTJIP": {
+      "_id": "0NSPSuB8KSEYTJIP",
+      "name": "Reacciones rápidas",
+      "systemPatch": {
+        "description": "<p><strong>Marcar un estrés</strong> para ganar ventaja en una tirada de reacción.</p>",
+        "actions": {
+          "6Av1Y8JXWDkteLhc": {
+            "description": "<p><strong>Marcar un estrés</strong> para ganar ventaja en una tirada de reacción.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "WRs2jvwM0STmkWIW": {
+      "_id": "WRs2jvwM0STmkWIW",
+      "name": "Alcanzar",
+      "systemPatch": {
+        "description": "<p>Trata cualquier arma, habilidad, hechizo u otra característica que tenga un alcance Cuerpo a cuerpo como si tuviera un alcance Muy Cerca en su lugar.</p>"
+      }
+    },
+    "UFR67BUOhNGLFyg9": {
+      "_id": "UFR67BUOhNGLFyg9",
+      "name": "Retractar",
+      "systemPatch": {
+        "description": "<p><strong>Marcar un estrés</strong> para retraerte en tu caparazón. Mientras que en su caparazón, usted tiene resistencia al daño físico, usted tiene desventaja en tiradas de acción, y usted no puede moverse.<br /><br />(Cuando está marcado, habilita manualmente el efecto Retractar a Active en la pestaña de efectos y marca la desventaja al hacer cualquier tirada de acción. Deshabilitar manualmente el efecto Retractar a Inactivo en la pestaña de efectos cuando ya no se retrae en su shell.)</p>",
+        "actions": {
+          "HfiAg14hrYt7Yvnj": {
+            "name": "Marcar Estrés"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Retractar",
+          "description": "<p>Mientras que en su caparazón, usted tiene resistencia al daño físico, usted tiene desventaja en tiradas de acción, y usted no puede moverse.</p>",
+          "_id": "3V4FPoyjJUnFP9WS"
+        }
+      ]
+    },
+    "Zj69cAeb3NjIa8Hn": {
+      "_id": "Zj69cAeb3NjIa8Hn",
+      "name": "Garras retráctiles",
+      "systemPatch": {
+        "description": "<p>Hacer un <strong>Tirada de agilidad</strong> para rascar un objetivo dentro del alcance Cuerpo a cuerpo. En un éxito, se vuelven temporalmente vulnerables.</p>",
+        "actions": {
+          "LcFhDb3sJk8sraAc": {
+            "description": "<p>Hacer un <strong>Tirada de agilidad</strong> para rascar un objetivo dentro del alcance Cuerpo a cuerpo. En un éxito, se vuelven temporalmente vulnerables.</p>",
+            "name": "Arañazo"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Garras retráctiles",
+          "_id": "pO76svFkmWmZ6LjC"
+        }
+      ]
+    },
+    "HwOoBKXOL9Tf5j85": {
+      "_id": "HwOoBKXOL9Tf5j85",
+      "name": "Ribellete",
+      "systemPatch": {
+        "description": "<p>Las ribbets se asemejan a las ranas antropomórficas con ojos salientes y manos y pies palmeados. Tienen la piel suave (aunque a veces verrugosa) húmeda y los ojos colocados a ambos lados de la cabeza. Algunas costillas tienen patas traseras más del doble de la longitud de su torso, mientras que otras tienen extremidades cortas. No importa su tamaño (que oscila entre 3 pies y 4 1⁄2 pies), las costillas se mueven principalmente saltando. Todos los ribbets tienen apéndices webbed, lo que les permite nadar con facilidad. Algunos ribbets poseen un camuflaje natural verde y marrón, mientras que otros son vibrantemente coloreados con patrones audaces. No importa su apariencia, todas las costillas nacen de huevos puestos en el agua, eclosionan en renacuajos, y después de aproximadamente 6 a 7 años, crecen en anfibios que pueden moverse por la tierra. Las ribbets viven durante aproximadamente 100 años.</p>"
+      }
+    },
+    "u8ZhV962rNmUlzkp": {
+      "_id": "u8ZhV962rNmUlzkp",
+      "name": "Escalas",
+      "systemPatch": {
+        "description": "<p>Sus balanzas actúan como protección natural. Cuando usted tomaría daño severo, usted puede <strong>marca un estrés</strong> para marcar 1 menos Puntos de Golpe.</p>"
+      },
+      "effects": [
+        {
+          "name": "Escalas",
+          "description": "<p>Cuando usted tomaría daño severo, usted puede marcar un estrés para marcar 1 menos puntos de éxito.</p>",
+          "_id": "b6Pkwwk7pgBeeUTe"
+        }
+      ]
+    },
+    "A6a87OWA3tx16g9V": {
+      "_id": "A6a87OWA3tx16g9V",
+      "name": "Concha",
+      "systemPatch": {
+        "description": "<p>Obtener un bono a sus umbrales de daño igual a su competencia.</p>"
+      },
+      "effects": [
+        {
+          "name": "Concha",
+          "description": "<p>Obtener un bono a sus umbrales de daño igual a su competencia.</p>",
+          "_id": "41uiZKXzSSomf9YD"
+        }
+      ]
+    },
+    "2yMLxxn7CHEvmShj": {
+      "_id": "2yMLxxn7CHEvmShj",
+      "name": "Simiah",
+      "systemPatch": {
+        "description": "<p>Simiah se asemeja a monos antropomórficos y simios con extremidades largas y pies prensiles. Mientras que su apariencia refleja a todas las criaturas simias, desde el gorila más grande hasta el marmoset más pequeño, su tamaño no se alinea con sus contrapartes animales, y pueden ser en cualquier lugar de 2 a 6 pies de altura. Todos los simios pueden usar sus pies hábiles para la comunicación no verbal, el trabajo y el combate. Además, algunos también tienen colas prensil que pueden agarrar objetos o ayudar con el equilibrio durante maniobras difíciles. Estos rasgos otorgan a los miembros de esta agilidad única de ascendencia que les ayuda en una variedad de tareas físicas. En particular, simiah son escaladores expertos y pueden pasar fácilmente de movimiento bípedo a caminar y escalar nudillos, y de vuelta de nuevo. En promedio, el simiah vive unos 100 años.</p>"
+      }
+    },
+    "60o3cKUZzxO9EDQF": {
+      "_id": "60o3cKUZzxO9EDQF",
+      "name": "Fuerte",
+      "systemPatch": {
+        "description": "<p>Cuando usted tiene 1 punto de golpe restante, los ataques contra usted tienen desventaja.</p>"
+      }
+    },
+    "YsJticxv8OFndd4D": {
+      "_id": "YsJticxv8OFndd4D",
+      "name": "De pie seguro",
+      "systemPatch": {
+        "description": "<p>Ignoras la desventaja de Agilidad Tiradas.</p>"
+      }
+    },
+    "S0Ww7pYOSREt8qKg": {
+      "_id": "S0Ww7pYOSREt8qKg",
+      "name": "Piel gruesa",
+      "systemPatch": {
+        "description": "<p>Cuando usted toma Daños menores, usted puede <strong>Marca 2 Estrés</strong> en lugar de marcar un Punto de Golpe.</p>"
+      },
+      "effects": [
+        {
+          "name": "Piel gruesa",
+          "description": "<p>Cuando tomes Daño menor, puedes marcar 2 Estrés en lugar de marcar un Punto de Golpe.</p>",
+          "_id": "4Lc40mNnRInTKMC5"
+        }
+      ]
+    },
+    "YhxD1ujZpftPu19w": {
+      "_id": "YhxD1ujZpftPu19w",
+      "name": "Colmillos",
+      "systemPatch": {
+        "description": "<p>Cuando usted tiene éxito en un ataque contra un objetivo dentro del alcance Cuerpo a cuerpo, usted puede <strong>pasar una esperanza</strong> a gore el objetivo con sus colmillos, traficando con un extra <strong>1d6</strong> daños.</p>",
+        "actions": {
+          "ytSFDCONRi5L4THz": {
+            "description": "<p>Cuando usted tiene éxito en un ataque contra un objetivo dentro del alcance Cuerpo a cuerpo, usted puede <strong>pasar una esperanza</strong> a gore el objetivo con sus colmillos, traficando con un extra <strong>1d6</strong> daños.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Colmillos",
+          "description": "<p>Tú <span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">gore el objetivo con sus colmillos, traficando con un extra </span><span style=\"box-sizing:border-box;scrollbar-width:thin;scrollbar-color:rgb(93, 20, 43) rgba(0, 0, 0, 0);color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">1d6</span><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\"> daños en este ataque.</p>",
+          "_id": "klEyAxQa5YHXVnrl"
+        }
+      ]
+    },
+    "G5pE8FW94V1W9jJx": {
+      "_id": "G5pE8FW94V1W9jJx",
+      "name": "Inamovible",
+      "systemPatch": {
+        "description": "<p>Cuando usted marcaría un estrés, tirar un <strong>d6</strong>. Sobre el resultado de 6, no lo marquen.</p>",
+        "actions": {
+          "x8xbjyCrJ0okOpIU": {
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "WquAjoOcso8lwySW": {
+      "_id": "WquAjoOcso8lwySW",
+      "name": "Alas",
+      "systemPatch": {
+        "description": "<p>Puedes volar. Mientras vuelas, puedes <strong>marca un estrés</strong> después de que un adversario hace un ataque contra usted para ganar un bono +2 a su Evasión contra ese ataque.</p>",
+        "actions": {
+          "dpKxkDSjXsP8kHMI": {
+            "description": "<p>Puedes volar. Mientras vuelas, puedes <strong>marca un estrés</strong> después de que un adversario hace un ataque contra usted para ganar un bono +2 a su Evasión contra ese ataque.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Alas",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Usted ganará un bono de +2 a su Evasión contra el ataque del Adversario.</p>",
+          "_id": "zD3xVdwkEQi2ivOn"
+        }
+      ]
+    },
+    "Adaptability": {
+      "_id": "BNofV1UC4ZbdFTkb",
+      "name": "Adaptabilidad",
+      "systemPatch": {
+        "description": "<p>Cuando fallas una tirada en la que usaste una de tus Experiencias, puedes <strong>marcar un Estrés</strong> para volver a tirar.</p>",
+        "actions": {
+          "D7EE2L2Y96nfrfTW": {
+            "name": "Marcar Estrés",
+            "description": "<p>Cuando fallas una tirada en la que usaste una de tus Experiencias, puedes <strong>marcar un Estrés</strong> para volver a tirar.</p>"
+          }
+        }
+      }
+    },
+    "Amphibious": {
+      "_id": "GVhmLouGq9GWCsN8",
+      "name": "Anfibio",
+      "systemPatch": {
+        "description": "<p>Puedes respirar y moverte de forma normal bajo el agua.</p>"
+      }
+    },
+    "Caprine Leap": {
+      "_id": "nLL2zuDDDbbyxlrQ",
+      "name": "Salto Caprino",
+      "systemPatch": {
+        "description": "<p>Puedes saltar a cualquier lugar dentro del alcance cercano como si estuvieras usando un movimiento normal, lo que te permite superar obstáculos, saltar a través de huecos o escalar barreras con facilidad.</p>"
+      }
+    },
+    "Celestial Trance": {
+      "_id": "TfolXWFG2W2hx6sK",
+      "name": "Trance Celestial",
+      "systemPatch": {
+        "description": "<p>Durante un descanso, puedes entrar en trance para elegir un movimiento adicional.</p>"
+      },
+      "effects": [
+        {
+          "name": "Trance Celestial",
+          "description": "<p>Durante un descanso, puedes entrar en trance para elegir un movimiento adicional.</p>",
+          "_id": "LqQvZJJLNMnFkt1D"
+        }
+      ]
+    },
+    "Charge": {
+      "_id": "AA2CZlJSWW8GPhrR",
+      "name": "Carga",
+      "systemPatch": {
+        "description": "<p>Cuando tengas éxito en una tirada de Agilidad para moverte desde el alcance Lejos o Muy Lejano hacia el alcance Cuerpo a cuerpo con uno o más objetivos, puedes <strong>marca un estrés</strong> para negociar <strong>1d12</strong> daños físicos a todos los objetivos dentro del alcance Cuerpo a cuerpo.</p>",
+        "actions": {
+          "KLg0T6I1w24sfIbH": {
+            "description": "<p>Cuando tengas éxito en una tirada de Agilidad para moverte desde el alcance Lejos o Muy Lejano hacia el alcance Cuerpo a cuerpo con uno o más objetivos, puedes <strong>marca un estrés</strong> para negociar <strong>1d12</strong> daños físicos a todos los objetivos dentro del alcance Cuerpo a cuerpo.</p>",
+            "name": "Repartir daños"
+          }
+        }
+      }
+    },
+    "Clank": {
+      "_id": "ed8BoLR4SHOpeV00",
+      "name": "Clank",
+      "systemPatch": {
+        "description": "<p>Los clanes son seres mecánicos sensibles construidos a partir de una variedad de materiales, incluyendo metal, madera y piedra. Pueden parecerse a humanoides, animales o incluso a objetos inanimados. Al igual que los seres orgánicos, sus cuerpos vienen en una amplia gama de tamaños. Debido a su construcción a medida, muchos clanks tienen configuraciones físicas altamente especializadas. Ejemplos incluyen las manos con garras para agarrar, las ruedas para el movimiento, o el armamento incorporado.</p><p class=\"green Body-Styles_Body\">Muchos clanks aceptan modificaciones corporales tanto para el estilo como para la función, y los miembros de otros ancestros a menudo recurren a artesanos clank para construir ayudas de movilidad personalizadas y adornos físicos. Otros ancestros pueden crear clanes, incluso usando sus propias características físicas como inspiración, pero también es común que los clanes se construyan unos a otros. La vida útil de un clan se extiende mientras sean capaces de adquirir o crear nuevas partes, haciendo su forma física efectivamente inmortal. Dicho esto, sus mentes están sujetas a los efectos del tiempo, y se deterioran a medida que la magia que los impulsa pierde potencia.</p>"
+      }
+    },
+    "Danger Sense": {
+      "_id": "AXqcoxnRoWBbbKpK",
+      "name": "Sentido de peligro",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso, <strong>marca un estrés</strong> para obligar a un adversario a volver a lanzar un ataque contra usted o un aliado dentro de muy poco alcance.</p>",
+        "actions": {
+          "V2K3pMWOCVwBUnjq": {
+            "description": "<p>Una vez por descanso, <strong>marca un estrés</strong> para obligar a un adversario a volver a lanzar un ataque contra usted o un aliado dentro de muy poco alcance.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "Death Connection": {
+      "_id": "WuwXH2r2uM9sDJtj",
+      "name": "Conexión de la muerte",
+      "systemPatch": {
+        "description": "<p>Mientras tocas un cadáver que murió recientemente, puedes <strong>marca un estrés</strong> para extraer un recuerdo del cadáver relacionado con una emoción o sensación específica de su elección.</p>",
+        "actions": {
+          "0RdKeWfbPRTHcAMf": {
+            "description": "<p>Mientras tocas un cadáver que murió recientemente, puedes <strong>marca un estrés</strong> para extraer un recuerdo del cadáver relacionado con una emoción o sensación específica de su elección.</p>",
+            "name": "Extracto"
+          }
+        }
+      }
+    },
+    "Drakona": {
+      "_id": "VLeOEqkLS0RbF0tB",
+      "name": "Drakona",
+      "systemPatch": {
+        "description": "<p>Drakona se asemeja a dragones sin alas en forma humanoides y posee un poderoso aliento elemental. Todos los drakona tienen escamas gruesas que proporcionan una excelente armadura natural contra ambos ataques y las fuerzas de la naturaleza. Son grandes en tamaño, que van de 5 pies a 7 pies en promedio, con dientes largos y afilados. Los dientes nuevos crecen a lo largo de la vida útil de aproximadamente 350 años de un Drakona, por lo que nunca están en peligro de perder un incisivo permanente. A diferencia de sus antepasados dragones, drakona no tiene alas y no puede volar sin ayuda mágica. Los miembros de esta ascendencia transmiten el elemento de su aliento a través de generaciones, aunque en raros casos, el poder elemental de un drakona difiere del resto de su familia.</p>"
+      }
+    },
+    "Dread Visage": {
+      "_id": "i92lYjDhVB0LyPid",
+      "name": "Visaje del Terror",
+      "systemPatch": {
+        "description": "<p>Tienes ventaja en los tiradas para intimidar a las criaturas hostiles.</p>"
+      },
+      "effects": [
+        {
+          "name": "Visaje del Terror",
+          "description": "<p>Tienes ventaja en tiradas para intimidar a criaturas hostiles</p>",
+          "_id": "2Gd6iHQX521aAZqC"
+        }
+      ]
+    },
+    "Dwarf": {
+      "_id": "pDt6fI6otv2E2odf",
+      "name": "Enano",
+      "systemPatch": {
+        "description": "<p>Los enanos son más fácilmente reconocidos como humanoides cortos con marcos cuadrados, musculatura densa y pelo grueso. Su altura promedio oscila entre 4 y 5 1⁄2 pies, y a menudo son amplios en proporción a su estatura. Su piel y uñas contienen una gran cantidad de queratina, haciéndolos naturalmente resistentes. Esto permite a los enanos incrustar piedras preciosas en sus cuerpos y decorarse con tatuajes o piercings. Su cabello crece de forma espesa, generalmente en sus cabezas, pero algunos enanos también tienen pelo grueso en sus cuerpos. Los enanos de todos los géneros pueden crecer el vello facial, que a menudo usan en arreglos elaborados. Por lo general, los enanos viven hasta 250 años de edad, manteniendo su masa muscular bien en la vida posterior.</p>"
+      }
+    },
+    "Efficient": {
+      "_id": "2xlqKOkDxWHbuj4t",
+      "name": "Eficiente",
+      "systemPatch": {
+        "description": "<p>Cuando usted toma un descanso corto, usted puede elegir un movimiento de descanso prolongado en lugar de un movimiento de descanso corto.</p>"
+      },
+      "effects": [
+        {
+          "name": "Eficiente",
+          "description": "<p>Cuando usted toma un descanso corto, usted puede elegir un movimiento de descanso prolongado en lugar de un movimiento de descanso corto.</p>",
+          "_id": "EEryWN2nE33ppGHi"
+        }
+      ]
+    },
+    "Elemental Breath": {
+      "_id": "sRaE3CgkgjBF1UpV",
+      "name": "Respiración elemental",
+      "systemPatch": {
+        "description": "<p>Elija un elemento para su respiración (como electricidad, fuego o hielo). Usted puede usar este aliento contra un objetivo o grupo de objetivos dentro de muy estrecho alcance, tratándolo como un arma de instinto que trata <strong>d8</strong> daño mágico usando su competencia.</p>",
+        "actions": {
+          "a6WROv0OKx0lbYVa": {
+            "description": "<p>Elija un elemento para su respiración (como electricidad, fuego o hielo). Usted puede usar este aliento contra un objetivo o grupo de objetivos dentro de muy estrecho alcance, tratándolo como un arma de instinto que trata <strong>d8</strong> daño mágico usando su competencia.</p>",
+            "name": "Ataque"
+          }
+        }
+      }
+    },
+    "Elf": {
+      "_id": "q2l6g3Ssa04K84GO",
+      "name": "Elfo",
+      "systemPatch": {
+        "description": "<p>Los elfos son típicamente humanoides altos con orejas puntiagudas y sentidos agudamente sintonizados. Sus orejas varían en tamaño y forma puntiaguda, y a medida que envejecen, las puntas comienzan a caer. Mientras que los elfos vienen en una amplia gama de tipos de cuerpo, todos son bastante altos, con alturas que van desde 6 a 6 1⁄2 pies. Todos los elfos tienen la capacidad de caer en un trance celestial, en lugar de dormir. Esto les permite descansar eficazmente en un corto periodo de tiempo.</p><p class=\"green Body-Styles_Body\">Algunos elfos poseen lo que se conoce como una “forma mística”, que ocurre cuando un elfo se ha dedicado al estudio o la protección del mundo natural tan profundamente que su forma física cambia. Estas características pueden incluir pecas celestes, la presencia de hojas, vides o flores en sus cabellos, ojos que parpadean como el fuego, y más. A veces estos rasgos son heredados de los padres, pero si un elfo cambia su entorno o enfoque mágico, su apariencia cambia con el tiempo. Debido a que los elfos viven durante unos 350 años, estos rasgos pueden cambiar más de una vez a lo largo de su vida útil.</p>"
+      }
+    },
+    "Endurance": {
+      "_id": "tXWEMdLXafUSZTbK",
+      "name": "Resistencia",
+      "systemPatch": {
+        "description": "<p>Obtener una ranura adicional de punto de éxito en la creación de caracteres.</p>"
+      },
+      "effects": [
+        {
+          "name": "Resistencia",
+          "description": "<p>Obtener una ranura adicional de punto de éxito en la creación de caracteres.</p>",
+          "_id": "db8W2Q0Qty84XV0x"
+        }
+      ]
+    },
+    "Faerie": {
+      "_id": "XzJVbb5NT9k79ykR",
+      "name": "Hada",
+      "systemPatch": {
+        "description": "<p>Las hadas son criaturas humanoides aladas con rasgos insectiles. Estas características cubren un amplio espectro de humanoides a insectos—algunos poseen brazos adicionales, ojos compuestos, órganos de linternas, exoesqueletos quitinosos o aguijones. Debido a sus estrechos vínculos con el mundo natural, también con frecuencia poseen atributos que les permiten mezclarse con varias plantas. La altura media de una hada oscila entre 2 pies y 5 pies, pero algunas hadas crecen hasta 7 pies de altura. Todas las hadas poseen alas membranosas y cada una pasa por un proceso de metamorfosis. El proceso y los cambios difieren de hadas a hadas, pero durante esta transformación cada individuo manifiesta la apariencia única que llevarán durante el resto de su vida útil de aproximadamente 50 años.</p>"
+      }
+    },
+    "Faun": {
+      "_id": "HaYhe6WqoXW5EbRl",
+      "name": "Fauno",
+      "systemPatch": {
+        "description": "<p>Los faunes se asemejan a las cabras humanoides con cuernos curvos, pupilas cuadradas y pezuñas hendidas. Aunque sus apariencias pueden variar, la mayoría de los faunos tienen un torso humanoide y un cuerpo inferior parecido a una cabra cubierto de piel densa. Las caras faun pueden ser más caprinas o más humanas, y tienen una amplia variedad de formas de orejas y cuernos. Los cuernos Faun van desde cortos con curvatura mínima hasta mucho más grandes con un rizado distinto. El faun promedio oscila entre 4 pies y 6 1⁄2 pies de altura, pero su altura puede cambiar dramáticamente de un momento a otro en función de su postura. La mayoría de los faunos tienen extremidades proporcionalmente largas, sin importar su tamaño o forma, y son conocidos por su capacidad para dar golpes poderosos con sus pezuñas divididas. Los faunes viven aproximadamente 225 años, y a medida que envejecen, su apariencia puede volverse cada vez más parecida a cabras.</p>"
+      }
+    },
+    "Fearless": {
+      "_id": "IlWvn5kCqCBMuUJn",
+      "name": "Intrépido",
+      "systemPatch": {
+        "description": "<p>Cuando usted roda con el miedo, usted puede <strong>Marca 2 Estrés</strong> cambiarlo en una tirada con Esperanza en su lugar.</p>",
+        "actions": {
+          "G1H7k5RdvS1EJgFu": {
+            "description": "<p>Cuando usted roda con el miedo, usted puede <strong>Marca 2 Estrés</strong> cambiarlo en una tirada con Esperanza en su lugar.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "Feline Instincts": {
+      "_id": "lNgbbYnCKgrdvA85",
+      "name": "Instintos felinos",
+      "systemPatch": {
+        "description": "<p>Cuando haces una tirada de agilidad, puedes <strong>Gastar 2 Esperanza</strong> para volver a tirar tu Dado de Esperanza.</p>",
+        "actions": {
+          "ALsGHOy0q5THGxz5": {
+            "description": "<p>Cuando haces una tirada de agilidad, puedes <strong>Gastar 2 Esperanza</strong> para volver a tirar tu Dado de Esperanza.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      }
+    },
+    "Firbolg": {
+      "_id": "hzKmydI8sR3uk4CO",
+      "name": "Firbolg",
+      "systemPatch": {
+        "description": "<p>Los firbolgs son humanoides bovinos generalmente reconocidos por sus anchas narices y orejas largas y caídas. Algunos tienen caras que son una mezcla de humanoide y bisonte, buey, vaca, u otras criaturas bovinas. Otros, a menudo llamados minotauros, tienen cabezas que se asemejan totalmente al ganado. Son criaturas altas y musculosas, con alturas que van desde alrededor de 5 pies a 7 pies, y poseen una fuerza notable sin importar su edad. Algunos abetos son conocidos por usar esta fuerza para cargar a sus adversarios, una acción que es particularmente eficaz para aquellos que tienen una de las muchas variedades de estilos de cuernos que se encuentran comúnmente en esta ascendencia. Aunque sus características únicas pueden variar, todos los abetos están cubiertos de piel, que puede ser silenciada y de color de la tierra, o vienen en una variedad de pasteles, tales como rosas suaves y azules. En promedio, los abetos viven unos 150 años.</p>"
+      }
+    },
+    "Fungril": {
+      "_id": "J1hX7nBBc5jQiHli",
+      "name": "Fungril",
+      "systemPatch": {
+        "description": "<p>Fungril se parece a los hongos humanoides. Pueden ser más humanoides o más fúngicos en apariencia, y vienen en una variedad de colores, desde tonos de tierra a rojos brillantes, amarillos, púrpuras y azules. Fungril muestra una increíble variedad de cuerpos, caras y extremidades, ya que no hay una sola forma común entre ellos. Incluso sus alturas van desde un pequeño metro y medio hasta un asombroso metro y medio de altura. Aunque la vida útil común de un hongo es de unos 300 años, se ha informado de que algunos viven mucho más tiempo. Pueden comunicarse no verbalmente, y muchos miembros de esta ascendencia utilizan una matriz micelial para intercambiar químicamente información con otros hongos a través de largas distancias.</p>"
+      }
+    },
+    "Fungril Network": {
+      "_id": "9tmeXm623hl4Qnws",
+      "name": "Red Fungril",
+      "systemPatch": {
+        "description": "<p>Hacer un <strong>Tirada instintivo (12)</strong> usar tu matriz micelial para hablar con otros de tu ascendencia. En un éxito, usted puede comunicarse a través de cualquier distancia.</p>",
+        "actions": {
+          "ZYfigAyUdDUteczO": {
+            "description": "<p>Hacer un <strong>Tirada instintivo (12)</strong> usar tu matriz micelial para hablar con otros de tu ascendencia. En un éxito, usted puede comunicarse a través de cualquier distancia.</p>",
+            "name": "Comunicar"
+          }
+        }
+      }
+    },
+    "Galapa": {
+      "_id": "eZNG5Iv0yfbHs5CO",
+      "name": "Galapa",
+      "systemPatch": {
+        "description": "<p>Galapa se asemeja a tortugas antropomórficas con grandes conchas abovedadas en las que pueden retractarse. En promedio, varían de 4 pies a 6 pies de altura, y sus formas de cabeza y cuerpo pueden parecerse a cualquier tipo de tortuga. Galapa viene en una variedad de tonos de la tierra - la mayoría de las veces tonos de verde y marrón - y poseen patrones únicos en sus conchas. Los miembros de esta ascendencia pueden introducir la cabeza, los brazos y las piernas en su caparazón para protegerse y utilizarlo como escudo natural cuando se necesitan medidas defensivas. Algunos complementan la fuerza o la apariencia de su concha mediante la fijación de armadura o la talla de diseños únicos, pero el proceso es extremadamente doloroso. La mayoría de las galapas se mueven lentamente sin importar su edad, y pueden vivir aproximadamente 150 años.</p>"
+      }
+    },
+    "Giant": {
+      "_id": "3U8CncG92a7ERIJ0",
+      "name": "Gigante",
+      "systemPatch": {
+        "description": "<p>Los gigantes son humanoides imponentes con hombros anchos, brazos largos y de uno a tres ojos. Los gigantes adultos varían de 6 1⁄2 a 8 1⁄2 pies de altura y son naturalmente musculares, independientemente del tipo de cuerpo. Son fácilmente reconocidos por sus amplios marcos y brazos alargados y cuellos. Aunque pueden tener hasta tres ojos, todos los gigantes nacen sin ninguno y permanecen sin vista durante su primer año de vida. Hasta que un gigante alcance la edad de 10 años y sus rasgos se desarrollen plenamente, la formación de sus ojos puede fluctuar. Aquellos con un solo ojo son comúnmente conocidos como cíclopes. El promedio de vida de los gigantes es de unos 75 años.</p>"
+      }
+    },
+    "Goblin": {
+      "_id": "EKPEdIz9lA9grPqH",
+      "name": "Goblin",
+      "systemPatch": {
+        "description": "<p>Los duendes son pequeños humanoides fácilmente reconocibles por sus grandes ojos y enormes orejas membranosas. Con un oído agudo y una visión aguda, perciben detalles a grandes distancias y en la oscuridad, lo que les permite moverse a través de entornos menos óptimos con facilidad. Sus colores de piel y ojos son increíblemente variados, sin un solo tono, ya sea vibrante o sosegado, más dominante que otro. Un duende típico se encuentra entre 3 pies y 4 pies de altura, y cada una de sus orejas es del tamaño de su cabeza. Se sabe que los duendes usan posiciones de oído para efectos muy específicos cuando se comunican no verbalmente. La vida útil de un duende es de aproximadamente 100 años, y muchos mantienen su agudo oído y vista bien en la edad avanzada.</p>"
+      }
+    },
+    "Halfling": {
+      "_id": "CtL2jDjvPOJxNJKm",
+      "name": "Mediano",
+      "systemPatch": {
+        "description": "<p>Los halflings son pequeños humanoides con grandes pies peludos y prominentes orejas redondeadas. En promedio, los halflings tienen de 3 a 4 pies de altura, y sus orejas, nariz y pies son más grandes en proporción al resto de su cuerpo. Los miembros de esta ascendencia viven alrededor de 150 años, y es probable que la apariencia de un mediocre siga siendo joven, incluso a medida que avanzan de la edad adulta a la vejez. Los halflings están naturalmente sintonizados con los campos magnéticos del Reino Mortal, otorgándoles una brújula interna fuerte. También poseen sentidos agudos del oído y el olfato, y a menudo pueden detectar a aquellos que les son familiares por el sonido de sus movimientos.</p>"
+      }
+    },
+    "High Stamina": {
+      "_id": "HMXNJZ7ynzajR2KT",
+      "name": "Alta estamina",
+      "systemPatch": {
+        "description": "<p>Obtener una ranura de estrés adicional en la creación de caracteres.</p>"
+      },
+      "effects": [
+        {
+          "name": "Alta estamina",
+          "description": "<p>Obtener una ranura de estrés adicional en la creación de caracteres.</p>",
+          "_id": "Xl3TsKUJcl6vi1ly"
+        }
+      ]
+    },
+    "Human": {
+      "_id": "wtJ5V5qRppLQn61n",
+      "name": "Humano",
+      "systemPatch": {
+        "description": "<p>Los seres humanos son más fácilmente reconocidos por sus manos hábiles, orejas redondeadas y cuerpos construidos para la resistencia. Su altura promedio oscila entre poco menos de 5 pies y aproximadamente 6 1⁄2 pies. Tienen una amplia variedad de construcciones, con algunos siendo bastante amplios, otros lithe, y muchos habitando el espectro en el medio. Los seres humanos son físicamente adaptables y se adaptan a climas duros con relativa facilidad. En general, los seres humanos viven hasta una edad de alrededor de 100 años, con sus cuerpos cambiando dramáticamente entre sus años más jóvenes y más viejos.</p>"
+      }
+    },
+    "Increased Fortitude": {
+      "_id": "0RN0baBxh95GT1cm",
+      "name": "Aumento de la fortaleza",
+      "systemPatch": {
+        "description": "<p><strong>Gasta 3 Esperanza</strong> reducir a la mitad los daños físicos que se produzcan.</p>",
+        "actions": {
+          "pFPbjyexOPx5gog6": {
+            "description": "<p><strong>Gasta 3 Esperanza</strong> reducir a la mitad los daños físicos que se produzcan.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      }
+    },
+    "Infernis": {
+      "_id": "hyxcuF2I0xcZSGkm",
+      "name": "Infernis",
+      "systemPatch": {
+        "description": "<p>Los infiernos son humanoides que poseen dientes caninos afilados, orejas puntiagudas y cuernos. Ellos son los descendientes de demonios de los Círculos Abajo. En promedio, los infernis varían en altura de 5 pies a 7 pies y se sabe que tienen dedos largos y uñas puntiagudas. Algunos tienen colas largas, delgadas y lisas que terminan en puntos, tenedores o puntas de flecha. Es común que los infernis tengan dos o cuatro cuernos, aunque algunos tienen coronas de muchos cuernos, o sólo uno. Estos cuernos también pueden crecer asimétricamente, formando formas únicas, a menudo curvadas, que los infernis realzan con la talla y la ornamentación. Su piel, cabello y cuernos vienen en una variedad de colores que pueden incluir pasteles suaves, tonos crudos, o tonos vibrantes, tales como escarlata rosada, púrpura profunda, y negro tono.</p><p class=\"green Body-Styles_Body\">Los infernis poseen un “terrible rostro” que se manifiesta involuntariamente, como cuando experimentan miedo u otras emociones fuertes, o a propósito, como cuando desean intimidar a un adversario. Este rostro puede modificar brevemente su apariencia de una variedad de maneras, incluyendo alargar sus dientes y uñas, cambiar los colores de sus ojos, torcer sus cuernos, o mejorar su altura. En promedio, los infernis viven hasta 350 años, y algunos atribuyen esta vida a su linaje demoníaco.</p>"
+      }
+    },
+    "Internal Compass": {
+      "_id": "e2Cu6exxtvfQzc1e",
+      "name": "Brújula interna",
+      "systemPatch": {
+        "description": "<p>Cuando usted lanza un 1 en su Dado de Esperanza, usted puede volver a tirar.</p>"
+      }
+    },
+    "Katari": {
+      "_id": "yyW0UM8srD9WuwW7",
+      "name": "Katari",
+      "systemPatch": {
+        "description": "<p>Katari son humanoides felinos con garras retráctiles, pupilas cortadas verticalmente y orejas altas triangulares. También pueden tener dientes caninos pequeños, puntiagudos, pieles blandas y bigotes largos que ayudan a su percepción y navegación. Sus oídos pueden girar casi 180 grados para detectar el sonido, añadiendo a sus sentidos aumentados. Katari puede parecer más o menos felino o humanoide, con atributos de gato en forma de cabello, bigotes y un hocico. Cerca de la mitad de la población katari tiene cola. Su piel y piel vienen en una amplia gama de tonos y patrones, incluyendo colores sólidos, tonos cálicos, rayas tabby, y una variedad de manchas, parches, jaspeado, o bandas. Su altura oscila entre 3 pies y 6 1⁄2 pies, y viven hasta alrededor de 150 años.</p>"
+      }
+    },
+    "Kick": {
+      "_id": "gpW19TfJk0WWFh1S",
+      "name": "Patada",
+      "systemPatch": {
+        "description": "<p>Cuando usted tiene éxito en un ataque contra un objetivo dentro del alcance Cuerpo a cuerpo, usted puede <strong>marca un estrés</strong> para echarte de ellos, traficando con un extra <strong>2d6</strong> daño y golpear hacia atrás ya sea usted mismo o el objetivo a muy estrecho alcance.</p>",
+        "actions": {
+          "bXbQ57CB1Hfj5XrS": {
+            "description": "<p>Cuando usted tiene éxito en un ataque contra un objetivo dentro del alcance Cuerpo a cuerpo, usted puede <strong>marca un estrés</strong> para echarte de ellos, traficando con un extra <strong>2d6</strong> daño y golpear hacia atrás ya sea usted mismo o el objetivo a muy estrecho alcance.</p>",
+            "name": "Repartir daños"
+          }
+        }
+      }
+    },
+    "Long Tongue": {
+      "_id": "oWbdlh51ajn1Q5kL",
+      "name": "Lengua larga",
+      "systemPatch": {
+        "description": "<p>Puedes usar tu lengua larga para agarrarte de las cosas a un alcance Cerca. <strong>Marcar un estrés</strong> usar la lengua como un arma de Sutileza Cerca que trata <strong>d12</strong> daño físico usando su competencia.</p>",
+        "actions": {
+          "MhAWv7tuvkfOf7wQ": {
+            "description": "<p>Puedes usar tu lengua larga para agarrarte de las cosas a un alcance Cerca. <strong>Marcar un estrés</strong> usar la lengua como un arma de Sutileza Cerca que trata <strong>d12</strong> daño físico usando su competencia.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "Luckbender": {
+      "_id": "U6iFjZgLYawlOlQZ",
+      "name": "Doblador de Suerte",
+      "systemPatch": {
+        "description": "<p>Una vez por sesión, después de que usted o un aliado dispuesto dentro de alcance Cerca haga una tirada de acción, usted puede <strong>Gastar 3 Esperanza</strong> para volver a tirar los dados de la dualidad.</p>",
+        "actions": {
+          "l1wUmqMzG8YF9sqb": {
+            "description": "<p>Una vez por sesión, después de que usted o un aliado dispuesto dentro de alcance Cerca haga una tirada de acción, usted puede <strong>Gastar 3 Esperanza</strong> para volver a tirar los dados de la dualidad.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      }
+    },
+    "Luckbringer": {
+      "_id": "8O6SQQMxKWr430QA",
+      "name": "Atrayente de Suerte",
+      "systemPatch": {
+        "description": "<p>Al comienzo de cada sesión, todos en su partido ganan una Esperanza.</p>",
+        "actions": {
+          "8sK3t73bFkpb999C": {
+            "description": "<p>Al comienzo de cada sesión, todos en su partido ganan una Esperanza.</p>",
+            "name": "Ganar esperanza"
+          }
+        }
+      }
+    },
+    "Natural Climber": {
+      "_id": "soQvPL0MrTLLcc31",
+      "name": "Escalador natural",
+      "systemPatch": {
+        "description": "<p>Usted tiene ventaja en Agilidad Tiradas que implican el equilibrio y la escalada.</p>"
+      },
+      "effects": [
+        {
+          "name": "Escalador natural",
+          "description": "<p>Usted tiene ventaja en Agilidad Tiradas que implican el equilibrio y la escalada.</p>",
+          "_id": "HQeQH9gUfrjlWWcg"
+        }
+      ]
+    },
+    "Nimble": {
+      "_id": "3lNqft3LmOlEIEkw",
+      "name": "Ágil",
+      "systemPatch": {
+        "description": "<p>Gana un bono +1 permanente para tu Evasión en la creación de personajes.</p>"
+      },
+      "effects": [
+        {
+          "name": "Ágil",
+          "description": "<p>Gana un bono +1 permanente para tu Evasión en la creación de personajes.</p>",
+          "_id": "zaxVYqKzUYDJ3SDq"
+        }
+      ]
+    },
+    "Orc": {
+      "_id": "D1RbUsRV9HpTrPuF",
+      "name": "Orco",
+      "systemPatch": {
+        "description": "<p>Los orcos son los humanoides más fácilmente reconocidos por sus rasgos cuadrados y colmillos parecidos a los jabalíes que sobresalen de su mandíbula inferior. Los tusks vienen en varios tamaños, y aunque se extienden desde la boca, no se utilizan para consumir alimentos. En cambio, muchos orcos eligen decorar sus colmillos con una ornamentación significativa. Los orcos suelen vivir 125 años, y a menos que se alteren, sus colmillos siguen creciendo a lo largo de sus vidas. Sus orejas son puntiagudas, y su cabello y piel típicamente tienen tonos verdes, azules, rosados o grises. Los orcos tienden hacia una construcción muscular, y su altura promedio oscila entre 5 pies y 6 1⁄2 pies.</p>"
+      }
+    },
+    "Purposeful Design": {
+      "_id": "g6I4tRUQNgL4vZ6H",
+      "name": "Diseño con propósito",
+      "systemPatch": {
+        "description": "<p><strong>Nota: Automatización no implementada para bonificación permanente. Aumentar manualmente la experiencia en el campo de edición respectivo.</strong> </p><p><br />Decide quién te hizo y con qué propósito. En la creación de personajes, elige una de tus Experiencias que mejor se alinee con este propósito y obtén un bono permanente +1.</p>"
+      }
+    },
+    "Quick Reactions": {
+      "_id": "0NSPSuB8KSEYTJIP",
+      "name": "Reacciones rápidas",
+      "systemPatch": {
+        "description": "<p><strong>Marcar un estrés</strong> para ganar ventaja en una tirada de reacción.</p>",
+        "actions": {
+          "6Av1Y8JXWDkteLhc": {
+            "description": "<p><strong>Marcar un estrés</strong> para ganar ventaja en una tirada de reacción.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "Reach": {
+      "_id": "WRs2jvwM0STmkWIW",
+      "name": "Alcanzar",
+      "systemPatch": {
+        "description": "<p>Trata cualquier arma, habilidad, hechizo u otra característica que tenga un alcance Cuerpo a cuerpo como si tuviera un alcance Muy Cerca en su lugar.</p>"
+      }
+    },
+    "Retract": {
+      "_id": "UFR67BUOhNGLFyg9",
+      "name": "Retractar",
+      "systemPatch": {
+        "description": "<p><strong>Marcar un estrés</strong> para retraerte en tu caparazón. Mientras que en su caparazón, usted tiene resistencia al daño físico, usted tiene desventaja en tiradas de acción, y usted no puede moverse.<br /><br />(Cuando está marcado, habilita manualmente el efecto Retractar a Active en la pestaña de efectos y marca la desventaja al hacer cualquier tirada de acción. Deshabilitar manualmente el efecto Retractar a Inactivo en la pestaña de efectos cuando ya no se retrae en su shell.)</p>",
+        "actions": {
+          "HfiAg14hrYt7Yvnj": {
+            "name": "Marcar Estrés"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Retractar",
+          "description": "<p>Mientras que en su caparazón, usted tiene resistencia al daño físico, usted tiene desventaja en tiradas de acción, y usted no puede moverse.</p>",
+          "_id": "3V4FPoyjJUnFP9WS"
+        }
+      ]
+    },
+    "Retracting Claws": {
+      "_id": "Zj69cAeb3NjIa8Hn",
+      "name": "Garras retráctiles",
+      "systemPatch": {
+        "description": "<p>Hacer un <strong>Tirada de agilidad</strong> para rascar un objetivo dentro del alcance Cuerpo a cuerpo. En un éxito, se vuelven temporalmente vulnerables.</p>",
+        "actions": {
+          "LcFhDb3sJk8sraAc": {
+            "description": "<p>Hacer un <strong>Tirada de agilidad</strong> para rascar un objetivo dentro del alcance Cuerpo a cuerpo. En un éxito, se vuelven temporalmente vulnerables.</p>",
+            "name": "Arañazo"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Garras retráctiles",
+          "_id": "pO76svFkmWmZ6LjC"
+        }
+      ]
+    },
+    "Ribbet": {
+      "_id": "HwOoBKXOL9Tf5j85",
+      "name": "Ribellete",
+      "systemPatch": {
+        "description": "<p>Las ribbets se asemejan a las ranas antropomórficas con ojos salientes y manos y pies palmeados. Tienen la piel suave (aunque a veces verrugosa) húmeda y los ojos colocados a ambos lados de la cabeza. Algunas costillas tienen patas traseras más del doble de la longitud de su torso, mientras que otras tienen extremidades cortas. No importa su tamaño (que oscila entre 3 pies y 4 1⁄2 pies), las costillas se mueven principalmente saltando. Todos los ribbets tienen apéndices webbed, lo que les permite nadar con facilidad. Algunos ribbets poseen un camuflaje natural verde y marrón, mientras que otros son vibrantemente coloreados con patrones audaces. No importa su apariencia, todas las costillas nacen de huevos puestos en el agua, eclosionan en renacuajos, y después de aproximadamente 6 a 7 años, crecen en anfibios que pueden moverse por la tierra. Las ribbets viven durante aproximadamente 100 años.</p>"
+      }
+    },
+    "Scales": {
+      "_id": "u8ZhV962rNmUlzkp",
+      "name": "Escalas",
+      "systemPatch": {
+        "description": "<p>Sus balanzas actúan como protección natural. Cuando usted tomaría daño severo, usted puede <strong>marca un estrés</strong> para marcar 1 menos Puntos de Golpe.</p>"
+      },
+      "effects": [
+        {
+          "name": "Escalas",
+          "description": "<p>Cuando usted tomaría daño severo, usted puede marcar un estrés para marcar 1 menos puntos de éxito.</p>",
+          "_id": "b6Pkwwk7pgBeeUTe"
+        }
+      ]
+    },
+    "Shell": {
+      "_id": "A6a87OWA3tx16g9V",
+      "name": "Concha",
+      "systemPatch": {
+        "description": "<p>Obtener un bono a sus umbrales de daño igual a su competencia.</p>"
+      },
+      "effects": [
+        {
+          "name": "Concha",
+          "description": "<p>Obtener un bono a sus umbrales de daño igual a su competencia.</p>",
+          "_id": "41uiZKXzSSomf9YD"
+        }
+      ]
+    },
+    "Simiah": {
+      "_id": "2yMLxxn7CHEvmShj",
+      "name": "Simiah",
+      "systemPatch": {
+        "description": "<p>Simiah se asemeja a monos antropomórficos y simios con extremidades largas y pies prensiles. Mientras que su apariencia refleja a todas las criaturas simias, desde el gorila más grande hasta el marmoset más pequeño, su tamaño no se alinea con sus contrapartes animales, y pueden ser en cualquier lugar de 2 a 6 pies de altura. Todos los simios pueden usar sus pies hábiles para la comunicación no verbal, el trabajo y el combate. Además, algunos también tienen colas prensil que pueden agarrar objetos o ayudar con el equilibrio durante maniobras difíciles. Estos rasgos otorgan a los miembros de esta agilidad única de ascendencia que les ayuda en una variedad de tareas físicas. En particular, simiah son escaladores expertos y pueden pasar fácilmente de movimiento bípedo a caminar y escalar nudillos, y de vuelta de nuevo. En promedio, el simiah vive unos 100 años.</p>"
+      }
+    },
+    "Sturdy": {
+      "_id": "60o3cKUZzxO9EDQF",
+      "name": "Fuerte",
+      "systemPatch": {
+        "description": "<p>Cuando usted tiene 1 punto de golpe restante, los ataques contra usted tienen desventaja.</p>"
+      }
+    },
+    "Surefooted": {
+      "_id": "YsJticxv8OFndd4D",
+      "name": "De pie seguro",
+      "systemPatch": {
+        "description": "<p>Ignoras la desventaja de Agilidad Tiradas.</p>"
+      }
+    },
+    "Thick Skin": {
+      "_id": "S0Ww7pYOSREt8qKg",
+      "name": "Piel gruesa",
+      "systemPatch": {
+        "description": "<p>Cuando usted toma Daños menores, usted puede <strong>Marca 2 Estrés</strong> en lugar de marcar un Punto de Golpe.</p>"
+      },
+      "effects": [
+        {
+          "name": "Piel gruesa",
+          "description": "<p>Cuando tomes Daño menor, puedes marcar 2 Estrés en lugar de marcar un Punto de Golpe.</p>",
+          "_id": "4Lc40mNnRInTKMC5"
+        }
+      ]
+    },
+    "Tusks": {
+      "_id": "YhxD1ujZpftPu19w",
+      "name": "Colmillos",
+      "systemPatch": {
+        "description": "<p>Cuando usted tiene éxito en un ataque contra un objetivo dentro del alcance Cuerpo a cuerpo, usted puede <strong>pasar una esperanza</strong> a gore el objetivo con sus colmillos, traficando con un extra <strong>1d6</strong> daños.</p>",
+        "actions": {
+          "ytSFDCONRi5L4THz": {
+            "description": "<p>Cuando usted tiene éxito en un ataque contra un objetivo dentro del alcance Cuerpo a cuerpo, usted puede <strong>pasar una esperanza</strong> a gore el objetivo con sus colmillos, traficando con un extra <strong>1d6</strong> daños.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Colmillos",
+          "description": "<p>Tú <span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">gore el objetivo con sus colmillos, traficando con un extra </span><span style=\"box-sizing:border-box;scrollbar-width:thin;scrollbar-color:rgb(93, 20, 43) rgba(0, 0, 0, 0);color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">1d6</span><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\"> daños en este ataque.</p>",
+          "_id": "klEyAxQa5YHXVnrl"
+        }
+      ]
+    },
+    "Unshakeable": {
+      "_id": "G5pE8FW94V1W9jJx",
+      "name": "Inamovible",
+      "systemPatch": {
+        "description": "<p>Cuando usted marcaría un estrés, tirar un <strong>d6</strong>. Sobre el resultado de 6, no lo marquen.</p>",
+        "actions": {
+          "x8xbjyCrJ0okOpIU": {
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "Wings": {
+      "_id": "WquAjoOcso8lwySW",
+      "name": "Alas",
+      "systemPatch": {
+        "description": "<p>Puedes volar. Mientras vuelas, puedes <strong>marca un estrés</strong> después de que un adversario hace un ataque contra usted para ganar un bono +2 a su Evasión contra ese ataque.</p>",
+        "actions": {
+          "dpKxkDSjXsP8kHMI": {
+            "description": "<p>Puedes volar. Mientras vuelas, puedes <strong>marca un estrés</strong> después de que un adversario hace un ataque contra usted para ganar un bono +2 a su Evasión contra ese ataque.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Alas",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Usted ganará un bono de +2 a su Evasión contra el ataque del Adversario.</p>",
+          "_id": "zD3xVdwkEQi2ivOn"
+        }
+      ]
+    }
+  }
+}

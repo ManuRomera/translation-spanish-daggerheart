@@ -1,0 +1,6798 @@
+{
+  "label": "Armas",
+  "folders": {
+    "Combat Wheelchairs": "Sillas de ruedas de combate",
+    "Magical Weapons": "Armas mágicas",
+    "Physical Weapons": "Armas físicas",
+    "Primary Weapons": "Armas principales",
+    "Secondary Weapons": "Armas secundarias",
+    "Tier 1": "Rango 1",
+    "Tier 2": "Rango 2",
+    "Tier 3": "Rango 3",
+    "Tier 4": "Rango 4"
+  },
+  "mapping": {
+    "systemPatch": {
+      "path": "system",
+      "converter": "daggerheartOverlay"
+    },
+    "prototypeTokenPatch": {
+      "path": "prototypeToken",
+      "converter": "daggerheartOverlay"
+    },
+    "flagsPatch": {
+      "path": "flags",
+      "converter": "daggerheartOverlay"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "daggerheartEmbedded"
+    },
+    "items": {
+      "path": "items",
+      "converter": "daggerheartEmbedded"
+    },
+    "pages": {
+      "path": "pages",
+      "converter": "daggerheartEmbedded"
+    },
+    "results": {
+      "path": "results",
+      "converter": "daggerheartEmbedded"
+    }
+  },
+  "entries": {
+    "ijodu5yNBoMxpkHV": {
+      "_id": "ijodu5yNBoMxpkHV",
+      "name": "Arco aantari",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "nRNnU57i7RMJoklC"
+        }
+      ]
+    },
+    "hXR56fTKwZ6s1obs": {
+      "_id": "hXR56fTKwZ6s1obs",
+      "name": "Guanteletes arcanos avanzados",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "la3sAWgnvadc4NvP": {
+      "_id": "la3sAWgnvadc4NvP",
+      "name": "Silla de ruedas de marco arcano avanzada",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "VnV5X9MBMabhz47b"
+        }
+      ]
+    },
+    "FcbvY1ydbNVMjKvk": {
+      "_id": "FcbvY1ydbNVMjKvk",
+      "name": "Hacha de batalla avanzada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "WtQAGz0TUgz8Xg70": {
+      "_id": "WtQAGz0TUgz8Xg70",
+      "name": "Espadón avanzado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "wu2AmDvgeWI3hmRQ"
+        }
+      ]
+    },
+    "3HGs0AgVrdIBTaKG": {
+      "_id": "3HGs0AgVrdIBTaKG",
+      "name": "Ballesta avanzada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "bw9WO9lxkM9bWZxQ": {
+      "_id": "bw9WO9lxkM9bWZxQ",
+      "name": "Alfanje avanzado",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "mrioysDjNQEIE8hN": {
+      "_id": "mrioysDjNQEIE8hN",
+      "name": "Daga avanzada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "X5x3sC7v2f3L9sjL": {
+      "_id": "X5x3sC7v2f3L9sjL",
+      "name": "Bastón dual avanzado",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "InQoh8mZPnwarQkX": {
+      "_id": "InQoh8mZPnwarQkX",
+      "name": "Anillos brillantes avanzados",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "7vvhVl4TDJHtjpFK": {
+      "_id": "7vvhVl4TDJHtjpFK",
+      "name": "Agarrador avanzado",
+      "systemPatch": {
+        "actions": {
+          "vpm0kyd1SFRuBaak": {
+            "name": "Gancho",
+            "description": "En un ataque exitoso, puedes tirar del objetivo en el alcance Cuerpo a cuerpo."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "enganchado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "4UzxqfkwF8gDSdu7": {
+      "_id": "4UzxqfkwF8gDSdu7",
+      "name": "Gran bastón avanzado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "potente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Poderoso",
+          "description": "En un ataque exitoso, tirar un daño adicional muere y desechar el resultado más bajo.",
+          "_id": "sGVVxSM68Fmr1sSM"
+        }
+      ]
+    },
+    "MAC6YWTo4lzSotQc": {
+      "_id": "MAC6YWTo4lzSotQc",
+      "name": "Mandoble avanzado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "masiva"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Masivo",
+          "description": "-1 a Evasión; en un ataque con éxito, tirar un daño adicional mueren y descartar el resultado más bajo.",
+          "_id": "E0PjC15OP55vIype"
+        }
+      ]
+    },
+    "C8gQn7onAc9wsrCs": {
+      "_id": "C8gQn7onAc9wsrCs",
+      "name": "Alabarda avanzada",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "engorroso"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Espesoso.",
+          "description": "-1 a Sutileza",
+          "_id": "pdRt0nO1ooGPO3cm"
+        }
+      ]
+    },
+    "BiyXKX2Mo1TQbKgk": {
+      "_id": "BiyXKX2Mo1TQbKgk",
+      "name": "Hacha sagrada avanzada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Lsvocst8aGqkBj7g": {
+      "_id": "Lsvocst8aGqkBj7g",
+      "name": "Ballesta de mano avanzada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "PQACczSghZIVTdgZ": {
+      "_id": "PQACczSghZIVTdgZ",
+      "name": "Runas de mano avanzadas",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "eT2Qwb0RdrLX2hH1": {
+      "_id": "eT2Qwb0RdrLX2hH1",
+      "name": "Silla de ruedas de marco pesado avanzada",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "pesado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "1godgiqdDADyR0Tw"
+        }
+      ]
+    },
+    "BuMfupnCzHbziQ8o": {
+      "_id": "BuMfupnCzHbziQ8o",
+      "name": "Silla de ruedas de marco ligero avanzada",
+      "systemPatch": {
+        "actions": {
+          "V1GupKWIUExrfrf9": {
+            "name": "Rápido",
+            "description": "Cuando usted hace un ataque, usted puede marcar un Estrés para apuntar a otra criatura dentro del rango."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Rápido."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "M5CywMAyPKGgebsJ": {
+      "_id": "M5CywMAyPKGgebsJ",
+      "name": "Arco largo avanzado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "engorroso"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Espesoso.",
+          "description": "-1 a Sutileza",
+          "_id": "CUpkNgCUE6CWAXc3"
+        }
+      ]
+    },
+    "9xkB3MWXahrsVP4N": {
+      "_id": "9xkB3MWXahrsVP4N",
+      "name": "Espada larga avanzada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "WreMYiH5uhVDaoVw": {
+      "_id": "WreMYiH5uhVDaoVw",
+      "name": "Maza avanzada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "zJtm2f9ZFKZRtCRg": {
+      "_id": "zJtm2f9ZFKZRtCRg",
+      "name": "Bastón avanzado",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "KxFne76d7cak15dO": {
+      "_id": "KxFne76d7cak15dO",
+      "name": "Estoque avanzado",
+      "systemPatch": {
+        "actions": {
+          "bx2JFFD7JglAsVG6": {
+            "name": "Rápido",
+            "description": "Cuando usted hace un ataque, usted puede marcar un Estrés para apuntar a otra criatura dentro del rango."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Rápido."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "sIGXA4KMeYBUjcEO": {
+      "_id": "sIGXA4KMeYBUjcEO",
+      "name": "Hoja retornante avanzada",
+      "systemPatch": {
+        "actions": {
+          "guRvZkjZnWrpH6HT": {
+            "name": "Retorno",
+            "description": "Cuando esta arma es lanzada dentro de su alcance, aparece en su mano inmediatamente después del ataque."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "regresar"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "hiEOGF2reabGLUoi": {
+      "_id": "hiEOGF2reabGLUoi",
+      "name": "Escudo redondo avanzado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "protección"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Protector",
+          "description": "<p>Añada el nivel del artículo a su puntuación de armadura</p>",
+          "_id": "i5HfkF5aKQuUCTEG"
+        }
+      ]
+    },
+    "2Khzuj768yoWN9QK": {
+      "_id": "2Khzuj768yoWN9QK",
+      "name": "Cetro avanzado",
+      "systemPatch": {
+        "actions": {
+          "4w1WlA4yZzUcRMXA": {
+            "name": "Ataque versátil"
+          }
+        },
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "JpSlJvDR0X8VFDns": {
+      "_id": "JpSlJvDR0X8VFDns",
+      "name": "Arco corto avanzado",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "T5exRCqOXhrjSYnI": {
+      "_id": "T5exRCqOXhrjSYnI",
+      "name": "Bastón corto avanzado",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "p3nz5CaGUoyuGVg0": {
+      "_id": "p3nz5CaGUoyuGVg0",
+      "name": "Espada corta avanzada",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "emparejados"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Apareados",
+          "description": "Añada este nivel de armas secundarias + 1 a su arma primaria contra objetivos dentro del alcance Cuerpo a cuerpo",
+          "_id": "zQMaG3JcUWJR9k2L"
+        }
+      ]
+    },
+    "0thN0BpN05KT8Avx": {
+      "_id": "0thN0BpN05KT8Avx",
+      "name": "Daga pequeña avanzada",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "emparejados"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Apareados",
+          "description": "Añada este nivel de armas secundarias + 1 a su arma primaria contra objetivos dentro del alcance Cuerpo a cuerpo",
+          "_id": "6tJmTBsumbPmEwkY"
+        }
+      ]
+    },
+    "pK6dsNABKKp1CIGN": {
+      "_id": "pK6dsNABKKp1CIGN",
+      "name": "Lanza avanzada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "OfOzQbs4hg6QbfTG": {
+      "_id": "OfOzQbs4hg6QbfTG",
+      "name": "Escudo torre avanzado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "barrera"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Barrera",
+          "description": "Ganar nivel de arma + 1 a puntuación de armadura; -1 a Evasión",
+          "_id": "87gedjJZGdFY81Mt"
+        }
+      ]
+    },
+    "jU9jWIardjtdAQcs": {
+      "_id": "jU9jWIardjtdAQcs",
+      "name": "Varita avanzada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "8Lipw3RRKDgBVP0p": {
+      "_id": "8Lipw3RRKDgBVP0p",
+      "name": "Martillo de guerra avanzado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "pesado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "S6jedo3xSQhFBQH0"
+        }
+      ]
+    },
+    "01izMUSJcAUo79IX": {
+      "_id": "01izMUSJcAUo79IX",
+      "name": "Látigo avanzado",
+      "systemPatch": {
+        "actions": {
+          "9x82us4KqCFp2ds0": {
+            "name": "Sobresalir",
+            "description": "Marcar un Estrés para romper el látigo y forzar a todos los adversarios dentro del alcance Cuerpo a cuerpo de nuevo a alcance Cerca."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "sobresalto"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "PC5EyEIq7NWBV0n5": {
+      "_id": "PC5EyEIq7NWBV0n5",
+      "name": "Guanteletes arcanos",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "XRChepscgr75Uug7": {
+      "_id": "XRChepscgr75Uug7",
+      "name": "Silla de ruedas de marco arcano",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "dXHsy9qr5FWZqsVq"
+        }
+      ]
+    },
+    "YcS1rHgfnSlla8Xf": {
+      "_id": "YcS1rHgfnSlla8Xf",
+      "name": "Hacha de Fortunis",
+      "systemPatch": {
+        "actions": {
+          "AtVHF6Y00zLo8W5G": {
+            "name": "Suerte",
+            "description": "En un ataque fallido, puedes marcar un Estrés para volver a lanzar tu ataque."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Suerte."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "fbDYUja3ll9vCtrB": {
+      "_id": "fbDYUja3ll9vCtrB",
+      "name": "Hacha de batalla",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "AokqTusPzn0hghkE": {
+      "_id": "AokqTusPzn0hghkE",
+      "name": "Revólver de pólvora negra",
+      "systemPatch": {
+        "actions": {
+          "8BHprlLTXO0C71ps": {
+            "name": "Recargar",
+            "description": "Después de hacer un ataque, lanza un d6. En un resultado de 1, debe marcar un Estrés para recargar esta arma antes de que pueda disparar de nuevo."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "recarga"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "5faflfNz20cFW1EM": {
+      "_id": "5faflfNz20cFW1EM",
+      "name": "Látigo con hojas",
+      "systemPatch": {
+        "actions": {
+          "ss8Qu3f33HCTMwXB": {
+            "name": "Rápido",
+            "description": "Cuando usted hace un ataque, usted puede marcar un Estrés para apuntar a otra criatura dentro del rango."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Rápido."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "n1oPTk5czTIGTkVj": {
+      "_id": "n1oPTk5czTIGTkVj",
+      "name": "Daga bendita",
+      "systemPatch": {
+        "actions": {
+          "o18UvqLPWLe1A8XJ": {
+            "name": "Curar",
+            "description": "Durante el tiempo de inactividad, eliminar automáticamente un Punto de Golpe."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "curación"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "IoMVDz92WVvfGGdc": {
+      "_id": "IoMVDz92WVvfGGdc",
+      "name": "Bastón de sangre",
+      "systemPatch": {
+        "actions": {
+          "Unom5L1XimxLcXSp": {
+            "name": "Dolor",
+            "description": "Cada vez que usted hace un ataque exitoso, usted debe marcar un estrés."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "dolor"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "SLFrK0WmldPo0shz": {
+      "_id": "SLFrK0WmldPo0shz",
+      "name": "Trabuco",
+      "systemPatch": {
+        "actions": {
+          "ah3BGmVtSTNNPZto": {
+            "name": "Recargar",
+            "description": "Después de hacer un ataque, lanza un d6. En un resultado de 1, debe marcar un Estrés para recargar esta arma antes de que pueda disparar de nuevo."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "recarga"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "QEvgVoz9xKBSKsGi": {
+      "_id": "QEvgVoz9xKBSKsGi",
+      "name": "Escudo valiente",
+      "systemPatch": {
+        "actions": {
+          "Ctsyr3xDVCsDYbZ3": {
+            "name": "Vivienda",
+            "description": "Cuando usted marca una Ranura de Armadura, reduce el daño para usted y todos los aliados dentro de la gama Cuerpo a cuerpo de usted que tomó el mismo daño."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "protección"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "QZrWAkprA2tL2MOI": {
+      "_id": "QZrWAkprA2tL2MOI",
+      "name": "Espada valiente",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "valiente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Valiente",
+          "description": "-1 a Evasión; + Nivel de armas a umbral de daños graves",
+          "_id": "lLM5uyDAGk3zVxoa"
+        }
+      ]
+    },
+    "1cwWNt4sqlgA8gCT": {
+      "_id": "1cwWNt4sqlgA8gCT",
+      "name": "Espadón",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "mqcpj2cFAprf2AmY"
+        }
+      ]
+    },
+    "EmFTp9wzT6MHSaNz": {
+      "_id": "EmFTp9wzT6MHSaNz",
+      "name": "Broquel",
+      "systemPatch": {
+        "actions": {
+          "BspGQXodaANPEQcl": {
+            "name": "Desviación",
+            "description": "Cuando usted es atacado, usted puede marcar una Ranura de Armadura para ganar un bono a su Evasión igual a su Puntuación de Armadura contra el ataque."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Desviación"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Desviación",
+          "description": "Ganar un bono a su Evasión igual a su puntuación de armadura contra el ataque",
+          "_id": "Anbxt99bL9IWnlGh"
+        }
+      ]
+    },
+    "2Fbf2cxLfbdGkU4I": {
+      "_id": "2Fbf2cxLfbdGkU4I",
+      "name": "Espada de lanzamiento",
+      "systemPatch": {
+        "actions": {
+          "jMGBWGhvcxDgVH86": {
+            "name": "Ataque versátil"
+          }
+        },
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "cw7HG1Z7hp7OOLD0": {
+      "_id": "cw7HG1Z7hp7OOLD0",
+      "name": "Ballesta",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Fk69R40svV0kanZD": {
+      "_id": "Fk69R40svV0kanZD",
+      "name": "Daga curva",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "serrada"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Serrado",
+          "description": "Al tirar un 1 en una muerte daño, que hace 8 daños en su lugar.",
+          "_id": "X3a0PAJ9Tk4zVyxz"
+        }
+      ]
+    },
+    "CWrbnethuILXrEpA": {
+      "_id": "CWrbnethuILXrEpA",
+      "name": "Alfanje",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "iStO0BbeMTTR0rQi": {
+      "_id": "iStO0BbeMTTR0rQi",
+      "name": "Daga",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "C5wSGglR8e0euQnY": {
+      "_id": "C5wSGglR8e0euQnY",
+      "name": "Daga devoradora",
+      "systemPatch": {
+        "actions": {
+          "TKFadp8ZfOmB8PF8": {
+            "name": "Miedo",
+            "description": "En un ataque exitoso, el objetivo debe marcar un Estrés."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Da miedo."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "xm1yU7k58fMgXxRR": {
+      "_id": "xm1yU7k58fMgXxRR",
+      "name": "Mangual doble",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "potente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Poderoso",
+          "description": "En un ataque exitoso, tirar un daño adicional muere y desechar el resultado más bajo.",
+          "_id": "DCie5eR1dZH2Qvln"
+        }
+      ]
+    },
+    "nXjuBa215H1sTUK3": {
+      "_id": "nXjuBa215H1sTUK3",
+      "name": "Espada de doble filo",
+      "systemPatch": {
+        "actions": {
+          "MCgtEP3nlCk86cGl": {
+            "name": "Rápido",
+            "description": "Cuando usted hace un ataque, usted puede marcar un Estrés para apuntar a otra criatura dentro del rango."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Rápido."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "j8cdNeIUYxxzFVji": {
+      "_id": "j8cdNeIUYxxzFVji",
+      "name": "Bastón dual",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "G7rH31KQ5eEZXcv0": {
+      "_id": "G7rH31KQ5eEZXcv0",
+      "name": "Hoja del ego",
+      "systemPatch": {
+        "actions": {
+          "5etzGd1Hp6LxkrJX": {
+            "name": "Pomposo",
+            "description": "Usted debe tener una Presencia de 0 o inferior para usar esta arma."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "pomposo"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "JdWcn9W1edhAEInL": {
+      "_id": "JdWcn9W1edhAEInL",
+      "name": "Arco anciano",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "potente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Poderoso",
+          "description": "En un ataque exitoso, tirar un daño adicional muere y desechar el resultado más bajo.",
+          "_id": "sZ1XotFlGdkPPDG4"
+        }
+      ]
+    },
+    "fJHKMxZokVP34MCi": {
+      "_id": "fJHKMxZokVP34MCi",
+      "name": "Arma de asta extendida",
+      "systemPatch": {
+        "actions": {
+          "NzpJeAJKyd4SItjH": {
+            "name": "Largo",
+            "description": "El ataque de esta arma apunta a todos los adversarios en una línea a su alcance."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "largo"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "ykF3jouxHZ6YR8Bg": {
+      "_id": "ykF3jouxHZ6YR8Bg",
+      "name": "Arco de pelo fino",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "7bvIKGGQvmSGeg4O"
+        }
+      ]
+    },
+    "BtCm2RhWEfs00g38": {
+      "_id": "BtCm2RhWEfs00g38",
+      "name": "Bastón de fuego",
+      "systemPatch": {
+        "actions": {
+          "9j81Lxp3sDskHFDS": {
+            "name": "Quemar",
+            "description": "Al tirar un 6 en una muerte daño, el objetivo debe marcar un estrés."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "quema"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "xLJ5RRpUoTRmAC3G": {
+      "_id": "xLJ5RRpUoTRmAC3G",
+      "name": "Hoja titilante",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "afilada"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Afilado",
+          "description": "Gana un bono a tus tiradas de daño igual a tu Agilidad.",
+          "_id": "jMIrOhpPUncn7dWg"
+        }
+      ]
+    },
+    "3vti3xfo0wJND7ew": {
+      "_id": "3vti3xfo0wJND7ew",
+      "name": "Fragmentos de hoja flotante",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "potente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Poderoso",
+          "description": "En un ataque exitoso, tirar un daño adicional muere y desechar el resultado más bajo.",
+          "_id": "T831j6kZiMnpMNmv"
+        }
+      ]
+    },
+    "uK1RhtYAsDeoPNGx": {
+      "_id": "uK1RhtYAsDeoPNGx",
+      "name": "Guantes de fusión",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "unidos"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Bono de armas",
+          "description": "Gana un bono a tus tiradas de daño igual a tu nivel.",
+          "_id": "7ltP049dqxCaedyX"
+        }
+      ]
+    },
+    "6gFvOFTE97QZ74Zr": {
+      "_id": "6gFvOFTE97QZ74Zr",
+      "name": "Hoja fantasma",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "ctTgFfMbM3YtmsYU": {
+      "_id": "ctTgFfMbM3YtmsYU",
+      "name": "Arco dorado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "autocorrección"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Autocorrección",
+          "description": "Al tirar un 1 en una muerte de daño, que hace 6 daños en su lugar.",
+          "_id": "zoWZsD4ogzfPSPi7"
+        }
+      ]
+    },
+    "VwcOgqnzjf9LBj2S": {
+      "_id": "VwcOgqnzjf9LBj2S",
+      "name": "Falcata dorada",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "potente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Poderoso",
+          "description": "En un ataque exitoso, tirar un daño adicional muere y desechar el resultado más bajo.",
+          "_id": "ir4iKLIQ4CH1Qckn"
+        }
+      ]
+    },
+    "wG9f5NpCwSbaLy8t": {
+      "_id": "wG9f5NpCwSbaLy8t",
+      "name": "Anillos brillantes",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "iEzPscUc18GuFoB6": {
+      "_id": "iEzPscUc18GuFoB6",
+      "name": "Agarrador",
+      "systemPatch": {
+        "actions": {
+          "PaIPWLldOnp89Mfk": {
+            "name": "Gancho",
+            "description": "En un ataque exitoso, puedes tirar del objetivo en el alcance Cuerpo a cuerpo."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "enganchado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "MXBpbqQsZFln4rZk": {
+      "_id": "MXBpbqQsZFln4rZk",
+      "name": "Gran arco",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "potente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Poderoso",
+          "description": "En un ataque exitoso, tirar un daño adicional muere y desechar el resultado más bajo.",
+          "_id": "K4VgrDjVj1U1m9Ie"
+        }
+      ]
+    },
+    "Yk8pTEmyLLi4095S": {
+      "_id": "Yk8pTEmyLLi4095S",
+      "name": "Gran bastón",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "potente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Poderoso",
+          "description": "En un ataque exitoso, tirar un daño adicional muere y desechar el resultado más bajo.",
+          "_id": "904orawScurM9GjG"
+        }
+      ]
+    },
+    "70ysaFJDREwTgvZa": {
+      "_id": "70ysaFJDREwTgvZa",
+      "name": "Mandoble",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "masiva"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Masivo",
+          "description": "-1 a Evasión; en un ataque con éxito, tirar un daño adicional mueren y descartar el resultado más bajo.",
+          "_id": "cffkpiwGpEGhjiUC"
+        }
+      ]
+    },
+    "qT7FfmauAumOjJoq": {
+      "_id": "qT7FfmauAumOjJoq",
+      "name": "Alabarda",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "engorroso"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Espesoso.",
+          "description": "-1 a Sutileza",
+          "_id": "YxaGOWcQEesO9zPR"
+        }
+      ]
+    },
+    "Vayg7CnRTFBrunjM": {
+      "_id": "Vayg7CnRTFBrunjM",
+      "name": "Hacha sagrada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "0lAkBEUvbM9Osmqb": {
+      "_id": "0lAkBEUvbM9Osmqb",
+      "name": "Martillo de Exota",
+      "systemPatch": {
+        "actions": {
+          "yrqmcBPVjCKmx1fp": {
+            "name": "Erupción",
+            "description": "En un ataque exitoso contra un objetivo dentro del alcance Cuerpo a cuerpo, todos los demás adversarios dentro del rango de Muy Cerca deben tener éxito en una tirada de reacción (14) o recibir medio daño."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "erupción eruptiva"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "1R4uzOpWD8bkYRUm": {
+      "_id": "1R4uzOpWD8bkYRUm",
+      "name": "Martillo de la ira",
+      "systemPatch": {
+        "actions": {
+          "nTogna9Phzw7VjPr": {
+            "name": "Devastar",
+            "description": "Antes de hacer una tirada de ataque, puede marcar un Estrés para usar un d20 como su dado de daño."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "devastador"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "MyGz8nd5sieRQ7zl": {
+      "_id": "MyGz8nd5sieRQ7zl",
+      "name": "Cañón de mano",
+      "systemPatch": {
+        "actions": {
+          "fZ4lxZ9eXeCSVKrT": {
+            "name": "Recargar",
+            "description": "Después de hacer un ataque, lanza un d6. En un resultado de 1, debe marcar un Estrés para recargar esta arma antes de que pueda disparar de nuevo."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "recarga"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "zxKt6qXe7uZB6ljm": {
+      "_id": "zxKt6qXe7uZB6ljm",
+      "name": "Ballesta de mano",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "3whiedn0jBMNRdIb": {
+      "_id": "3whiedn0jBMNRdIb",
+      "name": "Runas de mano",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "RAIaoMi6iO1PKIlK": {
+      "_id": "RAIaoMi6iO1PKIlK",
+      "name": "Honda de mano",
+      "systemPatch": {
+        "actions": {
+          "GgtsuUCtxGX9e4Kg": {
+            "name": "Ataque versátil"
+          }
+        },
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "XjPQjhRCH08VUIbr": {
+      "_id": "XjPQjhRCH08VUIbr",
+      "name": "Silla de ruedas de marco pesado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "pesado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "1godgiqdDADyR0Tw"
+        }
+      ]
+    },
+    "TMrUzVC3KvcHmdt8": {
+      "_id": "TMrUzVC3KvcHmdt8",
+      "name": "Rifle de Ilmari",
+      "systemPatch": {
+        "actions": {
+          "BaU47zTo2F4PwjVT": {
+            "name": "Recargar",
+            "description": "Después de hacer un ataque, lanza un d6. En un resultado de 1, debe marcar un Estrés para recargar esta arma antes de que pueda disparar de nuevo."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "recarga"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Zg6IutksQVOqAg8K": {
+      "_id": "Zg6IutksQVOqAg8K",
+      "name": "Guantelete de impacto",
+      "systemPatch": {
+        "actions": {
+          "wh1Op9x5dVDpwXyd": {
+            "name": "Concutir",
+            "description": "En un ataque exitoso, puede gastar una esperanza para golpear el objetivo de nuevo a distancia."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "concusivo"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "kENTDpa1hr5LDhIT": {
+      "_id": "kENTDpa1hr5LDhIT",
+      "name": "Guanteletes arcanos mejorados",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "N9P695V5KKlJbAY5": {
+      "_id": "N9P695V5KKlJbAY5",
+      "name": "Silla de ruedas de marco arcano mejorada",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "1f6fFhOLwZrmA6e5"
+        }
+      ]
+    },
+    "nxGUpuHLmuKdKsDC": {
+      "_id": "nxGUpuHLmuKdKsDC",
+      "name": "Hacha de batalla mejorada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "OcKeLJxvmdT81VBc": {
+      "_id": "OcKeLJxvmdT81VBc",
+      "name": "Espadón mejorado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "228lcQpohdJ3Bbga"
+        }
+      ]
+    },
+    "55NwHIIZHUeKSE3M": {
+      "_id": "55NwHIIZHUeKSE3M",
+      "name": "Ballesta mejorada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "ddRjXnp2vbohu7rJ": {
+      "_id": "ddRjXnp2vbohu7rJ",
+      "name": "Alfanje mejorado",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "ScjTkb9qrndhlk9S": {
+      "_id": "ScjTkb9qrndhlk9S",
+      "name": "Daga mejorada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "f7hhHlZ5nL3AhYEM": {
+      "_id": "f7hhHlZ5nL3AhYEM",
+      "name": "Bastón dual mejorado",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "N5amhkxR1xn3B7r2": {
+      "_id": "N5amhkxR1xn3B7r2",
+      "name": "Anillos brillantes mejorados",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "3T3o9zfe61t22L1H": {
+      "_id": "3T3o9zfe61t22L1H",
+      "name": "Agarrador mejorado",
+      "systemPatch": {
+        "actions": {
+          "HzrHPd2DgvhdCHkL": {
+            "name": "Gancho",
+            "description": "En un ataque exitoso, puedes tirar del objetivo en el alcance Cuerpo a cuerpo."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "enganchado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "LCuTrYXi4lhg6LqW": {
+      "_id": "LCuTrYXi4lhg6LqW",
+      "name": "Gran bastón mejorado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "potente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Poderoso",
+          "description": "En un ataque exitoso, tirar un daño adicional muere y desechar el resultado más bajo.",
+          "_id": "hnayB09P25ZW3gVY"
+        }
+      ]
+    },
+    "FPX4ouDrxXiQ5MDf": {
+      "_id": "FPX4ouDrxXiQ5MDf",
+      "name": "Mandoble mejorado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "masiva"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Masivo",
+          "description": "-1 a Evasión; en un ataque con éxito, tirar un daño adicional mueren y descartar el resultado más bajo.",
+          "_id": "2nl35v8sPAudiOIb"
+        }
+      ]
+    },
+    "F9PETfCQGwczBPif": {
+      "_id": "F9PETfCQGwczBPif",
+      "name": "Alabarda mejorada",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "engorroso"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Espesoso.",
+          "description": "-1 a Sutileza",
+          "_id": "POQepSxCro9T9OYT"
+        }
+      ]
+    },
+    "wFOXMN2uiX4j6Gd9": {
+      "_id": "wFOXMN2uiX4j6Gd9",
+      "name": "Hacha sagrada mejorada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "XEDRkuw3BhMoVBn9": {
+      "_id": "XEDRkuw3BhMoVBn9",
+      "name": "Ballesta de mano mejorada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "jMEukC3VpNDz5AOD": {
+      "_id": "jMEukC3VpNDz5AOD",
+      "name": "Runas de mano mejoradas",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "L5KeCtrs768PmYWW": {
+      "_id": "L5KeCtrs768PmYWW",
+      "name": "Silla de ruedas de marco pesado mejorada",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "pesado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "1godgiqdDADyR0Tw"
+        }
+      ]
+    },
+    "ZJsetdHKV77ygtCE": {
+      "_id": "ZJsetdHKV77ygtCE",
+      "name": "Silla de ruedas de marco ligero mejorada",
+      "systemPatch": {
+        "actions": {
+          "V1GupKWIUExrfrf9": {
+            "name": "Rápido",
+            "description": "Cuando usted hace un ataque, usted puede marcar un Estrés para apuntar a otra criatura dentro del rango."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Rápido."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "NacNonjbzyoVMNhI": {
+      "_id": "NacNonjbzyoVMNhI",
+      "name": "Arco largo mejorado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "engorroso"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Espesoso.",
+          "description": "-1 a Sutileza",
+          "_id": "TC4yGDrnOisOpDQu"
+        }
+      ]
+    },
+    "QyBZ5NxM8F9nCL9s": {
+      "_id": "QyBZ5NxM8F9nCL9s",
+      "name": "Espada larga mejorada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "zSLx52U4Yltqx8F1": {
+      "_id": "zSLx52U4Yltqx8F1",
+      "name": "Maza mejorada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "BEmAR60PM3ZaiNXa": {
+      "_id": "BEmAR60PM3ZaiNXa",
+      "name": "Bastón mejorado",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "LFPH8nD2f4Blv3AM": {
+      "_id": "LFPH8nD2f4Blv3AM",
+      "name": "Estoque mejorado",
+      "systemPatch": {
+        "actions": {
+          "zXJzLttPMezUzh49": {
+            "name": "Rápido",
+            "description": "Cuando usted hace un ataque, usted puede marcar un Estrés para apuntar a otra criatura dentro del rango."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Rápido."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "SKNwkW23eVQjN4Zy": {
+      "_id": "SKNwkW23eVQjN4Zy",
+      "name": "Hoja retornante mejorada",
+      "systemPatch": {
+        "actions": {
+          "6nWKaQBWwjztIzCr": {
+            "name": "Retorno",
+            "description": "Cuando esta arma es lanzada dentro de su alcance, aparece en su mano inmediatamente después del ataque."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "regresar"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "DlinEBGZfIlvreO3": {
+      "_id": "DlinEBGZfIlvreO3",
+      "name": "Escudo redondo mejorado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "protección"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Protector",
+          "description": "<p>Añada el nivel del artículo a su puntuación de armadura</p>",
+          "_id": "cXWSV50apzaNQkdA"
+        }
+      ]
+    },
+    "tj26lbNkwy8bORF4": {
+      "_id": "tj26lbNkwy8bORF4",
+      "name": "Cetro mejorado",
+      "systemPatch": {
+        "actions": {
+          "1g3dZUkJPaGCfYN6": {
+            "name": "Ataque versátil"
+          }
+        },
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "6ZWl6ARfvYBaAMwY": {
+      "_id": "6ZWl6ARfvYBaAMwY",
+      "name": "Arco corto mejorado",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Mn8ja5Oi1sXvvPSk": {
+      "_id": "Mn8ja5Oi1sXvvPSk",
+      "name": "Bastón corto mejorado",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "rSyBNRwemBVuTo3H": {
+      "_id": "rSyBNRwemBVuTo3H",
+      "name": "Espada corta mejorada",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "emparejados"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Apareados",
+          "description": "Añada este nivel de armas secundarias + 1 a su arma primaria contra objetivos dentro del alcance Cuerpo a cuerpo",
+          "_id": "UW2fqbhBqvnK1coG"
+        }
+      ]
+    },
+    "nMuF8ZDZ2aXZVTg6": {
+      "_id": "nMuF8ZDZ2aXZVTg6",
+      "name": "Daga pequeña mejorada",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "emparejados"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Apareados",
+          "description": "Añada este nivel de armas secundarias + 1 a su arma primaria contra objetivos dentro del alcance Cuerpo a cuerpo",
+          "_id": "PMXG4l85UkXRf41E"
+        }
+      ]
+    },
+    "j5Pt1thLfcvopBij": {
+      "_id": "j5Pt1thLfcvopBij",
+      "name": "Lanza mejorada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "bxt3NsbMqTSdI5ab": {
+      "_id": "bxt3NsbMqTSdI5ab",
+      "name": "Escudo torre mejorado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "barrera"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Barrera",
+          "description": "Ganar nivel de arma + 1 a puntuación de armadura; -1 a Evasión",
+          "_id": "tkNEA1PO3jEFhKCa"
+        }
+      ]
+    },
+    "6d9B2b5X2d2U56jt": {
+      "_id": "6d9B2b5X2d2U56jt",
+      "name": "Varita mejorada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "pxaN4ZK4eqKrjtWj": {
+      "_id": "pxaN4ZK4eqKrjtWj",
+      "name": "Martillo de guerra mejorado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "pesado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "KvdwqkM3ErLxMzDq"
+        }
+      ]
+    },
+    "ftTp8VlsBQ1r4LFD": {
+      "_id": "ftTp8VlsBQ1r4LFD",
+      "name": "Látigo mejorado",
+      "systemPatch": {
+        "actions": {
+          "itHKcDEckRlitu2z": {
+            "name": "Sobresalir",
+            "description": "Marcar un Estrés para romper el látigo y forzar a todos los adversarios dentro del alcance Cuerpo a cuerpo de nuevo a alcance Cerca."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "sobresalto"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "q382JqMkqLaaFLIr": {
+      "_id": "q382JqMkqLaaFLIr",
+      "name": "Bastón del guardián",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "LvxPAfrKuRfgubGV"
+        }
+      ]
+    },
+    "U8gfyvxoHm024inM": {
+      "_id": "U8gfyvxoHm024inM",
+      "name": "Hojas de nudillos",
+      "systemPatch": {
+        "actions": {
+          "oTuCXX7dCQYmabzi": {
+            "name": "DAGGERHEART.CONFIG.ArmaFeature.brutal.actions.addDamage.name",
+            "description": "DAGGERHEART.CONFIG.ArmaFeature.brutal.actions.addDamage.description"
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "brutal"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "SFqganS8Du4aEKjQ": {
+      "_id": "SFqganS8Du4aEKjQ",
+      "name": "Garras de nudillos",
+      "systemPatch": {
+        "actions": {
+          "B0uT1D1WRidiHxyh": {
+            "name": "Doble hacia arriba",
+            "description": "Cuando usted hace un ataque con su arma primaria, usted puede hacer daño a otro objetivo dentro del alcance Cuerpo a cuerpo."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "doblado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "ijWppQzSOqVCb3rE": {
+      "_id": "ijWppQzSOqVCb3rE",
+      "name": "Hacha labrys",
+      "systemPatch": {
+        "description": "<strong>Protective</strong>: +1 a puntuación de armadura",
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Protector",
+          "description": "+1 a puntuación de armadura",
+          "_id": "qTxADRsQnKiYfOiQ"
+        }
+      ]
+    },
+    "umADDPYCaykXDc1v": {
+      "_id": "umADDPYCaykXDc1v",
+      "name": "Guanteletes arcanos legendarios",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "gA2tiET9VHGhwMoO": {
+      "_id": "gA2tiET9VHGhwMoO",
+      "name": "Silla de ruedas de marco arcano legendaria",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "TvsoAiqHCwgtYat1"
+        }
+      ]
+    },
+    "1nztpLzoHGfbKf5x": {
+      "_id": "1nztpLzoHGfbKf5x",
+      "name": "Hacha de batalla legendaria",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "y3hfTPfZhMognyaJ": {
+      "_id": "y3hfTPfZhMognyaJ",
+      "name": "Espadón legendario",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "ujb6VAqjyXmfnnjy"
+        }
+      ]
+    },
+    "1G6xX2QL9O0Rsgz7": {
+      "_id": "1G6xX2QL9O0Rsgz7",
+      "name": "Ballesta legendaria",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Rpyz0jbFJ1SwqfyD": {
+      "_id": "Rpyz0jbFJ1SwqfyD",
+      "name": "Alfanje legendario",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "GmTg3Fdne1UPNs8t": {
+      "_id": "GmTg3Fdne1UPNs8t",
+      "name": "Daga legendaria",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "o3rsLvImcLAx5TvD": {
+      "_id": "o3rsLvImcLAx5TvD",
+      "name": "Bastón dual legendario",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "PReWrfuPjoNQuieo": {
+      "_id": "PReWrfuPjoNQuieo",
+      "name": "Anillos brillantes legendarios",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "IrtUj0UntBMNn49G": {
+      "_id": "IrtUj0UntBMNn49G",
+      "name": "Agarrador legendario",
+      "systemPatch": {
+        "actions": {
+          "swNMa4gW6guA8GaH": {
+            "name": "Gancho",
+            "description": "En un ataque exitoso, puedes tirar del objetivo en el alcance Cuerpo a cuerpo."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "enganchado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "jDtvEabkHY1GFgfc": {
+      "_id": "jDtvEabkHY1GFgfc",
+      "name": "Gran bastón legendario",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "potente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Poderoso",
+          "description": "En un ataque exitoso, tirar un daño adicional muere y desechar el resultado más bajo.",
+          "_id": "OV1Ly7vX4owBUgLQ"
+        }
+      ]
+    },
+    "zMZ46F9VR7zdTxb9": {
+      "_id": "zMZ46F9VR7zdTxb9",
+      "name": "Mandoble legendario",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "masiva"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Masivo",
+          "description": "-1 a Evasión; en un ataque con éxito, tirar un daño adicional mueren y descartar el resultado más bajo.",
+          "_id": "oRCiXSElN5xufUfn"
+        }
+      ]
+    },
+    "1AuMNiJz96Ez9fur": {
+      "_id": "1AuMNiJz96Ez9fur",
+      "name": "Alabarda legendaria",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "engorroso"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Espesoso.",
+          "description": "-1 a Sutileza",
+          "_id": "MmVRlnSLFWBfNJlB"
+        }
+      ]
+    },
+    "0HmhnZnv1I6uX69c": {
+      "_id": "0HmhnZnv1I6uX69c",
+      "name": "Hacha sagrada legendaria",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "32nYyMaeDWaakSxz": {
+      "_id": "32nYyMaeDWaakSxz",
+      "name": "Ballesta de mano legendaria",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "DWLkswhluXuMy3bB": {
+      "_id": "DWLkswhluXuMy3bB",
+      "name": "Runas de mano legendarias",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "S6nB0CNlzdU05o5U": {
+      "_id": "S6nB0CNlzdU05o5U",
+      "name": "Silla de ruedas de marco pesado legendaria",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "pesado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "1godgiqdDADyR0Tw"
+        }
+      ]
+    },
+    "Xt8tVSn5Fu6ly6LF": {
+      "_id": "Xt8tVSn5Fu6ly6LF",
+      "name": "Silla de ruedas de marco ligero legendaria",
+      "systemPatch": {
+        "actions": {
+          "V1GupKWIUExrfrf9": {
+            "name": "Rápido",
+            "description": "Cuando usted hace un ataque, usted puede marcar un Estrés para apuntar a otra criatura dentro del rango."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Rápido."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Utt1GpoH1fhaTOtN": {
+      "_id": "Utt1GpoH1fhaTOtN",
+      "name": "Arco largo legendario",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "engorroso"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Espesoso.",
+          "description": "-1 a Sutileza",
+          "_id": "004BkCQeQzuMVGS3"
+        }
+      ]
+    },
+    "14abPqQcROJfDChR": {
+      "_id": "14abPqQcROJfDChR",
+      "name": "Espada larga legendaria",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "RsDsy7tIhrhaAQQc": {
+      "_id": "RsDsy7tIhrhaAQQc",
+      "name": "Maza legendaria",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "1ZciqG7vIKLYpKsP": {
+      "_id": "1ZciqG7vIKLYpKsP",
+      "name": "Bastón legendario",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "BakN97v4jTePcXiZ": {
+      "_id": "BakN97v4jTePcXiZ",
+      "name": "Estoque legendario",
+      "systemPatch": {
+        "actions": {
+          "AwoesSV7Nt5W0lbf": {
+            "name": "Rápido",
+            "description": "Cuando usted hace un ataque, usted puede marcar un Estrés para apuntar a otra criatura dentro del rango."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Rápido."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "mcj3CPkcSSDdAcBB": {
+      "_id": "mcj3CPkcSSDdAcBB",
+      "name": "Hoja retornante legendaria",
+      "systemPatch": {
+        "actions": {
+          "ZbZIFYeEfo0cpOEO": {
+            "name": "Retorno",
+            "description": "Cuando esta arma es lanzada dentro de su alcance, aparece en su mano inmediatamente después del ataque."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "regresar"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "A28WL9E2lJ3iLZHW": {
+      "_id": "A28WL9E2lJ3iLZHW",
+      "name": "Escudo redondo legendario",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "protección"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Protector",
+          "description": "<p>Añada el nivel del artículo a su puntuación de armadura</p>",
+          "_id": "Z2p00q5h6x6seXys"
+        }
+      ]
+    },
+    "IZ4CWNxfuM46JeCN": {
+      "_id": "IZ4CWNxfuM46JeCN",
+      "name": "Cetro legendario",
+      "systemPatch": {
+        "actions": {
+          "h6UfUEGdR11jD6g4": {
+            "name": "Ataque versátil"
+          }
+        },
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "j7kp36jaetfn5jb3": {
+      "_id": "j7kp36jaetfn5jb3",
+      "name": "Arco corto legendario",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "D3SbNvNJZAFuzfhg": {
+      "_id": "D3SbNvNJZAFuzfhg",
+      "name": "Bastón corto legendario",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "dEumq3BIZBk5xYTk": {
+      "_id": "dEumq3BIZBk5xYTk",
+      "name": "Espada corta legendaria",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "emparejados"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Apareados",
+          "description": "Añada este nivel de armas secundarias + 1 a su arma primaria contra objetivos dentro del alcance Cuerpo a cuerpo",
+          "_id": "ebloMf4gItx38xkZ"
+        }
+      ]
+    },
+    "Px3Rh3kIvAqyISxJ": {
+      "_id": "Px3Rh3kIvAqyISxJ",
+      "name": "Daga pequeña legendaria",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "emparejados"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Apareados",
+          "description": "Añada este nivel de armas secundarias + 1 a su arma primaria contra objetivos dentro del alcance Cuerpo a cuerpo",
+          "_id": "WAqE3sZFkTefglDq"
+        }
+      ]
+    },
+    "4e5pWxi2qohuGsWh": {
+      "_id": "4e5pWxi2qohuGsWh",
+      "name": "Lanza legendaria",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "MaJIROht7A9LxIZx": {
+      "_id": "MaJIROht7A9LxIZx",
+      "name": "Escudo torre legendario",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "barrera"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Barrera",
+          "description": "Ganar nivel de arma + 1 a puntuación de armadura; -1 a Evasión",
+          "_id": "lBJMzxdGO2nJdTQS"
+        }
+      ]
+    },
+    "wPjg0LufJH9vUfVM": {
+      "_id": "wPjg0LufJH9vUfVM",
+      "name": "Varita legendaria",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "W9ymfEDck2icfvla": {
+      "_id": "W9ymfEDck2icfvla",
+      "name": "Martillo de guerra legendario",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "pesado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "hKvwLqCltaPV1C7n"
+        }
+      ]
+    },
+    "Wcdbf6yS3LEt7nsg": {
+      "_id": "Wcdbf6yS3LEt7nsg",
+      "name": "Látigo legendario",
+      "systemPatch": {
+        "actions": {
+          "0kcm7huG68hS7sRz": {
+            "name": "Sobresalir",
+            "description": "Marcar un Estrés para romper el látigo y forzar a todos los adversarios dentro del alcance Cuerpo a cuerpo de nuevo a alcance Cerca."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "sobresalto"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "iaGnlUkShBgdeMo0": {
+      "_id": "iaGnlUkShBgdeMo0",
+      "name": "Silla de ruedas de marco ligero",
+      "systemPatch": {
+        "actions": {
+          "V1GupKWIUExrfrf9": {
+            "name": "Rápido",
+            "description": "Cuando usted hace un ataque, usted puede marcar un Estrés para apuntar a otra criatura dentro del rango."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Rápido."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "YfVs6Se903az4Yet": {
+      "_id": "YfVs6Se903az4Yet",
+      "name": "Arco largo",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "engorroso"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Espesoso.",
+          "description": "-1 a Sutileza",
+          "_id": "9gKDF96uId07289w"
+        }
+      ]
+    },
+    "Iv8BZM1R24QMT72M": {
+      "_id": "Iv8BZM1R24QMT72M",
+      "name": "Espada larga",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "cKQCDyM2UopDL9zF": {
+      "_id": "cKQCDyM2UopDL9zF",
+      "name": "Maza",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "XKBmBUEoGLdLcuqQ": {
+      "_id": "XKBmBUEoGLdLcuqQ",
+      "name": "Orbe del mago",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "potente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Poderoso",
+          "description": "En un ataque exitoso, tirar un daño adicional muere y desechar el resultado más bajo.",
+          "_id": "2J6vzNUel78JFypp"
+        }
+      ]
+    },
+    "jGykNGQiKm63tCiE": {
+      "_id": "jGykNGQiKm63tCiE",
+      "name": "Revólver del mago",
+      "systemPatch": {
+        "actions": {
+          "242ZR9HyiRtJqhqG": {
+            "name": "Recargar",
+            "description": "Después de hacer un ataque, lanza un d6. En un resultado de 1, debe marcar un Estrés para recargar esta arma antes de que pueda disparar de nuevo."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "recarga"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Gi26Zk9VqlAAgx3E": {
+      "_id": "Gi26Zk9VqlAAgx3E",
+      "name": "Alfanje meridiano",
+      "systemPatch": {
+        "actions": {
+          "KcmlvkOW0EbdCxTz": {
+            "name": "Duelo",
+            "description": "Cuando no hay otras criaturas dentro de un alcance Cerca del objetivo, ganar ventaja en su ataque tirar contra ellos."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "duelo"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "BdLfy5i488VZgkjP": {
+      "_id": "BdLfy5i488VZgkjP",
+      "name": "Guadaña de Midas",
+      "systemPatch": {
+        "actions": {
+          "kKEAq1C1fz0WZmlZ": {
+            "name": "Codicioso",
+            "description": "Gasta un puñado de oro para ganar un bono +1 a tu especialidad en una tirada de daños."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "codicioso"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Codicia",
+          "description": "Gasta un puñado de oro para ganar un bono +1 a tu especialidad en una tirada de daños.",
+          "_id": "1C5o1D5JYgLdt2eU"
+        }
+      ]
+    },
+    "taAZDkDCpeNgxhnn": {
+      "_id": "taAZDkDCpeNgxhnn",
+      "name": "Daga de parada",
+      "systemPatch": {
+        "actions": {
+          "zcYv4uYbkMS4OLdc": {
+            "name": "Parada",
+            "description": "Cuando te ataquen, tira los dados de daño de esta arma. Si alguno de los dados de daño del atacante arrojó el mismo valor que sus dados, los resultados coincidentes se descartan de los dados de daño del atacante antes de que el daño que tome sea totalizado."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "parada"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "bW3xw5S9DbaLCN3E": {
+      "_id": "bW3xw5S9DbaLCN3E",
+      "name": "Guantelete potenciado",
+      "systemPatch": {
+        "actions": {
+          "GlA0PwKQSq5vwh7D": {
+            "name": "Carga",
+            "description": "Marque un Estrés para ganar un bono +1 a su competencia en un ataque de arma primaria."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "cargados"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Cargado",
+          "description": "Marque un Estrés para ganar un bono +1 a su competencia en un ataque de arma primaria.",
+          "_id": "n5EB7pI0kv2Zx35G"
+        }
+      ]
+    },
+    "SxcblanBvqaest3A": {
+      "_id": "SxcblanBvqaest3A",
+      "name": "Fragmento de cebador",
+      "systemPatch": {
+        "actions": {
+          "dNN2KOfUxGzQ2yjY": {
+            "name": "Bloquear",
+            "description": "En un ataque exitoso, su próximo ataque contra el mismo objetivo con su arma primaria tiene éxito automáticamente."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "bloqueado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "mlIj88p1wcQNjEDG": {
+      "_id": "mlIj88p1wcQNjEDG",
+      "name": "Bastón",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "zkAgEW6zMkRZalEm": {
+      "_id": "zkAgEW6zMkRZalEm",
+      "name": "Estoque",
+      "systemPatch": {
+        "actions": {
+          "ojcL8L3CFPDGaki6": {
+            "name": "Rápido",
+            "description": "Cuando usted hace un ataque, usted puede marcar un Estrés para apuntar a otra criatura dentro del rango."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Rápido."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "i8CqVTzqoRoCewNe": {
+      "_id": "i8CqVTzqoRoCewNe",
+      "name": "Sable retráctil",
+      "systemPatch": {
+        "actions": {
+          "u5thk5lEvDuHXAHq": {
+            "name": "Retractar",
+            "description": "La hoja se puede ocultar en la empuñadura para evitar la detección."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "retráctil"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "FtsQGwOg3r8uUCST": {
+      "_id": "FtsQGwOg3r8uUCST",
+      "name": "Hacha retornante",
+      "systemPatch": {
+        "actions": {
+          "IjEUAtr4mOIfXPAU": {
+            "name": "Retorno",
+            "description": "Cuando esta arma es lanzada dentro de su alcance, aparece en su mano inmediatamente después del ataque."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "regresar"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "4fQpVfQ3NVwTHStA": {
+      "_id": "4fQpVfQ3NVwTHStA",
+      "name": "Hoja retornante",
+      "systemPatch": {
+        "actions": {
+          "N6KlXpv5ug8Gk5Hl": {
+            "name": "Retorno",
+            "description": "Cuando esta arma es lanzada dentro de su alcance, aparece en su mano inmediatamente después del ataque."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "regresar"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "E9QDh5o9eQ1Qx0kH": {
+      "_id": "E9QDh5o9eQ1Qx0kH",
+      "name": "Hachas de rebote",
+      "systemPatch": {
+        "actions": {
+          "x9cz8u1utQ6DtoKA": {
+            "name": "Rebote",
+            "description": "Marcar 1 o más Estrés para golpear que muchos objetivos en el rango del ataque."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "rebotes"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "mxwWKDujgsRcZWPT": {
+      "_id": "mxwWKDujgsRcZWPT",
+      "name": "Escudo redondo",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "protección"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Protector",
+          "description": "<p>Añada el nivel del artículo a su puntuación de armadura</p>",
+          "_id": "M70a81e0Mg66jHRL"
+        }
+      ]
+    },
+    "EG6mZhr3ib56r974": {
+      "_id": "EG6mZhr3ib56r974",
+      "name": "Runas de ruina",
+      "systemPatch": {
+        "actions": {
+          "pmnGErMlUT1lJFDL": {
+            "name": "Dolor",
+            "description": "Cada vez que usted hace un ataque exitoso, usted debe marcar un estrés."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "dolor"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "GZh345N8fmuS4Jeh": {
+      "_id": "GZh345N8fmuS4Jeh",
+      "name": "Cetro",
+      "systemPatch": {
+        "actions": {
+          "c7McXmzSWTNGOdHL": {
+            "name": "Ataque versátil"
+          }
+        },
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "acPGwIaUhx3R0mTq": {
+      "_id": "acPGwIaUhx3R0mTq",
+      "name": "Cetro de Elías",
+      "systemPatch": {
+        "actions": {
+          "LI0LkywSh5xjkWrf": {
+            "name": "Intensificar",
+            "description": "En un ataque exitoso, lanza un d4. Sobre un resultado de 4, limpiar un estrés."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "vigorizante"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "p9tdjQr2AZP19RYm": {
+      "_id": "p9tdjQr2AZP19RYm",
+      "name": "Arco corto",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "vHDHG3STcxTEfYAM": {
+      "_id": "vHDHG3STcxTEfYAM",
+      "name": "Bastón corto",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "cjGZpXCoshEqi1FI": {
+      "_id": "cjGZpXCoshEqi1FI",
+      "name": "Espada corta",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "emparejados"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Apareados",
+          "description": "<p>Añada este nivel de armas secundarias + 1 a su arma primaria contra objetivos dentro del alcance Cuerpo a cuerpo</p>",
+          "_id": "djNtNpasgNDRP8Dd"
+        }
+      ]
+    },
+    "1N1jggda5DfdzdMj": {
+      "_id": "1N1jggda5DfdzdMj",
+      "name": "Guanteletes de sifón",
+      "systemPatch": {
+        "actions": {
+          "JdOTTVL4daHd7iGp": {
+            "name": "Robo de vida",
+            "description": "En un ataque exitoso, lanza un d6. Sobre un resultado de 6, limpiar un punto de golpe o limpiar un estrés."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Robo de vida"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "OxsEmffWriiQmqJK": {
+      "_id": "OxsEmffWriiQmqJK",
+      "name": "Hacha trineo",
+      "systemPatch": {
+        "actions": {
+          "0qVTvNMfapVST3sQ": {
+            "name": "Destrucción",
+            "description": "DAGGERHEART.CONFIG.ArmaCaracterística.destructive.actions.attack.descriptive"
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "destructivo"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Destructivo",
+          "description": "DAGGERHEART.CONFIG.ArmaCaracterística.destructive.effects.Agilidad",
+          "_id": "dhhIibfRBwCGZ6Ab"
+        }
+      ]
+    },
+    "wKklDxs5nkzILNp4": {
+      "_id": "wKklDxs5nkzILNp4",
+      "name": "Daga pequeña",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "emparejados"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Apareados",
+          "description": "Añada este nivel de armas secundarias + 1 a su arma primaria contra objetivos dentro del alcance Cuerpo a cuerpo",
+          "_id": "HKh73AHxImdgxgTg"
+        }
+      ]
+    },
+    "TF85tKJetUjLwh54": {
+      "_id": "TF85tKJetUjLwh54",
+      "name": "Lanza",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "O1w8KPYH85ZS8X64": {
+      "_id": "O1w8KPYH85ZS8X64",
+      "name": "Arco con púas",
+      "systemPatch": {
+        "actions": {
+          "WqhixEUWiKK4gwuG": {
+            "name": "Ataque versátil"
+          }
+        },
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "vzyzFwLUniWZV1rt": {
+      "_id": "vzyzFwLUniWZV1rt",
+      "name": "Escudo con púas",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "dobleDuty"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Doble deber",
+          "description": "+1 a puntuación de armadura; +1 a daño primario por arma dentro del alcance Cuerpo a cuerpo",
+          "_id": "d3TJtlpoHBCztbom"
+        }
+      ]
+    },
+    "6bkbw4Ap644KZGvJ": {
+      "_id": "6bkbw4Ap644KZGvJ",
+      "name": "Alabarda forjada en acero",
+      "systemPatch": {
+        "actions": {
+          "XJS4UHwz3j41g9Fc": {
+            "name": "Miedo",
+            "description": "En un ataque exitoso, el objetivo debe marcar un Estrés."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Da miedo."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "1jOJHHKdtk3s2jaY": {
+      "_id": "1jOJHHKdtk3s2jaY",
+      "name": "Hoja de cuerda oscilante",
+      "systemPatch": {
+        "actions": {
+          "VDbthRuLKgowyruc": {
+            "name": "Agarre",
+            "description": "En un ataque exitoso, puede pasar una Esperanza para restringir el objetivo o tirar de ellos en el alcance Cuerpo a cuerpo con usted."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "forcejeo"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "TVPCWnSELOVBv6G1": {
+      "_id": "TVPCWnSELOVBv6G1",
+      "name": "Espada de luz y llama",
+      "systemPatch": {
+        "actions": {
+          "KRjyYdwb8WgPhDVt": {
+            "name": "Caliente",
+            "description": "Esta arma corta a través de material sólido."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "caliente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "jlLtgK468rO5IssR": {
+      "_id": "jlLtgK468rO5IssR",
+      "name": "Hojas de garra",
+      "systemPatch": {
+        "actions": {
+          "G7pAyfTwQ8uteLsP": {
+            "name": "DAGGERHEART.CONFIG.ArmaFeature.brutal.actions.addDamage.name",
+            "description": "DAGGERHEART.CONFIG.ArmaFeature.brutal.actions.addDamage.description"
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "brutal"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "I1nDGpulg29GpWOW": {
+      "_id": "I1nDGpulg29GpWOW",
+      "name": "Arco de cardos",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "G9mMGxBSexwjWTYV"
+        }
+      ]
+    },
+    "C9aWpK1shVMWP4m5": {
+      "_id": "C9aWpK1shVMWP4m5",
+      "name": "Escudo torre",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "barrera"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Barrera",
+          "description": "Ganar nivel de arma + 1 a puntuación de armadura; -1 a Evasión",
+          "_id": "8r0TcKWXboFV0eqS"
+        }
+      ]
+    },
+    "zGm6Wa1fGF6cECY5": {
+      "_id": "zGm6Wa1fGF6cECY5",
+      "name": "Espadón urok",
+      "systemPatch": {
+        "actions": {
+          "mig52M2Mp3JDmH2p": {
+            "name": "Mortal",
+            "description": "Cuando usted hace daño severo, el objetivo debe marcar un PG adicional."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "mortífero"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "ItWisJFNGMNWeaCV": {
+      "_id": "ItWisJFNGMNWeaCV",
+      "name": "Varita",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "tP6vmnrmTq2h5sj7": {
+      "_id": "tP6vmnrmTq2h5sj7",
+      "name": "Varita de sometimiento",
+      "systemPatch": {
+        "actions": {
+          "vqTZBX2RHTG1h6hz": {
+            "name": "Persuasión",
+            "description": "Antes de hacer una tirada de Presencia, puedes marcar un Estrés para ganar un bono de +2 al resultado."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "persuasivo"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Persuasivo",
+          "description": "Ganar un bono +2 para el tirada de presencia",
+          "_id": "hrJJzzepVs2BPYf5"
+        }
+      ]
+    },
+    "ZrRGNjGCgZTTfgDG": {
+      "_id": "ZrRGNjGCgZTTfgDG",
+      "name": "Varita de Essek",
+      "systemPatch": {
+        "actions": {
+          "TzNsQcYm4OVNFQyD": {
+            "name": "Tiempo de curvado",
+            "description": "DAGGERHEART.CONFIG.ArmaFeature.timebending.actions.bendTime.descripción"
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "doblando el tiempo"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "z6yEdFYQJ5IzgTX3": {
+      "_id": "z6yEdFYQJ5IzgTX3",
+      "name": "Guadaña de guerra",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "cOYeI9TxHXpDwszu"
+        }
+      ]
+    },
+    "ZXh1GQahBiODfSTC": {
+      "_id": "ZXh1GQahBiODfSTC",
+      "name": "Martillo de guerra",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "pesado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "HT0SAlTBGKwolAOp"
+        }
+      ]
+    },
+    "CmtWqw6DwoePnX7W": {
+      "_id": "CmtWqw6DwoePnX7W",
+      "name": "Látigo",
+      "systemPatch": {
+        "actions": {
+          "N0CCc4o6N1HseQTn": {
+            "name": "Sobresalir",
+            "description": "Marcar un Estrés para romper el látigo y forzar a todos los adversarios dentro del alcance Cuerpo a cuerpo de nuevo a alcance Cerca."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "sobresalto"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "8Z5QrThfwkYPXNco": {
+      "_id": "8Z5QrThfwkYPXNco",
+      "name": "Pendiente de Widogast",
+      "systemPatch": {
+        "actions": {
+          "gQFuVhPeKzNj93p6": {
+            "name": "Tiempo de curvado",
+            "description": "DAGGERHEART.CONFIG.ArmaFeature.timebending.actions.bendTime.descripción"
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "doblando el tiempo"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "0XpSBYXxtywvBFQi": {
+      "_id": "0XpSBYXxtywvBFQi",
+      "name": "Arco de sangre yutari",
+      "systemPatch": {
+        "actions": {
+          "cLBfHGpuGzOatf5i": {
+            "name": "DAGGERHEART.CONFIG.ArmaFeature.brutal.actions.addDamage.name",
+            "description": "DAGGERHEART.CONFIG.ArmaFeature.brutal.actions.addDamage.description"
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "brutal"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Aantari Bow": {
+      "_id": "ijodu5yNBoMxpkHV",
+      "name": "Arco aantari",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "nRNnU57i7RMJoklC"
+        }
+      ]
+    },
+    "Advanced Arcane Gauntlets": {
+      "_id": "hXR56fTKwZ6s1obs",
+      "name": "Guanteletes arcanos avanzados",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Advanced Arcane-Frame Wheelchair": {
+      "_id": "la3sAWgnvadc4NvP",
+      "name": "Silla de ruedas de marco arcano avanzada",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "VnV5X9MBMabhz47b"
+        }
+      ]
+    },
+    "Advanced Battleaxe": {
+      "_id": "FcbvY1ydbNVMjKvk",
+      "name": "Hacha de batalla avanzada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Advanced Broadsword": {
+      "_id": "WtQAGz0TUgz8Xg70",
+      "name": "Espadón avanzado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "wu2AmDvgeWI3hmRQ"
+        }
+      ]
+    },
+    "Advanced Crossbow": {
+      "_id": "3HGs0AgVrdIBTaKG",
+      "name": "Ballesta avanzada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Advanced Cutlass": {
+      "_id": "bw9WO9lxkM9bWZxQ",
+      "name": "Alfanje avanzado",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Advanced Dagger": {
+      "_id": "mrioysDjNQEIE8hN",
+      "name": "Daga avanzada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Advanced Dualstaff": {
+      "_id": "X5x3sC7v2f3L9sjL",
+      "name": "Bastón dual avanzado",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Advanced Glowing Rings": {
+      "_id": "InQoh8mZPnwarQkX",
+      "name": "Anillos brillantes avanzados",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Advanced Grappler": {
+      "_id": "7vvhVl4TDJHtjpFK",
+      "name": "Agarrador avanzado",
+      "systemPatch": {
+        "actions": {
+          "vpm0kyd1SFRuBaak": {
+            "name": "Gancho",
+            "description": "En un ataque exitoso, puedes tirar del objetivo en el alcance Cuerpo a cuerpo."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "enganchado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Advanced Greatstaff": {
+      "_id": "4UzxqfkwF8gDSdu7",
+      "name": "Gran bastón avanzado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "potente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Poderoso",
+          "description": "En un ataque exitoso, tirar un daño adicional muere y desechar el resultado más bajo.",
+          "_id": "sGVVxSM68Fmr1sSM"
+        }
+      ]
+    },
+    "Advanced Greatsword": {
+      "_id": "MAC6YWTo4lzSotQc",
+      "name": "Mandoble avanzado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "masiva"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Masivo",
+          "description": "-1 a Evasión; en un ataque con éxito, tirar un daño adicional mueren y descartar el resultado más bajo.",
+          "_id": "E0PjC15OP55vIype"
+        }
+      ]
+    },
+    "Advanced Halberd": {
+      "_id": "C8gQn7onAc9wsrCs",
+      "name": "Alabarda avanzada",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "engorroso"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Espesoso.",
+          "description": "-1 a Sutileza",
+          "_id": "pdRt0nO1ooGPO3cm"
+        }
+      ]
+    },
+    "Advanced Hallowed Axe": {
+      "_id": "BiyXKX2Mo1TQbKgk",
+      "name": "Hacha sagrada avanzada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Advanced Hand Crossbow": {
+      "_id": "Lsvocst8aGqkBj7g",
+      "name": "Ballesta de mano avanzada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Advanced Hand Runes": {
+      "_id": "PQACczSghZIVTdgZ",
+      "name": "Runas de mano avanzadas",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Advanced Heavy-Frame Wheelchair": {
+      "_id": "eT2Qwb0RdrLX2hH1",
+      "name": "Silla de ruedas de marco pesado avanzada",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "pesado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "1godgiqdDADyR0Tw"
+        }
+      ]
+    },
+    "Advanced Light-Frame Wheelchair": {
+      "_id": "BuMfupnCzHbziQ8o",
+      "name": "Silla de ruedas de marco ligero avanzada",
+      "systemPatch": {
+        "actions": {
+          "V1GupKWIUExrfrf9": {
+            "name": "Rápido",
+            "description": "Cuando usted hace un ataque, usted puede marcar un Estrés para apuntar a otra criatura dentro del rango."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Rápido."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Advanced Longbow": {
+      "_id": "M5CywMAyPKGgebsJ",
+      "name": "Arco largo avanzado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "engorroso"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Espesoso.",
+          "description": "-1 a Sutileza",
+          "_id": "CUpkNgCUE6CWAXc3"
+        }
+      ]
+    },
+    "Advanced Longsword": {
+      "_id": "9xkB3MWXahrsVP4N",
+      "name": "Espada larga avanzada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Advanced Mace": {
+      "_id": "WreMYiH5uhVDaoVw",
+      "name": "Maza avanzada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Advanced Quarterstaff": {
+      "_id": "zJtm2f9ZFKZRtCRg",
+      "name": "Bastón avanzado",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Advanced Rapier": {
+      "_id": "KxFne76d7cak15dO",
+      "name": "Estoque avanzado",
+      "systemPatch": {
+        "actions": {
+          "bx2JFFD7JglAsVG6": {
+            "name": "Rápido",
+            "description": "Cuando usted hace un ataque, usted puede marcar un Estrés para apuntar a otra criatura dentro del rango."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Rápido."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Advanced Returning Blade": {
+      "_id": "sIGXA4KMeYBUjcEO",
+      "name": "Hoja retornante avanzada",
+      "systemPatch": {
+        "actions": {
+          "guRvZkjZnWrpH6HT": {
+            "name": "Retorno",
+            "description": "Cuando esta arma es lanzada dentro de su alcance, aparece en su mano inmediatamente después del ataque."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "regresar"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Advanced Round Shield": {
+      "_id": "hiEOGF2reabGLUoi",
+      "name": "Escudo redondo avanzado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "protección"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Protector",
+          "description": "<p>Añada el nivel del artículo a su puntuación de armadura</p>",
+          "_id": "i5HfkF5aKQuUCTEG"
+        }
+      ]
+    },
+    "Advanced Scepter": {
+      "_id": "2Khzuj768yoWN9QK",
+      "name": "Cetro avanzado",
+      "systemPatch": {
+        "actions": {
+          "4w1WlA4yZzUcRMXA": {
+            "name": "Ataque versátil"
+          }
+        },
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Advanced Shortbow": {
+      "_id": "JpSlJvDR0X8VFDns",
+      "name": "Arco corto avanzado",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Advanced Shortstaff": {
+      "_id": "T5exRCqOXhrjSYnI",
+      "name": "Bastón corto avanzado",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Advanced Shortsword": {
+      "_id": "p3nz5CaGUoyuGVg0",
+      "name": "Espada corta avanzada",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "emparejados"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Apareados",
+          "description": "Añada este nivel de armas secundarias + 1 a su arma primaria contra objetivos dentro del alcance Cuerpo a cuerpo",
+          "_id": "zQMaG3JcUWJR9k2L"
+        }
+      ]
+    },
+    "Advanced Small Dagger": {
+      "_id": "0thN0BpN05KT8Avx",
+      "name": "Daga pequeña avanzada",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "emparejados"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Apareados",
+          "description": "Añada este nivel de armas secundarias + 1 a su arma primaria contra objetivos dentro del alcance Cuerpo a cuerpo",
+          "_id": "6tJmTBsumbPmEwkY"
+        }
+      ]
+    },
+    "Advanced Spear": {
+      "_id": "pK6dsNABKKp1CIGN",
+      "name": "Lanza avanzada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Advanced Tower Shield": {
+      "_id": "OfOzQbs4hg6QbfTG",
+      "name": "Escudo torre avanzado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "barrera"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Barrera",
+          "description": "Ganar nivel de arma + 1 a puntuación de armadura; -1 a Evasión",
+          "_id": "87gedjJZGdFY81Mt"
+        }
+      ]
+    },
+    "Advanced Wand": {
+      "_id": "jU9jWIardjtdAQcs",
+      "name": "Varita avanzada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Advanced Warhammer": {
+      "_id": "8Lipw3RRKDgBVP0p",
+      "name": "Martillo de guerra avanzado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "pesado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "S6jedo3xSQhFBQH0"
+        }
+      ]
+    },
+    "Advanced Whip": {
+      "_id": "01izMUSJcAUo79IX",
+      "name": "Látigo avanzado",
+      "systemPatch": {
+        "actions": {
+          "9x82us4KqCFp2ds0": {
+            "name": "Sobresalir",
+            "description": "Marcar un Estrés para romper el látigo y forzar a todos los adversarios dentro del alcance Cuerpo a cuerpo de nuevo a alcance Cerca."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "sobresalto"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Arcane Gauntlets": {
+      "_id": "PC5EyEIq7NWBV0n5",
+      "name": "Guanteletes arcanos",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Arcane-Frame Wheelchair": {
+      "_id": "XRChepscgr75Uug7",
+      "name": "Silla de ruedas de marco arcano",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "dXHsy9qr5FWZqsVq"
+        }
+      ]
+    },
+    "Axe of Fortunis": {
+      "_id": "YcS1rHgfnSlla8Xf",
+      "name": "Hacha de Fortunis",
+      "systemPatch": {
+        "actions": {
+          "AtVHF6Y00zLo8W5G": {
+            "name": "Suerte",
+            "description": "En un ataque fallido, puedes marcar un Estrés para volver a lanzar tu ataque."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Suerte."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Battleaxe": {
+      "_id": "fbDYUja3ll9vCtrB",
+      "name": "Hacha de batalla",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Black Powder Revolver": {
+      "_id": "AokqTusPzn0hghkE",
+      "name": "Revólver de pólvora negra",
+      "systemPatch": {
+        "actions": {
+          "8BHprlLTXO0C71ps": {
+            "name": "Recargar",
+            "description": "Después de hacer un ataque, lanza un d6. En un resultado de 1, debe marcar un Estrés para recargar esta arma antes de que pueda disparar de nuevo."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "recarga"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Bladed Whip": {
+      "_id": "5faflfNz20cFW1EM",
+      "name": "Látigo con hojas",
+      "systemPatch": {
+        "actions": {
+          "ss8Qu3f33HCTMwXB": {
+            "name": "Rápido",
+            "description": "Cuando usted hace un ataque, usted puede marcar un Estrés para apuntar a otra criatura dentro del rango."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Rápido."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Blessed Anlace": {
+      "_id": "n1oPTk5czTIGTkVj",
+      "name": "Daga bendita",
+      "systemPatch": {
+        "actions": {
+          "o18UvqLPWLe1A8XJ": {
+            "name": "Curar",
+            "description": "Durante el tiempo de inactividad, eliminar automáticamente un Punto de Golpe."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "curación"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Bloodstaff": {
+      "_id": "IoMVDz92WVvfGGdc",
+      "name": "Bastón de sangre",
+      "systemPatch": {
+        "actions": {
+          "Unom5L1XimxLcXSp": {
+            "name": "Dolor",
+            "description": "Cada vez que usted hace un ataque exitoso, usted debe marcar un estrés."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "dolor"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Blunderbuss": {
+      "_id": "SLFrK0WmldPo0shz",
+      "name": "Trabuco",
+      "systemPatch": {
+        "actions": {
+          "ah3BGmVtSTNNPZto": {
+            "name": "Recargar",
+            "description": "Después de hacer un ataque, lanza un d6. En un resultado de 1, debe marcar un Estrés para recargar esta arma antes de que pueda disparar de nuevo."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "recarga"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Braveshield": {
+      "_id": "QEvgVoz9xKBSKsGi",
+      "name": "Escudo valiente",
+      "systemPatch": {
+        "actions": {
+          "Ctsyr3xDVCsDYbZ3": {
+            "name": "Vivienda",
+            "description": "Cuando usted marca una Ranura de Armadura, reduce el daño para usted y todos los aliados dentro de la gama Cuerpo a cuerpo de usted que tomó el mismo daño."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "protección"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Bravesword": {
+      "_id": "QZrWAkprA2tL2MOI",
+      "name": "Espada valiente",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "valiente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Valiente",
+          "description": "-1 a Evasión; + Nivel de armas a umbral de daños graves",
+          "_id": "lLM5uyDAGk3zVxoa"
+        }
+      ]
+    },
+    "Broadsword": {
+      "_id": "1cwWNt4sqlgA8gCT",
+      "name": "Espadón",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "mqcpj2cFAprf2AmY"
+        }
+      ]
+    },
+    "Buckler": {
+      "_id": "EmFTp9wzT6MHSaNz",
+      "name": "Broquel",
+      "systemPatch": {
+        "actions": {
+          "BspGQXodaANPEQcl": {
+            "name": "Desviación",
+            "description": "Cuando usted es atacado, usted puede marcar una Ranura de Armadura para ganar un bono a su Evasión igual a su Puntuación de Armadura contra el ataque."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Desviación"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Desviación",
+          "description": "Ganar un bono a su Evasión igual a su puntuación de armadura contra el ataque",
+          "_id": "Anbxt99bL9IWnlGh"
+        }
+      ]
+    },
+    "Casting Sword": {
+      "_id": "2Fbf2cxLfbdGkU4I",
+      "name": "Espada de lanzamiento",
+      "systemPatch": {
+        "actions": {
+          "jMGBWGhvcxDgVH86": {
+            "name": "Ataque versátil"
+          }
+        },
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Crossbow": {
+      "_id": "cw7HG1Z7hp7OOLD0",
+      "name": "Ballesta",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Curved Dagger": {
+      "_id": "Fk69R40svV0kanZD",
+      "name": "Daga curva",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "serrada"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Serrado",
+          "description": "Al tirar un 1 en una muerte daño, que hace 8 daños en su lugar.",
+          "_id": "X3a0PAJ9Tk4zVyxz"
+        }
+      ]
+    },
+    "Cutlass": {
+      "_id": "CWrbnethuILXrEpA",
+      "name": "Alfanje",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Dagger": {
+      "_id": "iStO0BbeMTTR0rQi",
+      "name": "Daga",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Devouring Dagger": {
+      "_id": "C5wSGglR8e0euQnY",
+      "name": "Daga devoradora",
+      "systemPatch": {
+        "actions": {
+          "TKFadp8ZfOmB8PF8": {
+            "name": "Miedo",
+            "description": "En un ataque exitoso, el objetivo debe marcar un Estrés."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Da miedo."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Double Flail": {
+      "_id": "xm1yU7k58fMgXxRR",
+      "name": "Mangual doble",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "potente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Poderoso",
+          "description": "En un ataque exitoso, tirar un daño adicional muere y desechar el resultado más bajo.",
+          "_id": "DCie5eR1dZH2Qvln"
+        }
+      ]
+    },
+    "Dual-Ended Sword": {
+      "_id": "nXjuBa215H1sTUK3",
+      "name": "Espada de doble filo",
+      "systemPatch": {
+        "actions": {
+          "MCgtEP3nlCk86cGl": {
+            "name": "Rápido",
+            "description": "Cuando usted hace un ataque, usted puede marcar un Estrés para apuntar a otra criatura dentro del rango."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Rápido."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Dualstaff": {
+      "_id": "j8cdNeIUYxxzFVji",
+      "name": "Bastón dual",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Ego Blade": {
+      "_id": "G7rH31KQ5eEZXcv0",
+      "name": "Hoja del ego",
+      "systemPatch": {
+        "actions": {
+          "5etzGd1Hp6LxkrJX": {
+            "name": "Pomposo",
+            "description": "Usted debe tener una Presencia de 0 o inferior para usar esta arma."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "pomposo"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Elder Bow": {
+      "_id": "JdWcn9W1edhAEInL",
+      "name": "Arco anciano",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "potente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Poderoso",
+          "description": "En un ataque exitoso, tirar un daño adicional muere y desechar el resultado más bajo.",
+          "_id": "sZ1XotFlGdkPPDG4"
+        }
+      ]
+    },
+    "Extended Polearm": {
+      "_id": "fJHKMxZokVP34MCi",
+      "name": "Arma de asta extendida",
+      "systemPatch": {
+        "actions": {
+          "NzpJeAJKyd4SItjH": {
+            "name": "Largo",
+            "description": "El ataque de esta arma apunta a todos los adversarios en una línea a su alcance."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "largo"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Finehair Bow": {
+      "_id": "ykF3jouxHZ6YR8Bg",
+      "name": "Arco de pelo fino",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "7bvIKGGQvmSGeg4O"
+        }
+      ]
+    },
+    "Firestaff": {
+      "_id": "BtCm2RhWEfs00g38",
+      "name": "Bastón de fuego",
+      "systemPatch": {
+        "actions": {
+          "9j81Lxp3sDskHFDS": {
+            "name": "Quemar",
+            "description": "Al tirar un 6 en una muerte daño, el objetivo debe marcar un estrés."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "quema"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Flickerfly Blade": {
+      "_id": "xLJ5RRpUoTRmAC3G",
+      "name": "Hoja titilante",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "afilada"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Afilado",
+          "description": "Gana un bono a tus tiradas de daño igual a tu Agilidad.",
+          "_id": "jMIrOhpPUncn7dWg"
+        }
+      ]
+    },
+    "Floating Bladeshards": {
+      "_id": "3vti3xfo0wJND7ew",
+      "name": "Fragmentos de hoja flotante",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "potente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Poderoso",
+          "description": "En un ataque exitoso, tirar un daño adicional muere y desechar el resultado más bajo.",
+          "_id": "T831j6kZiMnpMNmv"
+        }
+      ]
+    },
+    "Fusion Gloves": {
+      "_id": "uK1RhtYAsDeoPNGx",
+      "name": "Guantes de fusión",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "unidos"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Bono de armas",
+          "description": "Gana un bono a tus tiradas de daño igual a tu nivel.",
+          "_id": "7ltP049dqxCaedyX"
+        }
+      ]
+    },
+    "Ghostblade": {
+      "_id": "6gFvOFTE97QZ74Zr",
+      "name": "Hoja fantasma",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Gilded Bow": {
+      "_id": "ctTgFfMbM3YtmsYU",
+      "name": "Arco dorado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "autocorrección"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Autocorrección",
+          "description": "Al tirar un 1 en una muerte de daño, que hace 6 daños en su lugar.",
+          "_id": "zoWZsD4ogzfPSPi7"
+        }
+      ]
+    },
+    "Gilded Falchion": {
+      "_id": "VwcOgqnzjf9LBj2S",
+      "name": "Falcata dorada",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "potente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Poderoso",
+          "description": "En un ataque exitoso, tirar un daño adicional muere y desechar el resultado más bajo.",
+          "_id": "ir4iKLIQ4CH1Qckn"
+        }
+      ]
+    },
+    "Glowing Rings": {
+      "_id": "wG9f5NpCwSbaLy8t",
+      "name": "Anillos brillantes",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Grappler": {
+      "_id": "iEzPscUc18GuFoB6",
+      "name": "Agarrador",
+      "systemPatch": {
+        "actions": {
+          "PaIPWLldOnp89Mfk": {
+            "name": "Gancho",
+            "description": "En un ataque exitoso, puedes tirar del objetivo en el alcance Cuerpo a cuerpo."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "enganchado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Greatbow": {
+      "_id": "MXBpbqQsZFln4rZk",
+      "name": "Gran arco",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "potente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Poderoso",
+          "description": "En un ataque exitoso, tirar un daño adicional muere y desechar el resultado más bajo.",
+          "_id": "K4VgrDjVj1U1m9Ie"
+        }
+      ]
+    },
+    "Greatstaff": {
+      "_id": "Yk8pTEmyLLi4095S",
+      "name": "Gran bastón",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "potente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Poderoso",
+          "description": "En un ataque exitoso, tirar un daño adicional muere y desechar el resultado más bajo.",
+          "_id": "904orawScurM9GjG"
+        }
+      ]
+    },
+    "Greatsword": {
+      "_id": "70ysaFJDREwTgvZa",
+      "name": "Mandoble",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "masiva"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Masivo",
+          "description": "-1 a Evasión; en un ataque con éxito, tirar un daño adicional mueren y descartar el resultado más bajo.",
+          "_id": "cffkpiwGpEGhjiUC"
+        }
+      ]
+    },
+    "Halberd": {
+      "_id": "qT7FfmauAumOjJoq",
+      "name": "Alabarda",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "engorroso"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Espesoso.",
+          "description": "-1 a Sutileza",
+          "_id": "YxaGOWcQEesO9zPR"
+        }
+      ]
+    },
+    "Hallowed Axe": {
+      "_id": "Vayg7CnRTFBrunjM",
+      "name": "Hacha sagrada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Hammer of Exota": {
+      "_id": "0lAkBEUvbM9Osmqb",
+      "name": "Martillo de Exota",
+      "systemPatch": {
+        "actions": {
+          "yrqmcBPVjCKmx1fp": {
+            "name": "Erupción",
+            "description": "En un ataque exitoso contra un objetivo dentro del alcance Cuerpo a cuerpo, todos los demás adversarios dentro del rango de Muy Cerca deben tener éxito en una tirada de reacción (14) o recibir medio daño."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "erupción eruptiva"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Hammer of Wrath": {
+      "_id": "1R4uzOpWD8bkYRUm",
+      "name": "Martillo de la ira",
+      "systemPatch": {
+        "actions": {
+          "nTogna9Phzw7VjPr": {
+            "name": "Devastar",
+            "description": "Antes de hacer una tirada de ataque, puede marcar un Estrés para usar un d20 como su dado de daño."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "devastador"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Hand Cannon": {
+      "_id": "MyGz8nd5sieRQ7zl",
+      "name": "Cañón de mano",
+      "systemPatch": {
+        "actions": {
+          "fZ4lxZ9eXeCSVKrT": {
+            "name": "Recargar",
+            "description": "Después de hacer un ataque, lanza un d6. En un resultado de 1, debe marcar un Estrés para recargar esta arma antes de que pueda disparar de nuevo."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "recarga"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Hand Crossbow": {
+      "_id": "zxKt6qXe7uZB6ljm",
+      "name": "Ballesta de mano",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Hand Runes": {
+      "_id": "3whiedn0jBMNRdIb",
+      "name": "Runas de mano",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Hand Sling": {
+      "_id": "RAIaoMi6iO1PKIlK",
+      "name": "Honda de mano",
+      "systemPatch": {
+        "actions": {
+          "GgtsuUCtxGX9e4Kg": {
+            "name": "Ataque versátil"
+          }
+        },
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Heavy-Frame Wheelchair": {
+      "_id": "XjPQjhRCH08VUIbr",
+      "name": "Silla de ruedas de marco pesado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "pesado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "1godgiqdDADyR0Tw"
+        }
+      ]
+    },
+    "Ilmari's Rifle": {
+      "_id": "TMrUzVC3KvcHmdt8",
+      "name": "Rifle de Ilmari",
+      "systemPatch": {
+        "actions": {
+          "BaU47zTo2F4PwjVT": {
+            "name": "Recargar",
+            "description": "Después de hacer un ataque, lanza un d6. En un resultado de 1, debe marcar un Estrés para recargar esta arma antes de que pueda disparar de nuevo."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "recarga"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Impact Gauntlet": {
+      "_id": "Zg6IutksQVOqAg8K",
+      "name": "Guantelete de impacto",
+      "systemPatch": {
+        "actions": {
+          "wh1Op9x5dVDpwXyd": {
+            "name": "Concutir",
+            "description": "En un ataque exitoso, puede gastar una esperanza para golpear el objetivo de nuevo a distancia."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "concusivo"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Arcane Gauntlets": {
+      "_id": "kENTDpa1hr5LDhIT",
+      "name": "Guanteletes arcanos mejorados",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Arcane-Frame Wheelchair": {
+      "_id": "N9P695V5KKlJbAY5",
+      "name": "Silla de ruedas de marco arcano mejorada",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "1f6fFhOLwZrmA6e5"
+        }
+      ]
+    },
+    "Improved Battleaxe": {
+      "_id": "nxGUpuHLmuKdKsDC",
+      "name": "Hacha de batalla mejorada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Broadsword": {
+      "_id": "OcKeLJxvmdT81VBc",
+      "name": "Espadón mejorado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "228lcQpohdJ3Bbga"
+        }
+      ]
+    },
+    "Improved Crossbow": {
+      "_id": "55NwHIIZHUeKSE3M",
+      "name": "Ballesta mejorada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Cutlass": {
+      "_id": "ddRjXnp2vbohu7rJ",
+      "name": "Alfanje mejorado",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Dagger": {
+      "_id": "ScjTkb9qrndhlk9S",
+      "name": "Daga mejorada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Dualstaff": {
+      "_id": "f7hhHlZ5nL3AhYEM",
+      "name": "Bastón dual mejorado",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Glowing Rings": {
+      "_id": "N5amhkxR1xn3B7r2",
+      "name": "Anillos brillantes mejorados",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Grappler": {
+      "_id": "3T3o9zfe61t22L1H",
+      "name": "Agarrador mejorado",
+      "systemPatch": {
+        "actions": {
+          "HzrHPd2DgvhdCHkL": {
+            "name": "Gancho",
+            "description": "En un ataque exitoso, puedes tirar del objetivo en el alcance Cuerpo a cuerpo."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "enganchado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Greatstaff": {
+      "_id": "LCuTrYXi4lhg6LqW",
+      "name": "Gran bastón mejorado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "potente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Poderoso",
+          "description": "En un ataque exitoso, tirar un daño adicional muere y desechar el resultado más bajo.",
+          "_id": "hnayB09P25ZW3gVY"
+        }
+      ]
+    },
+    "Improved Greatsword": {
+      "_id": "FPX4ouDrxXiQ5MDf",
+      "name": "Mandoble mejorado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "masiva"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Masivo",
+          "description": "-1 a Evasión; en un ataque con éxito, tirar un daño adicional mueren y descartar el resultado más bajo.",
+          "_id": "2nl35v8sPAudiOIb"
+        }
+      ]
+    },
+    "Improved Halberd": {
+      "_id": "F9PETfCQGwczBPif",
+      "name": "Alabarda mejorada",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "engorroso"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Espesoso.",
+          "description": "-1 a Sutileza",
+          "_id": "POQepSxCro9T9OYT"
+        }
+      ]
+    },
+    "Improved Hallowed Axe": {
+      "_id": "wFOXMN2uiX4j6Gd9",
+      "name": "Hacha sagrada mejorada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Hand Crossbow": {
+      "_id": "XEDRkuw3BhMoVBn9",
+      "name": "Ballesta de mano mejorada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Hand Runes": {
+      "_id": "jMEukC3VpNDz5AOD",
+      "name": "Runas de mano mejoradas",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Heavy-Frame Wheelchair": {
+      "_id": "L5KeCtrs768PmYWW",
+      "name": "Silla de ruedas de marco pesado mejorada",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "pesado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "1godgiqdDADyR0Tw"
+        }
+      ]
+    },
+    "Improved Light-Frame Wheelchair": {
+      "_id": "ZJsetdHKV77ygtCE",
+      "name": "Silla de ruedas de marco ligero mejorada",
+      "systemPatch": {
+        "actions": {
+          "V1GupKWIUExrfrf9": {
+            "name": "Rápido",
+            "description": "Cuando usted hace un ataque, usted puede marcar un Estrés para apuntar a otra criatura dentro del rango."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Rápido."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Longbow": {
+      "_id": "NacNonjbzyoVMNhI",
+      "name": "Arco largo mejorado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "engorroso"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Espesoso.",
+          "description": "-1 a Sutileza",
+          "_id": "TC4yGDrnOisOpDQu"
+        }
+      ]
+    },
+    "Improved Longsword": {
+      "_id": "QyBZ5NxM8F9nCL9s",
+      "name": "Espada larga mejorada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Mace": {
+      "_id": "zSLx52U4Yltqx8F1",
+      "name": "Maza mejorada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Quarterstaff": {
+      "_id": "BEmAR60PM3ZaiNXa",
+      "name": "Bastón mejorado",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Rapier": {
+      "_id": "LFPH8nD2f4Blv3AM",
+      "name": "Estoque mejorado",
+      "systemPatch": {
+        "actions": {
+          "zXJzLttPMezUzh49": {
+            "name": "Rápido",
+            "description": "Cuando usted hace un ataque, usted puede marcar un Estrés para apuntar a otra criatura dentro del rango."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Rápido."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Returning Blade": {
+      "_id": "SKNwkW23eVQjN4Zy",
+      "name": "Hoja retornante mejorada",
+      "systemPatch": {
+        "actions": {
+          "6nWKaQBWwjztIzCr": {
+            "name": "Retorno",
+            "description": "Cuando esta arma es lanzada dentro de su alcance, aparece en su mano inmediatamente después del ataque."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "regresar"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Round Shield": {
+      "_id": "DlinEBGZfIlvreO3",
+      "name": "Escudo redondo mejorado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "protección"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Protector",
+          "description": "<p>Añada el nivel del artículo a su puntuación de armadura</p>",
+          "_id": "cXWSV50apzaNQkdA"
+        }
+      ]
+    },
+    "Improved Scepter": {
+      "_id": "tj26lbNkwy8bORF4",
+      "name": "Cetro mejorado",
+      "systemPatch": {
+        "actions": {
+          "1g3dZUkJPaGCfYN6": {
+            "name": "Ataque versátil"
+          }
+        },
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Shortbow": {
+      "_id": "6ZWl6ARfvYBaAMwY",
+      "name": "Arco corto mejorado",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Shortstaff": {
+      "_id": "Mn8ja5Oi1sXvvPSk",
+      "name": "Bastón corto mejorado",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Shortsword": {
+      "_id": "rSyBNRwemBVuTo3H",
+      "name": "Espada corta mejorada",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "emparejados"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Apareados",
+          "description": "Añada este nivel de armas secundarias + 1 a su arma primaria contra objetivos dentro del alcance Cuerpo a cuerpo",
+          "_id": "UW2fqbhBqvnK1coG"
+        }
+      ]
+    },
+    "Improved Small Dagger": {
+      "_id": "nMuF8ZDZ2aXZVTg6",
+      "name": "Daga pequeña mejorada",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "emparejados"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Apareados",
+          "description": "Añada este nivel de armas secundarias + 1 a su arma primaria contra objetivos dentro del alcance Cuerpo a cuerpo",
+          "_id": "PMXG4l85UkXRf41E"
+        }
+      ]
+    },
+    "Improved Spear": {
+      "_id": "j5Pt1thLfcvopBij",
+      "name": "Lanza mejorada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Tower Shield": {
+      "_id": "bxt3NsbMqTSdI5ab",
+      "name": "Escudo torre mejorado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "barrera"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Barrera",
+          "description": "Ganar nivel de arma + 1 a puntuación de armadura; -1 a Evasión",
+          "_id": "tkNEA1PO3jEFhKCa"
+        }
+      ]
+    },
+    "Improved Wand": {
+      "_id": "6d9B2b5X2d2U56jt",
+      "name": "Varita mejorada",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Improved Warhammer": {
+      "_id": "pxaN4ZK4eqKrjtWj",
+      "name": "Martillo de guerra mejorado",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "pesado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "KvdwqkM3ErLxMzDq"
+        }
+      ]
+    },
+    "Improved Whip": {
+      "_id": "ftTp8VlsBQ1r4LFD",
+      "name": "Látigo mejorado",
+      "systemPatch": {
+        "actions": {
+          "itHKcDEckRlitu2z": {
+            "name": "Sobresalir",
+            "description": "Marcar un Estrés para romper el látigo y forzar a todos los adversarios dentro del alcance Cuerpo a cuerpo de nuevo a alcance Cerca."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "sobresalto"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Keeper's Staff": {
+      "_id": "q382JqMkqLaaFLIr",
+      "name": "Bastón del guardián",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "LvxPAfrKuRfgubGV"
+        }
+      ]
+    },
+    "Knuckle Blades": {
+      "_id": "U8gfyvxoHm024inM",
+      "name": "Hojas de nudillos",
+      "systemPatch": {
+        "actions": {
+          "oTuCXX7dCQYmabzi": {
+            "name": "DAGGERHEART.CONFIG.ArmaFeature.brutal.actions.addDamage.name",
+            "description": "DAGGERHEART.CONFIG.ArmaFeature.brutal.actions.addDamage.description"
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "brutal"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Knuckle Claws": {
+      "_id": "SFqganS8Du4aEKjQ",
+      "name": "Garras de nudillos",
+      "systemPatch": {
+        "actions": {
+          "B0uT1D1WRidiHxyh": {
+            "name": "Doble hacia arriba",
+            "description": "Cuando usted hace un ataque con su arma primaria, usted puede hacer daño a otro objetivo dentro del alcance Cuerpo a cuerpo."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "doblado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Labrys Axe": {
+      "_id": "ijWppQzSOqVCb3rE",
+      "name": "Hacha labrys",
+      "systemPatch": {
+        "description": "<strong>Protective</strong>: +1 a puntuación de armadura",
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Protector",
+          "description": "+1 a puntuación de armadura",
+          "_id": "qTxADRsQnKiYfOiQ"
+        }
+      ]
+    },
+    "Legendary Arcane Gauntlets": {
+      "_id": "umADDPYCaykXDc1v",
+      "name": "Guanteletes arcanos legendarios",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Legendary Arcane-Frame Wheelchair": {
+      "_id": "gA2tiET9VHGhwMoO",
+      "name": "Silla de ruedas de marco arcano legendaria",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "TvsoAiqHCwgtYat1"
+        }
+      ]
+    },
+    "Legendary Battleaxe": {
+      "_id": "1nztpLzoHGfbKf5x",
+      "name": "Hacha de batalla legendaria",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Legendary Broadsword": {
+      "_id": "y3hfTPfZhMognyaJ",
+      "name": "Espadón legendario",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "ujb6VAqjyXmfnnjy"
+        }
+      ]
+    },
+    "Legendary Crossbow": {
+      "_id": "1G6xX2QL9O0Rsgz7",
+      "name": "Ballesta legendaria",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Legendary Cutlass": {
+      "_id": "Rpyz0jbFJ1SwqfyD",
+      "name": "Alfanje legendario",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Legendary Dagger": {
+      "_id": "GmTg3Fdne1UPNs8t",
+      "name": "Daga legendaria",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Legendary Dualstaff": {
+      "_id": "o3rsLvImcLAx5TvD",
+      "name": "Bastón dual legendario",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Legendary Glowing Rings": {
+      "_id": "PReWrfuPjoNQuieo",
+      "name": "Anillos brillantes legendarios",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Legendary Grappler": {
+      "_id": "IrtUj0UntBMNn49G",
+      "name": "Agarrador legendario",
+      "systemPatch": {
+        "actions": {
+          "swNMa4gW6guA8GaH": {
+            "name": "Gancho",
+            "description": "En un ataque exitoso, puedes tirar del objetivo en el alcance Cuerpo a cuerpo."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "enganchado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Legendary Greatstaff": {
+      "_id": "jDtvEabkHY1GFgfc",
+      "name": "Gran bastón legendario",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "potente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Poderoso",
+          "description": "En un ataque exitoso, tirar un daño adicional muere y desechar el resultado más bajo.",
+          "_id": "OV1Ly7vX4owBUgLQ"
+        }
+      ]
+    },
+    "Legendary Greatsword": {
+      "_id": "zMZ46F9VR7zdTxb9",
+      "name": "Mandoble legendario",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "masiva"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Masivo",
+          "description": "-1 a Evasión; en un ataque con éxito, tirar un daño adicional mueren y descartar el resultado más bajo.",
+          "_id": "oRCiXSElN5xufUfn"
+        }
+      ]
+    },
+    "Legendary Halberd": {
+      "_id": "1AuMNiJz96Ez9fur",
+      "name": "Alabarda legendaria",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "engorroso"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Espesoso.",
+          "description": "-1 a Sutileza",
+          "_id": "MmVRlnSLFWBfNJlB"
+        }
+      ]
+    },
+    "Legendary Hallowed Axe": {
+      "_id": "0HmhnZnv1I6uX69c",
+      "name": "Hacha sagrada legendaria",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Legendary Hand Crossbow": {
+      "_id": "32nYyMaeDWaakSxz",
+      "name": "Ballesta de mano legendaria",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Legendary Hand Runes": {
+      "_id": "DWLkswhluXuMy3bB",
+      "name": "Runas de mano legendarias",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Legendary Heavy-Frame Wheelchair": {
+      "_id": "S6nB0CNlzdU05o5U",
+      "name": "Silla de ruedas de marco pesado legendaria",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "pesado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "1godgiqdDADyR0Tw"
+        }
+      ]
+    },
+    "Legendary Light-Frame Wheelchair": {
+      "_id": "Xt8tVSn5Fu6ly6LF",
+      "name": "Silla de ruedas de marco ligero legendaria",
+      "systemPatch": {
+        "actions": {
+          "V1GupKWIUExrfrf9": {
+            "name": "Rápido",
+            "description": "Cuando usted hace un ataque, usted puede marcar un Estrés para apuntar a otra criatura dentro del rango."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Rápido."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Legendary Longbow": {
+      "_id": "Utt1GpoH1fhaTOtN",
+      "name": "Arco largo legendario",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "engorroso"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Espesoso.",
+          "description": "-1 a Sutileza",
+          "_id": "004BkCQeQzuMVGS3"
+        }
+      ]
+    },
+    "Legendary Longsword": {
+      "_id": "14abPqQcROJfDChR",
+      "name": "Espada larga legendaria",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Legendary Mace": {
+      "_id": "RsDsy7tIhrhaAQQc",
+      "name": "Maza legendaria",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Legendary Quarterstaff": {
+      "_id": "1ZciqG7vIKLYpKsP",
+      "name": "Bastón legendario",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Legendary Rapier": {
+      "_id": "BakN97v4jTePcXiZ",
+      "name": "Estoque legendario",
+      "systemPatch": {
+        "actions": {
+          "AwoesSV7Nt5W0lbf": {
+            "name": "Rápido",
+            "description": "Cuando usted hace un ataque, usted puede marcar un Estrés para apuntar a otra criatura dentro del rango."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Rápido."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Legendary Returning Blade": {
+      "_id": "mcj3CPkcSSDdAcBB",
+      "name": "Hoja retornante legendaria",
+      "systemPatch": {
+        "actions": {
+          "ZbZIFYeEfo0cpOEO": {
+            "name": "Retorno",
+            "description": "Cuando esta arma es lanzada dentro de su alcance, aparece en su mano inmediatamente después del ataque."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "regresar"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Legendary Round Shield": {
+      "_id": "A28WL9E2lJ3iLZHW",
+      "name": "Escudo redondo legendario",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "protección"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Protector",
+          "description": "<p>Añada el nivel del artículo a su puntuación de armadura</p>",
+          "_id": "Z2p00q5h6x6seXys"
+        }
+      ]
+    },
+    "Legendary Scepter": {
+      "_id": "IZ4CWNxfuM46JeCN",
+      "name": "Cetro legendario",
+      "systemPatch": {
+        "actions": {
+          "h6UfUEGdR11jD6g4": {
+            "name": "Ataque versátil"
+          }
+        },
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Legendary Shortbow": {
+      "_id": "j7kp36jaetfn5jb3",
+      "name": "Arco corto legendario",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Legendary Shortstaff": {
+      "_id": "D3SbNvNJZAFuzfhg",
+      "name": "Bastón corto legendario",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Legendary Shortsword": {
+      "_id": "dEumq3BIZBk5xYTk",
+      "name": "Espada corta legendaria",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "emparejados"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Apareados",
+          "description": "Añada este nivel de armas secundarias + 1 a su arma primaria contra objetivos dentro del alcance Cuerpo a cuerpo",
+          "_id": "ebloMf4gItx38xkZ"
+        }
+      ]
+    },
+    "Legendary Small Dagger": {
+      "_id": "Px3Rh3kIvAqyISxJ",
+      "name": "Daga pequeña legendaria",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "emparejados"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Apareados",
+          "description": "Añada este nivel de armas secundarias + 1 a su arma primaria contra objetivos dentro del alcance Cuerpo a cuerpo",
+          "_id": "WAqE3sZFkTefglDq"
+        }
+      ]
+    },
+    "Legendary Spear": {
+      "_id": "4e5pWxi2qohuGsWh",
+      "name": "Lanza legendaria",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Legendary Tower Shield": {
+      "_id": "MaJIROht7A9LxIZx",
+      "name": "Escudo torre legendario",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "barrera"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Barrera",
+          "description": "Ganar nivel de arma + 1 a puntuación de armadura; -1 a Evasión",
+          "_id": "lBJMzxdGO2nJdTQS"
+        }
+      ]
+    },
+    "Legendary Wand": {
+      "_id": "wPjg0LufJH9vUfVM",
+      "name": "Varita legendaria",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Legendary Warhammer": {
+      "_id": "W9ymfEDck2icfvla",
+      "name": "Martillo de guerra legendario",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "pesado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "hKvwLqCltaPV1C7n"
+        }
+      ]
+    },
+    "Legendary Whip": {
+      "_id": "Wcdbf6yS3LEt7nsg",
+      "name": "Látigo legendario",
+      "systemPatch": {
+        "actions": {
+          "0kcm7huG68hS7sRz": {
+            "name": "Sobresalir",
+            "description": "Marcar un Estrés para romper el látigo y forzar a todos los adversarios dentro del alcance Cuerpo a cuerpo de nuevo a alcance Cerca."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "sobresalto"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Light-Frame Wheelchair": {
+      "_id": "iaGnlUkShBgdeMo0",
+      "name": "Silla de ruedas de marco ligero",
+      "systemPatch": {
+        "actions": {
+          "V1GupKWIUExrfrf9": {
+            "name": "Rápido",
+            "description": "Cuando usted hace un ataque, usted puede marcar un Estrés para apuntar a otra criatura dentro del rango."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Rápido."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Longbow": {
+      "_id": "YfVs6Se903az4Yet",
+      "name": "Arco largo",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "engorroso"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Espesoso.",
+          "description": "-1 a Sutileza",
+          "_id": "9gKDF96uId07289w"
+        }
+      ]
+    },
+    "Longsword": {
+      "_id": "Iv8BZM1R24QMT72M",
+      "name": "Espada larga",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Mace": {
+      "_id": "cKQCDyM2UopDL9zF",
+      "name": "Maza",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Mage Orb": {
+      "_id": "XKBmBUEoGLdLcuqQ",
+      "name": "Orbe del mago",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "potente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Poderoso",
+          "description": "En un ataque exitoso, tirar un daño adicional muere y desechar el resultado más bajo.",
+          "_id": "2J6vzNUel78JFypp"
+        }
+      ]
+    },
+    "Magus Revolver": {
+      "_id": "jGykNGQiKm63tCiE",
+      "name": "Revólver del mago",
+      "systemPatch": {
+        "actions": {
+          "242ZR9HyiRtJqhqG": {
+            "name": "Recargar",
+            "description": "Después de hacer un ataque, lanza un d6. En un resultado de 1, debe marcar un Estrés para recargar esta arma antes de que pueda disparar de nuevo."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "recarga"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Meridian Cutlass": {
+      "_id": "Gi26Zk9VqlAAgx3E",
+      "name": "Alfanje meridiano",
+      "systemPatch": {
+        "actions": {
+          "KcmlvkOW0EbdCxTz": {
+            "name": "Duelo",
+            "description": "Cuando no hay otras criaturas dentro de un alcance Cerca del objetivo, ganar ventaja en su ataque tirar contra ellos."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "duelo"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Midas Scythe": {
+      "_id": "BdLfy5i488VZgkjP",
+      "name": "Guadaña de Midas",
+      "systemPatch": {
+        "actions": {
+          "kKEAq1C1fz0WZmlZ": {
+            "name": "Codicioso",
+            "description": "Gasta un puñado de oro para ganar un bono +1 a tu especialidad en una tirada de daños."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "codicioso"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Codicia",
+          "description": "Gasta un puñado de oro para ganar un bono +1 a tu especialidad en una tirada de daños.",
+          "_id": "1C5o1D5JYgLdt2eU"
+        }
+      ]
+    },
+    "Parrying Dagger": {
+      "_id": "taAZDkDCpeNgxhnn",
+      "name": "Daga de parada",
+      "systemPatch": {
+        "actions": {
+          "zcYv4uYbkMS4OLdc": {
+            "name": "Parada",
+            "description": "Cuando te ataquen, tira los dados de daño de esta arma. Si alguno de los dados de daño del atacante arrojó el mismo valor que sus dados, los resultados coincidentes se descartan de los dados de daño del atacante antes de que el daño que tome sea totalizado."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "parada"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Powered Gauntlet": {
+      "_id": "bW3xw5S9DbaLCN3E",
+      "name": "Guantelete potenciado",
+      "systemPatch": {
+        "actions": {
+          "GlA0PwKQSq5vwh7D": {
+            "name": "Carga",
+            "description": "Marque un Estrés para ganar un bono +1 a su competencia en un ataque de arma primaria."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "cargados"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Cargado",
+          "description": "Marque un Estrés para ganar un bono +1 a su competencia en un ataque de arma primaria.",
+          "_id": "n5EB7pI0kv2Zx35G"
+        }
+      ]
+    },
+    "Primer Shard": {
+      "_id": "SxcblanBvqaest3A",
+      "name": "Fragmento de cebador",
+      "systemPatch": {
+        "actions": {
+          "dNN2KOfUxGzQ2yjY": {
+            "name": "Bloquear",
+            "description": "En un ataque exitoso, su próximo ataque contra el mismo objetivo con su arma primaria tiene éxito automáticamente."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "bloqueado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Quarterstaff": {
+      "_id": "mlIj88p1wcQNjEDG",
+      "name": "Bastón",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Rapier": {
+      "_id": "zkAgEW6zMkRZalEm",
+      "name": "Estoque",
+      "systemPatch": {
+        "actions": {
+          "ojcL8L3CFPDGaki6": {
+            "name": "Rápido",
+            "description": "Cuando usted hace un ataque, usted puede marcar un Estrés para apuntar a otra criatura dentro del rango."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Rápido."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Retractable Saber": {
+      "_id": "i8CqVTzqoRoCewNe",
+      "name": "Sable retráctil",
+      "systemPatch": {
+        "actions": {
+          "u5thk5lEvDuHXAHq": {
+            "name": "Retractar",
+            "description": "La hoja se puede ocultar en la empuñadura para evitar la detección."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "retráctil"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Returning Axe": {
+      "_id": "FtsQGwOg3r8uUCST",
+      "name": "Hacha retornante",
+      "systemPatch": {
+        "actions": {
+          "IjEUAtr4mOIfXPAU": {
+            "name": "Retorno",
+            "description": "Cuando esta arma es lanzada dentro de su alcance, aparece en su mano inmediatamente después del ataque."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "regresar"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Returning Blade": {
+      "_id": "4fQpVfQ3NVwTHStA",
+      "name": "Hoja retornante",
+      "systemPatch": {
+        "actions": {
+          "N6KlXpv5ug8Gk5Hl": {
+            "name": "Retorno",
+            "description": "Cuando esta arma es lanzada dentro de su alcance, aparece en su mano inmediatamente después del ataque."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "regresar"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Ricochet Axes": {
+      "_id": "E9QDh5o9eQ1Qx0kH",
+      "name": "Hachas de rebote",
+      "systemPatch": {
+        "actions": {
+          "x9cz8u1utQ6DtoKA": {
+            "name": "Rebote",
+            "description": "Marcar 1 o más Estrés para golpear que muchos objetivos en el rango del ataque."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "rebotes"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Round Shield": {
+      "_id": "mxwWKDujgsRcZWPT",
+      "name": "Escudo redondo",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "protección"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Protector",
+          "description": "<p>Añada el nivel del artículo a su puntuación de armadura</p>",
+          "_id": "M70a81e0Mg66jHRL"
+        }
+      ]
+    },
+    "Runes of Ruination": {
+      "_id": "EG6mZhr3ib56r974",
+      "name": "Runas de ruina",
+      "systemPatch": {
+        "actions": {
+          "pmnGErMlUT1lJFDL": {
+            "name": "Dolor",
+            "description": "Cada vez que usted hace un ataque exitoso, usted debe marcar un estrés."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "dolor"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Scepter": {
+      "_id": "GZh345N8fmuS4Jeh",
+      "name": "Cetro",
+      "systemPatch": {
+        "actions": {
+          "c7McXmzSWTNGOdHL": {
+            "name": "Ataque versátil"
+          }
+        },
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Scepter of Elias": {
+      "_id": "acPGwIaUhx3R0mTq",
+      "name": "Cetro de Elías",
+      "systemPatch": {
+        "actions": {
+          "LI0LkywSh5xjkWrf": {
+            "name": "Intensificar",
+            "description": "En un ataque exitoso, lanza un d4. Sobre un resultado de 4, limpiar un estrés."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "vigorizante"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Shortbow": {
+      "_id": "p9tdjQr2AZP19RYm",
+      "name": "Arco corto",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Shortstaff": {
+      "_id": "vHDHG3STcxTEfYAM",
+      "name": "Bastón corto",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Shortsword": {
+      "_id": "cjGZpXCoshEqi1FI",
+      "name": "Espada corta",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "emparejados"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Apareados",
+          "description": "<p>Añada este nivel de armas secundarias + 1 a su arma primaria contra objetivos dentro del alcance Cuerpo a cuerpo</p>",
+          "_id": "djNtNpasgNDRP8Dd"
+        }
+      ]
+    },
+    "Siphoning Gauntlets": {
+      "_id": "1N1jggda5DfdzdMj",
+      "name": "Guanteletes de sifón",
+      "systemPatch": {
+        "actions": {
+          "JdOTTVL4daHd7iGp": {
+            "name": "Robo de vida",
+            "description": "En un ataque exitoso, lanza un d6. Sobre un resultado de 6, limpiar un punto de golpe o limpiar un estrés."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Robo de vida"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Sledge Axe": {
+      "_id": "OxsEmffWriiQmqJK",
+      "name": "Hacha trineo",
+      "systemPatch": {
+        "actions": {
+          "0qVTvNMfapVST3sQ": {
+            "name": "Destrucción",
+            "description": "DAGGERHEART.CONFIG.ArmaCaracterística.destructive.actions.attack.descriptive"
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "destructivo"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Destructivo",
+          "description": "DAGGERHEART.CONFIG.ArmaCaracterística.destructive.effects.Agilidad",
+          "_id": "dhhIibfRBwCGZ6Ab"
+        }
+      ]
+    },
+    "Small Dagger": {
+      "_id": "wKklDxs5nkzILNp4",
+      "name": "Daga pequeña",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "emparejados"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Apareados",
+          "description": "Añada este nivel de armas secundarias + 1 a su arma primaria contra objetivos dentro del alcance Cuerpo a cuerpo",
+          "_id": "HKh73AHxImdgxgTg"
+        }
+      ]
+    },
+    "Spear": {
+      "_id": "TF85tKJetUjLwh54",
+      "name": "Lanza",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Spiked Bow": {
+      "_id": "O1w8KPYH85ZS8X64",
+      "name": "Arco con púas",
+      "systemPatch": {
+        "actions": {
+          "WqhixEUWiKK4gwuG": {
+            "name": "Ataque versátil"
+          }
+        },
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Spiked Shield": {
+      "_id": "vzyzFwLUniWZV1rt",
+      "name": "Escudo con púas",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "dobleDuty"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Doble deber",
+          "description": "+1 a puntuación de armadura; +1 a daño primario por arma dentro del alcance Cuerpo a cuerpo",
+          "_id": "d3TJtlpoHBCztbom"
+        }
+      ]
+    },
+    "Steelforged Halberd": {
+      "_id": "6bkbw4Ap644KZGvJ",
+      "name": "Alabarda forjada en acero",
+      "systemPatch": {
+        "actions": {
+          "XJS4UHwz3j41g9Fc": {
+            "name": "Miedo",
+            "description": "En un ataque exitoso, el objetivo debe marcar un Estrés."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "Da miedo."
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Swinging Ropeblade": {
+      "_id": "1jOJHHKdtk3s2jaY",
+      "name": "Hoja de cuerda oscilante",
+      "systemPatch": {
+        "actions": {
+          "VDbthRuLKgowyruc": {
+            "name": "Agarre",
+            "description": "En un ataque exitoso, puede pasar una Esperanza para restringir el objetivo o tirar de ellos en el alcance Cuerpo a cuerpo con usted."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "forcejeo"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Sword of Light & Flame": {
+      "_id": "TVPCWnSELOVBv6G1",
+      "name": "Espada de luz y llama",
+      "systemPatch": {
+        "actions": {
+          "KRjyYdwb8WgPhDVt": {
+            "name": "Caliente",
+            "description": "Esta arma corta a través de material sólido."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "caliente"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Talon Blades": {
+      "_id": "jlLtgK468rO5IssR",
+      "name": "Hojas de garra",
+      "systemPatch": {
+        "actions": {
+          "G7pAyfTwQ8uteLsP": {
+            "name": "DAGGERHEART.CONFIG.ArmaFeature.brutal.actions.addDamage.name",
+            "description": "DAGGERHEART.CONFIG.ArmaFeature.brutal.actions.addDamage.description"
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "brutal"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Thistlebow": {
+      "_id": "I1nDGpulg29GpWOW",
+      "name": "Arco de cardos",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "G9mMGxBSexwjWTYV"
+        }
+      ]
+    },
+    "Tower Shield": {
+      "_id": "C9aWpK1shVMWP4m5",
+      "name": "Escudo torre",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "barrera"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Barrera",
+          "description": "Ganar nivel de arma + 1 a puntuación de armadura; -1 a Evasión",
+          "_id": "8r0TcKWXboFV0eqS"
+        }
+      ]
+    },
+    "Urok Broadsword": {
+      "_id": "zGm6Wa1fGF6cECY5",
+      "name": "Espadón urok",
+      "systemPatch": {
+        "actions": {
+          "mig52M2Mp3JDmH2p": {
+            "name": "Mortal",
+            "description": "Cuando usted hace daño severo, el objetivo debe marcar un PG adicional."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "mortífero"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Wand": {
+      "_id": "ItWisJFNGMNWeaCV",
+      "name": "Varita",
+      "systemPatch": {
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Wand of Enthrallment": {
+      "_id": "tP6vmnrmTq2h5sj7",
+      "name": "Varita de sometimiento",
+      "systemPatch": {
+        "actions": {
+          "vqTZBX2RHTG1h6hz": {
+            "name": "Persuasión",
+            "description": "Antes de hacer una tirada de Presencia, puedes marcar un Estrés para ganar un bono de +2 al resultado."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "persuasivo"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Persuasivo",
+          "description": "Ganar un bono +2 para el tirada de presencia",
+          "_id": "hrJJzzepVs2BPYf5"
+        }
+      ]
+    },
+    "Wand of Essek": {
+      "_id": "ZrRGNjGCgZTTfgDG",
+      "name": "Varita de Essek",
+      "systemPatch": {
+        "actions": {
+          "TzNsQcYm4OVNFQyD": {
+            "name": "Tiempo de curvado",
+            "description": "DAGGERHEART.CONFIG.ArmaFeature.timebending.actions.bendTime.descripción"
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "doblando el tiempo"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "War Scythe": {
+      "_id": "z6yEdFYQJ5IzgTX3",
+      "name": "Guadaña de guerra",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "fiable"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Fiable",
+          "description": "+1 a los tiradas de ataque",
+          "_id": "cOYeI9TxHXpDwszu"
+        }
+      ]
+    },
+    "Warhammer": {
+      "_id": "ZXh1GQahBiODfSTC",
+      "name": "Martillo de guerra",
+      "systemPatch": {
+        "weaponFeatures": [
+          {
+            "value": "pesado"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      },
+      "effects": [
+        {
+          "name": "Pesado",
+          "description": "-1 a Evasión",
+          "_id": "HT0SAlTBGKwolAOp"
+        }
+      ]
+    },
+    "Whip": {
+      "_id": "CmtWqw6DwoePnX7W",
+      "name": "Látigo",
+      "systemPatch": {
+        "actions": {
+          "N0CCc4o6N1HseQTn": {
+            "name": "Sobresalir",
+            "description": "Marcar un Estrés para romper el látigo y forzar a todos los adversarios dentro del alcance Cuerpo a cuerpo de nuevo a alcance Cerca."
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "sobresalto"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Widogast Pendant": {
+      "_id": "8Z5QrThfwkYPXNco",
+      "name": "Pendiente de Widogast",
+      "systemPatch": {
+        "actions": {
+          "gQFuVhPeKzNj93p6": {
+            "name": "Tiempo de curvado",
+            "description": "DAGGERHEART.CONFIG.ArmaFeature.timebending.actions.bendTime.descripción"
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "doblando el tiempo"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Yutari Bloodbow": {
+      "_id": "0XpSBYXxtywvBFQi",
+      "name": "Arco de sangre yutari",
+      "systemPatch": {
+        "actions": {
+          "cLBfHGpuGzOatf5i": {
+            "name": "DAGGERHEART.CONFIG.ArmaFeature.brutal.actions.addDamage.name",
+            "description": "DAGGERHEART.CONFIG.ArmaFeature.brutal.actions.addDamage.description"
+          }
+        },
+        "weaponFeatures": [
+          {
+            "value": "brutal"
+          }
+        ],
+        "attack": {
+          "name": "Ataque"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2444 @@
+{
+  "label": "Subclases",
+  "folders": {
+    "Bard": "Bardo",
+    "Druid": "Druida",
+    "Foundation Features": "Características de la Fundación",
+    "Guardian": "Guardián",
+    "Mastery Features": "Características del dominio",
+    "Ranger": "Explorador",
+    "Rogue": "Pícaro",
+    "Seraph": "Serafín",
+    "Sorcerer": "Hechicero",
+    "Specialization Features": "Características de la especialización",
+    "Subclass Features": "Rasgos de subclase",
+    "Warrior": "Guerrero",
+    "Wizard": "Mago"
+  },
+  "mapping": {
+    "systemPatch": {
+      "path": "system",
+      "converter": "daggerheartOverlay"
+    },
+    "prototypeTokenPatch": {
+      "path": "prototypeToken",
+      "converter": "daggerheartOverlay"
+    },
+    "flagsPatch": {
+      "path": "flags",
+      "converter": "daggerheartOverlay"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "daggerheartEmbedded"
+    },
+    "items": {
+      "path": "items",
+      "converter": "daggerheartEmbedded"
+    },
+    "pages": {
+      "path": "pages",
+      "converter": "daggerheartEmbedded"
+    },
+    "results": {
+      "path": "results",
+      "converter": "daggerheartEmbedded"
+    }
+  },
+  "entries": {
+    "0wCctRupJAv5hTuE": {
+      "_id": "0wCctRupJAv5hTuE",
+      "name": "Realizadas",
+      "systemPatch": {
+        "description": "<p>Tome una tarjeta de dominio adicional de su nivel o inferior de un dominio al que tiene acceso.</p>"
+      }
+    },
+    "k7vvMJtEcxMWUUrW": {
+      "_id": "k7vvMJtEcxMWUUrW",
+      "name": "Acto de represalia",
+      "systemPatch": {
+        "description": "<p>Cuando un adversario daña a un aliado dentro del alcance Cuerpo a cuerpo, usted gana un bono +1 a su competencia para el próximo ataque exitoso que usted hace contra ese adversario.</p>",
+        "actions": {
+          "yalzg4VRmZvakshJ": {
+            "description": "<p>Cuando un adversario daña a un aliado dentro del alcance Cuerpo a cuerpo, usted gana un bono +1 a su competencia para el próximo ataque exitoso que usted hace contra ese adversario.</p>",
+            "name": "Marca Adversario"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Acto de represalia",
+          "_id": "9Uo0yOYGn3vandPp"
+        }
+      ]
+    },
+    "v511C6GMShsBblah": {
+      "_id": "v511C6GMShsBblah",
+      "name": "Adepto",
+      "systemPatch": {
+        "description": "<p>Cuando usted utiliza una experiencia, usted puede <strong>marca un estrés</strong> en lugar de gastar una esperanza. Si lo haces, dobla tu modificador de Experiencia para ese tirada.</p>",
+        "actions": {
+          "FOl7kaOG6DFWIpMm": {
+            "description": "<p>Cuando usted utiliza una experiencia, usted puede <strong>marca un estrés</strong> en lugar de gastar una esperanza. Si lo haces, dobla tu modificador de Experiencia para ese tirada.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "uByM34yQlw38yf1V": {
+      "_id": "uByM34yQlw38yf1V",
+      "name": "Adrenalina",
+      "systemPatch": {
+        "description": "<p>Mientras seas vulnerable, agrega tu nivel a tus tiradas de daño.</p>"
+      },
+      "effects": [
+        {
+          "name": "Adrenalina",
+          "description": "<p>Mientras seas vulnerable, agrega tu nivel a tus tiradas de daño.</p>",
+          "_id": "HMx9uZ54mvMiH95x"
+        }
+      ]
+    },
+    "uGcs785h94RMtueH": {
+      "_id": "uGcs785h94RMtueH",
+      "name": "Capacitación avanzada",
+      "systemPatch": {
+        "description": "<p>Elija dos opciones de nivelación adicionales para su compañero.</p>"
+      },
+      "effects": [
+        {
+          "name": "Capacitación avanzada",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.565);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Elija dos opciones de nivelación adicionales para su compañero.</span></p>",
+          "_id": "bKOuMxhB2Jth3j2T"
+        }
+      ]
+    },
+    "lwH3E0Zyf4gbVOd0": {
+      "_id": "lwH3E0Zyf4gbVOd0",
+      "name": "Depredador Alfa",
+      "systemPatch": {
+        "description": "<p>Antes de hacer una tirada de ataque contra su Focus, usted puede pasar una Esperanza. En un ataque exitoso, se elimina un Miedo de la piscina de miedo del DJ.</p>",
+        "actions": {
+          "LHDsuveQznbcFUhV": {
+            "description": "<p>Antes de hacer una tirada de ataque contra su Focus, usted puede pasar una Esperanza. En un ataque exitoso, se elimina un Miedo de la piscina de miedo del DJ.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      }
+    },
+    "yA4MKQ1tbKFiJoDB": {
+      "_id": "yA4MKQ1tbKFiJoDB",
+      "name": "Carga arcana",
+      "systemPatch": {
+        "description": "<p>Usted puede reunir energía mágica para mejorar sus capacidades. Cuando tomas daño mágico, te vuelves Cargado. Alternativamente, puedes gastar 2 Esperanza para convertirte en Charged. Cuando usted hace con éxito un ataque que hace daño mágico mientras se carga, usted puede limpiar su carga para ganar un bono +10 al tirada de daño o ganar un bono +3 a la dificultad de una tirada de reacción el hechizo causa que el objetivo para hacer. Deja de ser acusado en tu próximo descanso prolongado.</p>"
+      },
+      "effects": [
+        {
+          "name": "Cargado",
+          "description": "<p>Cuando usted hace con éxito un ataque que hace daño mágico mientras se carga, usted puede limpiar su carga para ganar un bono +10 al tirada de daño o ganar un bono +3 a la dificultad de una tirada de reacción el hechizo causa que el objetivo para hacer. Deja de ser acusado en tu próximo descanso prolongado.</p>",
+          "_id": "z49V45ir45HGHOBB"
+        }
+      ]
+    },
+    "fefLgx6kcYWusjBb": {
+      "_id": "fefLgx6kcYWusjBb",
+      "name": "Ascendente",
+      "systemPatch": {
+        "description": "<p>Obtenga un bono +4 permanente a su umbral de daños severos.</p>"
+      },
+      "effects": [
+        {
+          "name": "Ascendente",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Obtenga un bono +4 permanente a su umbral de daños severos.</p>",
+          "_id": "7M8UsvVweRtT3E85"
+        }
+      ]
+    },
+    "xPWFvGvtUjIcqgJq": {
+      "_id": "xPWFvGvtUjIcqgJq",
+      "name": "En facilidad",
+      "systemPatch": {
+        "description": "<p>Obtener una ranura de estrés adicional.</p>"
+      },
+      "effects": [
+        {
+          "name": "En facilidad",
+          "description": "<p>Obtener una ranura de estrés adicional.</p>",
+          "_id": "xbS4Lr3dWpXUCHEi"
+        }
+      ]
+    },
+    "qqb5acyUSl1sCpWW": {
+      "_id": "qqb5acyUSl1sCpWW",
+      "name": "Ritual de batalla",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, antes de intentar algo increíblemente peligroso o enfrentarte a un enemigo que claramente te supera, describe el ritual que realizas o los preparativos que haces. Cuando lo hagas, limpia 2 Estrés y gana 2 Esperanza.</p>",
+        "actions": {
+          "UdZx74Vcz6ip4Plh": {
+            "description": "<p>Una vez por descanso prolongado, antes de intentar algo increíblemente peligroso o enfrentarte a un enemigo que claramente te supera, describe el ritual que realizas o los preparativos que haces. Cuando lo hagas, limpia 2 Estrés y gana 2 Esperanza.</p>",
+            "name": "Preparar"
+          }
+        }
+      }
+    },
+    "hWsKyed1vfILg0I8": {
+      "_id": "hWsKyed1vfILg0I8",
+      "name": "Combate en bonded",
+      "systemPatch": {
+        "description": "<p>Cuando un adversario te ataca mientras están dentro de la gama Cuerpo a cuerpo de tu compañero, obtienes un bono de +2 a tu Evasión contra el ataque.</p>"
+      },
+      "effects": [
+        {
+          "name": "Encadenado a la batalla",
+          "description": "<p>Cuando un adversario te ataca mientras están dentro de la gama Cuerpo a cuerpo de tu compañero, obtienes un bono de +2 a tu Evasión contra el ataque.</p>",
+          "_id": "IZhakv6EuG8DO4a3"
+        }
+      ]
+    },
+    "Y9eGMewnFZgPvX0M": {
+      "_id": "Y9eGMewnFZgPvX0M",
+      "name": "Mago de batalla",
+      "systemPatch": {
+        "description": "<p>Has centrado tus estudios en convertirte en una fuerza inconquistable en el campo de batalla. Obtener una ranura adicional de Punto de Golpe.</p>"
+      },
+      "effects": [
+        {
+          "name": "Mago de batalla",
+          "description": "<p>Obtener una ranura adicional de Punto de Golpe.</p>",
+          "_id": "6jjKzvBxAJTHHGoX"
+        }
+      ]
+    },
+    "TIUsIlTS1WkK5vr2": {
+      "_id": "TIUsIlTS1WkK5vr2",
+      "name": "Vinculabestias",
+      "systemPatch": {
+        "description": "<p>Desea formar un vínculo profundo con un aliado animal.</p>"
+      }
+    },
+    "2A0HBDxGc4gEARou": {
+      "_id": "2A0HBDxGc4gEARou",
+      "name": "Brillante",
+      "systemPatch": {
+        "description": "<p>Tome una tarjeta de dominio adicional de su nivel o inferior de un dominio al que tiene acceso.</p>"
+      }
+    },
+    "NAFU9roaVG7f3RNJ": {
+      "_id": "NAFU9roaVG7f3RNJ",
+      "name": "Llamado del valor",
+      "systemPatch": {
+        "description": "<p>Juega el Llamada de los Valientes si quieres usar el poder de tus enemigos para alimentar tu propio poder. </p>"
+      }
+    },
+    "bcNe5qP3o6CKadhK": {
+      "_id": "bcNe5qP3o6CKadhK",
+      "name": "Llamado del verdugo",
+      "systemPatch": {
+        "description": "<p>Juega la Llamada de la Cazadora si quieres derribar adversarios con inmensa fuerza.</p>"
+      }
+    },
+    "etaQ01yGJhBLDUqZ": {
+      "_id": "etaQ01yGJhBLDUqZ",
+      "name": "Claridad de la Naturaleza",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, puede crear un espacio de serenidad natural dentro de alcance Cerca. Cuando pasas unos minutos descansando dentro del espacio, limpia el Estrés igual a tu Instinto, distribuido a medida que eliges entre tú y tus aliados.</p>",
+        "actions": {
+          "az7YUpxy1ysn12tO": {
+            "description": "<p>Una vez por descanso prolongado, puede crear un espacio de serenidad natural dentro de alcance Cerca. Cuando pasas unos minutos descansando dentro del espacio, limpia el Estrés igual a tu Instinto, distribuido a medida que eliges entre tú y tus aliados.</p>",
+            "name": "Estrés claro"
+          }
+        }
+      }
+    },
+    "dArl2cxKIEGTicXU": {
+      "_id": "dArl2cxKIEGTicXU",
+      "name": "Camaradería",
+      "systemPatch": {
+        "description": "<p>Tu inquebrantable valentía es un punto de encuentro para tus aliados. Puede iniciar un Tag Team Tirada una vez más por sesión. Además, cuando un aliado inicia un Tag Team Tirada contigo, solo necesitan gastar 2 Esperanza para hacerlo.</p>",
+        "actions": {
+          "eBSXC0l2IrRb1F8f": {
+            "description": "<p>Puede iniciar un Tag Team Tirada una vez más por sesión.</p>",
+            "name": "Camaradería"
+          }
+        }
+      }
+    },
+    "MBFXxIEwc0Dl4kJg": {
+      "_id": "MBFXxIEwc0Dl4kJg",
+      "name": "Acompañante",
+      "systemPatch": {
+        "description": "<p>Usted tiene un compañero animal de su elección (a discreción del DJ). Se quedan a tu lado a menos que les digas lo contrario. Toma la hoja de Ranger Companion. Al nivelar su personaje, elija una opción de nivel para su compañero de esta hoja también.</p>"
+      }
+    },
+    "oirsCnN66GOlK3Fa": {
+      "_id": "oirsCnN66GOlK3Fa",
+      "name": "Conjurar Escudo",
+      "systemPatch": {
+        "description": "<p>Puedes mantener una barrera protectora de la magia. Si bien tienes al menos 2 Esperanza, agregas tu competencia a tu Evasión. </p>"
+      },
+      "effects": [
+        {
+          "name": "Conjurar Escudo",
+          "description": "<p>Si bien tienes al menos 2 Esperanza, agregas tu competencia a tu Evasión.</p>",
+          "_id": "0i7GVOvjH6bK5AUM"
+        }
+      ]
+    },
+    "cXbRm744mW6UXGam": {
+      "_id": "cXbRm744mW6UXGam",
+      "name": "Contactos en todas partes",
+      "systemPatch": {
+        "description": "<p>Una vez por sesión, puede llamar brevemente a un contacto turbio. Elija uno de los siguientes beneficios y describa lo que los trajo aquí para ayudarle en este momento: </p><ul><li><p>Proporcionan 1 puñado de oro, una herramienta única, o un objeto mundano que la situación requiere.</p></li><li><p>En su próximo tirada de acción, su ayuda proporciona un bono +3 al resultado de su Esperanza or Dado de Miedo. </p></li><li><p>La próxima vez que hagas daño, se rascan de las sombras, añadiendo 2d8 a tu tirada de daño.</p></li></ul>",
+        "actions": {
+          "GZDYjtPh0lCJ5VNq": {
+            "description": "<p>Una vez por sesión, puede llamar brevemente a un contacto turbio. Elija uno de los siguientes beneficios y describa lo que los trajo aquí para ayudarle en este momento:</p><ul><li><p>Proporcionan 1 puñado de oro, una herramienta única, o un objeto mundano que la situación requiere.</p></li><li><p>En su próximo tirada de acción, su ayuda proporciona un bono +3 al resultado de su Esperanza or Dado de Miedo.</p></li><li><p>La próxima vez que hagas daño, se rascan de las sombras, añadiendo 2d8 a tu tirada de daño.</p></li></ul>",
+            "name": "Usar la característica"
+          }
+        }
+      }
+    },
+    "o5j2vjXU8NicYlXx": {
+      "_id": "o5j2vjXU8NicYlXx",
+      "name": "Valor",
+      "systemPatch": {
+        "description": "<p>Cuando fallas una tirada con el miedo, ganas una esperanza.</p>"
+      }
+    },
+    "frBTtNMX9Y2gkuPz": {
+      "_id": "frBTtNMX9Y2gkuPz",
+      "name": "Nube oscura",
+      "systemPatch": {
+        "description": "<p>Marca <strong>a Tirada de hechizos (15)</strong>. En un éxito, crear una nube oscura temporal que cubra cualquier área dentro de alcance Cerca. Cualquier persona en esta nube no puede ver fuera de ella, y cualquier persona fuera de ella no puede ver en. Usted es considerado encubierto de cualquier adversario para quien la nube bloquea la línea de visión.</p><p>@Template[type:emanation|range:c]</p>",
+        "actions": {
+          "nIgBwYfAVAJ98lzb": {
+            "description": "<p>Marca <strong>a Tirada de hechizos (15)</strong>. En un éxito, crear una nube oscura temporal que cubra cualquier área dentro de alcance Cerca. Cualquier persona en esta nube no puede ver fuera de ella, y cualquier persona fuera de ella no puede ver en. Usted es considerado encubierto de cualquier adversario para quien la nube bloquea la línea de visión.</p><p>@Template[type:emanation|range:c]</p>",
+            "name": "Reparto ortográfico: Nube oscura"
+          }
+        }
+      }
+    },
+    "Jdktv5p1K2PfgxrT": {
+      "_id": "Jdktv5p1K2PfgxrT",
+      "name": "Defensor",
+      "systemPatch": {
+        "description": "<p>Tu transformación animal encarna un espíritu guardián sanador. Cuando estás en Beastform y un aliado dentro de alcance Cerca marca 2 o más Puntos de Golpe, puedes marcar un Estrés para reducir el número de Puntos de Golpe que marcan en 1.</p>",
+        "actions": {
+          "9WxcZ3BuXUKfqUMz": {
+            "description": "<p>Cuando estás en Beastform y un aliado dentro de alcance Cerca marca 2 o más Puntos de Golpe, puedes marcar un Estrés para reducir el número de Puntos de Golpe que marcan en 1.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "J3A7ycmj65hlhWnI": {
+      "_id": "J3A7ycmj65hlhWnI",
+      "name": "Devoto",
+      "systemPatch": {
+        "description": "<p>Cuando usted enrolla sus dados de oración, usted puede tirar un dado adicional y desechar el resultado más bajo. Además, puede utilizar su función “Sparing Touch” dos veces en lugar de una vez por descanso prolongado.</p>"
+      }
+    },
+    "M5mpGoAj8LRkylrY": {
+      "_id": "M5mpGoAj8LRkylrY",
+      "name": "Portador divino",
+      "systemPatch": {
+        "description": "<p>Juegue al Advenedizo Divino si quiere dominar el campo de batalla con un arma legendaria.</p>"
+      }
+    },
+    "2JH9NaOh69yN80Gw": {
+      "_id": "2JH9NaOh69yN80Gw",
+      "name": "Aura elemental",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso mientras Canalizas, puedes asumir un aura que coincida con tu elemento. El aura afecta a objetivos dentro de un alcance Cerca hasta que su Canalización termina.</p><ul><li><p><strong>Fuego</strong>: Cuando un adversario marca 1 o más Puntos de Golpe, también debe marcar un estrés.</p></li><li><p><strong>Tierra</strong>: Tus aliados ganan un bono +1 a Fuerza.</p></li><li><p><strong>Agua</strong>: Cuando un adversario te hace daño, puedes marcar un Estrés para moverlos a cualquier lugar dentro de un rango muy estrecho de donde están.</p></li><li><p><strong>Aire</strong>: Cuando usted o un aliado reciba daños de un ataque más allá del alcance Cuerpo a cuerpo, reduzca el daño por 1d8.</p></li></ul>",
+        "actions": {
+          "AdOnKhi7g6zQu2iv": {
+            "description": "<p>Cuando un adversario marca 1 o más Puntos de Golpe, también debe marcar un estrés.</p>",
+            "name": "Fuego"
+          },
+          "xDBLH5TWidvrYF7z": {
+            "description": "<p>Cuando un adversario marca 1 o más Puntos de Golpe, también debe marcar un estrés.</p>",
+            "name": "Tierra"
+          },
+          "S4t5HlgxWlHwaBDw": {
+            "description": "<p>Cuando un adversario te hace daño, puedes marcar un Estrés para moverlos a cualquier lugar dentro de un rango muy estrecho de donde están.</p>",
+            "name": "Agua"
+          },
+          "hAsKFFewtTqd1gg9": {
+            "description": "<p>Cuando usted o un aliado reciba daños de un ataque más allá del alcance Cuerpo a cuerpo, reduzca el daño por 1d8.</p>",
+            "name": "Aire"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Aura elemental (Tierra)",
+          "_id": "WRuijfHxmUscAa69"
+        },
+        {
+          "name": "Aura elemental (agua)",
+          "_id": "H7W52ps5d3UGmaFr"
+        },
+        {
+          "name": "Aura elemental (Fuego)",
+          "_id": "WX5AMEpmUAutB9Hm"
+        },
+        {
+          "name": "Aura elemental (Air)",
+          "_id": "mJBA2QTyM9SM5NVS"
+        }
+      ]
+    },
+    "EFUJHrkTuyv8uA9l": {
+      "_id": "EFUJHrkTuyv8uA9l",
+      "name": "Dominio elemental",
+      "systemPatch": {
+        "description": "<p>Más aún encarnas tu elemento. Mientras que Channeling, usted obtiene el beneficio siguiente:</p><ul><li><p><strong>Fuego</strong>: Usted gana un bono +1 a su competencia para los ataques y hechizos que causan daño.</p></li><li><p><strong>Tierra</strong>: Cuando marque los Puntos de Golpe, haga tirar un d6 por Punto de Golpe marcado. Para cada resultado de 6, reducir el número de Puntos de Golpe que marca por 1.</p></li><li><p><strong>Agua</strong>: Cuando un ataque contra usted tiene éxito, puede marcar un Estrés para hacer al atacante temporalmente vulnerable.</p></li><li><p><strong>Aire</strong>: Usted gana un bono +1 a su Evasión y puede volar</p></li></ul>",
+        "actions": {
+          "ofdSzqY7IfAy5ayv": {
+            "description": "<p>Usted gana un bono +1 a su competencia para los ataques y hechizos que causan daño.</p>",
+            "name": "Fuego"
+          },
+          "knGm3snaplWYDaue": {
+            "description": "<p>Cuando marque los Puntos de Golpe, haga tirar un d6 por Punto de Golpe marcado. Para cada resultado de 6, reducir el número de Puntos de Golpe que marca por 1.</p>",
+            "name": "Tierra"
+          },
+          "MocaqHUdyVwH0ZFu": {
+            "description": "<p>Cuando un ataque contra usted tiene éxito, puede marcar un Estrés para hacer al atacante temporalmente vulnerable.</p>",
+            "name": "Agua"
+          },
+          "AQMNJRmVyhJTSCfR": {
+            "description": "<p>Usted gana un bono +1 a su Evasión y puede volar.</p>",
+            "name": "Aire"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Dominio elemental (Fuego)",
+          "description": "<p>Usted gana un bono +1 a su competencia para los ataques y hechizos que causan daño.</p>",
+          "_id": "FoBFRSXRfGa1zkiX"
+        },
+        {
+          "name": "Dominio elemental (agua)",
+          "description": "<p>Cuando un ataque contra usted tiene éxito, puede marcar un Estrés para hacer al atacante temporalmente vulnerable.</p>",
+          "_id": "bGwFZZT4juuaIRmZ"
+        },
+        {
+          "name": "Dominio elemental (aire)",
+          "description": "<p>Usted gana un bono +1 a su Evasión y puede volar</p>",
+          "_id": "edF2zvvlcGf54r2n"
+        },
+        {
+          "name": "Dominio elemental (Tierra)",
+          "_id": "p5FoUb4JKQFP405d"
+        }
+      ]
+    },
+    "f37TTgCc0Q3Ih1A1": {
+      "_id": "f37TTgCc0Q3Ih1A1",
+      "name": "Encarnación elemental",
+      "systemPatch": {
+        "description": "<p>Marca un Estrés para Canalizar uno de los siguientes elementos hasta que tomes Daño severo o hasta tu siguiente descanso:</p><ul><li><p><strong>Fuego</strong>: Cuando un adversario dentro de la gama Cuerpo a cuerpo te hace daño, toman 1d10 mágico daño.</p></li><li><p><strong>Tierra</strong>: Obtener un bono a sus umbrales de daño igual a su competencia.</p></li><li><p><strong>Wate</strong>r: Cuando usted hace daño a un adversario dentro del alcance Cuerpo a cuerpo, todos los demás adversarios dentro del rango de Muy Cerca deben marcar un Estrés. </p></li><li><p><strong>Aire</strong>: Puedes flotar, ganando ventaja en Agilidad Tiradas.</p></li></ul>",
+        "actions": {
+          "wVGSzAnJGs5eXKqI": {
+            "description": "<p>Cuando un adversario dentro de la gama Cuerpo a cuerpo te hace daño, toman @Damage[type:magical|value:1d10].</p>",
+            "name": "Fuego"
+          },
+          "6QXTThhnJpGDIvhJ": {
+            "description": "<p>Obtener un bono a sus umbrales de daño igual a su competencia.</p>",
+            "name": "Tierra"
+          },
+          "pY2EdEMoyLGYWjK5": {
+            "description": "<p>Cuando usted hace daño a un adversario dentro del alcance Cuerpo a cuerpo, todos los demás adversarios dentro del rango de Muy Cerca deben marcar un Estrés.</p><p>@Template[type:emanation|range:vc]</p>",
+            "name": "Agua"
+          },
+          "uk8EgHMxCgoWENzt": {
+            "description": "<p>Puedes flotar, ganando ventaja en Agilidad Tiradas.</p>",
+            "name": "Aire"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Encarnación elemental (Tierra)",
+          "_id": "7xyUtUbBk5jbNnqY"
+        },
+        {
+          "name": "Encarnación elemental (Aire)",
+          "description": "<p>Puedes flotar, ganando ventaja en Agilidad Tiradas.</p>",
+          "_id": "3ck6CeapLxQVjE2W"
+        },
+        {
+          "name": "Encarnación elemental (agua)",
+          "_id": "Jy6dpEbzkZ2eRDf5"
+        },
+        {
+          "name": "Encarnación elemental (Fuego)",
+          "_id": "ANle8tuOEZIevTWv"
+        }
+      ]
+    },
+    "wg1H0hROc2acHwZh": {
+      "_id": "wg1H0hROc2acHwZh",
+      "name": "Origen elemental",
+      "systemPatch": {
+        "description": "<p>Juega el Origen Elemental si quieres canalizar la magia cruda a</p><p>tomar la forma de un elemento particular</p>"
+      }
+    },
+    "dPcqKN5NeDkjB1HW": {
+      "_id": "dPcqKN5NeDkjB1HW",
+      "name": "Elementalista",
+      "systemPatch": {
+        "description": "<p>Elija uno de los siguientes elementos en la creación de caracteres: aire, tierra, fuego, relámpagos, agua.</p><p>Usted puede dar forma a este elemento en efectos inofensivos. Además, <strong>pasar una esperanza</strong> y describir cómo su control sobre este elemento ayuda a una tirada de acción que está a punto de hacer, a continuación, ganar un bono +2 al tirada o un bono +3 a los daños del tirada.</p>",
+        "actions": {
+          "rxuFLfHP1FILDpds": {
+            "description": "<p>S<strong>una esperanza</strong> y describir cómo su control sobre este elemento ayuda a una tirada de acción que está a punto de hacer, ganar un bono +2 al tirada.</p>",
+            "name": "Bono a tirar"
+          },
+          "S7HvFD3qIR3ifJRL": {
+            "description": "<p>S<strong>una esperanza</strong> y describir cómo su control sobre este elemento ayuda a una tirada de acción que está a punto de hacer, ganar un bono +3 para el daño del tirada.</p>",
+            "name": "Bonificación por daños"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Bono a tirar",
+          "description": "<p>+2 a una tirada de acción</p>",
+          "_id": "EY87mY6ULfIt3XC8"
+        },
+        {
+          "name": "Bonificación por daños",
+          "description": "<p>+3 a daños</p>",
+          "_id": "WwibpgaO6Kkks7aZ"
+        }
+      ]
+    },
+    "5bmB1YcxiJVNVXDM": {
+      "_id": "5bmB1YcxiJVNVXDM",
+      "name": "Elocuente",
+      "systemPatch": {
+        "description": "<p>Tus conmovedoras palabras estimulan la moral. Una vez por sesión, cuando usted anima a un aliado, usted puede hacer uno de los siguientes: </p><ul><li><p>Permítales encontrar un objeto mundano o una herramienta que necesiten.</p></li><li><p>Ayuda a un aliado sin gastar Esperanza.</p></li><li><p>Darles un movimiento adicional de tiempo de inactividad durante su próximo descanso.</p></li></ul>",
+        "actions": {
+          "o1MWnafbLsXnvSUl": {
+            "name": "Usar la característica"
+          }
+        }
+      }
+    },
+    "Cjtc43V3IzAmfIFG": {
+      "_id": "Cjtc43V3IzAmfIFG",
+      "name": "Depredador elusivo",
+      "systemPatch": {
+        "description": "<p>Cuando tu Focus hace un ataque contra ti, obtienes un bono de +2 a tu Evasión contra el ataque.</p>"
+      },
+      "effects": [
+        {
+          "name": "Depredador elusivo",
+          "description": "<p>Cuando tu Focus hace un ataque contra ti, obtienes un bono de +2 a tu Evasión contra el ataque.</p>",
+          "_id": "X4llFOcAcdJLbear"
+        }
+      ]
+    },
+    "4pVBN8cuKePI423V": {
+      "_id": "4pVBN8cuKePI423V",
+      "name": "Ayuda encantada",
+      "systemPatch": {
+        "description": "<p>Puedes realzar la magia de los demás con tu esencia. Cuando usted ayuda a un aliado con una tirada de lanzamiento de conjuros, usted puede tirar un <strong>d8</strong> como tu ventaja muere. Una vez por descanso prolongado, después de que un aliado ha hecho una tirada de lanzamiento de conjuros con su ayuda, puede intercambiar los resultados de sus dados de dualidad.</p>",
+        "actions": {
+          "n8wSqR967o0pZDLR": {
+            "description": "<p>Una vez por descanso prolongado, después de que un aliado ha hecho una tirada de lanzamiento de conjuros con su ayuda, puede intercambiar los resultados de sus dados de dualidad.</p>",
+            "name": "Resultados del intercambio de dados"
+          }
+        }
+      }
+    },
+    "eCoEWkWuZPMZ9C6a": {
+      "_id": "eCoEWkWuZPMZ9C6a",
+      "name": "Poesía épica",
+      "systemPatch": {
+        "description": "<p>Su Rally Die aumenta a un d10. Además, cuando ayudas a un aliado, puedes narrar el momento como si estuvieras escribiendo la historia de su heroísmo en una memoria. Cuando lo hagas, lanza un d10 como tu ventaja muere.</p>"
+      },
+      "effects": [
+        {
+          "name": "Inspirar:d10",
+          "description": "<p>El rally muere aumentado a d10.</p>",
+          "_id": "RSmscgGyuHJucF6C"
+        }
+      ]
+    },
+    "tyGB6wRKjYdIBK1i": {
+      "_id": "tyGB6wRKjYdIBK1i",
+      "name": "Visado Etéreo",
+      "systemPatch": {
+        "description": "<p>Tu cara sobrenatural sorprende y teme. Mientras vuelas, tienes ventaja en Presencia Tiradas. Cuando tienes éxito con Esperanza on a tirada de Presencia, puedes eliminar un Miedo del grupo de Miedo del DJ en lugar de ganar Esperanza.</p>"
+      },
+      "effects": [
+        {
+          "name": "Visado Etéreo",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Mientras vuelas, tienes ventaja en Presencia Tiradas.</p>",
+          "_id": "Ns1DcQ8wo47LhlL3"
+        }
+      ]
+    },
+    "iCXtOWBKv1FdKdWz": {
+      "_id": "iCXtOWBKv1FdKdWz",
+      "name": "Capacitación de expertos",
+      "systemPatch": {
+        "description": "<p>Elija una opción de nivelación adicional para su compañero.</p>"
+      },
+      "effects": [
+        {
+          "name": "Capacitación de expertos",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.565);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Elija una opción de nivelación adicional para su compañero.</span></p>",
+          "_id": "rknTONvaUDZ2Yz1W"
+        }
+      ]
+    },
+    "D3ffFWSXCza4WGcM": {
+      "_id": "D3ffFWSXCza4WGcM",
+      "name": "Enfréntate a tu miedo",
+      "systemPatch": {
+        "description": "<p>Cuando usted tiene éxito con el miedo en una tirada de ataque, usted negocia un extra <strong>1d10</strong> daño mágico.</p>"
+      }
+    },
+    "EY7Eo6hNGppVL3dR": {
+      "_id": "EY7Eo6hNGppVL3dR",
+      "name": "Sombra fugaz",
+      "systemPatch": {
+        "description": "<p>Gana un bono +1 permanente para tu Evasión. Puede utilizar su función “Shadow Stepper” para moverse dentro de un rango muy lejano.</p>"
+      },
+      "effects": [
+        {
+          "name": "Sombra fugaz",
+          "description": "<p>Gana un bono +1 permanente para tu Evasión. Puede utilizar su función “Shadow Stepper” para moverse dentro de un rango muy lejano.</p>",
+          "_id": "hsEwoHkNr2qVwm2H"
+        }
+      ]
+    },
+    "hNqLf3zEfKRzSbvq": {
+      "_id": "hNqLf3zEfKRzSbvq",
+      "name": "Alimentado por el miedo",
+      "systemPatch": {
+        "description": "<p>El daño mágico extra de su característica “Cara su miedo” aumenta a <strong>2d10</strong>.</p>"
+      }
+    },
+    "99U7YWNCxFZHCiT0": {
+      "_id": "99U7YWNCxFZHCiT0",
+      "name": "Intérprete dotado",
+      "systemPatch": {
+        "description": "<p>Puedes tocar tres tipos diferentes de canciones, una vez cada uno por descanso prolongado; Describa cómo actúa para que otros obtengan el beneficio que se indica: </p><ul><li><p><strong>Canción relajante:</strong> Tú y todos los aliados dentro de un estrecho rango despejen un Punto de Golpe.</p></li><li><p><strong>Canción épica:</strong> Haz un objetivo dentro de un alcance Cerca temporalmente vulnerable. </p></li><li><p><strong>Canción desgarradora:</strong> Tú y todos los aliados dentro de alcance Cerca ganan una Esperanza.</p></li></ul>",
+        "actions": {
+          "xvs7ZKm93AlnZD3F": {
+            "description": "<p><strong>Tú y todos tus aliados</strong> dentro <strong>Cerrar</strong> rango <strong>limpiar un Punto de Golpe</strong>.</p>",
+            "name": "Relajante canción"
+          },
+          "nvfJ8rOx8baI6POZ": {
+            "description": "<p>Marca <strong>un objetivo</strong> dentro <strong>Cerrar</strong> rango temporal <strong>Vulnerable</strong>.</p>",
+            "name": "Canción épica"
+          },
+          "QTTgKnhpNE2XHz4u": {
+            "description": "<p><strong>Tú y todos tus aliados</strong> dentro <strong>Cerrar</strong> rango <strong>ganar una esperanza</strong>.</p>",
+            "name": "Canción desgarradora"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Canción épica",
+          "description": "<p>Haz un objetivo dentro de un alcance Cerca temporalmente vulnerable.</p>",
+          "_id": "FK4IdbxluRErfYor"
+        }
+      ]
+    },
+    "8TH6h6a36h09mf6d": {
+      "_id": "8TH6h6a36h09mf6d",
+      "name": "No tengas miedo.",
+      "systemPatch": {
+        "description": "<p>El daño mágico extra de su característica “Cara su miedo” aumenta a <strong>3d10</strong>.</p>"
+      }
+    },
+    "Ce0sn0kqAw3PFe0k": {
+      "_id": "Ce0sn0kqAw3PFe0k",
+      "name": "Corazón de un poeta",
+      "systemPatch": {
+        "description": "<p>Después de hacer una tirada de acción para impresionar, persuadir u ofender a alguien, usted puede gastar una esperanza para añadir un d4 al tirada.</p>",
+        "actions": {
+          "pHSfMDmfVQSgqk39": {
+            "description": "<p>Después de hacer una tirada de acción para impresionar, persuadir u ofender a alguien, usted puede gastar una esperanza para añadir un [[/r d4]] al tirada.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      }
+    },
+    "w1BwNKxbQOSizLmZ": {
+      "_id": "w1BwNKxbQOSizLmZ",
+      "name": "Experiencia honrada",
+      "systemPatch": {
+        "description": "<p>Cuando uses una Experiencia, haz tirar un <strong>d6</strong>. En un resultado de 5 o más, se puede utilizar sin gastar Esperanza.</p>",
+        "actions": {
+          "zCTrqPtGARSZ06CU": {
+            "description": "<p>Cuando uses una Experiencia, haz tirar un <strong>d6</strong>. En un resultado de 5 o más, se puede utilizar sin gastar Esperanza.</p>",
+            "name": "Tirada d6"
+          }
+        }
+      }
+    },
+    "7AVRNyBcd1Nffjtn": {
+      "_id": "7AVRNyBcd1Nffjtn",
+      "name": "Will de hierro",
+      "systemPatch": {
+        "description": "<p>Cuando usted toma el daño físico, usted puede <strong>marca una Ranura de Armadura adicional</strong> para reducir la gravedad.</p>"
+      },
+      "effects": [
+        {
+          "name": "Will de hierro",
+          "description": "<p>Cuando usted toma el daño físico, usted puede <strong>marca una Ranura de Armadura adicional</strong> para reducir la gravedad.</p>",
+          "_id": "htEDIjCEWYtznpRV"
+        }
+      ]
+    },
+    "xjZHD5Yo3Tu26rLm": {
+      "_id": "xjZHD5Yo3Tu26rLm",
+      "name": "Amigo leal",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, cuando el daño de un ataque marcaría el último estrés de su compañero o su último Puntos de Golpe y usted está dentro de la estrecha gama uno del otro, usted o su compañero puede apresurarse al lado del otro y tomar ese daño en su lugar.</p>",
+        "actions": {
+          "Z82YQzYWo4eektMa": {
+            "description": "<p>Una vez por descanso prolongado, cuando el daño de un ataque marcaría el último estrés de su compañero o su último Puntos de Golpe y usted está dentro de la estrecha gama uno del otro, usted o su compañero puede apresurarse al lado del otro y tomar ese daño en su lugar.</p>",
+            "name": "Apresurar"
+          }
+        }
+      }
+    },
+    "hd7UeBPr86Mz21Pe": {
+      "_id": "hd7UeBPr86Mz21Pe",
+      "name": "Protector leal",
+      "systemPatch": {
+        "description": "<p>Cuando un aliado dentro de alcance Cerca tiene 2 o menos Puntos de Golpe y recibiría daños, puede <strong>marca un estrés</strong> para correr a su lado y tomar el daño en su lugar.</p>",
+        "actions": {
+          "Dxnu3gPSTSysJnb8": {
+            "description": "<p>Cuando un aliado dentro de alcance Cerca tiene 2 o menos Puntos de Golpe y recibiría daños, puede <strong>marca un estrés</strong> para correr a su lado y tomar el daño en su lugar.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "ZFkCz8XV1EtMoJ1w": {
+      "_id": "ZFkCz8XV1EtMoJ1w",
+      "name": "Maestro",
+      "systemPatch": {
+        "description": "<p>Tus canciones de rally fortalecen el coraje de los que escuchan. Cuando usted da un <strong>Rally Die</strong> a un aliado, pueden <strong>ganar una esperanza</strong> o <strong>limpiar un estrés</strong>.</p>"
+      }
+    },
+    "UNg4eyNfEQrMdD7G": {
+      "_id": "UNg4eyNfEQrMdD7G",
+      "name": "Manipular magia",
+      "systemPatch": {
+        "description": "<p>Tu origen primitivo te permite modificar la esencia misma de la magia. Después de lanzar un hechizo o hacer un ataque usando un arma que hace daño mágico, usted puede marcar un Estrés para hacer uno de los siguientes:</p><ul><li><p>Extender el hechizo o el alcance del ataque por un rango</p></li><li><p>Ganar un bono +2 para el resultado del tirada de acción</p></li><li><p>El doble de dado de daño de su elección</p></li><li><p>Golpear un objetivo adicional dentro del rango</p></li></ul>",
+        "actions": {
+          "KL5l4QJjPtDiDBSv": {
+            "description": "<p>Tu origen primitivo te permite modificar la esencia misma de la magia. Después de lanzar un hechizo o hacer un ataque usando un arma que hace daño mágico, usted puede marcar un Estrés para hacer uno de los siguientes:</p><ul><li><p>Extender el hechizo o el alcance del ataque por un rango</p></li><li><p>Ganar un bono +2 para el resultado del tirada de acción</p></li><li><p>El doble de dado de daño de su elección</p></li><li><p>Golpear un objetivo adicional dentro del rango</p></li></ul>",
+            "name": "Manipular"
+          }
+        }
+      }
+    },
+    "dHgAnbt9m1KsQFmp": {
+      "_id": "dHgAnbt9m1KsQFmp",
+      "name": "Preparación marcial",
+      "systemPatch": {
+        "description": "<p>Eres un guerrero inspirador para todos los que viajan contigo. Su partido tiene acceso al movimiento de preparación marcial. Para utilizar este movimiento durante un descanso, describa cómo usted instruye y entrena con su partido. Tú y cada aliado que elige este movimiento de descanso ganar un <strong>d6</strong> La Cazavampiros muere. Un PJ con un Slayer Die puede gastarlo para enrollar el dado y añadir el resultado a un ataque o daño tirada de su elección.</p>"
+      }
+    },
+    "TnuLBtHQGbqyzn82": {
+      "_id": "TnuLBtHQGbqyzn82",
+      "name": "Evasión natural",
+      "systemPatch": {
+        "description": "<p>Puedes llamar a tu elemento para protegerte del daño. Cuando un ataque rueda contra usted tiene éxito, usted puede <strong>marca un estrés</strong> y describir cómo utilizas tu elemento para defenderte. Cuando lo hagas, haz tirar un <strong>d6</strong> y añade su resultado a tu Evasión contra el ataque.</p>",
+        "actions": {
+          "amJMKDdSgJHsOsOB": {
+            "description": "<p>Puedes llamar a tu elemento para protegerte del daño. Cuando un ataque rueda contra usted tiene éxito, usted puede <strong>marca un estrés</strong> y describir cómo utilizas tu elemento para defenderte. Cuando lo hagas, haz tirar un <strong>d6</strong> y añade su resultado a tu Evasión contra el ataque.</p>",
+            "name": "Evadir"
+          }
+        }
+      }
+    },
+    "DPKmipNRlSAMs2Cg": {
+      "_id": "DPKmipNRlSAMs2Cg",
+      "name": "Némesis",
+      "systemPatch": {
+        "description": "<p><strong>Gasta 2 Esperanza</strong> Para dar prioridad a un adversario hasta su próximo descanso. Cuando usted hace un ataque contra su adversario Priorizado, usted puede intercambiar los resultados de sus dados de Esperanza y Miedo. Sólo puedes dar prioridad a un adversario a la vez.</p>",
+        "actions": {
+          "Rgc7kBmU3kjHKvfx": {
+            "description": "<p><strong>Gasta 2 Esperanza</strong> Para dar prioridad a un adversario hasta su próximo descanso. Cuando usted hace un ataque contra su adversario Priorizado, usted puede intercambiar los resultados de sus dados de Esperanza y Miedo. Sólo puedes dar prioridad a un adversario a la vez.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Némesis",
+          "description": "<p>Cuando usted hace un ataque contra su adversario Priorizado, usted puede intercambiar los resultados de sus dados de Esperanza y Miedo. Sólo puedes dar prioridad a un adversario a la vez.</p>",
+          "_id": "JoBFHkhLbm4JyuZm"
+        }
+      ]
+    },
+    "h161OSIK24Up4qNd": {
+      "_id": "h161OSIK24Up4qNd",
+      "name": "Caminante sombrío",
+      "systemPatch": {
+        "description": "<p>Deseas manipular sombras para maniobrar a través del medio ambiente.</p>"
+      }
+    },
+    "G54qY96XK62hgoK9": {
+      "_id": "G54qY96XK62hgoK9",
+      "name": "Compañero de Armas",
+      "systemPatch": {
+        "description": "<p>Cuando un aliado dentro de alcance Muy Cerca toma daño, usted puede marcar una Ranura de Armadura para reducir la severidad en un umbral.</p>",
+        "actions": {
+          "D6ClOGDgu6cLanjE": {
+            "description": "<p>Cuando un aliado dentro de alcance Muy Cerca toma daño, usted puede marcar una Ranura de Armadura para reducir la severidad en un umbral.</p>",
+            "name": "Marcar la ranura de armadura"
+          }
+        }
+      }
+    },
+    "uPPBOpoulUmSLlzr": {
+      "_id": "uPPBOpoulUmSLlzr",
+      "name": "Ruta hacia adelante",
+      "systemPatch": {
+        "description": "<p>Cuando viajas a un lugar que has visitado previamente o llevas un objeto que ha estado en el lugar antes, puedes identificar el camino más corto y directo a tu destino.</p>"
+      }
+    },
+    "HzPa5U0EQhDfFTqW": {
+      "_id": "HzPa5U0EQhDfFTqW",
+      "name": "Recuerdo perfecto",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso, cuando recuerdes una tarjeta de dominio en tu bóveda, puedes reducir su costo de recuperación en 1.</p>",
+        "actions": {
+          "rFZj0ZsnJCc0PS3h": {
+            "description": "<p>Una vez por descanso, cuando recuerdes una tarjeta de dominio en tu bóveda, puedes reducir su costo de recuperación en 1.</p>",
+            "name": "Recordar"
+          }
+        }
+      }
+    },
+    "Yij5sNyP1Ii7BAbc": {
+      "_id": "Yij5sNyP1Ii7BAbc",
+      "name": "El poder de los dioses",
+      "systemPatch": {
+        "description": "<p>Durante el vuelo, se trata de un daño 1d12 en lugar de 1d8 de su “Alas de Luz” característica.</p>"
+      }
+    },
+    "YS52ZGdce605wNVT": {
+      "_id": "YS52ZGdce605wNVT",
+      "name": "Preparado",
+      "systemPatch": {
+        "description": "<p>Tome una tarjeta de dominio adicional de su nivel o inferior de un dominio al que tiene acceso.</p>"
+      }
+    },
+    "GLpRVxnY5E82khxH": {
+      "_id": "GLpRVxnY5E82khxH",
+      "name": "Origen primordial",
+      "systemPatch": {
+        "description": "<p>Juega el Origen Primal si quieres extender la versatilidad de tus hechizos de maneras poderosas.</p>"
+      }
+    },
+    "KRyrbSLVGreIOTZe": {
+      "_id": "KRyrbSLVGreIOTZe",
+      "name": "Regeneración",
+      "systemPatch": {
+        "description": "<p>Toca a una criatura y gasta 3 Esperanza. Esa criatura limpia 1d4 Puntos de Golpe.</p>",
+        "actions": {
+          "kD2kWWj0oR7ZxyVs": {
+            "description": "<p>Toca a una criatura y gasta 3 Esperanza. Esa criatura limpia 1d4 Puntos de Golpe.</p>",
+            "name": "Curar a una criatura"
+          }
+        }
+      }
+    },
+    "oLO3VjGkMcK1uvB9": {
+      "_id": "oLO3VjGkMcK1uvB9",
+      "name": "Alcance regenerativo",
+      "systemPatch": {
+        "description": "<p>Usted puede apuntar a las criaturas dentro de alcance Muy Cerca con su característica de “Regeneración”.</p>"
+      }
+    },
+    "QYNGdH37fsGuxS7L": {
+      "_id": "QYNGdH37fsGuxS7L",
+      "name": "Copia de seguridad confiable",
+      "systemPatch": {
+        "description": "<p>Puede utilizar su función “Contacts Everywhere” tres veces por sesión. Las siguientes opciones se añaden a la lista de beneficios que puede elegir cuando utilice esa función: </p><ul><li><p>Cuando marques 1 o más Puntos de Golpe, pueden salir corriendo para protegerte, reduciendo los Puntos de Golpe marcados por 1.</p></li><li><p>Cuando haces una tirada de Presencia en conversación, te respaldan. Puedes tirar un d20 como tu Dado de Esperanza.</p></li></ul>"
+      }
+    },
+    "oNfA5F9cKwNR7joq": {
+      "_id": "oNfA5F9cKwNR7joq",
+      "name": "Venganza",
+      "systemPatch": {
+        "description": "<p>Cuando un adversario dentro del alcance Cuerpo a cuerpo tiene éxito en un ataque contra usted, puede marcar 2 Estrés para obligar al atacante a marcar un Punto de Golpe.</p>",
+        "actions": {
+          "e00FXbyXZ8bHRY2t": {
+            "description": "<p>Cuando un adversario dentro del alcance Cuerpo a cuerpo tiene éxito en un ataque contra usted, puede marcar 2 Estrés para obligar al atacante a marcar un Punto de Golpe.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "dcutk8RVOJ2sEkO1": {
+      "_id": "dcutk8RVOJ2sEkO1",
+      "name": "A la altura del desafío",
+      "systemPatch": {
+        "description": "<p>Estás alerta ante el creciente peligro. Mientras que usted tiene 2 o menos Puntos de Golpe sin marcar, usted puede tirar un <strong>d20</strong> como tu Dado de Esperanza.</p>"
+      }
+    },
+    "PCmYTX02JLzBpgml": {
+      "_id": "PCmYTX02JLzBpgml",
+      "name": "Hablar en voz alta",
+      "systemPatch": {
+        "description": "<p><strong>Una vez por descanso prolongado</strong>, usted puede dar un discurso sincero e inspirador. <strong>Todos los aliados</strong> dentro <strong>Lejos</strong> rango <strong>claro 2 Estrés</strong>.</p>",
+        "actions": {
+          "WNtHiko4DRGbxKnm": {
+            "description": "<p><span style=\"box-sizing: border-box; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); color: rgb(239, 230, 216); font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(24, 22, 46, 0.376); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial\"><strong>Una vez por descanso prolongado</strong></span>, usted puede dar un discurso sincero e inspirador. </span><span style=\"box-sizing: border-box; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); color: rgb(239, 230, 216); font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(24, 22, 46, 0.376); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial\"><strong>Todos los aliados</strong></span> dentro </span><span style=\"box-sizing: border-box; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); color: rgb(239, 230, 216); font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(24, 22, 46, 0.376); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial\"><strong>Lejos</strong></span> rango </span><span style=\"box-sizing: border-box; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); color: rgb(239, 230, 216); font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(24, 22, 46, 0.376); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial\"><strong>claro 2 Estrés</strong></span><strong>.</strong></p>",
+            "name": "¡Habla con tus aliados!"
+          }
+        }
+      }
+    },
+    "Qny2J3R35bvC0Cey": {
+      "_id": "Qny2J3R35bvC0Cey",
+      "name": "Depredador despiadado",
+      "systemPatch": {
+        "description": "<p>Cuando usted hace una tirada de daño, usted puede marcar un estrés para ganar un bono +1 a su competencia. Además, cuando usted hace daño severo a un adversario, deben marcar un Estrés.</p>",
+        "actions": {
+          "0YRLL1HC4XS3tX00": {
+            "description": "<p>Cuando usted hace una tirada de daño, usted puede marcar un estrés para ganar un bono +1 a su competencia. Además, cuando usted hace daño severo a un adversario, deben marcar un Estrés.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Depredador despiadado",
+          "description": "<p>Cuando usted hace una tirada de daño, usted puede marcar un estrés para ganar un bono +1 a su competencia. Además, cuando usted hace daño severo a un adversario, deben marcar un Estrés.</p>",
+          "_id": "8BNwCS7ueIQuvn2M"
+        }
+      ]
+    },
+    "DxOAkDBfIMpXxAUD": {
+      "_id": "DxOAkDBfIMpXxAUD",
+      "name": "Resonancia Sagrada",
+      "systemPatch": {
+        "description": "<p>Cuando haces tirar el daño para tu función “Arma Espiritual”, si cualquiera de los resultados coincide, duplica el valor de cada matriz coincidente. Por ejemplo, si rodas dos 5s, cuentan como dos 10s.</p>"
+      }
+    },
+    "qqQlgCqhOivUFoQn": {
+      "_id": "qqQlgCqhOivUFoQn",
+      "name": "Escuela del conocimiento",
+      "systemPatch": {
+        "description": "<p><em>Juega a la Escuela del Conocimiento si quieres una comprensión aguda del mundo que te rodea.</em></p>"
+      }
+    },
+    "4y9Ph7RsCIAbkwTk": {
+      "_id": "4y9Ph7RsCIAbkwTk",
+      "name": "Escuela de Guerra",
+      "systemPatch": {
+        "description": "<p><em>Juega a la Escuela de Guerra si quieres utilizar magia entrenada para la violencia.</em></p>"
+      }
+    },
+    "hAwTXjhyphiE3aeW": {
+      "_id": "hAwTXjhyphiE3aeW",
+      "name": "Stepper de la sombra",
+      "systemPatch": {
+        "description": "<p>Puedes moverte de la sombra a la sombra. Cuando te mueves a un área de oscuridad o sombra lanzada por otra criatura u objeto, puedes marcar un Estrés para desaparecer de donde estás y reaparecer dentro de otra sombra dentro de un alcance Lejos. Cuando reapareces, estás encubierto.</p>",
+        "actions": {
+          "g1VIG6VjYKkm11qJ": {
+            "description": "<p>Puedes moverte de la sombra a la sombra. Cuando te mueves a un área de oscuridad o sombra lanzada por otra criatura u objeto, puedes marcar un Estrés para desaparecer de donde estás y reaparecer dentro de otra sombra dentro de un alcance Lejos. Cuando reapareces, estás encubierto.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Shadow Stepper: Cubiertos",
+          "description": "<p>Puedes moverte de la sombra a la sombra. Cuando te mueves a un área de oscuridad o sombra lanzada por otra criatura u objeto, puedes marcar un Estrés para desaparecer de donde estás y reaparecer dentro de otra sombra dentro de un alcance Lejos. Cuando reapareces, estás encubierto.</p>",
+          "_id": "RYri0b9z5kq74U5n"
+        }
+      ]
+    },
+    "1hF5KGKQc2VKT5O8": {
+      "_id": "1hF5KGKQc2VKT5O8",
+      "name": "Cazavampiros",
+      "systemPatch": {
+        "description": "<p>Ganas un montón de dados llamados Slayer Dices. En una tirada con Esperanza, usted puede colocar un <strong>d6</strong> en esta carta en lugar de ganar una Esperanza, añadiendo el dado a la piscina. Puede almacenar un número de dados de Slayer igual a su competencia. Cuando usted hace una tirada de ataque o tirada de daño, usted puede pasar cualquier número de estos dados de la Cazadora, rodando ellos y agregando su resultado al tirada. Al final de cada sesión, borrar cualquier dado de la Cazavampiros no utilizado en esta tarjeta y ganar una esperanza por dado despejado.</p>"
+      }
+    },
+    "GfOSgVJW8bS1OjNq": {
+      "_id": "GfOSgVJW8bS1OjNq",
+      "name": "Tacto limitador",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, toque a una criatura y limpie 2 Puntos de Golpe o 2 estrés de ellos.</p>",
+        "actions": {
+          "aanLNQkeO2ZTIqBl": {
+            "description": "<p>Una vez por descanso prolongado, toque a una criatura y limpie 2 Puntos de Golpe o 2 estrés de ellos.</p>",
+            "name": "Borrar Puntos de Golpe"
+          },
+          "cWdzCQJv8RFfi2NR": {
+            "description": "<p>Una vez por descanso prolongado, toque a una criatura y limpie 2 Puntos de Golpe o 2 estrés de ellos.</p>",
+            "name": "Estrés claro"
+          }
+        }
+      }
+    },
+    "McoS0RxNLOg3SfSt": {
+      "_id": "McoS0RxNLOg3SfSt",
+      "name": "Arma del espíritu",
+      "systemPatch": {
+        "description": "<p>Cuando usted tiene un arma equipada con una gama de Cuerpo a cuerpo o Muy Cerca, puede volar de su mano para atacar a un adversario dentro de alcance Cerca y luego volver a usted. Puedes <strong>marca un estrés</strong> para atacar a un adversario adicional dentro del alcance con el mismo tirada de ataque.</p>",
+        "actions": {
+          "TDvWFqAxu7V33UIC": {
+            "description": "<p>Puedes </span><span style=\"box-sizing: border-box; scrollbar-width: thin; scrollbar-color: rgb(93, 20, 43) rgba(0, 0, 0, 0); color: rgb(239, 230, 216); font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(24, 22, 46, 0.376); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial\">marca un estrés</span> para atacar a un adversario adicional dentro del alcance con el mismo tirada de ataque.</p>",
+            "name": "Objetivo Adversario Adicional"
+          }
+        }
+      }
+    },
+    "rKRxFBlkbh9cDK8K": {
+      "_id": "rKRxFBlkbh9cDK8K",
+      "name": "Baluarte",
+      "systemPatch": {
+        "description": "<p>Deseas recibir fuertes golpes y seguir luchando.</p>"
+      }
+    },
+    "95QxNZwgyEm1LqdG": {
+      "_id": "95QxNZwgyEm1LqdG",
+      "name": "Sindicato",
+      "systemPatch": {
+        "description": "<p>Deseas tener una red de contactos a donde quiera que vayas</p>"
+      }
+    },
+    "1nmFmkNXY6OYyyju": {
+      "_id": "1nmFmkNXY6OYyyju",
+      "name": "Profundizar en el caos",
+      "systemPatch": {
+        "description": "<p>Cuando tienes éxito en un ataque, puedes <strong>marca un estrés</strong> después de tirar el daño para forzar al objetivo a marcar un Punto de Golpe adicional.</p>",
+        "actions": {
+          "7Z9v7GWswIQFD5YH": {
+            "description": "<p>Cuando tienes éxito en un ataque, puedes <strong>marca un estrés</strong> después de tirar el daño para forzar al objetivo a marcar un Punto de Golpe adicional.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "th6HZwEFnVBjUtqm": {
+      "_id": "th6HZwEFnVBjUtqm",
+      "name": "Trascendencia",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, puedes transformarte en una manifestación física de tu elemento. Cuando lo haga, describa su transformación y elija dos de los siguientes beneficios para ganar hasta su próximo descanso:</p><ul><li><p>+4 bono a su umbral Severo</p></li><li><p>+1 bono a un rasgo de carácter de su elección</p></li><li><p>+1 bono a su competencia</p></li><li><p>+2 bono a su Evasión</p></li></ul>",
+        "actions": {
+          "RIbyJjEkCgqoDmyn": {
+            "description": "<p>Una vez por descanso prolongado, puedes transformarte en una manifestación física de tu elemento. Cuando lo haga, describa su transformación y elija dos de los siguientes beneficios para ganar hasta su próximo descanso:</p><ul><li><p>+4 bono a su umbral Severo</p></li><li><p>+1 bono a un rasgo de carácter de su elección</p></li><li><p>+1 bono a su competencia</p></li><li><p>+2 bono a su Evasión</p></li></ul>",
+            "name": "Transformar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Bonificación hasta el umbral",
+          "description": "<p><span style=\"box-sizing:border-box;margin:0px;scrollbar-width:thin;scrollbar-color:rgb(93, 20, 43) rgba(0, 0, 0, 0);font-family:Montserrat, sans-serif\">+4 bono a su umbral Severo</p>",
+          "_id": "zFOpzO3tBJPcZcRc"
+        },
+        {
+          "name": "Bonificación al rasgo",
+          "description": "<p><span style=\"box-sizing:border-box;margin:0px;scrollbar-width:thin;scrollbar-color:rgb(93, 20, 43) rgba(0, 0, 0, 0);font-family:Montserrat, sans-serif\">+1 bono a un rasgo de carácter de su elección</p>",
+          "_id": "cTgSmxkTi89y6sbc"
+        },
+        {
+          "name": "Bonificación a la competencia",
+          "description": "<p><span style=\"box-sizing:border-box;margin:0px;scrollbar-width:thin;scrollbar-color:rgb(93, 20, 43) rgba(0, 0, 0, 0);font-family:Montserrat, sans-serif\">+1 bono a su competencia</p>",
+          "_id": "oWf3iXf4dawdbmzd"
+        },
+        {
+          "name": "Bonificación a la evasión",
+          "description": "<p><span style=\"box-sizing:border-box;margin:0px;scrollbar-width:thin;scrollbar-color:rgb(93, 20, 43) rgba(0, 0, 0, 0);font-family:Montserrat, sans-serif\">+2 bono a su Evasión</p>",
+          "_id": "2LCF6lSnWFqNiPs5"
+        }
+      ]
+    },
+    "ld8MIvk0xVJydSBz": {
+      "_id": "ld8MIvk0xVJydSBz",
+      "name": "Trobador",
+      "systemPatch": {
+        "description": "<p>Deseas tocar música para reforzar a tus aliados.</p>"
+      }
+    },
+    "866b2jjyzXP8nPRQ": {
+      "_id": "866b2jjyzXP8nPRQ",
+      "name": "Impávido",
+      "systemPatch": {
+        "description": "<p>Obtenga un bono +3 permanente a sus umbrales de daños.</p>"
+      },
+      "effects": [
+        {
+          "name": "Impávido",
+          "description": "<p>Obtenga un bono +3 permanente a sus umbrales de daños.</p>",
+          "_id": "zggFRaerHCj1e5F5"
+        }
+      ]
+    },
+    "4qP7bNyxVHBmr4Rb": {
+      "_id": "4qP7bNyxVHBmr4Rb",
+      "name": "Inexorable",
+      "systemPatch": {
+        "description": "<p>Obtener un bono +2 permanente a sus umbrales de daños.</p>"
+      },
+      "effects": [
+        {
+          "name": "Inexorable",
+          "description": "<p>Obtener un bono +2 permanente a sus umbrales de daños.</p>",
+          "_id": "IKb6yutns8EJZ49M"
+        }
+      ]
+    },
+    "WBiFZaYNoQNhysmN": {
+      "_id": "WBiFZaYNoQNhysmN",
+      "name": "Sin flaquear",
+      "systemPatch": {
+        "description": "<p>Obtenga un bono +1 permanente a sus umbrales de daños.</p>"
+      },
+      "effects": [
+        {
+          "name": "Sin flaquear",
+          "description": "<p>Obtenga un bono +1 permanente a sus umbrales de daños.</p>",
+          "_id": "3wexvo6La4V46aiX"
+        }
+      ]
+    },
+    "iyIg1VLwO8C6jvFZ": {
+      "_id": "iyIg1VLwO8C6jvFZ",
+      "name": "Ley de desaparición",
+      "systemPatch": {
+        "description": "<p><strong>Marcar un estrés</strong> para volverse encubierto en cualquier momento. Cuando se oculta de esta función, se borra automáticamente la condición de restricción si la tiene. Permanecéis encubiertos de esta manera hasta que tiradaéis con Miedo o hasta vuestro próximo descanso.</p>",
+        "actions": {
+          "BjAECQULugmbVqXU": {
+            "description": "<p><strong>Marcar un estrés</strong> para volverse encubierto en cualquier momento. Cuando se oculta de esta función, se borra automáticamente la condición de restricción si la tiene. Permanecéis encubiertos de esta manera hasta que tiradaéis con Miedo o hasta vuestro próximo descanso.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Ley de desaparición: Cubiertos",
+          "description": "<p>Cuando se oculta de esta función, se borra automáticamente la condición de restricción si la tiene. Permanecéis encubiertos de esta manera hasta que tiradaéis con Miedo o hasta vuestro próximo descanso.</p>",
+          "_id": "czrwqq44sEr0uJ8O"
+        }
+      ]
+    },
+    "SUo8NPBPO8aN193u": {
+      "_id": "SUo8NPBPO8aN193u",
+      "name": "Vengador",
+      "systemPatch": {
+        "description": "<p>Desean atacar a los enemigos que les hacen daño a ustedes o a sus aliados.</p>"
+      }
+    },
+    "kn2t409o0FDFQieo": {
+      "_id": "kn2t409o0FDFQieo",
+      "name": "Virtuoso",
+      "systemPatch": {
+        "description": "<p>Estás entre los más grandes de tu oficio y tu habilidad es ilimitada. Usted puede realizar cada uno de sus <strong>\"Intérprete rendido\"</strong> canciones de la característica <strong>dos veces por descanso prolongado.</strong></p>"
+      }
+    },
+    "xp0XMjYT85Q7E90o": {
+      "_id": "xp0XMjYT85Q7E90o",
+      "name": "Custodio de la renovación",
+      "systemPatch": {
+        "description": "<p>Deseas usar magia poderosa para sanar tu fiesta.</p>"
+      }
+    },
+    "W9hs5kxOWeY7eA4Q": {
+      "_id": "W9hs5kxOWeY7eA4Q",
+      "name": "Custodio de los elementos",
+      "systemPatch": {
+        "description": "<p>Desea encarnar los elementos naturales de la naturaleza.</p>"
+      }
+    },
+    "2F1bUFY80oce97C9": {
+      "_id": "2F1bUFY80oce97C9",
+      "name": "Protección del alcaide",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, gasta 2 Esperanza para limpiar 2 Puntos de Golpe en 1d4 aliados dentro de alcance Cerca.</p>",
+        "actions": {
+          "ozYzhQfRt5sp19di": {
+            "description": "<p>Una vez por descanso prolongado, gasta 2 Esperanza para limpiar 2 Puntos de Golpe en [[/r 1d4]] aliados dentro de alcance Cerca.</p>",
+            "name": "Curación"
+          }
+        }
+      }
+    },
+    "zsUglcU4NgZ8tNgZ": {
+      "_id": "zsUglcU4NgZ8tNgZ",
+      "name": "Guía",
+      "systemPatch": {
+        "description": "<p>Desea cazar a su presa y atacar con fuerza mortal.</p>"
+      }
+    },
+    "HAqtoKUTrk8Mip1n": {
+      "_id": "HAqtoKUTrk8Mip1n",
+      "name": "Especialista en armas",
+      "systemPatch": {
+        "description": "<p>Puedes empuñar múltiples armas con peligrosa facilidad. Cuando tienes éxito en un ataque, puedes <strong>pasar una esperanza</strong> para añadir uno de los dados de daño de su arma secundaria al tirada de daño. Además, una vez por descanso prolongado cuando enrollas tus dados de Slayer, vuelve a tirar cualquier 1s.</p>",
+        "actions": {
+          "vay9rVXJS3iksaVR": {
+            "description": "<p>Puedes empuñar múltiples armas con peligrosa facilidad. Cuando tienes éxito en un ataque, puedes <strong>pasar una esperanza</strong> para añadir uno de los dados de daño de su arma secundaria al tirada de daño.</p>",
+            "name": "Gasta esperanza"
+          },
+          "1bBFfxmywJpx5tfk": {
+            "description": "<p>Además, una vez por descanso prolongado cuando enrollas tus dados de Slayer, vuelve a tirar cualquier 1s.</p>",
+            "name": "Volver a tirar"
+          }
+        }
+      }
+    },
+    "7KnSOazixXXSnspj": {
+      "_id": "7KnSOazixXXSnspj",
+      "name": "Bien conectado",
+      "systemPatch": {
+        "description": "<p>Cuando llegas a una ciudad o entorno prominente, conoces a alguien que llama hogar a este lugar. Darles un nombre, anotar cómo usted piensa que podrían ser útiles, y elegir un hecho de la siguiente lista: </p><ul><li><p>Me deben un favor, pero serán difíciles de encontrar.</p></li><li><p>Van a pedir algo a cambio. </p></li><li><p>Siempre están en una gran cantidad de problemas. </p></li><li><p>Solíamos estar juntos. Es una larga historia. </p></li><li><p>No nos separamos en grandes términos.</p></li></ul>"
+      }
+    },
+    "y7ERWRIpJsdP9Re4": {
+      "_id": "y7ERWRIpJsdP9Re4",
+      "name": "Centinela alado",
+      "systemPatch": {
+        "description": "<p>Juega el centinela alado si quieres tomar vuelo y golpear golpes aplastantes desde el cielo.</p>"
+      }
+    },
+    "KkQH0tYhagIqe2MT": {
+      "_id": "KkQH0tYhagIqe2MT",
+      "name": "Alas de Luz",
+      "systemPatch": {
+        "description": "<p>Puedes volar. Durante el vuelo, usted puede hacer lo siguiente:</p><ul><li><p>Marque un Estrés para recoger y llevar a otra criatura dispuesta aproximadamente de su tamaño o más pequeño.</p></li><li><p>Gaste una esperanza para hacer un daño adicional 1d8 en un ataque exitoso.</p></li></ul>",
+        "actions": {
+          "rg2sLCTqY2rTo861": {
+            "description": "<p>Marque un Estrés para recoger y llevar a otra criatura dispuesta aproximadamente de su tamaño o más pequeño.</p>",
+            "name": "Marcar Estrés"
+          },
+          "1qjnoz5I7NqrWMkp": {
+            "description": "<p>Gaste una esperanza para hacer un daño adicional 1d8 en un ataque exitoso.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Alas de Luz",
+          "description": "<p>Dar un daño adicional 1d8 en un ataque exitoso.</p>",
+          "_id": "PfCwuVbKLxhnrm9X"
+        }
+      ]
+    },
+    "XTSODVM8st75Os8M": {
+      "_id": "XTSODVM8st75Os8M",
+      "name": "Forjapalabras",
+      "systemPatch": {
+        "description": "<p>Usted desea utilizar juego de palabras inteligente y cautivar a las multitudes.</p>"
+      }
+    },
+    "Accomplished": {
+      "_id": "0wCctRupJAv5hTuE",
+      "name": "Realizadas",
+      "systemPatch": {
+        "description": "<p>Tome una tarjeta de dominio adicional de su nivel o inferior de un dominio al que tiene acceso.</p>"
+      }
+    },
+    "Act of Reprisal": {
+      "_id": "k7vvMJtEcxMWUUrW",
+      "name": "Acto de represalia",
+      "systemPatch": {
+        "description": "<p>Cuando un adversario daña a un aliado dentro del alcance Cuerpo a cuerpo, usted gana un bono +1 a su competencia para el próximo ataque exitoso que usted hace contra ese adversario.</p>",
+        "actions": {
+          "yalzg4VRmZvakshJ": {
+            "description": "<p>Cuando un adversario daña a un aliado dentro del alcance Cuerpo a cuerpo, usted gana un bono +1 a su competencia para el próximo ataque exitoso que usted hace contra ese adversario.</p>",
+            "name": "Marca Adversario"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Acto de represalia",
+          "_id": "9Uo0yOYGn3vandPp"
+        }
+      ]
+    },
+    "Adept": {
+      "_id": "v511C6GMShsBblah",
+      "name": "Adepto",
+      "systemPatch": {
+        "description": "<p>Cuando usted utiliza una experiencia, usted puede <strong>marca un estrés</strong> en lugar de gastar una esperanza. Si lo haces, dobla tu modificador de Experiencia para ese tirada.</p>",
+        "actions": {
+          "FOl7kaOG6DFWIpMm": {
+            "description": "<p>Cuando usted utiliza una experiencia, usted puede <strong>marca un estrés</strong> en lugar de gastar una esperanza. Si lo haces, dobla tu modificador de Experiencia para ese tirada.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "Adrenaline": {
+      "_id": "uByM34yQlw38yf1V",
+      "name": "Adrenalina",
+      "systemPatch": {
+        "description": "<p>Mientras seas vulnerable, agrega tu nivel a tus tiradas de daño.</p>"
+      },
+      "effects": [
+        {
+          "name": "Adrenalina",
+          "description": "<p>Mientras seas vulnerable, agrega tu nivel a tus tiradas de daño.</p>",
+          "_id": "HMx9uZ54mvMiH95x"
+        }
+      ]
+    },
+    "Advanced Training": {
+      "_id": "uGcs785h94RMtueH",
+      "name": "Capacitación avanzada",
+      "systemPatch": {
+        "description": "<p>Elija dos opciones de nivelación adicionales para su compañero.</p>"
+      },
+      "effects": [
+        {
+          "name": "Capacitación avanzada",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.565);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Elija dos opciones de nivelación adicionales para su compañero.</span></p>",
+          "_id": "bKOuMxhB2Jth3j2T"
+        }
+      ]
+    },
+    "Apex Predator": {
+      "_id": "lwH3E0Zyf4gbVOd0",
+      "name": "Depredador Alfa",
+      "systemPatch": {
+        "description": "<p>Antes de hacer una tirada de ataque contra su Focus, usted puede pasar una Esperanza. En un ataque exitoso, se elimina un Miedo de la piscina de miedo del DJ.</p>",
+        "actions": {
+          "LHDsuveQznbcFUhV": {
+            "description": "<p>Antes de hacer una tirada de ataque contra su Focus, usted puede pasar una Esperanza. En un ataque exitoso, se elimina un Miedo de la piscina de miedo del DJ.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      }
+    },
+    "Arcane Charge": {
+      "_id": "yA4MKQ1tbKFiJoDB",
+      "name": "Carga arcana",
+      "systemPatch": {
+        "description": "<p>Usted puede reunir energía mágica para mejorar sus capacidades. Cuando tomas daño mágico, te vuelves Cargado. Alternativamente, puedes gastar 2 Esperanza para convertirte en Charged. Cuando usted hace con éxito un ataque que hace daño mágico mientras se carga, usted puede limpiar su carga para ganar un bono +10 al tirada de daño o ganar un bono +3 a la dificultad de una tirada de reacción el hechizo causa que el objetivo para hacer. Deja de ser acusado en tu próximo descanso prolongado.</p>"
+      },
+      "effects": [
+        {
+          "name": "Cargado",
+          "description": "<p>Cuando usted hace con éxito un ataque que hace daño mágico mientras se carga, usted puede limpiar su carga para ganar un bono +10 al tirada de daño o ganar un bono +3 a la dificultad de una tirada de reacción el hechizo causa que el objetivo para hacer. Deja de ser acusado en tu próximo descanso prolongado.</p>",
+          "_id": "z49V45ir45HGHOBB"
+        }
+      ]
+    },
+    "Ascendant": {
+      "_id": "fefLgx6kcYWusjBb",
+      "name": "Ascendente",
+      "systemPatch": {
+        "description": "<p>Obtenga un bono +4 permanente a su umbral de daños severos.</p>"
+      },
+      "effects": [
+        {
+          "name": "Ascendente",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Obtenga un bono +4 permanente a su umbral de daños severos.</p>",
+          "_id": "7M8UsvVweRtT3E85"
+        }
+      ]
+    },
+    "At Ease": {
+      "_id": "xPWFvGvtUjIcqgJq",
+      "name": "En facilidad",
+      "systemPatch": {
+        "description": "<p>Obtener una ranura de estrés adicional.</p>"
+      },
+      "effects": [
+        {
+          "name": "En facilidad",
+          "description": "<p>Obtener una ranura de estrés adicional.</p>",
+          "_id": "xbS4Lr3dWpXUCHEi"
+        }
+      ]
+    },
+    "Battle Ritual": {
+      "_id": "qqb5acyUSl1sCpWW",
+      "name": "Ritual de batalla",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, antes de intentar algo increíblemente peligroso o enfrentarte a un enemigo que claramente te supera, describe el ritual que realizas o los preparativos que haces. Cuando lo hagas, limpia 2 Estrés y gana 2 Esperanza.</p>",
+        "actions": {
+          "UdZx74Vcz6ip4Plh": {
+            "description": "<p>Una vez por descanso prolongado, antes de intentar algo increíblemente peligroso o enfrentarte a un enemigo que claramente te supera, describe el ritual que realizas o los preparativos que haces. Cuando lo hagas, limpia 2 Estrés y gana 2 Esperanza.</p>",
+            "name": "Preparar"
+          }
+        }
+      }
+    },
+    "Battle-Bonded": {
+      "_id": "hWsKyed1vfILg0I8",
+      "name": "Combate en bonded",
+      "systemPatch": {
+        "description": "<p>Cuando un adversario te ataca mientras están dentro de la gama Cuerpo a cuerpo de tu compañero, obtienes un bono de +2 a tu Evasión contra el ataque.</p>"
+      },
+      "effects": [
+        {
+          "name": "Encadenado a la batalla",
+          "description": "<p>Cuando un adversario te ataca mientras están dentro de la gama Cuerpo a cuerpo de tu compañero, obtienes un bono de +2 a tu Evasión contra el ataque.</p>",
+          "_id": "IZhakv6EuG8DO4a3"
+        }
+      ]
+    },
+    "Battlemage": {
+      "_id": "Y9eGMewnFZgPvX0M",
+      "name": "Mago de batalla",
+      "systemPatch": {
+        "description": "<p>Has centrado tus estudios en convertirte en una fuerza inconquistable en el campo de batalla. Obtener una ranura adicional de Punto de Golpe.</p>"
+      },
+      "effects": [
+        {
+          "name": "Mago de batalla",
+          "description": "<p>Obtener una ranura adicional de Punto de Golpe.</p>",
+          "_id": "6jjKzvBxAJTHHGoX"
+        }
+      ]
+    },
+    "Beastbound": {
+      "_id": "TIUsIlTS1WkK5vr2",
+      "name": "Vinculabestias",
+      "systemPatch": {
+        "description": "<p>Desea formar un vínculo profundo con un aliado animal.</p>"
+      }
+    },
+    "Brilliant": {
+      "_id": "2A0HBDxGc4gEARou",
+      "name": "Brillante",
+      "systemPatch": {
+        "description": "<p>Tome una tarjeta de dominio adicional de su nivel o inferior de un dominio al que tiene acceso.</p>"
+      }
+    },
+    "Call Of The Brave": {
+      "_id": "NAFU9roaVG7f3RNJ",
+      "name": "Llamado del valor",
+      "systemPatch": {
+        "description": "<p>Juega el Llamada de los Valientes si quieres usar el poder de tus enemigos para alimentar tu propio poder. </p>"
+      }
+    },
+    "Call Of The Slayer": {
+      "_id": "bcNe5qP3o6CKadhK",
+      "name": "Llamado del verdugo",
+      "systemPatch": {
+        "description": "<p>Juega la Llamada de la Cazadora si quieres derribar adversarios con inmensa fuerza.</p>"
+      }
+    },
+    "Clarity of Nature": {
+      "_id": "etaQ01yGJhBLDUqZ",
+      "name": "Claridad de la Naturaleza",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, puede crear un espacio de serenidad natural dentro de alcance Cerca. Cuando pasas unos minutos descansando dentro del espacio, limpia el Estrés igual a tu Instinto, distribuido a medida que eliges entre tú y tus aliados.</p>",
+        "actions": {
+          "az7YUpxy1ysn12tO": {
+            "description": "<p>Una vez por descanso prolongado, puede crear un espacio de serenidad natural dentro de alcance Cerca. Cuando pasas unos minutos descansando dentro del espacio, limpia el Estrés igual a tu Instinto, distribuido a medida que eliges entre tú y tus aliados.</p>",
+            "name": "Estrés claro"
+          }
+        }
+      }
+    },
+    "Comaraderie": {
+      "_id": "dArl2cxKIEGTicXU",
+      "name": "Camaradería",
+      "systemPatch": {
+        "description": "<p>Tu inquebrantable valentía es un punto de encuentro para tus aliados. Puede iniciar un Tag Team Tirada una vez más por sesión. Además, cuando un aliado inicia un Tag Team Tirada contigo, solo necesitan gastar 2 Esperanza para hacerlo.</p>",
+        "actions": {
+          "eBSXC0l2IrRb1F8f": {
+            "description": "<p>Puede iniciar un Tag Team Tirada una vez más por sesión.</p>",
+            "name": "Camaradería"
+          }
+        }
+      }
+    },
+    "Companion": {
+      "_id": "MBFXxIEwc0Dl4kJg",
+      "name": "Acompañante",
+      "systemPatch": {
+        "description": "<p>Usted tiene un compañero animal de su elección (a discreción del DJ). Se quedan a tu lado a menos que les digas lo contrario. Toma la hoja de Ranger Companion. Al nivelar su personaje, elija una opción de nivel para su compañero de esta hoja también.</p>"
+      }
+    },
+    "Conjure Shield": {
+      "_id": "oirsCnN66GOlK3Fa",
+      "name": "Conjurar Escudo",
+      "systemPatch": {
+        "description": "<p>Puedes mantener una barrera protectora de la magia. Si bien tienes al menos 2 Esperanza, agregas tu competencia a tu Evasión. </p>"
+      },
+      "effects": [
+        {
+          "name": "Conjurar Escudo",
+          "description": "<p>Si bien tienes al menos 2 Esperanza, agregas tu competencia a tu Evasión.</p>",
+          "_id": "0i7GVOvjH6bK5AUM"
+        }
+      ]
+    },
+    "Contacts Everywhere": {
+      "_id": "cXbRm744mW6UXGam",
+      "name": "Contactos en todas partes",
+      "systemPatch": {
+        "description": "<p>Una vez por sesión, puede llamar brevemente a un contacto turbio. Elija uno de los siguientes beneficios y describa lo que los trajo aquí para ayudarle en este momento: </p><ul><li><p>Proporcionan 1 puñado de oro, una herramienta única, o un objeto mundano que la situación requiere.</p></li><li><p>En su próximo tirada de acción, su ayuda proporciona un bono +3 al resultado de su Esperanza or Dado de Miedo. </p></li><li><p>La próxima vez que hagas daño, se rascan de las sombras, añadiendo 2d8 a tu tirada de daño.</p></li></ul>",
+        "actions": {
+          "GZDYjtPh0lCJ5VNq": {
+            "description": "<p>Una vez por sesión, puede llamar brevemente a un contacto turbio. Elija uno de los siguientes beneficios y describa lo que los trajo aquí para ayudarle en este momento:</p><ul><li><p>Proporcionan 1 puñado de oro, una herramienta única, o un objeto mundano que la situación requiere.</p></li><li><p>En su próximo tirada de acción, su ayuda proporciona un bono +3 al resultado de su Esperanza or Dado de Miedo.</p></li><li><p>La próxima vez que hagas daño, se rascan de las sombras, añadiendo 2d8 a tu tirada de daño.</p></li></ul>",
+            "name": "Usar la característica"
+          }
+        }
+      }
+    },
+    "Courage": {
+      "_id": "o5j2vjXU8NicYlXx",
+      "name": "Valor",
+      "systemPatch": {
+        "description": "<p>Cuando fallas una tirada con el miedo, ganas una esperanza.</p>"
+      }
+    },
+    "Dark Cloud": {
+      "_id": "frBTtNMX9Y2gkuPz",
+      "name": "Nube oscura",
+      "systemPatch": {
+        "description": "<p>Marca <strong>a Tirada de hechizos (15)</strong>. En un éxito, crear una nube oscura temporal que cubra cualquier área dentro de alcance Cerca. Cualquier persona en esta nube no puede ver fuera de ella, y cualquier persona fuera de ella no puede ver en. Usted es considerado encubierto de cualquier adversario para quien la nube bloquea la línea de visión.</p><p>@Template[type:emanation|range:c]</p>",
+        "actions": {
+          "nIgBwYfAVAJ98lzb": {
+            "description": "<p>Marca <strong>a Tirada de hechizos (15)</strong>. En un éxito, crear una nube oscura temporal que cubra cualquier área dentro de alcance Cerca. Cualquier persona en esta nube no puede ver fuera de ella, y cualquier persona fuera de ella no puede ver en. Usted es considerado encubierto de cualquier adversario para quien la nube bloquea la línea de visión.</p><p>@Template[type:emanation|range:c]</p>",
+            "name": "Reparto ortográfico: Nube oscura"
+          }
+        }
+      }
+    },
+    "Defender": {
+      "_id": "Jdktv5p1K2PfgxrT",
+      "name": "Defensor",
+      "systemPatch": {
+        "description": "<p>Tu transformación animal encarna un espíritu guardián sanador. Cuando estás en Beastform y un aliado dentro de alcance Cerca marca 2 o más Puntos de Golpe, puedes marcar un Estrés para reducir el número de Puntos de Golpe que marcan en 1.</p>",
+        "actions": {
+          "9WxcZ3BuXUKfqUMz": {
+            "description": "<p>Cuando estás en Beastform y un aliado dentro de alcance Cerca marca 2 o más Puntos de Golpe, puedes marcar un Estrés para reducir el número de Puntos de Golpe que marcan en 1.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "Devout": {
+      "_id": "J3A7ycmj65hlhWnI",
+      "name": "Devoto",
+      "systemPatch": {
+        "description": "<p>Cuando usted enrolla sus dados de oración, usted puede tirar un dado adicional y desechar el resultado más bajo. Además, puede utilizar su función “Sparing Touch” dos veces en lugar de una vez por descanso prolongado.</p>"
+      }
+    },
+    "Divine Wielder": {
+      "_id": "M5mpGoAj8LRkylrY",
+      "name": "Portador divino",
+      "systemPatch": {
+        "description": "<p>Juegue al Advenedizo Divino si quiere dominar el campo de batalla con un arma legendaria.</p>"
+      }
+    },
+    "Elemental Aura": {
+      "_id": "2JH9NaOh69yN80Gw",
+      "name": "Aura elemental",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso mientras Canalizas, puedes asumir un aura que coincida con tu elemento. El aura afecta a objetivos dentro de un alcance Cerca hasta que su Canalización termina.</p><ul><li><p><strong>Fuego</strong>: Cuando un adversario marca 1 o más Puntos de Golpe, también debe marcar un estrés.</p></li><li><p><strong>Tierra</strong>: Tus aliados ganan un bono +1 a Fuerza.</p></li><li><p><strong>Agua</strong>: Cuando un adversario te hace daño, puedes marcar un Estrés para moverlos a cualquier lugar dentro de un rango muy estrecho de donde están.</p></li><li><p><strong>Aire</strong>: Cuando usted o un aliado reciba daños de un ataque más allá del alcance Cuerpo a cuerpo, reduzca el daño por 1d8.</p></li></ul>",
+        "actions": {
+          "AdOnKhi7g6zQu2iv": {
+            "description": "<p>Cuando un adversario marca 1 o más Puntos de Golpe, también debe marcar un estrés.</p>",
+            "name": "Fuego"
+          },
+          "xDBLH5TWidvrYF7z": {
+            "description": "<p>Cuando un adversario marca 1 o más Puntos de Golpe, también debe marcar un estrés.</p>",
+            "name": "Tierra"
+          },
+          "S4t5HlgxWlHwaBDw": {
+            "description": "<p>Cuando un adversario te hace daño, puedes marcar un Estrés para moverlos a cualquier lugar dentro de un rango muy estrecho de donde están.</p>",
+            "name": "Agua"
+          },
+          "hAsKFFewtTqd1gg9": {
+            "description": "<p>Cuando usted o un aliado reciba daños de un ataque más allá del alcance Cuerpo a cuerpo, reduzca el daño por 1d8.</p>",
+            "name": "Aire"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Aura elemental (Tierra)",
+          "_id": "WRuijfHxmUscAa69"
+        },
+        {
+          "name": "Aura elemental (agua)",
+          "_id": "H7W52ps5d3UGmaFr"
+        },
+        {
+          "name": "Aura elemental (Fuego)",
+          "_id": "WX5AMEpmUAutB9Hm"
+        },
+        {
+          "name": "Aura elemental (Air)",
+          "_id": "mJBA2QTyM9SM5NVS"
+        }
+      ]
+    },
+    "Elemental Dominion": {
+      "_id": "EFUJHrkTuyv8uA9l",
+      "name": "Dominio elemental",
+      "systemPatch": {
+        "description": "<p>Más aún encarnas tu elemento. Mientras que Channeling, usted obtiene el beneficio siguiente:</p><ul><li><p><strong>Fuego</strong>: Usted gana un bono +1 a su competencia para los ataques y hechizos que causan daño.</p></li><li><p><strong>Tierra</strong>: Cuando marque los Puntos de Golpe, haga tirar un d6 por Punto de Golpe marcado. Para cada resultado de 6, reducir el número de Puntos de Golpe que marca por 1.</p></li><li><p><strong>Agua</strong>: Cuando un ataque contra usted tiene éxito, puede marcar un Estrés para hacer al atacante temporalmente vulnerable.</p></li><li><p><strong>Aire</strong>: Usted gana un bono +1 a su Evasión y puede volar</p></li></ul>",
+        "actions": {
+          "ofdSzqY7IfAy5ayv": {
+            "description": "<p>Usted gana un bono +1 a su competencia para los ataques y hechizos que causan daño.</p>",
+            "name": "Fuego"
+          },
+          "knGm3snaplWYDaue": {
+            "description": "<p>Cuando marque los Puntos de Golpe, haga tirar un d6 por Punto de Golpe marcado. Para cada resultado de 6, reducir el número de Puntos de Golpe que marca por 1.</p>",
+            "name": "Tierra"
+          },
+          "MocaqHUdyVwH0ZFu": {
+            "description": "<p>Cuando un ataque contra usted tiene éxito, puede marcar un Estrés para hacer al atacante temporalmente vulnerable.</p>",
+            "name": "Agua"
+          },
+          "AQMNJRmVyhJTSCfR": {
+            "description": "<p>Usted gana un bono +1 a su Evasión y puede volar.</p>",
+            "name": "Aire"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Dominio elemental (Fuego)",
+          "description": "<p>Usted gana un bono +1 a su competencia para los ataques y hechizos que causan daño.</p>",
+          "_id": "FoBFRSXRfGa1zkiX"
+        },
+        {
+          "name": "Dominio elemental (agua)",
+          "description": "<p>Cuando un ataque contra usted tiene éxito, puede marcar un Estrés para hacer al atacante temporalmente vulnerable.</p>",
+          "_id": "bGwFZZT4juuaIRmZ"
+        },
+        {
+          "name": "Dominio elemental (aire)",
+          "description": "<p>Usted gana un bono +1 a su Evasión y puede volar</p>",
+          "_id": "edF2zvvlcGf54r2n"
+        },
+        {
+          "name": "Dominio elemental (Tierra)",
+          "_id": "p5FoUb4JKQFP405d"
+        }
+      ]
+    },
+    "Elemental Incarnation": {
+      "_id": "f37TTgCc0Q3Ih1A1",
+      "name": "Encarnación elemental",
+      "systemPatch": {
+        "description": "<p>Marca un Estrés para Canalizar uno de los siguientes elementos hasta que tomes Daño severo o hasta tu siguiente descanso:</p><ul><li><p><strong>Fuego</strong>: Cuando un adversario dentro de la gama Cuerpo a cuerpo te hace daño, toman 1d10 mágico daño.</p></li><li><p><strong>Tierra</strong>: Obtener un bono a sus umbrales de daño igual a su competencia.</p></li><li><p><strong>Wate</strong>r: Cuando usted hace daño a un adversario dentro del alcance Cuerpo a cuerpo, todos los demás adversarios dentro del rango de Muy Cerca deben marcar un Estrés. </p></li><li><p><strong>Aire</strong>: Puedes flotar, ganando ventaja en Agilidad Tiradas.</p></li></ul>",
+        "actions": {
+          "wVGSzAnJGs5eXKqI": {
+            "description": "<p>Cuando un adversario dentro de la gama Cuerpo a cuerpo te hace daño, toman @Damage[type:magical|value:1d10].</p>",
+            "name": "Fuego"
+          },
+          "6QXTThhnJpGDIvhJ": {
+            "description": "<p>Obtener un bono a sus umbrales de daño igual a su competencia.</p>",
+            "name": "Tierra"
+          },
+          "pY2EdEMoyLGYWjK5": {
+            "description": "<p>Cuando usted hace daño a un adversario dentro del alcance Cuerpo a cuerpo, todos los demás adversarios dentro del rango de Muy Cerca deben marcar un Estrés.</p><p>@Template[type:emanation|range:vc]</p>",
+            "name": "Agua"
+          },
+          "uk8EgHMxCgoWENzt": {
+            "description": "<p>Puedes flotar, ganando ventaja en Agilidad Tiradas.</p>",
+            "name": "Aire"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Encarnación elemental (Tierra)",
+          "_id": "7xyUtUbBk5jbNnqY"
+        },
+        {
+          "name": "Encarnación elemental (Aire)",
+          "description": "<p>Puedes flotar, ganando ventaja en Agilidad Tiradas.</p>",
+          "_id": "3ck6CeapLxQVjE2W"
+        },
+        {
+          "name": "Encarnación elemental (agua)",
+          "_id": "Jy6dpEbzkZ2eRDf5"
+        },
+        {
+          "name": "Encarnación elemental (Fuego)",
+          "_id": "ANle8tuOEZIevTWv"
+        }
+      ]
+    },
+    "Elemental Origin": {
+      "_id": "wg1H0hROc2acHwZh",
+      "name": "Origen elemental",
+      "systemPatch": {
+        "description": "<p>Juega el Origen Elemental si quieres canalizar la magia cruda a</p><p>tomar la forma de un elemento particular</p>"
+      }
+    },
+    "Elementalist": {
+      "_id": "dPcqKN5NeDkjB1HW",
+      "name": "Elementalista",
+      "systemPatch": {
+        "description": "<p>Elija uno de los siguientes elementos en la creación de caracteres: aire, tierra, fuego, relámpagos, agua.</p><p>Usted puede dar forma a este elemento en efectos inofensivos. Además, <strong>pasar una esperanza</strong> y describir cómo su control sobre este elemento ayuda a una tirada de acción que está a punto de hacer, a continuación, ganar un bono +2 al tirada o un bono +3 a los daños del tirada.</p>",
+        "actions": {
+          "rxuFLfHP1FILDpds": {
+            "description": "<p>S<strong>una esperanza</strong> y describir cómo su control sobre este elemento ayuda a una tirada de acción que está a punto de hacer, ganar un bono +2 al tirada.</p>",
+            "name": "Bono a tirar"
+          },
+          "S7HvFD3qIR3ifJRL": {
+            "description": "<p>S<strong>una esperanza</strong> y describir cómo su control sobre este elemento ayuda a una tirada de acción que está a punto de hacer, ganar un bono +3 para el daño del tirada.</p>",
+            "name": "Bonificación por daños"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Bono a tirar",
+          "description": "<p>+2 a una tirada de acción</p>",
+          "_id": "EY87mY6ULfIt3XC8"
+        },
+        {
+          "name": "Bonificación por daños",
+          "description": "<p>+3 a daños</p>",
+          "_id": "WwibpgaO6Kkks7aZ"
+        }
+      ]
+    },
+    "Eloquent": {
+      "_id": "5bmB1YcxiJVNVXDM",
+      "name": "Elocuente",
+      "systemPatch": {
+        "description": "<p>Tus conmovedoras palabras estimulan la moral. Una vez por sesión, cuando usted anima a un aliado, usted puede hacer uno de los siguientes: </p><ul><li><p>Permítales encontrar un objeto mundano o una herramienta que necesiten.</p></li><li><p>Ayuda a un aliado sin gastar Esperanza.</p></li><li><p>Darles un movimiento adicional de tiempo de inactividad durante su próximo descanso.</p></li></ul>",
+        "actions": {
+          "o1MWnafbLsXnvSUl": {
+            "name": "Usar la característica"
+          }
+        }
+      }
+    },
+    "Elusive Predator": {
+      "_id": "Cjtc43V3IzAmfIFG",
+      "name": "Depredador elusivo",
+      "systemPatch": {
+        "description": "<p>Cuando tu Focus hace un ataque contra ti, obtienes un bono de +2 a tu Evasión contra el ataque.</p>"
+      },
+      "effects": [
+        {
+          "name": "Depredador elusivo",
+          "description": "<p>Cuando tu Focus hace un ataque contra ti, obtienes un bono de +2 a tu Evasión contra el ataque.</p>",
+          "_id": "X4llFOcAcdJLbear"
+        }
+      ]
+    },
+    "Enchanted Aid": {
+      "_id": "4pVBN8cuKePI423V",
+      "name": "Ayuda encantada",
+      "systemPatch": {
+        "description": "<p>Puedes realzar la magia de los demás con tu esencia. Cuando usted ayuda a un aliado con una tirada de lanzamiento de conjuros, usted puede tirar un <strong>d8</strong> como tu ventaja muere. Una vez por descanso prolongado, después de que un aliado ha hecho una tirada de lanzamiento de conjuros con su ayuda, puede intercambiar los resultados de sus dados de dualidad.</p>",
+        "actions": {
+          "n8wSqR967o0pZDLR": {
+            "description": "<p>Una vez por descanso prolongado, después de que un aliado ha hecho una tirada de lanzamiento de conjuros con su ayuda, puede intercambiar los resultados de sus dados de dualidad.</p>",
+            "name": "Resultados del intercambio de dados"
+          }
+        }
+      }
+    },
+    "Epic Poetry": {
+      "_id": "eCoEWkWuZPMZ9C6a",
+      "name": "Poesía épica",
+      "systemPatch": {
+        "description": "<p>Su Rally Die aumenta a un d10. Además, cuando ayudas a un aliado, puedes narrar el momento como si estuvieras escribiendo la historia de su heroísmo en una memoria. Cuando lo hagas, lanza un d10 como tu ventaja muere.</p>"
+      },
+      "effects": [
+        {
+          "name": "Inspirar:d10",
+          "description": "<p>El rally muere aumentado a d10.</p>",
+          "_id": "RSmscgGyuHJucF6C"
+        }
+      ]
+    },
+    "Ethereal Visage": {
+      "_id": "tyGB6wRKjYdIBK1i",
+      "name": "Visado Etéreo",
+      "systemPatch": {
+        "description": "<p>Tu cara sobrenatural sorprende y teme. Mientras vuelas, tienes ventaja en Presencia Tiradas. Cuando tienes éxito con Esperanza on a tirada de Presencia, puedes eliminar un Miedo del grupo de Miedo del DJ en lugar de ganar Esperanza.</p>"
+      },
+      "effects": [
+        {
+          "name": "Visado Etéreo",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Mientras vuelas, tienes ventaja en Presencia Tiradas.</p>",
+          "_id": "Ns1DcQ8wo47LhlL3"
+        }
+      ]
+    },
+    "Expert Training": {
+      "_id": "iCXtOWBKv1FdKdWz",
+      "name": "Capacitación de expertos",
+      "systemPatch": {
+        "description": "<p>Elija una opción de nivelación adicional para su compañero.</p>"
+      },
+      "effects": [
+        {
+          "name": "Capacitación de expertos",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.565);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Elija una opción de nivelación adicional para su compañero.</span></p>",
+          "_id": "rknTONvaUDZ2Yz1W"
+        }
+      ]
+    },
+    "Face Your Fear": {
+      "_id": "D3ffFWSXCza4WGcM",
+      "name": "Enfréntate a tu miedo",
+      "systemPatch": {
+        "description": "<p>Cuando usted tiene éxito con el miedo en una tirada de ataque, usted negocia un extra <strong>1d10</strong> daño mágico.</p>"
+      }
+    },
+    "Fleeting Shadow": {
+      "_id": "EY7Eo6hNGppVL3dR",
+      "name": "Sombra fugaz",
+      "systemPatch": {
+        "description": "<p>Gana un bono +1 permanente para tu Evasión. Puede utilizar su función “Shadow Stepper” para moverse dentro de un rango muy lejano.</p>"
+      },
+      "effects": [
+        {
+          "name": "Sombra fugaz",
+          "description": "<p>Gana un bono +1 permanente para tu Evasión. Puede utilizar su función “Shadow Stepper” para moverse dentro de un rango muy lejano.</p>",
+          "_id": "hsEwoHkNr2qVwm2H"
+        }
+      ]
+    },
+    "Fueled by Fear": {
+      "_id": "hNqLf3zEfKRzSbvq",
+      "name": "Alimentado por el miedo",
+      "systemPatch": {
+        "description": "<p>El daño mágico extra de su característica “Cara su miedo” aumenta a <strong>2d10</strong>.</p>"
+      }
+    },
+    "Gifted Performer": {
+      "_id": "99U7YWNCxFZHCiT0",
+      "name": "Intérprete dotado",
+      "systemPatch": {
+        "description": "<p>Puedes tocar tres tipos diferentes de canciones, una vez cada uno por descanso prolongado; Describa cómo actúa para que otros obtengan el beneficio que se indica: </p><ul><li><p><strong>Canción relajante:</strong> Tú y todos los aliados dentro de un estrecho rango despejen un Punto de Golpe.</p></li><li><p><strong>Canción épica:</strong> Haz un objetivo dentro de un alcance Cerca temporalmente vulnerable. </p></li><li><p><strong>Canción desgarradora:</strong> Tú y todos los aliados dentro de alcance Cerca ganan una Esperanza.</p></li></ul>",
+        "actions": {
+          "xvs7ZKm93AlnZD3F": {
+            "description": "<p><strong>Tú y todos tus aliados</strong> dentro <strong>Cerrar</strong> rango <strong>limpiar un Punto de Golpe</strong>.</p>",
+            "name": "Relajante canción"
+          },
+          "nvfJ8rOx8baI6POZ": {
+            "description": "<p>Marca <strong>un objetivo</strong> dentro <strong>Cerrar</strong> rango temporal <strong>Vulnerable</strong>.</p>",
+            "name": "Canción épica"
+          },
+          "QTTgKnhpNE2XHz4u": {
+            "description": "<p><strong>Tú y todos tus aliados</strong> dentro <strong>Cerrar</strong> rango <strong>ganar una esperanza</strong>.</p>",
+            "name": "Canción desgarradora"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Canción épica",
+          "description": "<p>Haz un objetivo dentro de un alcance Cerca temporalmente vulnerable.</p>",
+          "_id": "FK4IdbxluRErfYor"
+        }
+      ]
+    },
+    "Have No Fear": {
+      "_id": "8TH6h6a36h09mf6d",
+      "name": "No tengas miedo.",
+      "systemPatch": {
+        "description": "<p>El daño mágico extra de su característica “Cara su miedo” aumenta a <strong>3d10</strong>.</p>"
+      }
+    },
+    "Heart of a Poet": {
+      "_id": "Ce0sn0kqAw3PFe0k",
+      "name": "Corazón de un poeta",
+      "systemPatch": {
+        "description": "<p>Después de hacer una tirada de acción para impresionar, persuadir u ofender a alguien, usted puede gastar una esperanza para añadir un d4 al tirada.</p>",
+        "actions": {
+          "pHSfMDmfVQSgqk39": {
+            "description": "<p>Después de hacer una tirada de acción para impresionar, persuadir u ofender a alguien, usted puede gastar una esperanza para añadir un [[/r d4]] al tirada.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      }
+    },
+    "Honed Expertise": {
+      "_id": "w1BwNKxbQOSizLmZ",
+      "name": "Experiencia honrada",
+      "systemPatch": {
+        "description": "<p>Cuando uses una Experiencia, haz tirar un <strong>d6</strong>. En un resultado de 5 o más, se puede utilizar sin gastar Esperanza.</p>",
+        "actions": {
+          "zCTrqPtGARSZ06CU": {
+            "description": "<p>Cuando uses una Experiencia, haz tirar un <strong>d6</strong>. En un resultado de 5 o más, se puede utilizar sin gastar Esperanza.</p>",
+            "name": "Tirada d6"
+          }
+        }
+      }
+    },
+    "Iron Will": {
+      "_id": "7AVRNyBcd1Nffjtn",
+      "name": "Will de hierro",
+      "systemPatch": {
+        "description": "<p>Cuando usted toma el daño físico, usted puede <strong>marca una Ranura de Armadura adicional</strong> para reducir la gravedad.</p>"
+      },
+      "effects": [
+        {
+          "name": "Will de hierro",
+          "description": "<p>Cuando usted toma el daño físico, usted puede <strong>marca una Ranura de Armadura adicional</strong> para reducir la gravedad.</p>",
+          "_id": "htEDIjCEWYtznpRV"
+        }
+      ]
+    },
+    "Loyal Friend": {
+      "_id": "xjZHD5Yo3Tu26rLm",
+      "name": "Amigo leal",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, cuando el daño de un ataque marcaría el último estrés de su compañero o su último Puntos de Golpe y usted está dentro de la estrecha gama uno del otro, usted o su compañero puede apresurarse al lado del otro y tomar ese daño en su lugar.</p>",
+        "actions": {
+          "Z82YQzYWo4eektMa": {
+            "description": "<p>Una vez por descanso prolongado, cuando el daño de un ataque marcaría el último estrés de su compañero o su último Puntos de Golpe y usted está dentro de la estrecha gama uno del otro, usted o su compañero puede apresurarse al lado del otro y tomar ese daño en su lugar.</p>",
+            "name": "Apresurar"
+          }
+        }
+      }
+    },
+    "Loyal Protector": {
+      "_id": "hd7UeBPr86Mz21Pe",
+      "name": "Protector leal",
+      "systemPatch": {
+        "description": "<p>Cuando un aliado dentro de alcance Cerca tiene 2 o menos Puntos de Golpe y recibiría daños, puede <strong>marca un estrés</strong> para correr a su lado y tomar el daño en su lugar.</p>",
+        "actions": {
+          "Dxnu3gPSTSysJnb8": {
+            "description": "<p>Cuando un aliado dentro de alcance Cerca tiene 2 o menos Puntos de Golpe y recibiría daños, puede <strong>marca un estrés</strong> para correr a su lado y tomar el daño en su lugar.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "Maestro": {
+      "_id": "ZFkCz8XV1EtMoJ1w",
+      "name": "Maestro",
+      "systemPatch": {
+        "description": "<p>Tus canciones de rally fortalecen el coraje de los que escuchan. Cuando usted da un <strong>Rally Die</strong> a un aliado, pueden <strong>ganar una esperanza</strong> o <strong>limpiar un estrés</strong>.</p>"
+      }
+    },
+    "Manipulate Magic": {
+      "_id": "UNg4eyNfEQrMdD7G",
+      "name": "Manipular magia",
+      "systemPatch": {
+        "description": "<p>Tu origen primitivo te permite modificar la esencia misma de la magia. Después de lanzar un hechizo o hacer un ataque usando un arma que hace daño mágico, usted puede marcar un Estrés para hacer uno de los siguientes:</p><ul><li><p>Extender el hechizo o el alcance del ataque por un rango</p></li><li><p>Ganar un bono +2 para el resultado del tirada de acción</p></li><li><p>El doble de dado de daño de su elección</p></li><li><p>Golpear un objetivo adicional dentro del rango</p></li></ul>",
+        "actions": {
+          "KL5l4QJjPtDiDBSv": {
+            "description": "<p>Tu origen primitivo te permite modificar la esencia misma de la magia. Después de lanzar un hechizo o hacer un ataque usando un arma que hace daño mágico, usted puede marcar un Estrés para hacer uno de los siguientes:</p><ul><li><p>Extender el hechizo o el alcance del ataque por un rango</p></li><li><p>Ganar un bono +2 para el resultado del tirada de acción</p></li><li><p>El doble de dado de daño de su elección</p></li><li><p>Golpear un objetivo adicional dentro del rango</p></li></ul>",
+            "name": "Manipular"
+          }
+        }
+      }
+    },
+    "Martial Preparation": {
+      "_id": "dHgAnbt9m1KsQFmp",
+      "name": "Preparación marcial",
+      "systemPatch": {
+        "description": "<p>Eres un guerrero inspirador para todos los que viajan contigo. Su partido tiene acceso al movimiento de preparación marcial. Para utilizar este movimiento durante un descanso, describa cómo usted instruye y entrena con su partido. Tú y cada aliado que elige este movimiento de descanso ganar un <strong>d6</strong> La Cazavampiros muere. Un PJ con un Slayer Die puede gastarlo para enrollar el dado y añadir el resultado a un ataque o daño tirada de su elección.</p>"
+      }
+    },
+    "Natural Evasion": {
+      "_id": "TnuLBtHQGbqyzn82",
+      "name": "Evasión natural",
+      "systemPatch": {
+        "description": "<p>Puedes llamar a tu elemento para protegerte del daño. Cuando un ataque rueda contra usted tiene éxito, usted puede <strong>marca un estrés</strong> y describir cómo utilizas tu elemento para defenderte. Cuando lo hagas, haz tirar un <strong>d6</strong> y añade su resultado a tu Evasión contra el ataque.</p>",
+        "actions": {
+          "amJMKDdSgJHsOsOB": {
+            "description": "<p>Puedes llamar a tu elemento para protegerte del daño. Cuando un ataque rueda contra usted tiene éxito, usted puede <strong>marca un estrés</strong> y describir cómo utilizas tu elemento para defenderte. Cuando lo hagas, haz tirar un <strong>d6</strong> y añade su resultado a tu Evasión contra el ataque.</p>",
+            "name": "Evadir"
+          }
+        }
+      }
+    },
+    "Nemesis": {
+      "_id": "DPKmipNRlSAMs2Cg",
+      "name": "Némesis",
+      "systemPatch": {
+        "description": "<p><strong>Gasta 2 Esperanza</strong> Para dar prioridad a un adversario hasta su próximo descanso. Cuando usted hace un ataque contra su adversario Priorizado, usted puede intercambiar los resultados de sus dados de Esperanza y Miedo. Sólo puedes dar prioridad a un adversario a la vez.</p>",
+        "actions": {
+          "Rgc7kBmU3kjHKvfx": {
+            "description": "<p><strong>Gasta 2 Esperanza</strong> Para dar prioridad a un adversario hasta su próximo descanso. Cuando usted hace un ataque contra su adversario Priorizado, usted puede intercambiar los resultados de sus dados de Esperanza y Miedo. Sólo puedes dar prioridad a un adversario a la vez.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Némesis",
+          "description": "<p>Cuando usted hace un ataque contra su adversario Priorizado, usted puede intercambiar los resultados de sus dados de Esperanza y Miedo. Sólo puedes dar prioridad a un adversario a la vez.</p>",
+          "_id": "JoBFHkhLbm4JyuZm"
+        }
+      ]
+    },
+    "Nightwalker": {
+      "_id": "h161OSIK24Up4qNd",
+      "name": "Caminante sombrío",
+      "systemPatch": {
+        "description": "<p>Deseas manipular sombras para maniobrar a través del medio ambiente.</p>"
+      }
+    },
+    "Partner-in-Arms": {
+      "_id": "G54qY96XK62hgoK9",
+      "name": "Compañero de Armas",
+      "systemPatch": {
+        "description": "<p>Cuando un aliado dentro de alcance Muy Cerca toma daño, usted puede marcar una Ranura de Armadura para reducir la severidad en un umbral.</p>",
+        "actions": {
+          "D6ClOGDgu6cLanjE": {
+            "description": "<p>Cuando un aliado dentro de alcance Muy Cerca toma daño, usted puede marcar una Ranura de Armadura para reducir la severidad en un umbral.</p>",
+            "name": "Marcar la ranura de armadura"
+          }
+        }
+      }
+    },
+    "Path Forward": {
+      "_id": "uPPBOpoulUmSLlzr",
+      "name": "Ruta hacia adelante",
+      "systemPatch": {
+        "description": "<p>Cuando viajas a un lugar que has visitado previamente o llevas un objeto que ha estado en el lugar antes, puedes identificar el camino más corto y directo a tu destino.</p>"
+      }
+    },
+    "Perfect Recall": {
+      "_id": "HzPa5U0EQhDfFTqW",
+      "name": "Recuerdo perfecto",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso, cuando recuerdes una tarjeta de dominio en tu bóveda, puedes reducir su costo de recuperación en 1.</p>",
+        "actions": {
+          "rFZj0ZsnJCc0PS3h": {
+            "description": "<p>Una vez por descanso, cuando recuerdes una tarjeta de dominio en tu bóveda, puedes reducir su costo de recuperación en 1.</p>",
+            "name": "Recordar"
+          }
+        }
+      }
+    },
+    "Power of the Gods": {
+      "_id": "Yij5sNyP1Ii7BAbc",
+      "name": "El poder de los dioses",
+      "systemPatch": {
+        "description": "<p>Durante el vuelo, se trata de un daño 1d12 en lugar de 1d8 de su “Alas de Luz” característica.</p>"
+      }
+    },
+    "Prepared": {
+      "_id": "YS52ZGdce605wNVT",
+      "name": "Preparado",
+      "systemPatch": {
+        "description": "<p>Tome una tarjeta de dominio adicional de su nivel o inferior de un dominio al que tiene acceso.</p>"
+      }
+    },
+    "Primal Origin": {
+      "_id": "GLpRVxnY5E82khxH",
+      "name": "Origen primordial",
+      "systemPatch": {
+        "description": "<p>Juega el Origen Primal si quieres extender la versatilidad de tus hechizos de maneras poderosas.</p>"
+      }
+    },
+    "Regeneration": {
+      "_id": "KRyrbSLVGreIOTZe",
+      "name": "Regeneración",
+      "systemPatch": {
+        "description": "<p>Toca a una criatura y gasta 3 Esperanza. Esa criatura limpia 1d4 Puntos de Golpe.</p>",
+        "actions": {
+          "kD2kWWj0oR7ZxyVs": {
+            "description": "<p>Toca a una criatura y gasta 3 Esperanza. Esa criatura limpia 1d4 Puntos de Golpe.</p>",
+            "name": "Curar a una criatura"
+          }
+        }
+      }
+    },
+    "Regenerative Reach": {
+      "_id": "oLO3VjGkMcK1uvB9",
+      "name": "Alcance regenerativo",
+      "systemPatch": {
+        "description": "<p>Usted puede apuntar a las criaturas dentro de alcance Muy Cerca con su característica de “Regeneración”.</p>"
+      }
+    },
+    "Reliable Backup": {
+      "_id": "QYNGdH37fsGuxS7L",
+      "name": "Copia de seguridad confiable",
+      "systemPatch": {
+        "description": "<p>Puede utilizar su función “Contacts Everywhere” tres veces por sesión. Las siguientes opciones se añaden a la lista de beneficios que puede elegir cuando utilice esa función: </p><ul><li><p>Cuando marques 1 o más Puntos de Golpe, pueden salir corriendo para protegerte, reduciendo los Puntos de Golpe marcados por 1.</p></li><li><p>Cuando haces una tirada de Presencia en conversación, te respaldan. Puedes tirar un d20 como tu Dado de Esperanza.</p></li></ul>"
+      }
+    },
+    "Revenge": {
+      "_id": "oNfA5F9cKwNR7joq",
+      "name": "Venganza",
+      "systemPatch": {
+        "description": "<p>Cuando un adversario dentro del alcance Cuerpo a cuerpo tiene éxito en un ataque contra usted, puede marcar 2 Estrés para obligar al atacante a marcar un Punto de Golpe.</p>",
+        "actions": {
+          "e00FXbyXZ8bHRY2t": {
+            "description": "<p>Cuando un adversario dentro del alcance Cuerpo a cuerpo tiene éxito en un ataque contra usted, puede marcar 2 Estrés para obligar al atacante a marcar un Punto de Golpe.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "Rise to the Challenge": {
+      "_id": "dcutk8RVOJ2sEkO1",
+      "name": "A la altura del desafío",
+      "systemPatch": {
+        "description": "<p>Estás alerta ante el creciente peligro. Mientras que usted tiene 2 o menos Puntos de Golpe sin marcar, usted puede tirar un <strong>d20</strong> como tu Dado de Esperanza.</p>"
+      }
+    },
+    "Rousing Speech": {
+      "_id": "PCmYTX02JLzBpgml",
+      "name": "Hablar en voz alta",
+      "systemPatch": {
+        "description": "<p><strong>Una vez por descanso prolongado</strong>, usted puede dar un discurso sincero e inspirador. <strong>Todos los aliados</strong> dentro <strong>Lejos</strong> rango <strong>claro 2 Estrés</strong>.</p>",
+        "actions": {
+          "WNtHiko4DRGbxKnm": {
+            "description": "<p><span style=\"box-sizing: border-box; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); color: rgb(239, 230, 216); font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(24, 22, 46, 0.376); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial\"><strong>Una vez por descanso prolongado</strong></span>, usted puede dar un discurso sincero e inspirador. </span><span style=\"box-sizing: border-box; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); color: rgb(239, 230, 216); font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(24, 22, 46, 0.376); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial\"><strong>Todos los aliados</strong></span> dentro </span><span style=\"box-sizing: border-box; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); color: rgb(239, 230, 216); font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(24, 22, 46, 0.376); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial\"><strong>Lejos</strong></span> rango </span><span style=\"box-sizing: border-box; scrollbar-width: thin; scrollbar-color: var(--color-scrollbar) var(--color-scrollbar-track); color: rgb(239, 230, 216); font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(24, 22, 46, 0.376); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial\"><strong>claro 2 Estrés</strong></span><strong>.</strong></p>",
+            "name": "¡Habla con tus aliados!"
+          }
+        }
+      }
+    },
+    "Ruthless Predator": {
+      "_id": "Qny2J3R35bvC0Cey",
+      "name": "Depredador despiadado",
+      "systemPatch": {
+        "description": "<p>Cuando usted hace una tirada de daño, usted puede marcar un estrés para ganar un bono +1 a su competencia. Además, cuando usted hace daño severo a un adversario, deben marcar un Estrés.</p>",
+        "actions": {
+          "0YRLL1HC4XS3tX00": {
+            "description": "<p>Cuando usted hace una tirada de daño, usted puede marcar un estrés para ganar un bono +1 a su competencia. Además, cuando usted hace daño severo a un adversario, deben marcar un Estrés.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Depredador despiadado",
+          "description": "<p>Cuando usted hace una tirada de daño, usted puede marcar un estrés para ganar un bono +1 a su competencia. Además, cuando usted hace daño severo a un adversario, deben marcar un Estrés.</p>",
+          "_id": "8BNwCS7ueIQuvn2M"
+        }
+      ]
+    },
+    "Sacred Resonance": {
+      "_id": "DxOAkDBfIMpXxAUD",
+      "name": "Resonancia Sagrada",
+      "systemPatch": {
+        "description": "<p>Cuando haces tirar el daño para tu función “Arma Espiritual”, si cualquiera de los resultados coincide, duplica el valor de cada matriz coincidente. Por ejemplo, si rodas dos 5s, cuentan como dos 10s.</p>"
+      }
+    },
+    "School Of Knowledge": {
+      "_id": "qqQlgCqhOivUFoQn",
+      "name": "Escuela del conocimiento",
+      "systemPatch": {
+        "description": "<p><em>Juega a la Escuela del Conocimiento si quieres una comprensión aguda del mundo que te rodea.</em></p>"
+      }
+    },
+    "School Of War": {
+      "_id": "4y9Ph7RsCIAbkwTk",
+      "name": "Escuela de Guerra",
+      "systemPatch": {
+        "description": "<p><em>Juega a la Escuela de Guerra si quieres utilizar magia entrenada para la violencia.</em></p>"
+      }
+    },
+    "Shadow Stepper": {
+      "_id": "hAwTXjhyphiE3aeW",
+      "name": "Stepper de la sombra",
+      "systemPatch": {
+        "description": "<p>Puedes moverte de la sombra a la sombra. Cuando te mueves a un área de oscuridad o sombra lanzada por otra criatura u objeto, puedes marcar un Estrés para desaparecer de donde estás y reaparecer dentro de otra sombra dentro de un alcance Lejos. Cuando reapareces, estás encubierto.</p>",
+        "actions": {
+          "g1VIG6VjYKkm11qJ": {
+            "description": "<p>Puedes moverte de la sombra a la sombra. Cuando te mueves a un área de oscuridad o sombra lanzada por otra criatura u objeto, puedes marcar un Estrés para desaparecer de donde estás y reaparecer dentro de otra sombra dentro de un alcance Lejos. Cuando reapareces, estás encubierto.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Shadow Stepper: Cubiertos",
+          "description": "<p>Puedes moverte de la sombra a la sombra. Cuando te mueves a un área de oscuridad o sombra lanzada por otra criatura u objeto, puedes marcar un Estrés para desaparecer de donde estás y reaparecer dentro de otra sombra dentro de un alcance Lejos. Cuando reapareces, estás encubierto.</p>",
+          "_id": "RYri0b9z5kq74U5n"
+        }
+      ]
+    },
+    "Slayer": {
+      "_id": "1hF5KGKQc2VKT5O8",
+      "name": "Cazavampiros",
+      "systemPatch": {
+        "description": "<p>Ganas un montón de dados llamados Slayer Dices. En una tirada con Esperanza, usted puede colocar un <strong>d6</strong> en esta carta en lugar de ganar una Esperanza, añadiendo el dado a la piscina. Puede almacenar un número de dados de Slayer igual a su competencia. Cuando usted hace una tirada de ataque o tirada de daño, usted puede pasar cualquier número de estos dados de la Cazadora, rodando ellos y agregando su resultado al tirada. Al final de cada sesión, borrar cualquier dado de la Cazavampiros no utilizado en esta tarjeta y ganar una esperanza por dado despejado.</p>"
+      }
+    },
+    "Sparing Touch": {
+      "_id": "GfOSgVJW8bS1OjNq",
+      "name": "Tacto limitador",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, toque a una criatura y limpie 2 Puntos de Golpe o 2 estrés de ellos.</p>",
+        "actions": {
+          "aanLNQkeO2ZTIqBl": {
+            "description": "<p>Una vez por descanso prolongado, toque a una criatura y limpie 2 Puntos de Golpe o 2 estrés de ellos.</p>",
+            "name": "Borrar Puntos de Golpe"
+          },
+          "cWdzCQJv8RFfi2NR": {
+            "description": "<p>Una vez por descanso prolongado, toque a una criatura y limpie 2 Puntos de Golpe o 2 estrés de ellos.</p>",
+            "name": "Estrés claro"
+          }
+        }
+      }
+    },
+    "Spirit Weapon": {
+      "_id": "McoS0RxNLOg3SfSt",
+      "name": "Arma del espíritu",
+      "systemPatch": {
+        "description": "<p>Cuando usted tiene un arma equipada con una gama de Cuerpo a cuerpo o Muy Cerca, puede volar de su mano para atacar a un adversario dentro de alcance Cerca y luego volver a usted. Puedes <strong>marca un estrés</strong> para atacar a un adversario adicional dentro del alcance con el mismo tirada de ataque.</p>",
+        "actions": {
+          "TDvWFqAxu7V33UIC": {
+            "description": "<p>Puedes </span><span style=\"box-sizing: border-box; scrollbar-width: thin; scrollbar-color: rgb(93, 20, 43) rgba(0, 0, 0, 0); color: rgb(239, 230, 216); font-family: Montserrat, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(24, 22, 46, 0.376); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial\">marca un estrés</span> para atacar a un adversario adicional dentro del alcance con el mismo tirada de ataque.</p>",
+            "name": "Objetivo Adversario Adicional"
+          }
+        }
+      }
+    },
+    "Stalwart": {
+      "_id": "rKRxFBlkbh9cDK8K",
+      "name": "Baluarte",
+      "systemPatch": {
+        "description": "<p>Deseas recibir fuertes golpes y seguir luchando.</p>"
+      }
+    },
+    "Syndicate": {
+      "_id": "95QxNZwgyEm1LqdG",
+      "name": "Sindicato",
+      "systemPatch": {
+        "description": "<p>Deseas tener una red de contactos a donde quiera que vayas</p>"
+      }
+    },
+    "Thrive in Chaos": {
+      "_id": "1nmFmkNXY6OYyyju",
+      "name": "Profundizar en el caos",
+      "systemPatch": {
+        "description": "<p>Cuando tienes éxito en un ataque, puedes <strong>marca un estrés</strong> después de tirar el daño para forzar al objetivo a marcar un Punto de Golpe adicional.</p>",
+        "actions": {
+          "7Z9v7GWswIQFD5YH": {
+            "description": "<p>Cuando tienes éxito en un ataque, puedes <strong>marca un estrés</strong> después de tirar el daño para forzar al objetivo a marcar un Punto de Golpe adicional.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      }
+    },
+    "Transcendence": {
+      "_id": "th6HZwEFnVBjUtqm",
+      "name": "Trascendencia",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, puedes transformarte en una manifestación física de tu elemento. Cuando lo haga, describa su transformación y elija dos de los siguientes beneficios para ganar hasta su próximo descanso:</p><ul><li><p>+4 bono a su umbral Severo</p></li><li><p>+1 bono a un rasgo de carácter de su elección</p></li><li><p>+1 bono a su competencia</p></li><li><p>+2 bono a su Evasión</p></li></ul>",
+        "actions": {
+          "RIbyJjEkCgqoDmyn": {
+            "description": "<p>Una vez por descanso prolongado, puedes transformarte en una manifestación física de tu elemento. Cuando lo haga, describa su transformación y elija dos de los siguientes beneficios para ganar hasta su próximo descanso:</p><ul><li><p>+4 bono a su umbral Severo</p></li><li><p>+1 bono a un rasgo de carácter de su elección</p></li><li><p>+1 bono a su competencia</p></li><li><p>+2 bono a su Evasión</p></li></ul>",
+            "name": "Transformar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Bonificación hasta el umbral",
+          "description": "<p><span style=\"box-sizing:border-box;margin:0px;scrollbar-width:thin;scrollbar-color:rgb(93, 20, 43) rgba(0, 0, 0, 0);font-family:Montserrat, sans-serif\">+4 bono a su umbral Severo</p>",
+          "_id": "zFOpzO3tBJPcZcRc"
+        },
+        {
+          "name": "Bonificación al rasgo",
+          "description": "<p><span style=\"box-sizing:border-box;margin:0px;scrollbar-width:thin;scrollbar-color:rgb(93, 20, 43) rgba(0, 0, 0, 0);font-family:Montserrat, sans-serif\">+1 bono a un rasgo de carácter de su elección</p>",
+          "_id": "cTgSmxkTi89y6sbc"
+        },
+        {
+          "name": "Bonificación a la competencia",
+          "description": "<p><span style=\"box-sizing:border-box;margin:0px;scrollbar-width:thin;scrollbar-color:rgb(93, 20, 43) rgba(0, 0, 0, 0);font-family:Montserrat, sans-serif\">+1 bono a su competencia</p>",
+          "_id": "oWf3iXf4dawdbmzd"
+        },
+        {
+          "name": "Bonificación a la evasión",
+          "description": "<p><span style=\"box-sizing:border-box;margin:0px;scrollbar-width:thin;scrollbar-color:rgb(93, 20, 43) rgba(0, 0, 0, 0);font-family:Montserrat, sans-serif\">+2 bono a su Evasión</p>",
+          "_id": "2LCF6lSnWFqNiPs5"
+        }
+      ]
+    },
+    "Troubadour": {
+      "_id": "ld8MIvk0xVJydSBz",
+      "name": "Trobador",
+      "systemPatch": {
+        "description": "<p>Deseas tocar música para reforzar a tus aliados.</p>"
+      }
+    },
+    "Undaunted": {
+      "_id": "866b2jjyzXP8nPRQ",
+      "name": "Impávido",
+      "systemPatch": {
+        "description": "<p>Obtenga un bono +3 permanente a sus umbrales de daños.</p>"
+      },
+      "effects": [
+        {
+          "name": "Impávido",
+          "description": "<p>Obtenga un bono +3 permanente a sus umbrales de daños.</p>",
+          "_id": "zggFRaerHCj1e5F5"
+        }
+      ]
+    },
+    "Unrelenting": {
+      "_id": "4qP7bNyxVHBmr4Rb",
+      "name": "Inexorable",
+      "systemPatch": {
+        "description": "<p>Obtener un bono +2 permanente a sus umbrales de daños.</p>"
+      },
+      "effects": [
+        {
+          "name": "Inexorable",
+          "description": "<p>Obtener un bono +2 permanente a sus umbrales de daños.</p>",
+          "_id": "IKb6yutns8EJZ49M"
+        }
+      ]
+    },
+    "Unwavering": {
+      "_id": "WBiFZaYNoQNhysmN",
+      "name": "Sin flaquear",
+      "systemPatch": {
+        "description": "<p>Obtenga un bono +1 permanente a sus umbrales de daños.</p>"
+      },
+      "effects": [
+        {
+          "name": "Sin flaquear",
+          "description": "<p>Obtenga un bono +1 permanente a sus umbrales de daños.</p>",
+          "_id": "3wexvo6La4V46aiX"
+        }
+      ]
+    },
+    "Vanishing Act": {
+      "_id": "iyIg1VLwO8C6jvFZ",
+      "name": "Ley de desaparición",
+      "systemPatch": {
+        "description": "<p><strong>Marcar un estrés</strong> para volverse encubierto en cualquier momento. Cuando se oculta de esta función, se borra automáticamente la condición de restricción si la tiene. Permanecéis encubiertos de esta manera hasta que tiradaéis con Miedo o hasta vuestro próximo descanso.</p>",
+        "actions": {
+          "BjAECQULugmbVqXU": {
+            "description": "<p><strong>Marcar un estrés</strong> para volverse encubierto en cualquier momento. Cuando se oculta de esta función, se borra automáticamente la condición de restricción si la tiene. Permanecéis encubiertos de esta manera hasta que tiradaéis con Miedo o hasta vuestro próximo descanso.</p>",
+            "name": "Marcar Estrés"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Ley de desaparición: Cubiertos",
+          "description": "<p>Cuando se oculta de esta función, se borra automáticamente la condición de restricción si la tiene. Permanecéis encubiertos de esta manera hasta que tiradaéis con Miedo o hasta vuestro próximo descanso.</p>",
+          "_id": "czrwqq44sEr0uJ8O"
+        }
+      ]
+    },
+    "Vengeance": {
+      "_id": "SUo8NPBPO8aN193u",
+      "name": "Vengador",
+      "systemPatch": {
+        "description": "<p>Desean atacar a los enemigos que les hacen daño a ustedes o a sus aliados.</p>"
+      }
+    },
+    "Virtuoso": {
+      "_id": "kn2t409o0FDFQieo",
+      "name": "Virtuoso",
+      "systemPatch": {
+        "description": "<p>Estás entre los más grandes de tu oficio y tu habilidad es ilimitada. Usted puede realizar cada uno de sus <strong>\"Intérprete rendido\"</strong> canciones de la característica <strong>dos veces por descanso prolongado.</strong></p>"
+      }
+    },
+    "Warden of Renewal": {
+      "_id": "xp0XMjYT85Q7E90o",
+      "name": "Custodio de la renovación",
+      "systemPatch": {
+        "description": "<p>Deseas usar magia poderosa para sanar tu fiesta.</p>"
+      }
+    },
+    "Warden of the Elements": {
+      "_id": "W9hs5kxOWeY7eA4Q",
+      "name": "Custodio de los elementos",
+      "systemPatch": {
+        "description": "<p>Desea encarnar los elementos naturales de la naturaleza.</p>"
+      }
+    },
+    "Warden’s Protection": {
+      "_id": "2F1bUFY80oce97C9",
+      "name": "Protección del alcaide",
+      "systemPatch": {
+        "description": "<p>Una vez por descanso prolongado, gasta 2 Esperanza para limpiar 2 Puntos de Golpe en 1d4 aliados dentro de alcance Cerca.</p>",
+        "actions": {
+          "ozYzhQfRt5sp19di": {
+            "description": "<p>Una vez por descanso prolongado, gasta 2 Esperanza para limpiar 2 Puntos de Golpe en [[/r 1d4]] aliados dentro de alcance Cerca.</p>",
+            "name": "Curación"
+          }
+        }
+      }
+    },
+    "Wayfinder": {
+      "_id": "zsUglcU4NgZ8tNgZ",
+      "name": "Guía",
+      "systemPatch": {
+        "description": "<p>Desea cazar a su presa y atacar con fuerza mortal.</p>"
+      }
+    },
+    "Weapon Specialist": {
+      "_id": "HAqtoKUTrk8Mip1n",
+      "name": "Especialista en armas",
+      "systemPatch": {
+        "description": "<p>Puedes empuñar múltiples armas con peligrosa facilidad. Cuando tienes éxito en un ataque, puedes <strong>pasar una esperanza</strong> para añadir uno de los dados de daño de su arma secundaria al tirada de daño. Además, una vez por descanso prolongado cuando enrollas tus dados de Slayer, vuelve a tirar cualquier 1s.</p>",
+        "actions": {
+          "vay9rVXJS3iksaVR": {
+            "description": "<p>Puedes empuñar múltiples armas con peligrosa facilidad. Cuando tienes éxito en un ataque, puedes <strong>pasar una esperanza</strong> para añadir uno de los dados de daño de su arma secundaria al tirada de daño.</p>",
+            "name": "Gasta esperanza"
+          },
+          "1bBFfxmywJpx5tfk": {
+            "description": "<p>Además, una vez por descanso prolongado cuando enrollas tus dados de Slayer, vuelve a tirar cualquier 1s.</p>",
+            "name": "Volver a tirar"
+          }
+        }
+      }
+    },
+    "Well-Connected": {
+      "_id": "7KnSOazixXXSnspj",
+      "name": "Bien conectado",
+      "systemPatch": {
+        "description": "<p>Cuando llegas a una ciudad o entorno prominente, conoces a alguien que llama hogar a este lugar. Darles un nombre, anotar cómo usted piensa que podrían ser útiles, y elegir un hecho de la siguiente lista: </p><ul><li><p>Me deben un favor, pero serán difíciles de encontrar.</p></li><li><p>Van a pedir algo a cambio. </p></li><li><p>Siempre están en una gran cantidad de problemas. </p></li><li><p>Solíamos estar juntos. Es una larga historia. </p></li><li><p>No nos separamos en grandes términos.</p></li></ul>"
+      }
+    },
+    "Winged Sentinel": {
+      "_id": "y7ERWRIpJsdP9Re4",
+      "name": "Centinela alado",
+      "systemPatch": {
+        "description": "<p>Juega el centinela alado si quieres tomar vuelo y golpear golpes aplastantes desde el cielo.</p>"
+      }
+    },
+    "Wings of Light": {
+      "_id": "KkQH0tYhagIqe2MT",
+      "name": "Alas de Luz",
+      "systemPatch": {
+        "description": "<p>Puedes volar. Durante el vuelo, usted puede hacer lo siguiente:</p><ul><li><p>Marque un Estrés para recoger y llevar a otra criatura dispuesta aproximadamente de su tamaño o más pequeño.</p></li><li><p>Gaste una esperanza para hacer un daño adicional 1d8 en un ataque exitoso.</p></li></ul>",
+        "actions": {
+          "rg2sLCTqY2rTo861": {
+            "description": "<p>Marque un Estrés para recoger y llevar a otra criatura dispuesta aproximadamente de su tamaño o más pequeño.</p>",
+            "name": "Marcar Estrés"
+          },
+          "1qjnoz5I7NqrWMkp": {
+            "description": "<p>Gaste una esperanza para hacer un daño adicional 1d8 en un ataque exitoso.</p>",
+            "name": "Gasta esperanza"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Alas de Luz",
+          "description": "<p>Dar un daño adicional 1d8 en un ataque exitoso.</p>",
+          "_id": "PfCwuVbKLxhnrm9X"
+        }
+      ]
+    },
+    "Wordsmith": {
+      "_id": "XTSODVM8st75Os8M",
+      "name": "Forjapalabras",
+      "systemPatch": {
+        "description": "<p>Usted desea utilizar juego de palabras inteligente y cautivar a las multitudes.</p>"
+      }
+    }
+  }
+}

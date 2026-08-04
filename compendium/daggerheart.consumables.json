@@ -1,0 +1,1966 @@
+{
+  "label": "Consumibles",
+  "folders": {},
+  "mapping": {
+    "systemPatch": {
+      "path": "system",
+      "converter": "daggerheartOverlay"
+    },
+    "prototypeTokenPatch": {
+      "path": "prototypeToken",
+      "converter": "daggerheartOverlay"
+    },
+    "flagsPatch": {
+      "path": "flags",
+      "converter": "daggerheartOverlay"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "daggerheartEmbedded"
+    },
+    "items": {
+      "path": "items",
+      "converter": "daggerheartEmbedded"
+    },
+    "pages": {
+      "path": "pages",
+      "converter": "daggerheartEmbedded"
+    },
+    "results": {
+      "path": "results",
+      "converter": "daggerheartEmbedded"
+    }
+  },
+  "entries": {
+    "cfVFmS8vT9dbq9s1": {
+      "_id": "cfVFmS8vT9dbq9s1",
+      "name": "Pasta ácida",
+      "systemPatch": {
+        "description": "<p>Esta pasta devora paredes y otras superficies en destellos brillantes.</p>",
+        "actions": {
+          "FQ2Ty0pP3z6JrBr6": {
+            "description": "<p>Esta pasta devora paredes y otras superficies en destellos brillantes.</p>",
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "VlbsCjvvLNfTzNXb": {
+      "_id": "VlbsCjvvLNfTzNXb",
+      "name": "Cosidera de Armadura",
+      "systemPatch": {
+        "description": "<p>Usted puede utilizar esta costura para pasar cualquier número de Esperanza y claro que muchas Ranuras de Armadura.</p>",
+        "actions": {
+          "htoGx8qrv8trds81": {
+            "description": "<p>Usted puede utilizar esta costura para pasar cualquier número de Esperanza y claro que muchas Ranuras de Armadura.</p>",
+            "name": "Costura"
+          }
+        }
+      }
+    },
+    "JGD3M9hBHtVAA8XP": {
+      "_id": "JGD3M9hBHtVAA8XP",
+      "name": "Afinar la poción",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su próximo tirada de Instinto.</p>",
+        "actions": {
+          "aiyNOQZbVpTDagXy": {
+            "description": "<p>Usted gana un bono +1 a su próximo tirada de Instinto.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Afinar la poción",
+          "_id": "I5vgALTNDVApxy9d"
+        }
+      ]
+    },
+    "eAXHdzA5qNPldOpn": {
+      "_id": "eAXHdzA5qNPldOpn",
+      "name": "Orbe cegador",
+      "systemPatch": {
+        "description": "<p>Puedes activar este orbe para crear un destello de luz brillante. Todos los objetivos dentro de alcance Cerca se vuelven vulnerables hasta que marcan PG.</p><p>@Template[type:emanation|range:c]</p>",
+        "actions": {
+          "vk4dE0C8bjNdTwAF": {
+            "description": "<p>Puedes activar este orbe para crear un destello de luz brillante. Todos los objetivos dentro de alcance Cerca se vuelven vulnerables hasta que marcan PG.</p><p>@Template[type:emanation|range:c]</p>",
+            "name": "Activar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Orbe cegador",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Eres vulnerable hasta que marcas un Punto de Golpe.</p>",
+          "_id": "nryJhrF26hyFQUxH"
+        }
+      ]
+    },
+    "pDGzmczoTlKGmKgd": {
+      "_id": "pDGzmczoTlKGmKgd",
+      "name": "Sangre del Yorgi",
+      "systemPatch": {
+        "description": "<p>Puedes beber esta sangre para desaparecer de donde estás e inmediatamente reaparecer en un punto que puedes ver dentro de un rango muy lejano.</p>",
+        "actions": {
+          "6QGfkGkFqqzuVOOY": {
+            "description": "<p>Puedes beber esta sangre para desaparecer de donde estás e inmediatamente reaparecer en un punto que puedes ver dentro de un rango muy lejano.</p>",
+            "name": "Bebe."
+          }
+        }
+      }
+    },
+    "FOPQNqXbiVO0ilYL": {
+      "_id": "FOPQNqXbiVO0ilYL",
+      "name": "Poción de bolster",
+      "systemPatch": {
+        "description": "<p>Ganas un bono +1 para tu próximo Tirada de Fuerza.</p>",
+        "actions": {
+          "YqbQKTgblItoZOm8": {
+            "description": "<p>Ganas un bono +1 para tu próximo Tirada de Fuerza.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción de bolster",
+          "_id": "HVCJp9Tkhr1i4Oc1"
+        }
+      ]
+    },
+    "PfQvqopXgvroBklL": {
+      "_id": "PfQvqopXgvroBklL",
+      "name": "Miel de unión",
+      "systemPatch": {
+        "description": "<p>Esta miel se puede utilizar para pegar dos objetos de forma permanente.</p>",
+        "actions": {
+          "SWrgUGHIWCXpED1b": {
+            "description": "<p>Esta miel se puede utilizar para pegar dos objetos de forma permanente.</p>",
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "RrIasiMCt6mqVTps": {
+      "_id": "RrIasiMCt6mqVTps",
+      "name": "Semilla de puente",
+      "systemPatch": {
+        "description": "<p>Las vides gruesas crecen desde su ubicación hasta un punto de su elección dentro de un alcance Lejos, lo que le permite escalar o cruzarlas. Las vides se disipan en su próximo breve descanso.</p>",
+        "actions": {
+          "dk7fhkfA4m5lqNWB": {
+            "description": "<p>Las vides gruesas crecen desde su ubicación hasta un punto de su elección dentro de un alcance Lejos, lo que le permite escalar o cruzarlas. Las vides se disipan en su próximo breve descanso.</p>",
+            "name": "Planta"
+          }
+        }
+      }
+    },
+    "IKMVQ6VwtapwoUim": {
+      "_id": "IKMVQ6VwtapwoUim",
+      "name": "Piedra Canalizadora",
+      "systemPatch": {
+        "description": "<p>Puedes usar esta piedra para tomar un hechizo o un grimorio de tu bóveda, usarla una vez, y devolverla a tu bóveda.</p>",
+        "actions": {
+          "X4KtBG5Uve09hRoj": {
+            "description": "<p>Puedes usar esta piedra para tomar un hechizo o un grimorio de tu bóveda, usarla una vez, y devolverla a tu bóveda.</p>",
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "CVBbFfOY75YwyQsp": {
+      "_id": "CVBbFfOY75YwyQsp",
+      "name": "Poción de encanto",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su próximo tirada de presencia.</p>",
+        "actions": {
+          "2trd3JYIb527LIrn": {
+            "description": "<p>Usted gana un bono +1 a su próximo tirada de presencia.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción de encanto",
+          "_id": "COrKb7gBin4Ro6r6"
+        }
+      ]
+    },
+    "elsyP6VhHw1JjGSl": {
+      "_id": "elsyP6VhHw1JjGSl",
+      "name": "Círculo del Vacío",
+      "systemPatch": {
+        "description": "<p>Marcar un Estrés para crear un vacío que se extiende hasta el alcance Lejos. Ninguna magia puede ser lanzada dentro del vacío, y las criaturas dentro del vacío son inmunes al daño mágico.</p>",
+        "actions": {
+          "ovR11FWCpXaFMPVx": {
+            "description": "<p>Marcar un Estrés para crear un vacío que se extiende hasta el alcance Lejos. Ninguna magia puede ser lanzada dentro del vacío, y las criaturas dentro del vacío son inmunes al daño mágico.</p>",
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "eeBhZSGLjuNZuJuI": {
+      "_id": "eeBhZSGLjuNZuJuI",
+      "name": "Poción de control",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su próximo tirada de Sutileza.</p>",
+        "actions": {
+          "l5dx5uYsH0btLDJq": {
+            "description": "<p>Usted gana un bono +1 a su próximo tirada de Sutileza.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción de control",
+          "_id": "1VAQYZ1YYc9ew9UR"
+        }
+      ]
+    },
+    "xDnJeF1grkmKck8Q": {
+      "_id": "xDnJeF1grkmKck8Q",
+      "name": "Té de la muerte",
+      "systemPatch": {
+        "description": "<p>Después de beber este té, matas instantáneamente a tu objetivo cuando tienes éxito crítico en un ataque. Si usted no tiene éxito crítico en un ataque antes de su próximo descanso prolongado, usted muere.</p>",
+        "actions": {
+          "U7da5R4pgVkEQJVj": {
+            "description": "<p>Después de beber este té, matas instantáneamente a tu objetivo cuando tienes éxito crítico en un ataque. Si usted no tiene éxito crítico en un ataque antes de su próximo descanso prolongado, usted muere.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Té de la muerte",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Después de beber este té, matas instantáneamente a tu objetivo cuando tienes éxito crítico en un ataque. Si usted no tiene éxito crítico en un ataque antes de su próximo descanso prolongado, usted muere.</p>",
+          "_id": "IqlpqsgurXsUEQhs"
+        }
+      ]
+    },
+    "wM18PWWW2Ami4fBG": {
+      "_id": "wM18PWWW2Ami4fBG",
+      "name": "Té de globo de dragón",
+      "systemPatch": {
+        "description": "<p>Usted puede beber este té para desencadenar un ataque de respiración ardiente. Haga una tirada de Instinto contra todos los adversarios en frente de usted dentro de Corto alcance. Los objetivos que tiene éxito contra tomar d20 daño físico utilizando su competencia.</p>",
+        "actions": {
+          "rcHEz3ImUDwo6lPC": {
+            "description": "<p>Usted puede beber este té para desencadenar un ataque de respiración ardiente. Haga una tirada de Instinto contra todos los adversarios en frente de usted dentro de Corto alcance. Los objetivos que tiene éxito contra tomar d20 daño físico utilizando su competencia.</p><p>@Template[type:emanation|range:c]</p>",
+            "name": "Bebe."
+          }
+        }
+      }
+    },
+    "eU8VpbWB2NHIL47n": {
+      "_id": "eU8VpbWB2NHIL47n",
+      "name": "Dripfang Veneno",
+      "systemPatch": {
+        "description": "<p>Una criatura que consume este veneno toma 8d10 daño mágico directo.</p>",
+        "actions": {
+          "F8CUhhCuZMnXVCrw": {
+            "description": "<p>Una criatura que consume este veneno toma 8d10 daño mágico directo.</p>",
+            "name": "Consumir"
+          }
+        }
+      }
+    },
+    "aWHSO2AqDufi7nL4": {
+      "_id": "aWHSO2AqDufi7nL4",
+      "name": "Iluminar la poción",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su próximo tirada de Conocimiento.</p>",
+        "actions": {
+          "F3K719gxEwQH697e": {
+            "description": "<p>Usted gana un bono +1 a su próximo tirada de Conocimiento.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Iluminar la poción",
+          "_id": "QNzVrDW73jF1d5wE"
+        }
+      ]
+    },
+    "aX6NyxkNzu0LcJpt": {
+      "_id": "aX6NyxkNzu0LcJpt",
+      "name": "Fiesta de Xuria",
+      "systemPatch": {
+        "description": "<p>Usted puede comer esta comida para limpiar todo PG y el estrés y ganar 1d4 Esperanza.</p>",
+        "actions": {
+          "TL1fJitAJmDzrnHT": {
+            "description": "<p>Usted puede comer esta comida para limpiar todo PG y el estrés y ganar 1d4 Esperanza.</p>",
+            "name": "Come."
+          }
+        }
+      }
+    },
+    "DpxEMpwfasEBpORU": {
+      "_id": "DpxEMpwfasEBpORU",
+      "name": "Hueso de Pluma",
+      "systemPatch": {
+        "description": "<p>Puedes usar este hueso para controlar tu velocidad de caída durante un número de minutos igual a tu nivel.</p>",
+        "actions": {
+          "MC0EA6TDZpEHMz11": {
+            "description": "<p>Puedes usar este hueso para controlar tu velocidad de caída durante un número de minutos igual a tu nivel.</p>",
+            "name": "Uso"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Hueso de Pluma",
+          "description": "<p>Puedes usar este hueso para controlar tu velocidad de caída durante un número de minutos igual a tu nivel.</p>",
+          "_id": "VfJIJBW96e45xQHY"
+        }
+      ]
+    },
+    "Nvbb9mze6o5D0AEg": {
+      "_id": "Nvbb9mze6o5D0AEg",
+      "name": "Ungüento de Branquia",
+      "systemPatch": {
+        "description": "<p>Usted puede aplicar esta salve a su cuello para respirar bajo el agua durante un número de minutos igual a su nivel.</p>",
+        "actions": {
+          "57IIcyhEs2ByoENx": {
+            "description": "<p>Usted puede aplicar esta salve a su cuello para respirar bajo el agua durante un número de minutos igual a su nivel.</p>",
+            "name": "Aplicar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Ungüento de Branquia",
+          "description": "<p>Usted puede aplicar esta salve a su cuello para respirar bajo el agua durante un número de minutos igual a su nivel.</p>",
+          "_id": "5rL9CY5GO9SJcEZq"
+        }
+      ]
+    },
+    "8WkhvSzeOmLdnoLJ": {
+      "_id": "8WkhvSzeOmLdnoLJ",
+      "name": "Veneno del diente de arena",
+      "systemPatch": {
+        "description": "<p>Puede aplicar este veneno a un arma que hace daño físico para añadir un d6 a su siguiente tirada de daño con esa arma.</p>",
+        "actions": {
+          "BuzdaD4vLsbBS2gy": {
+            "description": "<p>Puede aplicar este veneno a un arma que hace daño físico para añadir un d6 a su siguiente tirada de daño con esa arma.</p>",
+            "name": "Aplicar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Veneno del diente de arena",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Usted reparte 1d6 daño físico adicional en su siguiente tirada de daños con el arma al que se aplicó el veneno.</p>",
+          "_id": "yx4ZkXeuXgw2KvV4"
+        }
+      ]
+    },
+    "fl2f3ees8RFMze9t": {
+      "_id": "fl2f3ees8RFMze9t",
+      "name": "Poción en crecimiento",
+      "systemPatch": {
+        "description": "<p>Puedes beber esta poción para duplicar tu tamaño hasta que elijas dejar caer este formulario o tu próximo descanso. Mientras que en esta forma, usted tiene un bono +2 a la fuerza y un bono +1 a su competencia.</p>",
+        "actions": {
+          "A8wHvMnKnewQ2J3m": {
+            "description": "<p>Puedes beber esta poción para duplicar tu tamaño hasta que elijas dejar caer este formulario o tu próximo descanso. Mientras que en esta forma, usted tiene un bono +2 a la fuerza y un bono +1 a su competencia.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción en crecimiento",
+          "_id": "YEGd74Lssj7rCmpF"
+        }
+      ]
+    },
+    "Aruc2NLutWuVIjP1": {
+      "_id": "Aruc2NLutWuVIjP1",
+      "name": "Poción de salud",
+      "systemPatch": {
+        "description": "<p>Despeja 1d4+1 PG.</p>",
+        "actions": {
+          "O5MYyHpkiEz9uf6A": {
+            "description": "<p>Despeja 1d4+1 PG.</p>",
+            "name": "Bebe."
+          }
+        }
+      }
+    },
+    "VSwa1LpQ9PjZKsWF": {
+      "_id": "VSwa1LpQ9PjZKsWF",
+      "name": "La poción secreta de Homet",
+      "systemPatch": {
+        "description": "<p>Después de beber esta poción, el próximo ataque exitoso que usted hace tiene éxito crítico.</p>",
+        "actions": {
+          "NCcqIcPhEsUnFh7S": {
+            "description": "<p>Después de beber esta poción, el próximo ataque exitoso que usted hace tiene éxito crítico.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "La poción secreta de Homet",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">El próximo ataque exitoso que hagas tiene éxito crítico.</p>",
+          "_id": "QyzXAnvho7lVQQtP"
+        }
+      ]
+    },
+    "EhaQCPJ8oiqpRIwB": {
+      "_id": "EhaQCPJ8oiqpRIwB",
+      "name": "Bengala de Esperanza",
+      "systemPatch": {
+        "description": "<p>Cuando usas esta bengala, los aliados dentro de alcance Cerca lanzan un d6 cuando gastan una Esperanza. Sobre el resultado de 6, ganan el efecto de esa Esperanza sin gastarla. La bengala dura hasta el final de la escena.</p><p>@Template[type:emanation|range:c]</p>",
+        "actions": {
+          "hTF2K4uWcrUypLbs": {
+            "description": "<p>Cuando usas esta bengala, los aliados dentro de alcance Cerca lanzan un d6 cuando gastan una Esperanza. Sobre el resultado de 6, ganan el efecto de esa Esperanza sin gastarla. La bengala dura hasta el final de la escena.</p><p>@Template[type:emanation|range:c]</p>",
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "nQTo6mNoPTEVBtkm": {
+      "_id": "nQTo6mNoPTEVBtkm",
+      "name": "Frasco Arcano mejorado",
+      "systemPatch": {
+        "description": "<p>Puedes hacer una tirada de Sutileza para lanzar este fragmento a un grupo de adversarios dentro de un alcance Lejos. Los objetivos que tiene éxito contra tomar 2d20 daño mágico.</p>",
+        "actions": {
+          "g3sQoxS6sL3mut3u": {
+            "description": "<p>Puedes hacer una tirada de Sutileza para lanzar este fragmento a un grupo de adversarios dentro de un alcance Lejos. Los objetivos que tiene éxito contra tomar 2d20 daño mágico.</p>",
+            "name": "Lanzar"
+          }
+        }
+      }
+    },
+    "BqBWXXe9T07AMV4u": {
+      "_id": "BqBWXXe9T07AMV4u",
+      "name": "Veneno Grindletooth mejorado",
+      "systemPatch": {
+        "description": "<p>Puede aplicar este veneno a un arma que hace daño físico para añadir un d8 a su siguiente tirada de daño con esa arma.</p>",
+        "actions": {
+          "KhZ4WVT9cLA1a1y8": {
+            "description": "<p>Puede aplicar este veneno a un arma que hace daño físico para añadir un d8 a su siguiente tirada de daño con esa arma.</p>",
+            "name": "Aplicar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Veneno Grindletooth mejorado",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Usted reparte 1d8 daño físico adicional en su siguiente tirada de daños con el arma al que se aplicó el veneno.</p>",
+          "_id": "P7tbNjq58bQ9R1Cc"
+        }
+      ]
+    },
+    "yUol6M5b8jsbk9za": {
+      "_id": "yUol6M5b8jsbk9za",
+      "name": "Jarrón de Voces Perdidas",
+      "systemPatch": {
+        "description": "<p>Puedes abrir este frasco para liberar un eco ensordecedor de voces durante un número de minutos igual a tu instinto. Criaturas dentro de un alcance Lejos sin preparación para el sonido toman 6d8 mágico daño.</p><p>@Template[type:emanation|range:f]</p>",
+        "actions": {
+          "QEk4TaJeN9FX8cZN": {
+            "description": "<p>Puedes abrir este frasco para liberar un eco ensordecedor de voces durante un número de minutos igual a tu instinto. Criaturas dentro de un alcance Lejos sin preparación para el sonido toman 6d8 mágico daño.</p><p>@Template[type:emanation|range:f]</p>",
+            "name": "Abrir"
+          }
+        }
+      }
+    },
+    "c2putn9apuurJhWX": {
+      "_id": "c2putn9apuurJhWX",
+      "name": "Salto de raíz",
+      "systemPatch": {
+        "description": "<p>Comer esta raíz para saltar a distancia una vez sin necesidad de tirar.</p>",
+        "actions": {
+          "TT4jzve7o2ykPcQO": {
+            "description": "<p>Comer esta raíz para saltar a distancia una vez sin necesidad de tirar.</p>",
+            "name": "Come."
+          }
+        }
+      }
+    },
+    "nL9IALzm9BNi5oSt": {
+      "_id": "nL9IALzm9BNi5oSt",
+      "name": "Piedra del conocimiento",
+      "systemPatch": {
+        "description": "<p>Si mueres mientras sostienes esta piedra, un aliado puede tomar una carta de tu carga para colocarla en su carga o bóveda. Después de tomar este conocimiento, la piedra se desmorona.</p>",
+        "actions": {
+          "We38aIuxBrv8zhfr": {
+            "description": "<p>Si mueres mientras sostienes esta piedra, un aliado puede tomar una carta de tu carga para colocarla en su carga o bóveda. Después de tomar este conocimiento, la piedra se desmorona.</p>",
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "AA7bmiwv00lshPrC": {
+      "_id": "AA7bmiwv00lshPrC",
+      "name": "Mayor Arcane Shard",
+      "systemPatch": {
+        "description": "<p>Puedes hacer una tirada de Sutileza para lanzar este fragmento a un grupo de adversarios dentro de un alcance Lejos. Los objetivos que tiene éxito contra tomar 4d20 daño mágico.</p>",
+        "actions": {
+          "8JHqtEYD0uOGwHdd": {
+            "description": "<p>Puedes hacer una tirada de Sutileza para lanzar este fragmento a un grupo de adversarios dentro de un alcance Lejos. Los objetivos que tiene éxito contra tomar 4d20 daño mágico.</p>",
+            "name": "Lanzar"
+          }
+        }
+      }
+    },
+    "CCPFm5iXXwvyYYwR": {
+      "_id": "CCPFm5iXXwvyYYwR",
+      "name": "Poción de Afinación Mayor",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su instinto hasta su próximo descanso.</p>",
+        "actions": {
+          "zerWKpcBvtiaUfaw": {
+            "description": "<p>Usted gana un bono +1 a su instinto hasta su próximo descanso.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción de Afinación Mayor",
+          "_id": "v2EXGXbJaewaMxFC"
+        }
+      ]
+    },
+    "mnyQDRtngWWQeRXF": {
+      "_id": "mnyQDRtngWWQeRXF",
+      "name": "Poción mayor de bolster",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su Fuerza hasta su próximo descanso.</p>",
+        "actions": {
+          "Z7ehTbRegQvq74tl": {
+            "description": "<p>Usted gana un bono +1 a su Fuerza hasta su próximo descanso.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción mayor de bolster",
+          "_id": "3PfXBJy0ZjLBDAIn"
+        }
+      ]
+    },
+    "IJLAUlQymbSjzsri": {
+      "_id": "IJLAUlQymbSjzsri",
+      "name": "Poción de encanto mayor",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su Presencia hasta su próximo descanso.</p>",
+        "actions": {
+          "Bz6oZUN317mLvQSk": {
+            "description": "<p>Usted gana un bono +1 a su Presencia hasta su próximo descanso.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción de encanto mayor",
+          "_id": "3iXv9QiuLGOfDCi2"
+        }
+      ]
+    },
+    "80s1FLmTLtohZ5GH": {
+      "_id": "80s1FLmTLtohZ5GH",
+      "name": "Poción principal de control",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su Sutileza hasta su próximo descanso.</p>",
+        "actions": {
+          "fk272mE2zHIHq8qR": {
+            "description": "<p>Usted gana un bono +1 a su Sutileza hasta su próximo descanso.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción principal de control",
+          "_id": "YOgojNdjARXUUrky"
+        }
+      ]
+    },
+    "SDdv1G2veMLKrxcJ": {
+      "_id": "SDdv1G2veMLKrxcJ",
+      "name": "Poción mayor ilustrativa",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su Conocimiento hasta su próximo descanso.</p>",
+        "actions": {
+          "cZL1A3hNXHbjfwi3": {
+            "description": "<p>Usted gana un bono +1 a su Conocimiento hasta su próximo descanso.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción mayor ilustrativa",
+          "_id": "Ul5brgnx88npVGNj"
+        }
+      ]
+    },
+    "cM7pHe8bBAxSZ2xR": {
+      "_id": "cM7pHe8bBAxSZ2xR",
+      "name": "Poción de salud importante",
+      "systemPatch": {
+        "description": "<p>Despeja 1d4+2 PG.</p>",
+        "actions": {
+          "Xm2ldAlmUQY4jlLb": {
+            "description": "<p>Despeja 1d4+2 PG.</p>",
+            "name": "Bebe."
+          }
+        }
+      }
+    },
+    "I4cQ03xbxnc81EGa": {
+      "_id": "I4cQ03xbxnc81EGa",
+      "name": "Poción principal de estamina",
+      "systemPatch": {
+        "description": "<p>Limpiar 1d4+2 Estrés.</p>",
+        "actions": {
+          "3duuNVqCeQaUUKTo": {
+            "description": "<p>Limpiar 1d4+2 Estrés.</p>",
+            "name": "Bebe."
+          }
+        }
+      }
+    },
+    "yK6eEDUrsPbZA8G0": {
+      "_id": "yK6eEDUrsPbZA8G0",
+      "name": "Poción mayor del estrido",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su Agilidad hasta su próximo descanso.</p>",
+        "actions": {
+          "UIVnvI726LJnlK86": {
+            "description": "<p>Usted gana un bono +1 a su Agilidad hasta su próximo descanso.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción mayor del estrido",
+          "_id": "L9dAw8pws1o02XkE"
+        }
+      ]
+    },
+    "tPfKtKRRjv8qdSqy": {
+      "_id": "tPfKtKRRjv8qdSqy",
+      "name": "Poción menor de salud",
+      "systemPatch": {
+        "description": "<p>Despeja 1d4 PG.</p>",
+        "actions": {
+          "9HVL2MPFX9VGiSsV": {
+            "description": "<p>Despeja 1d4 PG.</p>",
+            "name": "Bebe."
+          }
+        }
+      }
+    },
+    "b6vGSPFWOlzZZDLO": {
+      "_id": "b6vGSPFWOlzZZDLO",
+      "name": "Poción de estamina menor",
+      "systemPatch": {
+        "description": "<p>Limpiar 1d4 Estrés.</p>",
+        "actions": {
+          "fdjpkjhzHQOrZPm0": {
+            "description": "<p>Limpiar 1d4 Estrés.</p>",
+            "name": "Bebe."
+          }
+        }
+      }
+    },
+    "UFQVwgYOUZ88UxcH": {
+      "_id": "UFQVwgYOUZ88UxcH",
+      "name": "Espejo de Marigold",
+      "systemPatch": {
+        "description": "<p>Cuando tomas daño, puedes gastar una esperanza para negar ese daño, después de lo cual el espejo se rompe.</p>",
+        "actions": {
+          "EPN43cQmNC97cCw9": {
+            "description": "<p>Cuando tomas daño, puedes gastar una esperanza para negar ese daño, después de lo cual el espejo se rompe.</p>",
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "f1NHVSIHJJCIOaBl": {
+      "_id": "f1NHVSIHJJCIOaBl",
+      "name": "Arcilla Morfológica",
+      "systemPatch": {
+        "description": "<p>Puedes gastar una esperanza en usar esta arcilla, alterando tu cara lo suficiente para hacerte irreconocible hasta tu próximo descanso.</p>",
+        "actions": {
+          "S4wEG1RzfLNtvcg7": {
+            "description": "<p>Puedes gastar una esperanza en usar esta arcilla, alterando tu cara lo suficiente para hacerte irreconocible hasta tu próximo descanso.</p>",
+            "name": "Uso"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Arcilla Morfológica",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Tu cara es irreconocible hasta tu próximo descanso.</p>",
+          "_id": "rMno0zO5Cbwlu4zn"
+        }
+      ]
+    },
+    "Zsh2AvZr8EkGtLyw": {
+      "_id": "Zsh2AvZr8EkGtLyw",
+      "name": "Polvo mítico",
+      "systemPatch": {
+        "description": "<p>Usted puede aplicar este polvo a un arma que hace daño mágico para añadir un d12 a su próximo tirada de daño con esa arma.</p>",
+        "actions": {
+          "oHph7e6VrOwPetbE": {
+            "description": "<p>Usted puede aplicar este polvo a un arma que hace daño mágico para añadir un d12 a su próximo tirada de daño con esa arma.</p>",
+            "name": "Uso"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Polvo mítico",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Usted reparte 1d12 daño mágico adicional en su siguiente tirada de daños con el arma al que se aplicó el veneno.</p>",
+          "_id": "L68lFhuWdS3ppDxR"
+        }
+      ]
+    },
+    "qr1bosjFcUfuwq4B": {
+      "_id": "qr1bosjFcUfuwq4B",
+      "name": "Almizcle de ogro",
+      "systemPatch": {
+        "description": "<p>Puedes usar este almizcle para evitar que alguien te rastree por medios mundanos o mágicos hasta tu próximo descanso.</p>",
+        "actions": {
+          "t0vgSnAuIcj7IevQ": {
+            "description": "<p>Puedes usar este almizcle para evitar que alguien te rastree por medios mundanos o mágicos hasta tu próximo descanso.</p>",
+            "name": "Uso"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Almizcle de ogro",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">No puedes ser rastreado por medios mundanos o mágicos hasta tu próximo descanso.</p>",
+          "_id": "n73d0J4oMCBIPWHN"
+        }
+      ]
+    },
+    "dvL8oaxpEF6jKvYN": {
+      "_id": "dvL8oaxpEF6jKvYN",
+      "name": "Poción de estabilidad",
+      "systemPatch": {
+        "description": "<p>Usted puede beber esta poción para elegir un movimiento adicional de tiempo de inactividad.</p>",
+        "actions": {
+          "ifj42z5FhfMVyyd1": {
+            "description": "<p>Usted puede beber esta poción para elegir un movimiento adicional de tiempo de inactividad.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción de estabilidad",
+          "_id": "PjjGC4TpzjSz9z8s"
+        }
+      ]
+    },
+    "s2Exl2XFuoOhtIov": {
+      "_id": "s2Exl2XFuoOhtIov",
+      "name": "Saliva de espino rojo",
+      "systemPatch": {
+        "description": "<p>Usted puede aplicar esta saliva a un arma que hace daño físico para añadir un d12 a su próximo tirada de daño con esa arma.</p>",
+        "actions": {
+          "kOU2DpAIHvQsFY5A": {
+            "description": "<p>Usted puede aplicar esta saliva a un arma que hace daño físico para añadir un d12 a su próximo tirada de daño con esa arma.</p>",
+            "name": "Aplicar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Saliva de espino rojo",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Usted se ocupa de 1d12 daño físico adicional en su siguiente tirada de daños con el arma a la que se aplicó la saliva.</p>",
+          "_id": "tWf00ezdpxQQLuZ1"
+        }
+      ]
+    },
+    "yJkwz4AP6yhGo8Vj": {
+      "_id": "yJkwz4AP6yhGo8Vj",
+      "name": "Parchment de replicación",
+      "systemPatch": {
+        "description": "<p>Al tocar este pergamino a otro, puedes copiar perfectamente el contenido del segundo pergamino. Una vez usado, este pergamino se convierte en papel mundano.</p>",
+        "actions": {
+          "j5gIVHXvcGu7PEZZ": {
+            "description": "<p>Al tocar este pergamino a otro, puedes copiar perfectamente el contenido del segundo pergamino. Una vez usado, este pergamino se convierte en papel mundano.</p>",
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "HGixKenQwhyRAYNk": {
+      "_id": "HGixKenQwhyRAYNk",
+      "name": "Poción encoger",
+      "systemPatch": {
+        "description": "<p>Usted puede beber esta poción para reducir a la mitad su tamaño hasta que elija dejar caer este formulario o su próximo descanso. Mientras que en esta forma, usted tiene un bono +2 a la Agilidad y una penalización −1 a su competencia.</p>",
+        "actions": {
+          "F9vKFVwtJfR4Q8Kh": {
+            "description": "<p>Usted puede beber esta poción para reducir a la mitad su tamaño hasta que elija dejar caer este formulario o su próximo descanso. Mientras que en esta forma, usted tiene un bono +2 a la Agilidad y una penalización −1 a su competencia.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción encoger",
+          "_id": "yaRLd7eHWYm2MHRM"
+        }
+      ]
+    },
+    "XZavUVlHEvE2srEt": {
+      "_id": "XZavUVlHEvE2srEt",
+      "name": "Savia durmiente",
+      "systemPatch": {
+        "description": "<p>Usted puede beber esta poción para dormirse para descansar toda la noche. Limpias todo el estrés al despertar.</p>",
+        "actions": {
+          "0cqzI66ChzO6x8WF": {
+            "description": "<p>Usted puede beber esta poción para dormirse para descansar toda la noche. Limpias todo el estrés al despertar.</p>",
+            "name": "Despierta."
+          }
+        }
+      }
+    },
+    "cg6VtQ0eVZjDdcK0": {
+      "_id": "cg6VtQ0eVZjDdcK0",
+      "name": "Ajustar el polvo",
+      "systemPatch": {
+        "description": "<p>Marca un Estrés y limpia un PG.</p>",
+        "actions": {
+          "FVn1NAbzHHyX2lsM": {
+            "description": "<p>Marca un Estrés y limpia un PG.</p>",
+            "name": "Imbuir"
+          }
+        }
+      }
+    },
+    "hf3k1POoVSooJyN2": {
+      "_id": "hf3k1POoVSooJyN2",
+      "name": "Poción de estamina",
+      "systemPatch": {
+        "description": "<p>Limpiar 1d4+1 Estrés.</p>",
+        "actions": {
+          "BnYXCo5zr50Sw8gj": {
+            "description": "<p>Limpiar 1d4+1 Estrés.</p>",
+            "name": "Bebe."
+          }
+        }
+      }
+    },
+    "y4c1jrlHrf0wBWOq": {
+      "_id": "y4c1jrlHrf0wBWOq",
+      "name": "Gota Estelar",
+      "systemPatch": {
+        "description": "<p>Puede utilizar esta gota estelar para convocar una granizada tormenta de cometas que hace daño físico 8d20 a todos los objetivos dentro de un rango muy lejano.</p>",
+        "actions": {
+          "pt5U6hlyx4T7MUOa": {
+            "description": "<p>Puede utilizar esta gota estelar para convocar una granizada tormenta de cometas que hace daño físico 8d20 a todos los objetivos dentro de un rango muy lejano.</p><p>@Template[type:emanation|range:vf]</p>",
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "lNtcrkgFGOJNaroE": {
+      "_id": "lNtcrkgFGOJNaroE",
+      "name": "Poción de estrido",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su siguiente tirada de Agilidad.</p>",
+        "actions": {
+          "GwQgdB3E1HogFKvD": {
+            "description": "<p>Usted gana un bono +1 a su siguiente tirada de Agilidad.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción de estrido",
+          "_id": "xQ0xPDxskzZH4jeK"
+        }
+      ]
+    },
+    "kwexUzdM9wm1Qums": {
+      "_id": "kwexUzdM9wm1Qums",
+      "name": "Savia del árbol del sol",
+      "systemPatch": {
+        "description": "<p>Consumir esta savia para tirar un [[/r d6]]. A un resultado de 5-6, claro 2 PG. Sobre un resultado de 2-4, claro 3 Estrés. En un resultado de 1, ver a través del velo de la muerte y volver cambiado, ganando una cicatriz.</p>",
+        "actions": {
+          "Fh7OR8ZmiLNvRPHa": {
+            "description": "<p>Consumir esta savia para tirar un [[/r d6]]. A un resultado de 5-6, claro 2 PG. Sobre un resultado de 2-4, claro 3 Estrés. En un resultado de 1, ver a través del velo de la muerte y volver cambiado, ganando una cicatriz.</p>",
+            "name": "Consumir"
+          }
+        }
+      }
+    },
+    "GrDrRqWgv7gvl9vn": {
+      "_id": "GrDrRqWgv7gvl9vn",
+      "name": "Moss dulce",
+      "systemPatch": {
+        "description": "<p>Puede consumir este musgo durante un descanso para limpiar 1d10 PG o 1d10 Estrés.</p>",
+        "actions": {
+          "Sft4HkhlqsYH5qKI": {
+            "description": "<p>Usted puede consumir este musgo durante un descanso para limpiar 1d10 PG.</p>",
+            "name": "Borrar Puntos de Golpe"
+          },
+          "IolxVguij8PjHSVt": {
+            "description": "<p>Puede consumir este musgo durante un descanso para eliminar el estrés 1d10.</p>",
+            "name": "Estrés claro"
+          }
+        }
+      }
+    },
+    "mUepnLbkvFk0ha4Z": {
+      "_id": "mUepnLbkvFk0ha4Z",
+      "name": "Frasco arcano inestable",
+      "systemPatch": {
+        "description": "<p>Puedes hacer una tirada de Sutileza para lanzar este fragmento a un grupo de adversarios dentro de un alcance Lejos. Los objetivos que tiene éxito contra tomar 1d20 daño mágico.</p>",
+        "actions": {
+          "D7BTCUV5DOXmqC0l": {
+            "description": "<p>Puedes hacer una tirada de Sutileza para lanzar este fragmento a un grupo de adversarios dentro de un alcance Lejos. Los objetivos que tiene éxito contra tomar 1d20 daño mágico.</p>",
+            "name": "Lanzar"
+          }
+        }
+      }
+    },
+    "hvy5BkG3F6iOIXTx": {
+      "_id": "hvy5BkG3F6iOIXTx",
+      "name": "Hojas varik",
+      "systemPatch": {
+        "description": "<p>Usted puede comer estas hojas emparejadas para ganar inmediatamente 2 Esperanza.</p>",
+        "actions": {
+          "9e4l2Yiy8uV26SQF": {
+            "description": "<p>Usted puede comer estas hojas emparejadas para ganar inmediatamente 2 Esperanza.</p>",
+            "name": "Come."
+          }
+        }
+      }
+    },
+    "Nwv5ydGf0MWnzq1n": {
+      "_id": "Nwv5ydGf0MWnzq1n",
+      "name": "Vial de humo oscuro",
+      "systemPatch": {
+        "description": "<p>Cuando un adversario te ataque, usa este vial y enrolla un número de d6s igual a tu Agilidad. Agrega el resultado más alto a tu Evasión contra el ataque.</p>",
+        "actions": {
+          "4nFnAoyH5dENizsx": {
+            "description": "<p>Cuando un adversario te ataque, usa este vial y enrolla un número de d6s igual a tu Agilidad. Agrega el resultado más alto a tu Evasión contra el ataque.</p>",
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "VqEX5YwK5oL3r1t6": {
+      "_id": "VqEX5YwK5oL3r1t6",
+      "name": "Vial de Moondrip",
+      "systemPatch": {
+        "description": "<p>Cuando bebes el contenido de este vial, puedes ver en total oscuridad hasta tu próximo descanso.</p>",
+        "actions": {
+          "6Ny75zR1b8I8Ycsb": {
+            "description": "<p>Cuando bebes el contenido de este vial, puedes ver en total oscuridad hasta tu próximo descanso.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Vial de Moondrip",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Puedes ver en total oscuridad hasta tu próximo descanso.</p>",
+          "_id": "548KAUPcSbQLsivh"
+        }
+      ]
+    },
+    "n10vozlmosVR6lo4": {
+      "_id": "n10vozlmosVR6lo4",
+      "name": "Brote Alado",
+      "systemPatch": {
+        "description": "<p>Ganas alas mágicas que te permiten volar durante un número de minutos igual a tu nivel.</p>",
+        "actions": {
+          "HopgGHn12CHiDNuk": {
+            "description": "<p>Ganas alas mágicas que te permiten volar durante un número de minutos igual a tu nivel.</p>",
+            "name": "Uso"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Brote Alado",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Ganas alas mágicas que te permiten volar durante un número de minutos igual a tu nivel.</p>",
+          "_id": "80F8gAn7ejhhNL7R"
+        }
+      ]
+    },
+    "Acidpaste": {
+      "_id": "cfVFmS8vT9dbq9s1",
+      "name": "Pasta ácida",
+      "systemPatch": {
+        "description": "<p>Esta pasta devora paredes y otras superficies en destellos brillantes.</p>",
+        "actions": {
+          "FQ2Ty0pP3z6JrBr6": {
+            "description": "<p>Esta pasta devora paredes y otras superficies en destellos brillantes.</p>",
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "Armor Stitcher": {
+      "_id": "VlbsCjvvLNfTzNXb",
+      "name": "Cosidera de Armadura",
+      "systemPatch": {
+        "description": "<p>Usted puede utilizar esta costura para pasar cualquier número de Esperanza y claro que muchas Ranuras de Armadura.</p>",
+        "actions": {
+          "htoGx8qrv8trds81": {
+            "description": "<p>Usted puede utilizar esta costura para pasar cualquier número de Esperanza y claro que muchas Ranuras de Armadura.</p>",
+            "name": "Costura"
+          }
+        }
+      }
+    },
+    "Attune Potion": {
+      "_id": "JGD3M9hBHtVAA8XP",
+      "name": "Afinar la poción",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su próximo tirada de Instinto.</p>",
+        "actions": {
+          "aiyNOQZbVpTDagXy": {
+            "description": "<p>Usted gana un bono +1 a su próximo tirada de Instinto.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Afinar la poción",
+          "_id": "I5vgALTNDVApxy9d"
+        }
+      ]
+    },
+    "Blinding Orb": {
+      "_id": "eAXHdzA5qNPldOpn",
+      "name": "Orbe cegador",
+      "systemPatch": {
+        "description": "<p>Puedes activar este orbe para crear un destello de luz brillante. Todos los objetivos dentro de alcance Cerca se vuelven vulnerables hasta que marcan PG.</p><p>@Template[type:emanation|range:c]</p>",
+        "actions": {
+          "vk4dE0C8bjNdTwAF": {
+            "description": "<p>Puedes activar este orbe para crear un destello de luz brillante. Todos los objetivos dentro de alcance Cerca se vuelven vulnerables hasta que marcan PG.</p><p>@Template[type:emanation|range:c]</p>",
+            "name": "Activar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Orbe cegador",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Eres vulnerable hasta que marcas un Punto de Golpe.</p>",
+          "_id": "nryJhrF26hyFQUxH"
+        }
+      ]
+    },
+    "Blood of the Yorgi": {
+      "_id": "pDGzmczoTlKGmKgd",
+      "name": "Sangre del Yorgi",
+      "systemPatch": {
+        "description": "<p>Puedes beber esta sangre para desaparecer de donde estás e inmediatamente reaparecer en un punto que puedes ver dentro de un rango muy lejano.</p>",
+        "actions": {
+          "6QGfkGkFqqzuVOOY": {
+            "description": "<p>Puedes beber esta sangre para desaparecer de donde estás e inmediatamente reaparecer en un punto que puedes ver dentro de un rango muy lejano.</p>",
+            "name": "Bebe."
+          }
+        }
+      }
+    },
+    "Bolster Potion": {
+      "_id": "FOPQNqXbiVO0ilYL",
+      "name": "Poción de bolster",
+      "systemPatch": {
+        "description": "<p>Ganas un bono +1 para tu próximo Tirada de Fuerza.</p>",
+        "actions": {
+          "YqbQKTgblItoZOm8": {
+            "description": "<p>Ganas un bono +1 para tu próximo Tirada de Fuerza.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción de bolster",
+          "_id": "HVCJp9Tkhr1i4Oc1"
+        }
+      ]
+    },
+    "Bonding Honey": {
+      "_id": "PfQvqopXgvroBklL",
+      "name": "Miel de unión",
+      "systemPatch": {
+        "description": "<p>Esta miel se puede utilizar para pegar dos objetos de forma permanente.</p>",
+        "actions": {
+          "SWrgUGHIWCXpED1b": {
+            "description": "<p>Esta miel se puede utilizar para pegar dos objetos de forma permanente.</p>",
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "Bridge Seed": {
+      "_id": "RrIasiMCt6mqVTps",
+      "name": "Semilla de puente",
+      "systemPatch": {
+        "description": "<p>Las vides gruesas crecen desde su ubicación hasta un punto de su elección dentro de un alcance Lejos, lo que le permite escalar o cruzarlas. Las vides se disipan en su próximo breve descanso.</p>",
+        "actions": {
+          "dk7fhkfA4m5lqNWB": {
+            "description": "<p>Las vides gruesas crecen desde su ubicación hasta un punto de su elección dentro de un alcance Lejos, lo que le permite escalar o cruzarlas. Las vides se disipan en su próximo breve descanso.</p>",
+            "name": "Planta"
+          }
+        }
+      }
+    },
+    "Channelstone": {
+      "_id": "IKMVQ6VwtapwoUim",
+      "name": "Piedra Canalizadora",
+      "systemPatch": {
+        "description": "<p>Puedes usar esta piedra para tomar un hechizo o un grimorio de tu bóveda, usarla una vez, y devolverla a tu bóveda.</p>",
+        "actions": {
+          "X4KtBG5Uve09hRoj": {
+            "description": "<p>Puedes usar esta piedra para tomar un hechizo o un grimorio de tu bóveda, usarla una vez, y devolverla a tu bóveda.</p>",
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "Charm Potion": {
+      "_id": "CVBbFfOY75YwyQsp",
+      "name": "Poción de encanto",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su próximo tirada de presencia.</p>",
+        "actions": {
+          "2trd3JYIb527LIrn": {
+            "description": "<p>Usted gana un bono +1 a su próximo tirada de presencia.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción de encanto",
+          "_id": "COrKb7gBin4Ro6r6"
+        }
+      ]
+    },
+    "Circle of the Void": {
+      "_id": "elsyP6VhHw1JjGSl",
+      "name": "Círculo del Vacío",
+      "systemPatch": {
+        "description": "<p>Marcar un Estrés para crear un vacío que se extiende hasta el alcance Lejos. Ninguna magia puede ser lanzada dentro del vacío, y las criaturas dentro del vacío son inmunes al daño mágico.</p>",
+        "actions": {
+          "ovR11FWCpXaFMPVx": {
+            "description": "<p>Marcar un Estrés para crear un vacío que se extiende hasta el alcance Lejos. Ninguna magia puede ser lanzada dentro del vacío, y las criaturas dentro del vacío son inmunes al daño mágico.</p>",
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "Control Potion": {
+      "_id": "eeBhZSGLjuNZuJuI",
+      "name": "Poción de control",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su próximo tirada de Sutileza.</p>",
+        "actions": {
+          "l5dx5uYsH0btLDJq": {
+            "description": "<p>Usted gana un bono +1 a su próximo tirada de Sutileza.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción de control",
+          "_id": "1VAQYZ1YYc9ew9UR"
+        }
+      ]
+    },
+    "Death Tea": {
+      "_id": "xDnJeF1grkmKck8Q",
+      "name": "Té de la muerte",
+      "systemPatch": {
+        "description": "<p>Después de beber este té, matas instantáneamente a tu objetivo cuando tienes éxito crítico en un ataque. Si usted no tiene éxito crítico en un ataque antes de su próximo descanso prolongado, usted muere.</p>",
+        "actions": {
+          "U7da5R4pgVkEQJVj": {
+            "description": "<p>Después de beber este té, matas instantáneamente a tu objetivo cuando tienes éxito crítico en un ataque. Si usted no tiene éxito crítico en un ataque antes de su próximo descanso prolongado, usted muere.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Té de la muerte",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Después de beber este té, matas instantáneamente a tu objetivo cuando tienes éxito crítico en un ataque. Si usted no tiene éxito crítico en un ataque antes de su próximo descanso prolongado, usted muere.</p>",
+          "_id": "IqlpqsgurXsUEQhs"
+        }
+      ]
+    },
+    "Dragonbloom Tea": {
+      "_id": "wM18PWWW2Ami4fBG",
+      "name": "Té de globo de dragón",
+      "systemPatch": {
+        "description": "<p>Usted puede beber este té para desencadenar un ataque de respiración ardiente. Haga una tirada de Instinto contra todos los adversarios en frente de usted dentro de Corto alcance. Los objetivos que tiene éxito contra tomar d20 daño físico utilizando su competencia.</p>",
+        "actions": {
+          "rcHEz3ImUDwo6lPC": {
+            "description": "<p>Usted puede beber este té para desencadenar un ataque de respiración ardiente. Haga una tirada de Instinto contra todos los adversarios en frente de usted dentro de Corto alcance. Los objetivos que tiene éxito contra tomar d20 daño físico utilizando su competencia.</p><p>@Template[type:emanation|range:c]</p>",
+            "name": "Bebe."
+          }
+        }
+      }
+    },
+    "Dripfang Poison": {
+      "_id": "eU8VpbWB2NHIL47n",
+      "name": "Dripfang Veneno",
+      "systemPatch": {
+        "description": "<p>Una criatura que consume este veneno toma 8d10 daño mágico directo.</p>",
+        "actions": {
+          "F8CUhhCuZMnXVCrw": {
+            "description": "<p>Una criatura que consume este veneno toma 8d10 daño mágico directo.</p>",
+            "name": "Consumir"
+          }
+        }
+      }
+    },
+    "Enlighten Potion": {
+      "_id": "aWHSO2AqDufi7nL4",
+      "name": "Iluminar la poción",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su próximo tirada de Conocimiento.</p>",
+        "actions": {
+          "F3K719gxEwQH697e": {
+            "description": "<p>Usted gana un bono +1 a su próximo tirada de Conocimiento.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Iluminar la poción",
+          "_id": "QNzVrDW73jF1d5wE"
+        }
+      ]
+    },
+    "Feast of Xuria": {
+      "_id": "aX6NyxkNzu0LcJpt",
+      "name": "Fiesta de Xuria",
+      "systemPatch": {
+        "description": "<p>Usted puede comer esta comida para limpiar todo PG y el estrés y ganar 1d4 Esperanza.</p>",
+        "actions": {
+          "TL1fJitAJmDzrnHT": {
+            "description": "<p>Usted puede comer esta comida para limpiar todo PG y el estrés y ganar 1d4 Esperanza.</p>",
+            "name": "Come."
+          }
+        }
+      }
+    },
+    "Featherbone": {
+      "_id": "DpxEMpwfasEBpORU",
+      "name": "Hueso de Pluma",
+      "systemPatch": {
+        "description": "<p>Puedes usar este hueso para controlar tu velocidad de caída durante un número de minutos igual a tu nivel.</p>",
+        "actions": {
+          "MC0EA6TDZpEHMz11": {
+            "description": "<p>Puedes usar este hueso para controlar tu velocidad de caída durante un número de minutos igual a tu nivel.</p>",
+            "name": "Uso"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Hueso de Pluma",
+          "description": "<p>Puedes usar este hueso para controlar tu velocidad de caída durante un número de minutos igual a tu nivel.</p>",
+          "_id": "VfJIJBW96e45xQHY"
+        }
+      ]
+    },
+    "Gill Salve": {
+      "_id": "Nvbb9mze6o5D0AEg",
+      "name": "Ungüento de Branquia",
+      "systemPatch": {
+        "description": "<p>Usted puede aplicar esta salve a su cuello para respirar bajo el agua durante un número de minutos igual a su nivel.</p>",
+        "actions": {
+          "57IIcyhEs2ByoENx": {
+            "description": "<p>Usted puede aplicar esta salve a su cuello para respirar bajo el agua durante un número de minutos igual a su nivel.</p>",
+            "name": "Aplicar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Ungüento de Branquia",
+          "description": "<p>Usted puede aplicar esta salve a su cuello para respirar bajo el agua durante un número de minutos igual a su nivel.</p>",
+          "_id": "5rL9CY5GO9SJcEZq"
+        }
+      ]
+    },
+    "Grindletooth Venom": {
+      "_id": "8WkhvSzeOmLdnoLJ",
+      "name": "Veneno del diente de arena",
+      "systemPatch": {
+        "description": "<p>Puede aplicar este veneno a un arma que hace daño físico para añadir un d6 a su siguiente tirada de daño con esa arma.</p>",
+        "actions": {
+          "BuzdaD4vLsbBS2gy": {
+            "description": "<p>Puede aplicar este veneno a un arma que hace daño físico para añadir un d6 a su siguiente tirada de daño con esa arma.</p>",
+            "name": "Aplicar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Veneno del diente de arena",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Usted reparte 1d6 daño físico adicional en su siguiente tirada de daños con el arma al que se aplicó el veneno.</p>",
+          "_id": "yx4ZkXeuXgw2KvV4"
+        }
+      ]
+    },
+    "Growing Potion": {
+      "_id": "fl2f3ees8RFMze9t",
+      "name": "Poción en crecimiento",
+      "systemPatch": {
+        "description": "<p>Puedes beber esta poción para duplicar tu tamaño hasta que elijas dejar caer este formulario o tu próximo descanso. Mientras que en esta forma, usted tiene un bono +2 a la fuerza y un bono +1 a su competencia.</p>",
+        "actions": {
+          "A8wHvMnKnewQ2J3m": {
+            "description": "<p>Puedes beber esta poción para duplicar tu tamaño hasta que elijas dejar caer este formulario o tu próximo descanso. Mientras que en esta forma, usted tiene un bono +2 a la fuerza y un bono +1 a su competencia.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción en crecimiento",
+          "_id": "YEGd74Lssj7rCmpF"
+        }
+      ]
+    },
+    "Health Potion": {
+      "_id": "Aruc2NLutWuVIjP1",
+      "name": "Poción de salud",
+      "systemPatch": {
+        "description": "<p>Despeja 1d4+1 PG.</p>",
+        "actions": {
+          "O5MYyHpkiEz9uf6A": {
+            "description": "<p>Despeja 1d4+1 PG.</p>",
+            "name": "Bebe."
+          }
+        }
+      }
+    },
+    "Homet’s Secret Potion": {
+      "_id": "VSwa1LpQ9PjZKsWF",
+      "name": "La poción secreta de Homet",
+      "systemPatch": {
+        "description": "<p>Después de beber esta poción, el próximo ataque exitoso que usted hace tiene éxito crítico.</p>",
+        "actions": {
+          "NCcqIcPhEsUnFh7S": {
+            "description": "<p>Después de beber esta poción, el próximo ataque exitoso que usted hace tiene éxito crítico.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "La poción secreta de Homet",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">El próximo ataque exitoso que hagas tiene éxito crítico.</p>",
+          "_id": "QyzXAnvho7lVQQtP"
+        }
+      ]
+    },
+    "Hopehold Flare": {
+      "_id": "EhaQCPJ8oiqpRIwB",
+      "name": "Bengala de Esperanza",
+      "systemPatch": {
+        "description": "<p>Cuando usas esta bengala, los aliados dentro de alcance Cerca lanzan un d6 cuando gastan una Esperanza. Sobre el resultado de 6, ganan el efecto de esa Esperanza sin gastarla. La bengala dura hasta el final de la escena.</p><p>@Template[type:emanation|range:c]</p>",
+        "actions": {
+          "hTF2K4uWcrUypLbs": {
+            "description": "<p>Cuando usas esta bengala, los aliados dentro de alcance Cerca lanzan un d6 cuando gastan una Esperanza. Sobre el resultado de 6, ganan el efecto de esa Esperanza sin gastarla. La bengala dura hasta el final de la escena.</p><p>@Template[type:emanation|range:c]</p>",
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "Improved Arcane Shard": {
+      "_id": "nQTo6mNoPTEVBtkm",
+      "name": "Frasco Arcano mejorado",
+      "systemPatch": {
+        "description": "<p>Puedes hacer una tirada de Sutileza para lanzar este fragmento a un grupo de adversarios dentro de un alcance Lejos. Los objetivos que tiene éxito contra tomar 2d20 daño mágico.</p>",
+        "actions": {
+          "g3sQoxS6sL3mut3u": {
+            "description": "<p>Puedes hacer una tirada de Sutileza para lanzar este fragmento a un grupo de adversarios dentro de un alcance Lejos. Los objetivos que tiene éxito contra tomar 2d20 daño mágico.</p>",
+            "name": "Lanzar"
+          }
+        }
+      }
+    },
+    "Improved Grindletooth Venom": {
+      "_id": "BqBWXXe9T07AMV4u",
+      "name": "Veneno Grindletooth mejorado",
+      "systemPatch": {
+        "description": "<p>Puede aplicar este veneno a un arma que hace daño físico para añadir un d8 a su siguiente tirada de daño con esa arma.</p>",
+        "actions": {
+          "KhZ4WVT9cLA1a1y8": {
+            "description": "<p>Puede aplicar este veneno a un arma que hace daño físico para añadir un d8 a su siguiente tirada de daño con esa arma.</p>",
+            "name": "Aplicar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Veneno Grindletooth mejorado",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Usted reparte 1d8 daño físico adicional en su siguiente tirada de daños con el arma al que se aplicó el veneno.</p>",
+          "_id": "P7tbNjq58bQ9R1Cc"
+        }
+      ]
+    },
+    "Jar of Lost Voices": {
+      "_id": "yUol6M5b8jsbk9za",
+      "name": "Jarrón de Voces Perdidas",
+      "systemPatch": {
+        "description": "<p>Puedes abrir este frasco para liberar un eco ensordecedor de voces durante un número de minutos igual a tu instinto. Criaturas dentro de un alcance Lejos sin preparación para el sonido toman 6d8 mágico daño.</p><p>@Template[type:emanation|range:f]</p>",
+        "actions": {
+          "QEk4TaJeN9FX8cZN": {
+            "description": "<p>Puedes abrir este frasco para liberar un eco ensordecedor de voces durante un número de minutos igual a tu instinto. Criaturas dentro de un alcance Lejos sin preparación para el sonido toman 6d8 mágico daño.</p><p>@Template[type:emanation|range:f]</p>",
+            "name": "Abrir"
+          }
+        }
+      }
+    },
+    "Jumping Root": {
+      "_id": "c2putn9apuurJhWX",
+      "name": "Salto de raíz",
+      "systemPatch": {
+        "description": "<p>Comer esta raíz para saltar a distancia una vez sin necesidad de tirar.</p>",
+        "actions": {
+          "TT4jzve7o2ykPcQO": {
+            "description": "<p>Comer esta raíz para saltar a distancia una vez sin necesidad de tirar.</p>",
+            "name": "Come."
+          }
+        }
+      }
+    },
+    "Knowledge Stone": {
+      "_id": "nL9IALzm9BNi5oSt",
+      "name": "Piedra del conocimiento",
+      "systemPatch": {
+        "description": "<p>Si mueres mientras sostienes esta piedra, un aliado puede tomar una carta de tu carga para colocarla en su carga o bóveda. Después de tomar este conocimiento, la piedra se desmorona.</p>",
+        "actions": {
+          "We38aIuxBrv8zhfr": {
+            "description": "<p>Si mueres mientras sostienes esta piedra, un aliado puede tomar una carta de tu carga para colocarla en su carga o bóveda. Después de tomar este conocimiento, la piedra se desmorona.</p>",
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "Major Arcane Shard": {
+      "_id": "AA7bmiwv00lshPrC",
+      "name": "Mayor Arcane Shard",
+      "systemPatch": {
+        "description": "<p>Puedes hacer una tirada de Sutileza para lanzar este fragmento a un grupo de adversarios dentro de un alcance Lejos. Los objetivos que tiene éxito contra tomar 4d20 daño mágico.</p>",
+        "actions": {
+          "8JHqtEYD0uOGwHdd": {
+            "description": "<p>Puedes hacer una tirada de Sutileza para lanzar este fragmento a un grupo de adversarios dentro de un alcance Lejos. Los objetivos que tiene éxito contra tomar 4d20 daño mágico.</p>",
+            "name": "Lanzar"
+          }
+        }
+      }
+    },
+    "Major Attune Potion": {
+      "_id": "CCPFm5iXXwvyYYwR",
+      "name": "Poción de Afinación Mayor",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su instinto hasta su próximo descanso.</p>",
+        "actions": {
+          "zerWKpcBvtiaUfaw": {
+            "description": "<p>Usted gana un bono +1 a su instinto hasta su próximo descanso.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción de Afinación Mayor",
+          "_id": "v2EXGXbJaewaMxFC"
+        }
+      ]
+    },
+    "Major Bolster Potion": {
+      "_id": "mnyQDRtngWWQeRXF",
+      "name": "Poción mayor de bolster",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su Fuerza hasta su próximo descanso.</p>",
+        "actions": {
+          "Z7ehTbRegQvq74tl": {
+            "description": "<p>Usted gana un bono +1 a su Fuerza hasta su próximo descanso.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción mayor de bolster",
+          "_id": "3PfXBJy0ZjLBDAIn"
+        }
+      ]
+    },
+    "Major Charm Potion": {
+      "_id": "IJLAUlQymbSjzsri",
+      "name": "Poción de encanto mayor",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su Presencia hasta su próximo descanso.</p>",
+        "actions": {
+          "Bz6oZUN317mLvQSk": {
+            "description": "<p>Usted gana un bono +1 a su Presencia hasta su próximo descanso.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción de encanto mayor",
+          "_id": "3iXv9QiuLGOfDCi2"
+        }
+      ]
+    },
+    "Major Control Potion": {
+      "_id": "80s1FLmTLtohZ5GH",
+      "name": "Poción principal de control",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su Sutileza hasta su próximo descanso.</p>",
+        "actions": {
+          "fk272mE2zHIHq8qR": {
+            "description": "<p>Usted gana un bono +1 a su Sutileza hasta su próximo descanso.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción principal de control",
+          "_id": "YOgojNdjARXUUrky"
+        }
+      ]
+    },
+    "Major Enlighten Potion": {
+      "_id": "SDdv1G2veMLKrxcJ",
+      "name": "Poción mayor ilustrativa",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su Conocimiento hasta su próximo descanso.</p>",
+        "actions": {
+          "cZL1A3hNXHbjfwi3": {
+            "description": "<p>Usted gana un bono +1 a su Conocimiento hasta su próximo descanso.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción mayor ilustrativa",
+          "_id": "Ul5brgnx88npVGNj"
+        }
+      ]
+    },
+    "Major Health Potion": {
+      "_id": "cM7pHe8bBAxSZ2xR",
+      "name": "Poción de salud importante",
+      "systemPatch": {
+        "description": "<p>Despeja 1d4+2 PG.</p>",
+        "actions": {
+          "Xm2ldAlmUQY4jlLb": {
+            "description": "<p>Despeja 1d4+2 PG.</p>",
+            "name": "Bebe."
+          }
+        }
+      }
+    },
+    "Major Stamina Potion": {
+      "_id": "I4cQ03xbxnc81EGa",
+      "name": "Poción principal de estamina",
+      "systemPatch": {
+        "description": "<p>Limpiar 1d4+2 Estrés.</p>",
+        "actions": {
+          "3duuNVqCeQaUUKTo": {
+            "description": "<p>Limpiar 1d4+2 Estrés.</p>",
+            "name": "Bebe."
+          }
+        }
+      }
+    },
+    "Major Stride Potion": {
+      "_id": "yK6eEDUrsPbZA8G0",
+      "name": "Poción mayor del estrido",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su Agilidad hasta su próximo descanso.</p>",
+        "actions": {
+          "UIVnvI726LJnlK86": {
+            "description": "<p>Usted gana un bono +1 a su Agilidad hasta su próximo descanso.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción mayor del estrido",
+          "_id": "L9dAw8pws1o02XkE"
+        }
+      ]
+    },
+    "Minor Health Potion": {
+      "_id": "tPfKtKRRjv8qdSqy",
+      "name": "Poción menor de salud",
+      "systemPatch": {
+        "description": "<p>Despeja 1d4 PG.</p>",
+        "actions": {
+          "9HVL2MPFX9VGiSsV": {
+            "description": "<p>Despeja 1d4 PG.</p>",
+            "name": "Bebe."
+          }
+        }
+      }
+    },
+    "Minor Stamina Potion": {
+      "_id": "b6vGSPFWOlzZZDLO",
+      "name": "Poción de estamina menor",
+      "systemPatch": {
+        "description": "<p>Limpiar 1d4 Estrés.</p>",
+        "actions": {
+          "fdjpkjhzHQOrZPm0": {
+            "description": "<p>Limpiar 1d4 Estrés.</p>",
+            "name": "Bebe."
+          }
+        }
+      }
+    },
+    "Mirror of Marigold": {
+      "_id": "UFQVwgYOUZ88UxcH",
+      "name": "Espejo de Marigold",
+      "systemPatch": {
+        "description": "<p>Cuando tomas daño, puedes gastar una esperanza para negar ese daño, después de lo cual el espejo se rompe.</p>",
+        "actions": {
+          "EPN43cQmNC97cCw9": {
+            "description": "<p>Cuando tomas daño, puedes gastar una esperanza para negar ese daño, después de lo cual el espejo se rompe.</p>",
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "Morphing Clay": {
+      "_id": "f1NHVSIHJJCIOaBl",
+      "name": "Arcilla Morfológica",
+      "systemPatch": {
+        "description": "<p>Puedes gastar una esperanza en usar esta arcilla, alterando tu cara lo suficiente para hacerte irreconocible hasta tu próximo descanso.</p>",
+        "actions": {
+          "S4wEG1RzfLNtvcg7": {
+            "description": "<p>Puedes gastar una esperanza en usar esta arcilla, alterando tu cara lo suficiente para hacerte irreconocible hasta tu próximo descanso.</p>",
+            "name": "Uso"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Arcilla Morfológica",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Tu cara es irreconocible hasta tu próximo descanso.</p>",
+          "_id": "rMno0zO5Cbwlu4zn"
+        }
+      ]
+    },
+    "Mythic Dust": {
+      "_id": "Zsh2AvZr8EkGtLyw",
+      "name": "Polvo mítico",
+      "systemPatch": {
+        "description": "<p>Usted puede aplicar este polvo a un arma que hace daño mágico para añadir un d12 a su próximo tirada de daño con esa arma.</p>",
+        "actions": {
+          "oHph7e6VrOwPetbE": {
+            "description": "<p>Usted puede aplicar este polvo a un arma que hace daño mágico para añadir un d12 a su próximo tirada de daño con esa arma.</p>",
+            "name": "Uso"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Polvo mítico",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Usted reparte 1d12 daño mágico adicional en su siguiente tirada de daños con el arma al que se aplicó el veneno.</p>",
+          "_id": "L68lFhuWdS3ppDxR"
+        }
+      ]
+    },
+    "Ogre Musk": {
+      "_id": "qr1bosjFcUfuwq4B",
+      "name": "Almizcle de ogro",
+      "systemPatch": {
+        "description": "<p>Puedes usar este almizcle para evitar que alguien te rastree por medios mundanos o mágicos hasta tu próximo descanso.</p>",
+        "actions": {
+          "t0vgSnAuIcj7IevQ": {
+            "description": "<p>Puedes usar este almizcle para evitar que alguien te rastree por medios mundanos o mágicos hasta tu próximo descanso.</p>",
+            "name": "Uso"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Almizcle de ogro",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">No puedes ser rastreado por medios mundanos o mágicos hasta tu próximo descanso.</p>",
+          "_id": "n73d0J4oMCBIPWHN"
+        }
+      ]
+    },
+    "Potion of Stability": {
+      "_id": "dvL8oaxpEF6jKvYN",
+      "name": "Poción de estabilidad",
+      "systemPatch": {
+        "description": "<p>Usted puede beber esta poción para elegir un movimiento adicional de tiempo de inactividad.</p>",
+        "actions": {
+          "ifj42z5FhfMVyyd1": {
+            "description": "<p>Usted puede beber esta poción para elegir un movimiento adicional de tiempo de inactividad.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción de estabilidad",
+          "_id": "PjjGC4TpzjSz9z8s"
+        }
+      ]
+    },
+    "Redthorn Saliva": {
+      "_id": "s2Exl2XFuoOhtIov",
+      "name": "Saliva de espino rojo",
+      "systemPatch": {
+        "description": "<p>Usted puede aplicar esta saliva a un arma que hace daño físico para añadir un d12 a su próximo tirada de daño con esa arma.</p>",
+        "actions": {
+          "kOU2DpAIHvQsFY5A": {
+            "description": "<p>Usted puede aplicar esta saliva a un arma que hace daño físico para añadir un d12 a su próximo tirada de daño con esa arma.</p>",
+            "name": "Aplicar"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Saliva de espino rojo",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Usted se ocupa de 1d12 daño físico adicional en su siguiente tirada de daños con el arma a la que se aplicó la saliva.</p>",
+          "_id": "tWf00ezdpxQQLuZ1"
+        }
+      ]
+    },
+    "Replication Parchment": {
+      "_id": "yJkwz4AP6yhGo8Vj",
+      "name": "Parchment de replicación",
+      "systemPatch": {
+        "description": "<p>Al tocar este pergamino a otro, puedes copiar perfectamente el contenido del segundo pergamino. Una vez usado, este pergamino se convierte en papel mundano.</p>",
+        "actions": {
+          "j5gIVHXvcGu7PEZZ": {
+            "description": "<p>Al tocar este pergamino a otro, puedes copiar perfectamente el contenido del segundo pergamino. Una vez usado, este pergamino se convierte en papel mundano.</p>",
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "Shrinking Potion": {
+      "_id": "HGixKenQwhyRAYNk",
+      "name": "Poción encoger",
+      "systemPatch": {
+        "description": "<p>Usted puede beber esta poción para reducir a la mitad su tamaño hasta que elija dejar caer este formulario o su próximo descanso. Mientras que en esta forma, usted tiene un bono +2 a la Agilidad y una penalización −1 a su competencia.</p>",
+        "actions": {
+          "F9vKFVwtJfR4Q8Kh": {
+            "description": "<p>Usted puede beber esta poción para reducir a la mitad su tamaño hasta que elija dejar caer este formulario o su próximo descanso. Mientras que en esta forma, usted tiene un bono +2 a la Agilidad y una penalización −1 a su competencia.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción encoger",
+          "_id": "yaRLd7eHWYm2MHRM"
+        }
+      ]
+    },
+    "Sleeping Sap": {
+      "_id": "XZavUVlHEvE2srEt",
+      "name": "Savia durmiente",
+      "systemPatch": {
+        "description": "<p>Usted puede beber esta poción para dormirse para descansar toda la noche. Limpias todo el estrés al despertar.</p>",
+        "actions": {
+          "0cqzI66ChzO6x8WF": {
+            "description": "<p>Usted puede beber esta poción para dormirse para descansar toda la noche. Limpias todo el estrés al despertar.</p>",
+            "name": "Despierta."
+          }
+        }
+      }
+    },
+    "Snap Powder": {
+      "_id": "cg6VtQ0eVZjDdcK0",
+      "name": "Ajustar el polvo",
+      "systemPatch": {
+        "description": "<p>Marca un Estrés y limpia un PG.</p>",
+        "actions": {
+          "FVn1NAbzHHyX2lsM": {
+            "description": "<p>Marca un Estrés y limpia un PG.</p>",
+            "name": "Imbuir"
+          }
+        }
+      }
+    },
+    "Stamina Potion": {
+      "_id": "hf3k1POoVSooJyN2",
+      "name": "Poción de estamina",
+      "systemPatch": {
+        "description": "<p>Limpiar 1d4+1 Estrés.</p>",
+        "actions": {
+          "BnYXCo5zr50Sw8gj": {
+            "description": "<p>Limpiar 1d4+1 Estrés.</p>",
+            "name": "Bebe."
+          }
+        }
+      }
+    },
+    "Stardrop": {
+      "_id": "y4c1jrlHrf0wBWOq",
+      "name": "Gota Estelar",
+      "systemPatch": {
+        "description": "<p>Puede utilizar esta gota estelar para convocar una granizada tormenta de cometas que hace daño físico 8d20 a todos los objetivos dentro de un rango muy lejano.</p>",
+        "actions": {
+          "pt5U6hlyx4T7MUOa": {
+            "description": "<p>Puede utilizar esta gota estelar para convocar una granizada tormenta de cometas que hace daño físico 8d20 a todos los objetivos dentro de un rango muy lejano.</p><p>@Template[type:emanation|range:vf]</p>",
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "Stride Potion": {
+      "_id": "lNtcrkgFGOJNaroE",
+      "name": "Poción de estrido",
+      "systemPatch": {
+        "description": "<p>Usted gana un bono +1 a su siguiente tirada de Agilidad.</p>",
+        "actions": {
+          "GwQgdB3E1HogFKvD": {
+            "description": "<p>Usted gana un bono +1 a su siguiente tirada de Agilidad.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Poción de estrido",
+          "_id": "xQ0xPDxskzZH4jeK"
+        }
+      ]
+    },
+    "Sun Tree Sap": {
+      "_id": "kwexUzdM9wm1Qums",
+      "name": "Savia del árbol del sol",
+      "systemPatch": {
+        "description": "<p>Consumir esta savia para tirar un [[/r d6]]. A un resultado de 5-6, claro 2 PG. Sobre un resultado de 2-4, claro 3 Estrés. En un resultado de 1, ver a través del velo de la muerte y volver cambiado, ganando una cicatriz.</p>",
+        "actions": {
+          "Fh7OR8ZmiLNvRPHa": {
+            "description": "<p>Consumir esta savia para tirar un [[/r d6]]. A un resultado de 5-6, claro 2 PG. Sobre un resultado de 2-4, claro 3 Estrés. En un resultado de 1, ver a través del velo de la muerte y volver cambiado, ganando una cicatriz.</p>",
+            "name": "Consumir"
+          }
+        }
+      }
+    },
+    "Sweet Moss": {
+      "_id": "GrDrRqWgv7gvl9vn",
+      "name": "Moss dulce",
+      "systemPatch": {
+        "description": "<p>Puede consumir este musgo durante un descanso para limpiar 1d10 PG o 1d10 Estrés.</p>",
+        "actions": {
+          "Sft4HkhlqsYH5qKI": {
+            "description": "<p>Usted puede consumir este musgo durante un descanso para limpiar 1d10 PG.</p>",
+            "name": "Borrar Puntos de Golpe"
+          },
+          "IolxVguij8PjHSVt": {
+            "description": "<p>Puede consumir este musgo durante un descanso para eliminar el estrés 1d10.</p>",
+            "name": "Estrés claro"
+          }
+        }
+      }
+    },
+    "Unstable Arcane Shard": {
+      "_id": "mUepnLbkvFk0ha4Z",
+      "name": "Frasco arcano inestable",
+      "systemPatch": {
+        "description": "<p>Puedes hacer una tirada de Sutileza para lanzar este fragmento a un grupo de adversarios dentro de un alcance Lejos. Los objetivos que tiene éxito contra tomar 1d20 daño mágico.</p>",
+        "actions": {
+          "D7BTCUV5DOXmqC0l": {
+            "description": "<p>Puedes hacer una tirada de Sutileza para lanzar este fragmento a un grupo de adversarios dentro de un alcance Lejos. Los objetivos que tiene éxito contra tomar 1d20 daño mágico.</p>",
+            "name": "Lanzar"
+          }
+        }
+      }
+    },
+    "Varik Leaves": {
+      "_id": "hvy5BkG3F6iOIXTx",
+      "name": "Hojas varik",
+      "systemPatch": {
+        "description": "<p>Usted puede comer estas hojas emparejadas para ganar inmediatamente 2 Esperanza.</p>",
+        "actions": {
+          "9e4l2Yiy8uV26SQF": {
+            "description": "<p>Usted puede comer estas hojas emparejadas para ganar inmediatamente 2 Esperanza.</p>",
+            "name": "Come."
+          }
+        }
+      }
+    },
+    "Vial of Darksmoke": {
+      "_id": "Nwv5ydGf0MWnzq1n",
+      "name": "Vial de humo oscuro",
+      "systemPatch": {
+        "description": "<p>Cuando un adversario te ataque, usa este vial y enrolla un número de d6s igual a tu Agilidad. Agrega el resultado más alto a tu Evasión contra el ataque.</p>",
+        "actions": {
+          "4nFnAoyH5dENizsx": {
+            "description": "<p>Cuando un adversario te ataque, usa este vial y enrolla un número de d6s igual a tu Agilidad. Agrega el resultado más alto a tu Evasión contra el ataque.</p>",
+            "name": "Uso"
+          }
+        }
+      }
+    },
+    "Vial of Moondrip": {
+      "_id": "VqEX5YwK5oL3r1t6",
+      "name": "Vial de Moondrip",
+      "systemPatch": {
+        "description": "<p>Cuando bebes el contenido de este vial, puedes ver en total oscuridad hasta tu próximo descanso.</p>",
+        "actions": {
+          "6Ny75zR1b8I8Ycsb": {
+            "description": "<p>Cuando bebes el contenido de este vial, puedes ver en total oscuridad hasta tu próximo descanso.</p>",
+            "name": "Bebe."
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Vial de Moondrip",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Puedes ver en total oscuridad hasta tu próximo descanso.</p>",
+          "_id": "548KAUPcSbQLsivh"
+        }
+      ]
+    },
+    "Wingsprout": {
+      "_id": "n10vozlmosVR6lo4",
+      "name": "Brote Alado",
+      "systemPatch": {
+        "description": "<p>Ganas alas mágicas que te permiten volar durante un número de minutos igual a tu nivel.</p>",
+        "actions": {
+          "HopgGHn12CHiDNuk": {
+            "description": "<p>Ganas alas mágicas que te permiten volar durante un número de minutos igual a tu nivel.</p>",
+            "name": "Uso"
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "Brote Alado",
+          "description": "<p><span style=\"color:rgb(239, 230, 216);font-family:Montserrat, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(24, 22, 46, 0.376);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">Ganas alas mágicas que te permiten volar durante un número de minutos igual a tu nivel.</p>",
+          "_id": "80F8gAn7ejhhNL7R"
+        }
+      ]
+    }
+  }
+}
