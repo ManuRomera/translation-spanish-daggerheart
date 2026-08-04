@@ -1,0 +1,31 @@
+name: Validar traducción
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  localization:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Descargar el idioma original de Daggerheart 1.9.14
+        run: curl --fail --location --output /tmp/daggerheart-en.json https://raw.githubusercontent.com/Foundryborne/daggerheart/1.9.14/lang/en.json
+
+      - name: Validar estructura y variables
+        run: STRICT=1 node tools/analyze-localization.mjs /tmp/daggerheart-en.json lang/es.json
+
+      - name: Validar JavaScript y manifiesto
+        run: |
+          node --check scripts/patches.js
+          node -e 'JSON.parse(require("node:fs").readFileSync("module.json", "utf8"))'

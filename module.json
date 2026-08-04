@@ -1,16 +1,17 @@
 {
   "id": "translation-spanish-daggerheart",
-  "title": "Translation Spanish Daggerheart",
-  "description": "Traducción al español para el sistema Daggerheart (módulo externo).",
-  "version": "0.1.0+journalfix1",
+  "title": "Daggerheart en Español",
+  "description": "Traducción completa al español para Daggerheart 1.9.14 en Foundry VTT 13.",
+  "version": "0.2.0",
   "compatibility": {
     "minimum": "13",
-    "verified": "13.347"
+    "verified": "13.351",
+    "maximum": "13"
   },
   "authors": [
     {
       "name": "Manu Romera de Rune & Bones (con ayuda de ChatGPT)",
-      "URL": "https://runeandbones.com/"
+      "url": "https://runeandbones.com/"
     }
   ],
   "relationships": {
@@ -19,7 +20,8 @@
         "id": "daggerheart",
         "type": "system",
         "compatibility": {
-          "minimum": "1.0.0"
+          "minimum": "1.9.14",
+          "maximum": "1.9.14"
         }
       }
     ]
@@ -32,14 +34,12 @@
     }
   ],
   "esmodules": [
-    "scripts/patches.js",
-    "scripts/additions.js"
+    "scripts/patches.js"
   ],
   "packs": [],
-  "manifestPlusVersion": "1.2.0",
   "url": "https://github.com/ManuRomera/translation-spanish-daggerheart",
   "manifest": "https://raw.githubusercontent.com/ManuRomera/translation-spanish-daggerheart/main/module.json",
-  "download": "https://github.com/ManuRomera/translation-spanish-daggerheart/releases/download/v0.1.0/translation-spanish-daggerheart-v0.1.0.zip",
+  "download": "https://github.com/ManuRomera/translation-spanish-daggerheart/releases/download/v0.2.0/translation-spanish-daggerheart-v0.2.0.zip",
   "bugs": "https://github.com/ManuRomera/translation-spanish-daggerheart/issues",
   "changelog": "https://github.com/ManuRomera/translation-spanish-daggerheart/releases"
 }
