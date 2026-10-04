@@ -6,9 +6,11 @@
 
 **Interfaz, compendios y contenido de las fichas completamente en español.**
 
-[![Foundry VTT 13](https://img.shields.io/badge/Foundry_VTT-13.351-7a4b3a?style=for-the-badge)](https://foundryvtt.com/)
-[![Sistema 1.9.14](https://img.shields.io/badge/Compatible_con_Daggerheart%E2%84%A2-1.9.14-6f3f78?style=for-the-badge)](https://github.com/Foundryborne/daggerheart/releases/tag/1.9.14)
-[![Versión](https://img.shields.io/github/v/release/ManuRomera/translation-spanish-daggerheart?style=for-the-badge&label=versi%C3%B3n)](https://github.com/ManuRomera/translation-spanish-daggerheart/releases/latest)
+  <a href="https://github.com/ManuRomera/translation-spanish-daggerheart/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/ManuRomera/translation-spanish-daggerheart?include_prereleases&style=for-the-badge&color=7a4b3a&label=release"></a>
+  <a href="https://foundryvtt.com"><img alt="Foundry VTT V13" src="https://img.shields.io/badge/Foundry%20VTT-V13-57d8c8?style=for-the-badge"></a>
+  <a href="https://github.com/ManuRomera/translation-spanish-daggerheart/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/ManuRomera/translation-spanish-daggerheart/total?style=for-the-badge&color=ff7a1f"></a>
+  <img alt="System" src="https://img.shields.io/badge/system-daggerheart-2b3245?style=for-the-badge">
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-2b3245?style=for-the-badge"></a>
 
 [Instalar](#instalación) · [Contenido](#qué-incluye) · [Uso](#cómo-se-usa) · [Ayuda](#solución-de-problemas)
 
