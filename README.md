@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/img/banner.png" alt="Daggerheart ES · Traducción no oficial al español para Foundry VTT" width="100%">
+</p>
+
 <div align="center">
 
 # Manu Romera — Traducción ES
@@ -19,6 +23,12 @@
 ---
 
 Una localización comunitaria pensada para jugar sin saltos constantes al inglés. Traduce tanto la interfaz del sistema como el contenido que aparece dentro de personajes, adversarios, cartas, objetos y diarios.
+
+## Así se ve
+
+<p align="center">
+  <img src="docs/img/ficha.png" alt="Ficha de personaje de Daggerheart con la interfaz en español" width="62%">
+</p>
 
 ## Qué incluye
 
