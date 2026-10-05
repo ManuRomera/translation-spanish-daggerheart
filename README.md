@@ -113,3 +113,15 @@ Parte de la memoria terminológica procede del proyecto MIT [fvtt-daggerheart-es
 Este producto incluye materiales del *Daggerheart System Reference Document 1.0*, © Critical Role, LLC, bajo los términos de la [Darrington Press Community Gaming License (DPCGL)](https://darringtonpress.com/license/). Más información en [daggerheart.com](https://www.daggerheart.com/). El material se ha traducido y adaptado al español; existen modificaciones previas de Miguel Molina en las partes acreditadas.
 
 Proyecto comunitario no oficial, sin afiliación, patrocinio ni aprobación de Darrington Press, Critical Role o Foundryborne. Daggerheart™ es una marca de Critical Role, LLC. Distribución no comercial para Foundry VTT, plataforma incluida en la lista autorizada por la DPCGL.
+
+---
+
+<p align="center">
+  <a href="https://github.com/ManuRomera">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ManuRomera/ManuRomera/main/brand/MR_09_Monograma_Marfil_Transparente.png">
+      <img src="https://raw.githubusercontent.com/ManuRomera/ManuRomera/main/brand/MR_10_Monograma_Negro_Transparente.png" alt="MR · Manu Romera" height="56">
+    </picture>
+  </a><br>
+  <sub>Hecho por <a href="https://github.com/ManuRomera"><b>Manu Romera</b></a> · Digital RPG Design</sub>
+</p>
